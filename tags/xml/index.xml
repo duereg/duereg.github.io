@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XML on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/xml/</link>
+    <description>Recent content in XML on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Sep 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beautiful LINQ to Xml</title>
+      <link>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</link>
+      <pubDate>Sat, 24 Sep 2011 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</guid>
+      <description>Is there anything better in life than finding a better way to do something? An easier commute, a better night&amp;rsquo;s sleep, a tastier cake recipe? In starting the Nike+ importer for www.runningahead.com, I knew I was going to have to deal with a bit of XML. Which used to mean XPath. Not so much anymore. LINQ to XML, you rock my world. It turns XML like this&amp;hellip;
+&amp;lt;extendedDataList&amp;gt; &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt; 0.</description>
+    </item>
+    
+  </channel>
+</rss>

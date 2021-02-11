@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/project-management/</link>
+    <description>Recent content in Project Management on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measurable Technical State of the Team</title>
+      <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
+      <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
+      <description>Some initial thoughts on how you could evaluate the state of the systems you could own. Put some of these criteria on the Y axis, and the name of the components you own on the X. Give everything a score from 1 to 0. Figure out which components need the most love.
+Builds: Consistent Build from Dev -&amp;gt; Prod
+ The same image/code used in each step, not built at each step  Blocking tests at each phase</description>
+    </item>
+    
+    <item>
+      <title>1:1&#39;s aren&#39;t enough in a SIP world</title>
+      <link>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</link>
+      <pubDate>Mon, 08 Jun 2020 13:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</guid>
+      <description>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.
+These small encounters gave you a chance to make sure your team was running efficiency, it also gave your team a chance to speak to you as a human being outside of formal settings.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff Docs</title>
+      <link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link>
+      <pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid>
+      <description>What is a Project Kickoff?  What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
+ Taken from the Atlassian Project Kickoff reference.
+Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description>
+    </item>
+    
+    <item>
+      <title>Measuring Backlog Health</title>
+      <link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link>
+      <pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
+      <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
+Small, well groomed backlog
+ Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
+    </item>
+    
+    <item>
+      <title>Project Planning Notes</title>
+      <link>https://blog.mattblair.co/blog/20190202-project-planning-notes/</link>
+      <pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid>
+      <description>More Shared Knowledge on Projects  Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s Do team share of projects for tech projects, share knowledge Team Collab!  Metrics/Monitoring/Data  Implement monitoring and error visibility to make it easier to debug problems down the road.</description>
+    </item>
+    
+  </channel>
+</rss>

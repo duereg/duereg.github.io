@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>global on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/global/</link>
+    <description>Recent content in global on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Sep 2015 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/global/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Move your Open Source work to Node 4</title>
+      <link>https://blog.mattblair.co/blog/20150910-upgrade-travis-and-os-for-node-4/</link>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20150910-upgrade-travis-and-os-for-node-4/</guid>
+      <description>Now that Node 4 has been released, isn&amp;rsquo;t it time you upgraded your OS (Open Source) projects to use it?
+Step 1 - package.json If you&amp;rsquo;re not already using it, the engines field in your package.json allows you to specify what version of node you designed your package to run on. The engines field is not strict - you can&amp;rsquo;t force your consumers to use a preferred engine, but you can warn them if your package uses features that aren&amp;rsquo;t available in all version of node.</description>
+    </item>
+    
+    <item>
+      <title>The (0, func) operation in transpiled code</title>
+      <link>https://blog.mattblair.co/blog/20150420-0-func-operator-and-decoupling/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20150420-0-func-operator-and-decoupling/</guid>
+      <description>Was looking at some decompiled code from ES6 the other day, when I saw a line that looked like this:
+var x = (0, anObject.aFunc)(params); WTF? I had never seen syntax like this before in JavaScript. Time to dig into the docs.
+Paraphrasing from Mozilla and StackOverflow:
+ When you write expressions separated by a comma (,) JavaScript evaluates all the expressions in order and returns the value of the last expression.</description>
+    </item>
+    
+  </channel>
+</rss>

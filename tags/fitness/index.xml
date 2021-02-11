@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fitness on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/fitness/</link>
+    <description>Recent content in fitness on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Sep 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/fitness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Working on Nike&#43; Importer for RunningAhead.com</title>
+      <link>https://blog.mattblair.co/blog/20110921-working-on-nike-importer-for-runningahead-com/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20110921-working-on-nike-importer-for-runningahead-com/</guid>
+      <description>I&amp;rsquo;m a fan of the website www.runningahead.com. I use it to track all my sporting life activities. The primary reason I use this site, instead of one of the hundreds like it, is that you can track anything - yoga, rowing, running, P-90x, underwater hockey, tiddlywinks, whatever. Throw in some customizable reporting and some great hardware integration, and it&amp;rsquo;s free, and you&amp;rsquo;ve got a winner.
+That doesn&amp;rsquo;t mean there aren&amp;rsquo;t things I don&amp;rsquo;t like about the site, and things I wish could be better.</description>
+    </item>
+    
+  </channel>
+</rss>

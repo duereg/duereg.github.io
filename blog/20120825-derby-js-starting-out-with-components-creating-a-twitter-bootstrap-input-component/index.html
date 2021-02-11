@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component - A Place for Poor Examples</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.80.0" /><meta property="og:site_name" content="A Place for Poor Examples">
+  <meta property="og:title" content="Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component">
+  <meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+  <meta property="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+  <meta property="og:url" content="https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/">
+  <meta property="og:type" content="article">
+  
+    <meta property="og:image" content="https://blog.mattblair.co/img/headshot-2.png">
+  
+  <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Blog
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/tags/" class="nav link"><i class='fas fa-tag'></i> Tags</a>
+        
+      
+        
+          
+          <a href="/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component&amp;url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;title=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;title=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;description=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="https://blog.mattblair.co/img/headshot-2.png" class="circle" width="100" alt="Matt Blair" /></a>
+  <header>
+    <h1>Matt Blair</h1>
+  </header>
+  <main>
+    <p>I read that you learn more from a poor example than from a correct one. I don't believe this but that means my site will be a success.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/">Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2012-08-25 00:00:00 -0700 PDT">August 25, 2012</time>
+    
+    <p>5-Minute Read</p>
+  </div>
+</header>
+
+    <div id="socnet-share">
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component&amp;url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;title=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;title=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f&amp;description=Derby.js%20-%20Starting%20out%20with%20Components%3b%20Creating%20a%20Twitter%20Bootstrap%20Input%20Component" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2fblog%2f20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </div>
+    <div class="content">
+      
+      <p>In working with <a href="http://twitter.github.com/bootstrap/base-css.html#forms">Twitter Bootstrap Forms</a>, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;control-group&#34;</span>&gt;<span style="color:#75715e">&lt;!-- additional classes here to change state --&gt;</span>
+  &lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;control-label&#34;</span>&gt;INPUT_LABEL_TEXT_HERE&lt;/<span style="color:#f92672">label</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;controls&#34;</span>&gt;
+    &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span> /&gt; <span style="color:#75715e">&lt;!-- This is the control you want to display --&gt;</span>
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;help-inline&#34;</span>&gt;ERROR_OR_INFORMATIONAL_MESSAGE_HERE&lt;/<span style="color:#f92672">span</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><p>That&rsquo;s a hefty amount of markup to copy and paste all over your pristine views. Which makes this a great place to use a <a href="http://derbyjs.com/#components">Component</a>.</p>
+<h2 id="so-whats-a-componenthttpderbyjscomcomponents">So what&rsquo;s a <a href="http://derbyjs.com/#components">Component</a>?</h2>
+<p>A component is basically a derby template you can supply parameters to. Those parameters are supplied in the form of HTML attributes and HTML content.</p>
+<p>There are two types of components: application and library. Application components can only be used in a single project. Library components can be re-used across multiple projects.</p>
+<p>For my project I&rsquo;m going to create an application component. Eventually if I need the component on another project I&rsquo;ll add it to a component library. But that process is more complicated and less documented so I&rsquo;ll save that for another day.</p>
+<p>There are two ways to create an application component:</p>
+<ul>
+<li><strong>Inline</strong></li>
+</ul>
+<p>If your component is only being used on a single view, you can add it to the same file as your view.</p>
+<ul>
+<li><strong>External</strong></li>
+</ul>
+<p>If your component is going to be used on multiple views, you should create a separate file for your component.  Apparently there are two ways to create a library component as well:</p>
+<blockquote>
+<p>The ui directory contains a component library, which can be used to create custom components for the containing project. These are re-usable templates, scripts, and styles that can be used to create custom HTML tags for use in applications. General purpose component libraries can be created as separate npm modules.</p>
+</blockquote>
+<p>All components run under the scope of the context in which they are called. Which means you can bind model data to your component without having to pass your component any values. For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">h2</span>&gt;All toys:&lt;/<span style="color:#f92672">h2</span>&gt;
+  {each toys as :toy} <span style="color:#75715e">&lt;!-- Alias :toy available to the component --&gt;</span>
+    &lt;<span style="color:#f92672">app:toyStatus</span>&gt; <span style="color:#75715e">&lt;!-- All application components live in the app namespace --&gt;</span>
+  {/}
+
+&lt;<span style="color:#f92672">toyStatus:</span>&gt;  <span style="color:#75715e">&lt;!-- this tag says I am a component --&gt;</span>
+  <span style="color:#75715e">&lt;!-- I&#39;m using alias :toy here, defined above --&gt;</span>
+  &lt;<span style="color:#f92672">span</span>&gt;The toy is located at {:toy.location}&lt;/<span style="color:#f92672">span</span>&gt;
+</code></pre></div><p>If all of this &ldquo;Model-Bindy&rdquo; stuff is foreign to you, check out my post <a href="/posts/20120807-derby-js-working-with-view-templates-models-and-bindings">Working with Views, Models, and Bindings</a>.</p>
+<h2 id="i-dont-like-the-way-you-used-a-scoped-alias-from-your-view-in-your-component-what-if-my-component-is-in-another-file-what-if-i-want-to-use-a-field-with-a-different-name-is-there-a-better-way-to-pass-values-to-a-component">I don&rsquo;t like the way you used a scoped alias from your view in your component. What if my component is in another file? What if I want to use a field with a different name? Is there a better way to pass values to a component?</h2>
+<p>From the derby documentation:</p>
+<blockquote>
+<p>Literal values or variable values can be passed to components. These component attributes are available through “macro” template tags, which have triple curly braces.</p>
+</blockquote>
+<p>What does that look like? Again, from the docs:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">Body:</span>&gt;
+	&lt;<span style="color:#f92672">h1</span>&gt;
+		&lt;<span style="color:#f92672">app:greeting</span> <span style="color:#a6e22e">message</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hello&#34;</span>&gt;
+  &lt;/<span style="color:#f92672">h1</span>&gt;
+&lt;<span style="color:#f92672">greeting:</span>&gt;
+  I was passed this message as an attribute: {{{message}}}
+</code></pre></div><p>You can also pass html to your component as well. That is a two-part trick: First, write your component with an opening and closing tag. Put the value you want to pass to your component between the tags. Then, in your component, you use the special triple-curly bracket {{{content}}} macro-tag to reference what you passed in. For example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">Body:</span>&gt;
+  &lt;<span style="color:#f92672">app:fancyButton</span>&gt;
+    &lt;<span style="color:#f92672">b</span>&gt;Click me now!&lt;/<span style="color:#f92672">b</span>&gt;
+  &lt;/<span style="color:#f92672">app:fancyButton</span>&gt;
+
+&lt;<span style="color:#f92672">fancyButton:</span> <span style="color:#a6e22e">nonvoid</span>&gt;
+  &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fancy&#34;</span>&gt;
+    {{{content}}}
+  &lt;/<span style="color:#f92672">button</span>&gt;
+</code></pre></div><h2 id="but-i-already-knew-all-that-how-do-i-make-a-component">But I already knew all that. How do I make a component?</h2>
+<p>The easiest way is to just add the component to your page, as show in the simple example above. This example is taken from the derby website, and it shows you how to reference a component in a separate file:</p>
+<h3 id="sharedhtml">shared.html</h3>
+<h4 id="this-is-your-component-which-is-located-in-your-views-folder">(This is your component, which is located in your views folder.)</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">profile:</span>&gt; &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profile&#34;</span>&gt;...&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><h3 id="homehtml">home.html</h3>
+<h4 id="this-is-the-view-that-will-use-your-component">(This is the view that will use your component.)</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">	<span style="color:#75715e">&lt;!-- This line imports your component into the view --&gt;</span>
+	&lt;<span style="color:#f92672">import:</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;shared&#34;</span>&gt;
+
+	&lt;<span style="color:#f92672">Body:</span>&gt;
+	  Welcome to the home page
+	  <span style="color:#75715e">&lt;!-- include component from an imported namespace --&gt;</span>
+	  &lt;<span style="color:#f92672">app:shared:profile</span>&gt;
+</code></pre></div><p>The <import> <code>tag at the top, used to include your component into your view, can be called with variety of parameters. For more information on the  &lt;import&gt; </code> tag go to <a href="http://derbyjs.com/#importing_templates">http://derbyjs.com/#importing_templates</a>.</p>
+<h2 id="didnt-you-say-something-about-twitter-bootstrap">Didn&rsquo;t you say something about Twitter Bootstrap?</h2>
+<p>Oh yeah. Got sidetracked there. As you can see, creating a component is relatively easy. Since I already have all the Twitter Bootstrap markup ready, I might as well create a Twitter Bootstrap Component for Derby. To do this, all you have to do is figure out what you want to be able to customize.</p>
+<h3 id="boothtml">boot.html</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">input:</span>&gt;
+{{{#with data}}}
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;control-group {{cssClass}}&#34;</span>&gt;
+    &lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;control-label&#34;</span>&gt;{{label}}&lt;/<span style="color:#f92672">label</span>&gt;
+    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;controls&#34;</span>&gt;
+      &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{type}}&#34;</span> <span style="color:#a6e22e">value</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{value}}&#34;</span> /&gt;
+      &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;help-inline&#34;</span>&gt;{{message}}&lt;/<span style="color:#f92672">span</span>&gt;
+    &lt;/<span style="color:#f92672">div</span>&gt;
+  &lt;/<span style="color:#f92672">div</span>&gt;
+{{{/}}}
+</code></pre></div><p>As you can see, I added bindings for <code>{{cssClass}}, {{label}}, {{type}}, {{value}}, and {{message}}</code>. Why did I use a #with block to set the scope of my object being passed in? There is a bug in the derby code right now (documented <a href="https://github.com/codeparty/derby/issues/138">here</a>) where you can&rsquo;t reference an object&rsquo;s child properties with the triple curly brackets syntax. So {{{data}}} will work, but {{{data.value}}} won&rsquo;t. The object being bound to the component:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">value</span>, <span style="color:#a6e22e">label</span>, <span style="color:#a6e22e">type</span>) {
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">label</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">label</span>;
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">value</span>;
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">cssClass</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">type</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#34;text&#34;</span>;
+};
+</code></pre></div><p>And I call it in my view like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">app</span><span style="color:#960050;background-color:#1e0010">👢</span><span style="color:#a6e22e">input</span> <span style="color:#a6e22e">data</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{:person.firstName}&#34;</span>&gt;
+</code></pre></div><p>Where <code>firstName</code> is an object like <code>data</code> described above. With just a little bit of markup and code, I have a reusable component that I can use to style my application without having to copy and paste code everywhere.</p>
+<p>I hope this it helps some of the fledging Derby developers out there.</p>
+
+    </div>
+    <footer>
+      <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/"></a></li>
+        
+          <li><a class="article-terms-link" href="/tags/derby/">derby</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/node/">node</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/express/">express</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/views/">views</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/models/">models</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/bindings/">bindings</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/data-binding/">data-binding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/twitter/">twitter</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/bootstrap/">bootstrap</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/forms/">forms</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/controls/">controls</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+    </footer>
+  </article>
+  
+    
+
+  
+  <div class="pagination">
+    
+      <a href="/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/" class="button left"><span>Cracking the Coding Interview - JavaScript Min/Max Binary Heap</span></a>
+    
+    
+      <a href="/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/" class="button right"><span>Cracking the Coding Interview - JavaScript Singly Linked List</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/evaluation.jpg');">
+    <img src="https://blog.mattblair.co/img/evaluation.jpg" alt="Technical Evaluation">
+  </a>
+        <header>
+          <h2><a href="/blog/20210110-measurable-technical-state-of-the-team/">Measurable Technical State of the Team</a></h2>
+          <time class="published" datetime="2021-01-10 21:40:42 -0800 PST">January 10, 2021</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200909-pyramid-principle-inaction/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/person-with-people.png');">
+    <img src="https://blog.mattblair.co/img/person-with-people.png" alt="Banner">
+  </a>
+        <header>
+          <h2><a href="/blog/20200909-pyramid-principle-inaction/">The importance of clear communication</a></h2>
+          <time class="published" datetime="2020-09-09 15:20:08 -0800 -0800">September 9, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200606-remote-management-lessons-learned/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/ShelterinPlace.jpg');">
+    <img src="https://blog.mattblair.co/img/ShelterinPlace.jpg" alt="Shelter In Place">
+  </a>
+        <header>
+          <h2><a href="/blog/20200606-remote-management-lessons-learned/">1:1&#39;s aren&#39;t enough in a SIP world</a></h2>
+          <time class="published" datetime="2020-06-08 13:40:42 -0800 -0800">June 8, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200404-kickoff-docs/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/project-kick-off-meetings.jpg');">
+    <img class="stretchV" src="https://blog.mattblair.co/img/project-kick-off-meetings.jpg" alt="Project Kickoff">
+  </a>
+        <header>
+          <h2><a href="/blog/20200404-kickoff-docs/">Kickoff Docs</a></h2>
+          <time class="published" datetime="2020-03-03 14:07:39 -0800 PST">March 3, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200101-measuring-backlog-health/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/backlog-health.jpg');">
+    <img src="https://blog.mattblair.co/img/backlog-health.jpg" alt="Technical Evaluation">
+  </a>
+        <header>
+          <h2><a href="/blog/20200101-measuring-backlog-health/">Measuring Backlog Health</a></h2>
+          <time class="published" datetime="2020-01-01 21:40:42 -0800 PST">January 1, 2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/technical/">technical<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/javascript/">javascript<span class="count">55</span></a>
+          
+          <li>
+              <a href="/categories/development/">development<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/growth/">growth<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/learning/">learning<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/management/">management<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/teaching/">teaching<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/classes/">classes<span class="count">9</span></a>
+          
+          <li>
+              <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/wfh/">wfh<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/work-from-home/">work-from-home<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/coffee/">coffee<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/git/">git<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/search/">search<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo static site generator.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+  
+  <p class="copyright">
+    © 2021 A Place for Poor Examples
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.80.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.b4e669fa428a81defb8af0916c53f39cd1b8e0bbab22199c06f0b182907ba474.js" integrity="sha256-tOZp&#43;kKKgd77ivCRbFPznNG44LurIhmcBvCxgpB7pHQ="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

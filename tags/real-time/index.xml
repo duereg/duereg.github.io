@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>real-time on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/real-time/</link>
+    <description>Recent content in real-time on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Jul 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/real-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derby.js - Playing with Models</title>
+      <link>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</guid>
+      <description>Been playing around with Derby in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.
+Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.
+I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DefaultModelBinder on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/defaultmodelbinder/</link>
+    <description>Recent content in DefaultModelBinder on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/defaultmodelbinder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
+      <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>
+      <pubDate>Thu, 26 Apr 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
+      <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
+ Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have DisplayTemplates and EditorTemplates defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.
+However, if you then POST to a controller method that accepts an IEnumerable, you&amp;rsquo;ll get the error message:</description>
+    </item>
+    
+  </channel>
+</rss>

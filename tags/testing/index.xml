@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/testing/</link>
+    <description>Recent content in Testing on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code coverage for CoffeeScript and JavaScript without pre-compiling</title>
+      <link>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</link>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</guid>
+      <description>If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.
+So I love istanbul and gulp-istanbul.
+One problem - you have to compile your CoffeeScript, then point you tests at the compiled assets to get coverage metrics.
+Not anymore. Introducing gulp-coffee-istanbul. This allows in place CoffeeScript test coverage.
+Have tests in coffee? Great. Have tests in JS? Great too. Same with your dependencies - it&amp;rsquo;ll take both, in place, and run coverage.</description>
+    </item>
+    
+    <item>
+      <title>It took pivotal 3 years to close a pull request</title>
+      <link>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</link>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</guid>
+      <description>On Feb 9, 2011, Fat (Jacob Thornton, one of the creators on Bootstrap) opened a pull request to add beforeAll and afterAll statements to the jasmine library.
+Pivotal, at the time, thought that they were just about to implement:
+That tweet was from December 2010.
+Since then, a couple people have come up with workarounds.
+And now, over three years later, pivotal is about to release beforeAll/afterAll.
+You can check out the work here.</description>
+    </item>
+    
+    <item>
+      <title>A/B Testing and Random Selection</title>
+      <link>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</link>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</guid>
+      <description>Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?
+Or are you interested in random selection - you want to send our 5000 emails of differing types, and see how users respond?
+Either way, enter laboratory. A simple framework that allows random selection or A/B testing. With the added bonus of being usable anywhere you can load JavaScript.</description>
+    </item>
+    
+  </channel>
+</rss>

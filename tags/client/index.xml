@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>client on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/client/</link>
+    <description>Recent content in client on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Oct 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/client/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
+      <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
+      <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
+    </item>
+    
+  </channel>
+</rss>

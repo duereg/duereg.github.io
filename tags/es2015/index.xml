@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>es2015 on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/es2015/</link>
+    <description>Recent content in es2015 on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/es2015/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance Improvement via node 4 to node 6</title>
+      <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
+      <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
+In the picture below, the 1st line is the upgrade from node 4 to node 6, and the corresponding flattening of memory usage vs. load.
+The 2nd line is our removal of redis connection queueing in the application.
+All of all, the memory consumption of our application is now averaging around 150MB, down from a high of 1GB!</description>
+    </item>
+    
+    <item>
+      <title>Node 4 and Babel 6 in Harmony</title>
+      <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
+      <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
+As I did a quick and dirty upgrade, I kept thinking to myself: doesn&amp;rsquo;t node 4/5 have pretty good support for es6/2015?
+As I was looking around the internet for Hello Kitty Formalwear babel 6 upgrade tips, I came across this package which read my mind.
+So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
+    </item>
+    
+    <item>
+      <title>Guide to upgrading from Babel 5 =&gt; 6</title>
+      <link>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</guid>
+      <description>Because it&amp;rsquo;s changed since October There have been a bunch of guides on upgrading to babel 5.
+Even those written in the last two months are already out of date. Babel moves annoyingly fast.
+Please note: this is up to date as of 6.3.13. As I write this, it might also be obsolete.
+Skip babel-core and babel-loader. User babel-register. Due to some complaints about the various ways you could bootstrap babel into an app, there is now babel-register.</description>
+    </item>
+    
+  </channel>
+</rss>

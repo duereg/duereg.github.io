@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/categories/management/</link>
+    <description>Recent content in management on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measurable Technical State of the Team</title>
+      <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
+      <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
+      <description>Some initial thoughts on how you could evaluate the state of the systems you could own. Put some of these criteria on the Y axis, and the name of the components you own on the X. Give everything a score from 1 to 0. Figure out which components need the most love.
+Builds: Consistent Build from Dev -&amp;gt; Prod
+ The same image/code used in each step, not built at each step  Blocking tests at each phase</description>
+    </item>
+    
+    <item>
+      <title>The importance of clear communication</title>
+      <link>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</link>
+      <pubDate>Wed, 09 Sep 2020 15:20:08 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</guid>
+      <description>This is based off a talk I gave on improving communications.
+There is a lot of communication right now With everyone working remotely, the importance of communication has increased. We&amp;rsquo;re communicating more often without meeting, and making your message clear when everyone is deluged with correspondance is the only way to have impact in your organization.
+To succeed in any organization, you need to be able to tell your story. Whether it’s a status update, an RFC, or an escal question, you need to be able to quickly tell people the state of the world.</description>
+    </item>
+    
+    <item>
+      <title>1:1&#39;s aren&#39;t enough in a SIP world</title>
+      <link>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</link>
+      <pubDate>Mon, 08 Jun 2020 13:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</guid>
+      <description>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.
+These small encounters gave you a chance to make sure your team was running efficiency, it also gave your team a chance to speak to you as a human being outside of formal settings.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff Docs</title>
+      <link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link>
+      <pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid>
+      <description>What is a Project Kickoff?  What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
+ Taken from the Atlassian Project Kickoff reference.
+Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description>
+    </item>
+    
+    <item>
+      <title>Measuring Backlog Health</title>
+      <link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link>
+      <pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
+      <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
+Small, well groomed backlog
+ Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
+    </item>
+    
+    <item>
+      <title>Pyramid Principle Examples</title>
+      <link>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</link>
+      <pubDate>Mon, 11 Nov 2019 15:57:32 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</guid>
+      <description>I use SCQA all the time in my communications both up to leadership and down to my teams.
+This TED talk from Derek Sivers is a great example of someone using SCQA to communicating a problem and a suggested solution in a short amount of time. Worth watching if you&amp;rsquo;re looking to use SCQA in your own communications.
+Another example of an SCQA structured communication is something I received at work:</description>
+    </item>
+    
+    <item>
+      <title>Further Engineering Management Classes</title>
+      <link>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</guid>
+      <description>Some further classes I recommend for potential new engineering managers.
+https://www.harrisonmetal.com/library/objectives-key-results
+So many companies want to set up goals in the OKR (Objective-Key Result) format. This shows some great examples how to format yours.
+https://www.harrisonmetal.com/library/storytelling-amp-presenting-1-thank-you-barbara-minto
+I use SCQA all the time in my communications both up to leadership and down to my teams. Highly recommend taking this class or reading The Pyramid Principle.
+https://www.harrisonmetal.com/classes/gm2-setting-goals-measuring-performance
+If you&amp;rsquo;re a manager, you&amp;rsquo;re going to have to figure out a way to set goals for your teams and measure the performance of those goals.</description>
+    </item>
+    
+    <item>
+      <title>Project Planning Notes</title>
+      <link>https://blog.mattblair.co/blog/20190202-project-planning-notes/</link>
+      <pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid>
+      <description>More Shared Knowledge on Projects  Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s Do team share of projects for tech projects, share knowledge Team Collab!  Metrics/Monitoring/Data  Implement monitoring and error visibility to make it easier to debug problems down the road.</description>
+    </item>
+    
+    <item>
+      <title>Manager Conference Links</title>
+      <link>https://blog.mattblair.co/blog/20180115-manager-conference-links/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20180115-manager-conference-links/</guid>
+      <description>A couple of EM conferences folks might find useful:
+SFELC Summit
+An annual celebration for engineering leaders.
+A wide range of topics. One day, multiple tracks. Great speaker lineup. A refresher on management fundamentals. Workshops and Breakouts.
+Calibrate
+You’re a great engineer. Become a great leader. Calibrate is aimed at practicing engineering managers, responsible for the people on their team.
+You can find videos of previous years here.
+TEMSCON
+Research-focused engineering management conference.</description>
+    </item>
+    
+    <item>
+      <title>Engineering Management Classes</title>
+      <link>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</link>
+      <pubDate>Fri, 29 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</guid>
+      <description>Two classes I recommend for potential new engineering managers.
+https://www.harrisonmetal.com/classes/foundations-general-management
+3 days, great teacher, learn some basic skills to run a small business or team.
+https://bradfieldcs.com/courses/leadership/
+twice a week for a month, great tactical skills for first time engineering managers.</description>
+    </item>
+    
+  </channel>
+</rss>

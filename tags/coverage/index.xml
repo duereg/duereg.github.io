@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coverage on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/coverage/</link>
+    <description>Recent content in coverage on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/coverage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code coverage for CoffeeScript and JavaScript without pre-compiling</title>
+      <link>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</link>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</guid>
+      <description>If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.
+So I love istanbul and gulp-istanbul.
+One problem - you have to compile your CoffeeScript, then point you tests at the compiled assets to get coverage metrics.
+Not anymore. Introducing gulp-coffee-istanbul. This allows in place CoffeeScript test coverage.
+Have tests in coffee? Great. Have tests in JS? Great too. Same with your dependencies - it&amp;rsquo;ll take both, in place, and run coverage.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ember.js on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/ember.js/</link>
+    <description>Recent content in Ember.js on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Jul 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/ember.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ember.Data Model Issues</title>
+      <link>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</link>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
+      <description>I was working with some older Ember.Data code, and I came across a model like this:
+App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
+    </item>
+    
+    <item>
+      <title>Ember.Data Promise-Aware Properties (Cheaters Edition)</title>
+      <link>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</link>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
+      <description>I have models like this:
+Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+###Controller
+App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
+ uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
+    </item>
+    
+    <item>
+      <title>Stuff to mind when writing ES6 code</title>
+      <link>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</guid>
+      <description>These are some good tips I picked up browsing the ember and ember.data commits. Nice if you&amp;rsquo;re looking for best practices in writing ES6 code.
+example: diverging bindings
+this is an issue when dealing with cycles.
+bad: (diverges bindings)
+import { foo } from &amp;#39;bar&amp;#39;; var otherFoo = foo; foo: (if the rename is actually needed) good:
+import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler dead code remove friendly:</description>
+    </item>
+    
+    <item>
+      <title>WriteGooder for Sublime Text</title>
+      <link>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</guid>
+      <description>Simple grammar checking for your documentation.
+Prerequisites: write-gooder and Sublime Package Control
+Mac OS X: Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as /usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin. You can change the path to the executable in settings.
+Linux: Make sure write-gooder is in your environment path.
+Windows: Installing node with the Windows Installer from nodejs.org is assumed.
+##Install write-gooder with npm
+npm install -g duereg/write-gooder</description>
+    </item>
+    
+    <item>
+      <title>Ember Model.isDirty - or not</title>
+      <link>https://blog.mattblair.co/blog/20140605-ember-model-isdirty-or-not/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140605-ember-model-isdirty-or-not/</guid>
+      <description>In Ember, if you have models like this:
+var Tag = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), person: DS.belongsTo(&amp;#39;person&amp;#39;) }); var Person = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), tags: DS.hasMany(&amp;#39;tag&amp;#39;) }); Then did something like this:
+var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag1.get(&amp;#39;name&amp;#39;); //return null tag1.set(&amp;#39;name&amp;#39;, &amp;#39;foo&amp;#39;); tag1.get(&amp;#39;isDirty&amp;#39;); //returns true That would be the obvious outcome, right?
+However, if you do this:
+var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); var thatGuy = this.store.find(&amp;#39;person&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag.</description>
+    </item>
+    
+    <item>
+      <title>Ember Data Contributions</title>
+      <link>https://blog.mattblair.co/blog/20140518-ember-data-contributor/</link>
+      <pubDate>Sun, 18 May 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140518-ember-data-contributor/</guid>
+      <description>My contributions to Ember.Data!
+Had three pull requests accepted in the last couple of days.
+Now only if they&amp;rsquo;d release version 1.0 &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Ember Official Contributor!</title>
+      <link>https://blog.mattblair.co/blog/20140505-ember-official-contributor/</link>
+      <pubDate>Mon, 05 May 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140505-ember-official-contributor/</guid>
+      <description>Check Out My Contribution to Ember!
+(Not sexy but I&amp;rsquo;m happy to be helping out.)</description>
+    </item>
+    
+    <item>
+      <title>Ember FilterBy Fun</title>
+      <link>https://blog.mattblair.co/blog/20140429-ember-filterby-fun/</link>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140429-ember-filterby-fun/</guid>
+      <description>If you happen to be writing filterBy statements in Ember against an object, you will want to use this syntax:
+skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style.id&amp;#39;, style.get(&amp;#39;id&amp;#39;)); } Instead of this similar looking but exceptionally evil and non-functioning cousin:
+skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style&amp;#39;, style); } </description>
+    </item>
+    
+    <item>
+      <title>Ember - Test Teardown Error</title>
+      <link>https://blog.mattblair.co/blog/20140410-ember-test-teardown-errors/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140410-ember-test-teardown-errors/</guid>
+      <description>Cannot read property &amp;lsquo;addObject&amp;rsquo; of null If you see the following error in Ember.Data 1.0.0-beta.7:
+Cannot read property &#39;addObject&#39; of null TypeError: Cannot read property &#39;addObject&#39; of null at Ember.ArrayProxy.extend.addRecord at Ember.Object.extend.updateRecordArray at null.&amp;lt;anonymous&amp;gt; I found this had to do with Test teardown. A monkey patch that solves the issue:
+DS.RecordArray.reopen({ addRecord: function(record) { var thing = Ember.get(this, &amp;#39;content&amp;#39;); if(thing) { this._super(record); } } }); </description>
+    </item>
+    
+    <item>
+      <title>Ember - The content property of DS.PromiseArray should be set before modifying it</title>
+      <link>https://blog.mattblair.co/blog/20140408-ember-the-content-property-of-ds-promise-array/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140408-ember-the-content-property-of-ds-promise-array/</guid>
+      <description>The content property of DS.PromiseArray should be set before modifying it If you see the following error in Ember.Data 1.0.0-beta.7:
+The content property of DS.PromiseArray should be set before modifying it
+The issue is with changing the contents of an async field.
+//program.js Program = DS.Model.extend({ styles: DS.hasMany(&amp;#39;style&amp;#39;, {async: true}), }); Style = DS.Model.extend({}); and then used like so:
+program.get(&amp;#39;styles&amp;#39;).pushObject(style); That code will throw the exception listed above. To work around this behavior, do the following:</description>
+    </item>
+    
+    <item>
+      <title>Ember vs Knockout - Property Comparison</title>
+      <link>https://blog.mattblair.co/blog/20140320-ember-vs-knockout-property-comparison/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140320-ember-vs-knockout-property-comparison/</guid>
+      <description>A small, appropriate comparison At ModCloth, I&amp;rsquo;ve been working on an internal application that uses Ember.js as its front end framework. In learning Ember I&amp;rsquo;ve noticed some interesting architectural decisions they&amp;rsquo;ve made.
+This article will concentrate on their Observable Models in comparison with how Knockout built the same functionality.
+TANGENT
+Ember.js and Knockout are great contrasts in the library vs framework debate in JS development.
+Ember is
+ A framework for creating ambitious web applications.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tower of hanoi on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/tower-of-hanoi/</link>
+    <description>Recent content in tower of hanoi on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/tower-of-hanoi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking the Coding Interview - The Tower of Hanoi and Poor Editing</title>
+      <link>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</link>
+      <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</guid>
+      <description>I just finished the Stack section of Cracking the Coding Interview and came across an old puzzle - The Tower of Hanoi. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

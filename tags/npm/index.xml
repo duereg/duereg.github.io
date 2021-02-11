@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>npm on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/npm/</link>
+    <description>Recent content in npm on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>express-coffee-react-views</title>
+      <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
+      <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
+This was derived from express-react-views
+This is intended to be used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
+Usage npm install express-coffee-react-views react Note: You must explicitly install react as a dependency. react is a peer dependency here.</description>
+    </item>
+    
+  </channel>
+</rss>

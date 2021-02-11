@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>StructureMap on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/structuremap/</link>
+    <description>Recent content in StructureMap on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Jun 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/structuremap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using StructureMap to collect and use all instances of a given type</title>
+      <link>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</guid>
+      <description>Had an issue at work where I wanted to store my rules and handlers for a class outside of the class definition, so I could better test the component. Found an easy way to add all your rules into StructureMap, and then retrieve those rules as a list via constructor injection.
+using System.Collections.Generic; using System.Linq; using System.Text; using StructureMap; using StructureMap.Configuration.DSL; public class TravelRegistry : Registry { public TravelRegistry() { For&amp;lt;ITransportHandler&amp;gt;().</description>
+    </item>
+    
+  </channel>
+</rss>

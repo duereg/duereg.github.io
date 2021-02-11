@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>node on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/node/</link>
+    <description>Recent content in node on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moment.js alternatives</title>
+      <link>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</link>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</guid>
+      <description>If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading this article about smaller, lighter-weight moment.js alternatives.</description>
+    </item>
+    
+    <item>
+      <title>Moment.js instantiation slowness</title>
+      <link>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</guid>
+      <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
+Why is 100 microseconds a big deal?
+If you&amp;rsquo;re processing:
+ 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
+    </item>
+    
+    <item>
+      <title>Performance Improvement via node 4 to node 6</title>
+      <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
+      <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
+In the picture below, the 1st line is the upgrade from node 4 to node 6, and the corresponding flattening of memory usage vs. load.
+The 2nd line is our removal of redis connection queueing in the application.
+All of all, the memory consumption of our application is now averaging around 150MB, down from a high of 1GB!</description>
+    </item>
+    
+    <item>
+      <title>Superagent/Request Memory Leaks</title>
+      <link>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</guid>
+      <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
+We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
+We&amp;rsquo;ve found three results:
+  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
+    </item>
+    
+    <item>
+      <title>Node 4 and Babel 6 in Harmony</title>
+      <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
+      <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
+As I did a quick and dirty upgrade, I kept thinking to myself: doesn&amp;rsquo;t node 4/5 have pretty good support for es6/2015?
+As I was looking around the internet for Hello Kitty Formalwear babel 6 upgrade tips, I came across this package which read my mind.
+So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
+    </item>
+    
+    <item>
+      <title>express-coffee-react-views</title>
+      <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
+      <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
+This was derived from express-react-views
+This is intended to be used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
+Usage npm install express-coffee-react-views react Note: You must explicitly install react as a dependency. react is a peer dependency here.</description>
+    </item>
+    
+    <item>
+      <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
+      <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
+      <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
+    </item>
+    
+    <item>
+      <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
+      <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
+      <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>Derby.js - Integrating Twitter Bootstrap into your Application</title>
+      <link>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</link>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
+      <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
+Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
+{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
+    </item>
+    
+    <item>
+      <title>Derby.js - Working with Views, Models, and Bindings</title>
+      <link>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</link>
+      <pubDate>Tue, 07 Aug 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</guid>
+      <description>In my previous post about derby, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).
+I&amp;rsquo;m creating a test application to help me learn derby here. In the process of doing absolutely everything wrong to start I&amp;rsquo;ve learned a bit about how Derby binds to models. Let&amp;rsquo;s say you&amp;rsquo;re got some markup like this that you&amp;rsquo;d like to bind to.</description>
+    </item>
+    
+    <item>
+      <title>Derby.js - Playing with Models</title>
+      <link>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</link>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</guid>
+      <description>Been playing around with Derby in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.
+Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.
+I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:</description>
+    </item>
+    
+    <item>
+      <title>Some node.js and express.js beginner help</title>
+      <link>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</guid>
+      <description>I&amp;rsquo;ve just started using node.js with express.js on both Windows (with iisnode) and Ubuntu.
+I love the stack (one programming language from front to back!), but some of the documentation has been frustrating for me. I wanted to document what I&amp;rsquo;ve learned so far in the hopes that it&amp;rsquo;ll help someone else down the line.
+Generate the starter app At first, I wanted to just hack away some of the existing example apps that were out there.</description>
+    </item>
+    
+  </channel>
+</rss>

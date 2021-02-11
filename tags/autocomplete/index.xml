@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>autocomplete on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/autocomplete/</link>
+    <description>Recent content in autocomplete on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/autocomplete/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking the Coding Interview - JavaScript Trie</title>
+      <link>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</guid>
+      <description>I finished my third algorithm from Cracking the Coding Interview - the Trie.
+Tries are a useful algorithm, if not all that well known. They can be used for efficient spell checking, auto suggestion, as well as the sorting of a collection of strings.
+This algorithm was more complex to implement than the Linked List, but a little simpler than the Max/Min Binary Heap to implement.
+The trie&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a word tree, where each leaf of the tree is a letter of a word.</description>
+    </item>
+    
+  </channel>
+</rss>

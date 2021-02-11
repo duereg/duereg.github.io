@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>forms on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/forms/</link>
+    <description>Recent content in forms on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Aug 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/forms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
+      <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
+      <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+    </item>
+    
+  </channel>
+</rss>

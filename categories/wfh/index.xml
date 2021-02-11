@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WFH on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/categories/wfh/</link>
+    <description>Recent content in WFH on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2020 13:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/wfh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1:1&#39;s aren&#39;t enough in a SIP world</title>
+      <link>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</link>
+      <pubDate>Mon, 08 Jun 2020 13:40:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</guid>
+      <description>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.
+These small encounters gave you a chance to make sure your team was running efficiency, it also gave your team a chance to speak to you as a human being outside of formal settings.</description>
+    </item>
+    
+    <item>
+      <title>Project Planning Notes</title>
+      <link>https://blog.mattblair.co/blog/20190202-project-planning-notes/</link>
+      <pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid>
+      <description>More Shared Knowledge on Projects  Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s Do team share of projects for tech projects, share knowledge Team Collab!  Metrics/Monitoring/Data  Implement monitoring and error visibility to make it easier to debug problems down the road.</description>
+    </item>
+    
+  </channel>
+</rss>

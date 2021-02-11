@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublime on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/sublime/</link>
+    <description>Recent content in sublime on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Jun 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/sublime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WriteGooder for Sublime Text</title>
+      <link>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</guid>
+      <description>Simple grammar checking for your documentation.
+Prerequisites: write-gooder and Sublime Package Control
+Mac OS X: Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as /usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin. You can change the path to the executable in settings.
+Linux: Make sure write-gooder is in your environment path.
+Windows: Installing node with the Windows Installer from nodejs.org is assumed.
+##Install write-gooder with npm
+npm install -g duereg/write-gooder</description>
+    </item>
+    
+  </channel>
+</rss>

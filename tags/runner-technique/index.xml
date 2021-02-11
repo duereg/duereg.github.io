@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>runner technique on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/runner-technique/</link>
+    <description>Recent content in runner technique on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/runner-technique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking the Coding Interview - Linked Lists - The Runner Technique</title>
+      <link>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</link>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</guid>
+      <description>I&amp;rsquo;ve been going over the Linked List section of Cracking the Coding Interview and most times I get stumped with a problem the solution is the Runner Technique (or slow/fast pointers).
+The idea behind the runner technique is simple; use two pointers that either move at different speeds or are a set distance apart and iterate through a list.
+Why is this so useful? In some linked list problems you need to know the position of a certain element or the length of the list.</description>
+    </item>
+    
+  </channel>
+</rss>
