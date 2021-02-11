@@ -1,1 +1,636 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=content-type content="text/html; charset=utf-8"><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><title>Home | A Place for Poor Examples</title><meta name=description content="What I've learned about software development. Don't expect too much."><meta name=keywords content="JavaScript, HTML, software, development, blog, examples, derby, cracking, coding, interview, CoffeeScript, node, express, .NET, C#, ASP.NET, Ember, Knockout, Angular, algorithms, analysis, analytics"><meta name=author content="Matt Blair"><meta name=google-site-verification content=pLaNxAD_C5VD6yWlQnX9ScKil_pSvI3lXz-9k4nOyYU><meta name=generator content="DocPad v6.79.4"><meta name=viewport content="width=device-width"><link rel="shortcut icon" href=/images/icons/favicon.ico><link rel=apple-touch-icon-precomposed sizes=144x144 href=/images/icons/apple-touch-icon-144-precomposed.png><link rel=apple-touch-icon-precomposed sizes=114x114 href=/images/icons/apple-touch-icon-114-precomposed.png><link rel=apple-touch-icon-precomposed sizes=72x72 href=/images/icons/apple-touch-icon-72-precomposed.png><link rel=apple-touch-icon-precomposed href=/images/icons/apple-touch-icon-57-precomposed.png><link rel=stylesheet href=/styles/twitter-bootstrap.css><link rel=stylesheet href=/styles/style.css><link rel=stylesheet href=/styles/mono-blue.css><link href=/atom.xml type=application/atom+xml rel=alternate title=Posts></head><body><div class="navbar navbar-inverse navbar-fixed-top"><div class=container><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=.navbar-collapse><span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span></button> <a class=navbar-brand href="/">A Place for Poor Examples</a></div><div class="navbar-collapse collapse"><ul class="nav navbar-nav"><li typeof=sioc:Page about=/pages/about.html><a href=/pages/about.html property=dc:title>About</a></li><li typeof=sioc:Page about=/pages/posts.html><a href=/pages/posts.html property=dc:title>Posts</a></li><li typeof=sioc:Page about=/pages/hockey-stuff.html><a href=/pages/hockey-stuff.html property=dc:title>Hobbies</a></li></ul></div></div></div><div class=container><section id=content class=content><img id=logo class=img-responsive alt="A Place for Poor Examples" src=/images/header.jpg style="max-height: 150px"><div class=row><div class=col-lg-9><article id=manager-conference-links class=post><div class=post-content><h1 class=post-title><a href=/posts/20180115-manager-conference-links.html>Manager Conference Links</a></h1><div class=post-date>Tue Jan 15 2019</div><p>Here&#39;s a couple engineering management conferences folks might find useful:</p><p><a href="https://sfelc.com/">SFELC Summit</a></p><p>An annual celebration for engineering leaders.</p><p>A wide range of topics. One day, multiple tracks. Great speaker lineup. A refresher on management fundamentals. Workshops and Breakouts.</p><p><a href="http://www.calibratesf.com/">Calibrate</a></p><p>You’re a great engineer. Become a great leader. Calibrate is aimed at practicing engineering managers, responsible for the people on their team.</p><p>You can find videos of previous years <a href=https://www.youtube.com/user/sharethrough/playlists>here</a>.</p><p><a href="https://www.temscon.org/">TEMSCON</a></p><p>Research-focused engineering management conference.</p></div></article><hr><article id=elasticsearch-perf-work class=post><div class=post-content><h1 class=post-title><a href=/posts/20181121-elasticsearch-perf-work.html>ElasticSearch Perf - Highlighter Edition</a></h1><div class=post-date>Wed Nov 21 2018</div><p>Wanted to share the results of the work we&#39;ve been doing to improve performance and stabilize our ES cluster.</p><p>Short Version: Changing sharding and &quot;highlighting&quot; strategies when doing FreeText searches dramatically impacts performance.</p><p>Long Version: We&#39;ve been load testing various aspects of search to pinpoint features we use that create large amounts of load on the system. Our initial research pointed at normal searches and freetext searches as being problematic.</p><p>One of the tests we ran examined &quot;highlighting&quot; in freetext search. &quot;Highlighting&quot; is the selection of relevant criteria when you search for words or phrases in a document.</p><p>The graph below is an illustration of some load testing we did around highlighting. The red squares represent, in order of appearance:</p><ol><li>5 shards, highlighting freetext results</li><li>1 shard, highlighting freetext results</li><li>5 shares, no highlighting, freetext results</li><li>1 shard, no highlighting, freetext results</li></ol><p><img alt="Load Test: 5 shards vs 1 Shard, Highlighting on/off" src=/images/posts/es-highlighter-1.png></p><p>Our conclusions from these graphs:</p><ol><li>5 shards w/ highlighting takes a long time and a lot of resources</li><li>1 shard w/o highlighting is fast and doesn&#39;t use many resources</li></ol><p>In researching highlighting, we found there are different ways to highlight results. We were using the default highlighter - the &quot;plain&quot; highlighter. There are other highlighters - the &quot;unified&quot; highlighter, for some example - that along with some index changes, promised significant performance improvements.</p><p>In this graph, the dots on the left represent the performance of the &quot;plain&quot; highlighter, while the dots on the right represent the &quot;unified&quot; highlighter.</p><p><img alt="Load Test: Plain vs Unified Highlighting" src=/images/posts/es-highlighter-2.png></p><p>It appears that a &quot;unified&quot; highlighter strategy is more performant than our original &quot;plain&quot; highlighter.</p><p>Late today, we launched a new experiment with three indices:</p><ol><li>Control (5 Shards, &quot;plain&quot; highlighter)</li><li>Variant 1 (1 Shard, &quot;plain&quot; highlighter)</li><li>Variant 2 (1 Shard, &quot;unified&quot; highlighter)</li></ol><p>Here is a graph of the overall performance of the experiment so far:</p><p><img alt="ElasticSearch Performance graph" src=/images/posts/es-highlighter-3.png></p><p>Red line (top): Variant 1. TP95: 1.7 seconds A single sharded strategy with the &quot;plain&quot; highlighter is much slower, though it consumes less ES resources than the 5 shard strategy.</p><p>Orange line (middle): Control. TP95: 600 ms 5 shards with the &quot;plain&quot; highlighter responds must faster than a single shard, but it consumes more ES resources to run than the 1 shard strategy.</p><p>Blue line (bottom): Variant 2. TP95: 150 ms A single shard, using the &quot;unified&quot; highlighter, is much more performant, and uses less system resources, than the other two variants.</p></div></article><hr><article id=moment-js-alternatives class=post><div class=post-content><h1 class=post-title><a href=/posts/20180908-moment-js-alternatives.html>Moment.js alternatives</a></h1><div class=post-date>Sat Sep 08 2018</div><p>If you&#39;re looking for moment.js alternatives, I&#39;d recommend reading <a href=https://github.com/you-dont-need/You-Dont-Need-Momentjs>this article</a> about smaller, lighter-weight moment.js alternatives.</p></div></article><hr><a href=/pages/posts>Read More...</a></div><div class="col-lg-3 hidden-xs hidden-sm"><div id=orgs class=textwidget><h3 class=widget-title>Organizations</h3><a href="http://www.norcalfamilydogrescue.org/" target=_blank><img alt="Northern California Family Dog Rescue" src=http://s3.amazonaws.com/imagesroot.rescuegroups.org/webpages/s4516nd5c3fgs3q7.png></a> <a href=http://www.sfuwh.org target=_blank><img alt="San Francisco Underwater Hockey" src=http://www.sfuwh.org/_/rsrc/1264656897299/config/app/images/logo-sfuwh-simple-nowater-med.png></a></div><div class=linkwidget><h3 class=widget-title>Recommended Books</h3><dl><dt><a href="http://www.amazon.com/gp/product/098478280X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=098478280X&linkCode=as2&tag=aplfopoex-20">Cracking the Coding Interview</a></dt><dd>Fun read even if you're not interviewing. Tons of great problems to work through.</dd><dt><a href="http://www.amazon.com/gp/product/0321125215/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321125215&linkCode=as2&tag=aplfopoex-20">Domain-Driven Design: Tackling Complexity in the Heart of Software</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=aplfopoex-20&l=as2&o=1&a=0321125215" width=1 height=1 border=0 style="border:none !important; margin:0px !important;"></dt><dd>"This book belongs on the shelf of every thoughtful software developer." --Kent Beck</dd><dt><a href="http://www.amazon.com/gp/product/0201485672/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201485672&linkCode=as2&tag=aplfopoex-20">Refactoring: Improving the Design of Existing Code</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=aplfopoex-20&l=as2&o=1&a=0201485672" width=1 height=1 border=0 style="border:none !important; margin:0px !important;"></dt><dd>Anyone working on legacy systems should read this book. Or anyone who suspects the system they're working on is destined for that fate.</dd><dt><a href="https://www.amazon.com/gp/product/0134685997/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134685997&linkCode=as2&tag=aplfopoex-20&linkId=9ad37f227bfc4eb9e01c660c5477cd5f">Effective Java</a></dt><dd>The Definitive Guide to Java Best Practices.</dd></dl></div><div class=linkwidget><h3 class=widget-title>Tools</h3><dl><dt><a href=http://gitimmersion.com title="Hands on walk through of Git." target=_blank>Git Immersion</a></dt><dd>Hands on walk through of Git.</dd><dt><a href=http://ejohn.org/apps/learn title="Learn Advanced Javascript" target=_blank>Learn Advanced Javascript</a></dt><dd>An interactive site where you can play with JavaScript. Simple and elegant.</dd><dt><a href="http://try.mongodb.org/" title="Learn MongoDB." target=_blank>Learn MongoDB</a></dt><dd>Interactive with MongoDB like it’s on your own machine (if you machine is a WANG green screen). Great way to learn 2% of MongoDB.</dd><dt><a href=http://learnyouahaskell.com/starting-out title="Learn how to program functionally. With Haskell." target=_blank>Learn You a Haskell</a></dt><dd>Learn how to program functionally. With Haskell.</dd><dt><a href="http://nodeschool.io/" title="Node School" target=_blank>Node School</a></dt><dd>What does this site not cover? Learn all about Node and Git, then learn about Express, LevelDB, Promises, ...</dd><dt><a href=http://tryruby.org/levels/1/challenges/0 "try ruby" target=_blank>Try Ruby</a></dt><dd>Learn the basics of Ruby. Not a Rails tutorial.</dd><dt><a href="https://github.com/duereg/" rel=me title="My github repo" target=_blank>My Github Repository</a></dt><dd>Where I store my public coding projects. Check me out!</dd></dl></div><div class=linkwidget><h3 class=widget-title>Subscribe</h3><dl><dt><a href=/atom.xml title="Atom Feed">Atom Feed</a></dt></dl></div><div class=textwidget><iframe src=http://githubbadge.appspot.com/duereg style="border: 0;height: 120px;width: 200px;overflow: hidden;" frameborder=0></iframe></div><div class=textwidget><a rel=license href=http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB target=_blank><img alt="Creative Commons Licence" style=border-width:0; src=http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png></a><br><span>A Place For Poor Examples</span> is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB target=_blank>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div></div></div></section></div><script defer src=//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js></script><script defer src=//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js></script><script defer src=/vendor/twitter-bootstrap/dist/js/bootstrap.min.js></script><script defer src=/scripts/script.js></script><script defer src=/scripts/analytics.js></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>A Place for Poor Examples</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.80.0" /><meta property="og:site_name" content="A Place for Poor Examples">
+  <meta property="og:title" content="A Place for Poor Examples">
+  <meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+  <meta property="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+  <meta property="og:url" content="https://blog.mattblair.co/">
+  <meta property="og:type" content="website">
+  
+    <meta property="og:image" content="https://blog.mattblair.co/img/headshot-2.png">
+  
+  <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          A Place for Poor Examples
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/tags/" class="nav link"><i class='fas fa-tag'></i> Tags</a>
+        
+      
+        
+          
+          <a href="/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+      <a href="https://blog.mattblair.co/fr/" lang="fr" class="nav link">Français (fr)</a>
+    
+      <a href="https://blog.mattblair.co/pl/" lang="pl" class="nav link">Polski (pl)</a>
+    
+      <a href="https://blog.mattblair.co/pt/" lang="pt" class="nav link">Português (pt)</a>
+    
+      <a href="https://blog.mattblair.co/de/" lang="de" class="nav link">Deutsche (de)</a>
+    
+      <a href="https://blog.mattblair.co/es/" lang="es" class="nav link">Española (es)</a>
+    
+      <a href="https://blog.mattblair.co/zh-cn/" lang="zh-cn" class="nav link">中文 (zh-cn)</a>
+    
+      <a href="https://blog.mattblair.co/zh-tw/" lang="zh-tw" class="nav link">中文 (zh-tw)</a>
+    
+      <a href="https://blog.mattblair.co/ja/" lang="ja" class="nav link">日本語 (ja)</a>
+    
+      <a href="https://blog.mattblair.co/nl/" lang="nl" class="nav link">Nederlands (nl)</a>
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=A%20Place%20for%20Poor%20Examples&amp;url=https%3a%2f%2fblog.mattblair.co%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2f&amp;title=A%20Place%20for%20Poor%20Examples" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2f&amp;title=A%20Place%20for%20Poor%20Examples" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2f&amp;description=A%20Place%20for%20Poor%20Examples" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="https://blog.mattblair.co/img/headshot-2.png" class="circle" width="100" alt="Matt Blair" /></a>
+  <header>
+    <h1>Matt Blair</h1>
+  </header>
+  <main>
+    <p>I read that you learn more from a poor example than from a correct one. I don't believe this but that means my site will be a success.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
+
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20210110-measurable-technical-state-of-the-team/">Measurable Technical State of the Team</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2021-01-10 21:40:42 -0800 PST">January 10, 2021</time>
+    
+    <p>3-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/evaluation.jpg');">
+    <img src="https://blog.mattblair.co/img/evaluation.jpg" alt="Technical Evaluation">
+  </a>
+    
+    <p>Some initial thoughts on how you could evaluate the state of the systems you could own. Put some of these criteria on the Y axis, and the name of the components you own on the X. Give everything a score from 1 to 0. Figure out which components need the most love.</p>
+  </div>
+  <footer>
+    <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/management/">management</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/teaching/">teaching</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/learning/">learning</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/growth/">growth</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/classes/">classes</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/evaluation/">evaluation</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/project-management/">Project Management</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/management/">Management</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20200909-pyramid-principle-inaction/">The importance of clear communication</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2020-09-09 15:20:08 -0800 -0800">September 9, 2020</time>
+    
+    <p>6-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    <a href="/blog/20200909-pyramid-principle-inaction/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/person-with-people.png');">
+    <img src="https://blog.mattblair.co/img/person-with-people.png" alt="Banner">
+  </a>
+    
+    <p>This is based off a talk I gave on improving communications.</p>
+  </div>
+  <footer>
+    <a href="/blog/20200909-pyramid-principle-inaction/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/management/">management</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/teaching/">teaching</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/learning/">learning</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/growth/">growth</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/classes/">classes</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/harrison-metal/">Harrison Metal</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/scqa/">SCQA</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/pyramid-principal/">Pyramid Principal</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/barbara-mento/">Barbara Mento</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20200606-remote-management-lessons-learned/">1:1&#39;s aren&#39;t enough in a SIP world</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2020-06-08 13:40:42 -0800 -0800">June 8, 2020</time>
+    
+    <p>3-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    <a href="/blog/20200606-remote-management-lessons-learned/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/ShelterinPlace.jpg');">
+    <img src="https://blog.mattblair.co/img/ShelterinPlace.jpg" alt="Shelter In Place">
+  </a>
+    
+    <p>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.</p>
+  </div>
+  <footer>
+    <a href="/blog/20200606-remote-management-lessons-learned/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/management/">management</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/teaching/">teaching</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/learning/">learning</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/growth/">growth</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/classes/">classes</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/work-from-home/">Work From Home</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/wfh/">WFH</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/project-management/">Project Management</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/working-remote/">Working Remote</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/remote-management/">Remote Management</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/shelter-in-place/">Shelter In Place</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+  <div class="pagination">
+    
+    
+      <a href="/page/2/" class="button right"><span>Next Page</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/evaluation.jpg');">
+    <img src="https://blog.mattblair.co/img/evaluation.jpg" alt="Technical Evaluation">
+  </a>
+        <header>
+          <h2><a href="/blog/20210110-measurable-technical-state-of-the-team/">Measurable Technical State of the Team</a></h2>
+          <time class="published" datetime="2021-01-10 21:40:42 -0800 PST">January 10, 2021</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200909-pyramid-principle-inaction/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/person-with-people.png');">
+    <img src="https://blog.mattblair.co/img/person-with-people.png" alt="Banner">
+  </a>
+        <header>
+          <h2><a href="/blog/20200909-pyramid-principle-inaction/">The importance of clear communication</a></h2>
+          <time class="published" datetime="2020-09-09 15:20:08 -0800 -0800">September 9, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200606-remote-management-lessons-learned/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/ShelterinPlace.jpg');">
+    <img src="https://blog.mattblair.co/img/ShelterinPlace.jpg" alt="Shelter In Place">
+  </a>
+        <header>
+          <h2><a href="/blog/20200606-remote-management-lessons-learned/">1:1&#39;s aren&#39;t enough in a SIP world</a></h2>
+          <time class="published" datetime="2020-06-08 13:40:42 -0800 -0800">June 8, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200404-kickoff-docs/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/project-kick-off-meetings.jpg');">
+    <img class="stretchV" src="https://blog.mattblair.co/img/project-kick-off-meetings.jpg" alt="Project Kickoff">
+  </a>
+        <header>
+          <h2><a href="/blog/20200404-kickoff-docs/">Kickoff Docs</a></h2>
+          <time class="published" datetime="2020-03-03 14:07:39 -0800 PST">March 3, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20200101-measuring-backlog-health/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/backlog-health.jpg');">
+    <img src="https://blog.mattblair.co/img/backlog-health.jpg" alt="Technical Evaluation">
+  </a>
+        <header>
+          <h2><a href="/blog/20200101-measuring-backlog-health/">Measuring Backlog Health</a></h2>
+          <time class="published" datetime="2020-01-01 21:40:42 -0800 PST">January 1, 2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/technical/">technical<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/javascript/">javascript<span class="count">55</span></a>
+          
+          <li>
+              <a href="/categories/development/">development<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/growth/">growth<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/learning/">learning<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/management/">management<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/teaching/">teaching<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/classes/">classes<span class="count">9</span></a>
+          
+          <li>
+              <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/wfh/">wfh<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/work-from-home/">work-from-home<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/coffee/">coffee<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/git/">git<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/search/">search<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo static site generator.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fas fa-rss"></a></li>
+
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+  
+  <p class="copyright">
+    © 2021 A Place for Poor Examples
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.80.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.b4e669fa428a81defb8af0916c53f39cd1b8e0bbab22199c06f0b182907ba474.js" integrity="sha256-tOZp&#43;kKKgd77ivCRbFPznNG44LurIhmcBvCxgpB7pHQ="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>
