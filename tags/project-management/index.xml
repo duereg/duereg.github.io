@@ -8,14 +8,14 @@
     <language>en</language>
     <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Measurable Technical State of the Team</title>
+      <title>Measure the Technical State of your Team</title>
       <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
       <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
-      <description>Some initial thoughts on how you could evaluate the state of the systems you could own. Put some of these criteria on the Y axis, and the name of the components you own on the X. Give everything a score from 1 to 0. Figure out which components need the most love.
-Builds: Consistent Build from Dev -&amp;gt; Prod
- The same image/code used in each step, not built at each step  Blocking tests at each phase</description>
+      <description>Some initial thoughts on how you could evaluate the state of the systems your team owns.
+One way to use this:
+ Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
     
     <item>
