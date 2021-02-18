@@ -13,7 +13,7 @@
       <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
-      <description>Some initial thoughts on how you could evaluate the state of the systems your team owns.
+      <description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
  Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>

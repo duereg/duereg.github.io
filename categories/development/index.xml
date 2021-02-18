@@ -6,14 +6,24 @@
     <description>Recent content in development on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Feb 2021 18:49:50 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breakdown; post-mortem of a process failure</title>
+      <link>https://blog.mattblair.co/blog/20210217-incident-remediation/</link>
+      <pubDate>Wed, 17 Feb 2021 18:49:50 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210217-incident-remediation/</guid>
+      <description>I was reviewing an old incident review doc where I wrote up some of the high level learnings from the incident. Thought it was worth sharing, with the details omitted to protect the innocent.
+Some backstory; we were trying to load test a component and ended up getting the load testing done at the last minute right before customer launch. The team had to work into the weekend to meet the customer deadline.</description>
+    </item>
+    
     <item>
       <title>Measure the Technical State of your Team</title>
       <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
       <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
-      <description>Some initial thoughts on how you could evaluate the state of the systems your team owns.
+      <description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
  Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
