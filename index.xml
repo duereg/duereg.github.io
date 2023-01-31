@@ -933,6 +933,19 @@ The buttons, instead of having the rounded corners on the outside, have the roun
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>https://blog.mattblair.co/about/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mattblair.co/about/</guid>
+      <description>My name is Matt Blair. Born in Virginia and now in the Bay Area. I write code during the day, play underwater hockey when I get a chance, and do other things occasionally.
+I&amp;rsquo;m the author of libraries such as songbird, js-algorithms, esvalidate, grunt-extract-sourcemap, and laboratory.
+I&amp;rsquo;m a mediocre presenter at meetups and conferences.
+You can read about my management style here.
+I&amp;rsquo;ve contributed to projects such as emberjs, ember-data, browserify-middleware, fluentmigrator, amplify, and cassette.</description>
+    </item>
+    
+    <item>
       <title>Working on Nike&#43; Importer for RunningAhead.com</title>
       <link>https://blog.mattblair.co/blog/20110921-working-on-nike-importer-for-runningahead-com/</link>
       <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
@@ -949,19 +962,6 @@ That doesn&amp;rsquo;t mean there aren&amp;rsquo;t things I don&amp;rsquo;t like
       
       <guid>https://blog.mattblair.co/blog/20140209-introducing-songbird/</guid>
       <description>title = &amp;#34;Introducing Songbird&amp;#34; description = &amp;#34;How to have promises everywhere, all the time&amp;#34; date = 2014-02-09 post_name = &amp;#34;introducing-songbird&amp;#34; status = &amp;#34;publish&amp;#34; tags = [&amp;#34;development&amp;#34;,&amp;#34;software&amp;#34;,&amp;#34;coding&amp;#34;,&amp;#34;web&amp;#34;,&amp;#34;html&amp;#34;,&amp;#34;JavaScript&amp;#34;,&amp;#34;CoffeeScript&amp;#34;,&amp;#34;EMCAScript&amp;#34;,&amp;#34;Songbird&amp;#34;,&amp;#34;Bluebird&amp;#34;,&amp;#34;Promises&amp;#34;,&amp;#34;Generators&amp;#34;,&amp;#34;EMCAScript&amp;#34;] categories = [&amp;#34;engineering&amp;#34;, &amp;#34;technical&amp;#34;, &amp;#34;javascript&amp;#34;] layout = &amp;#34;post&amp;#34; +++ Would you rather write this: ```javascript var updateUser = function(id, attributes, callback) { User.findOne(id, function (err, user) { if (err) return callback(err); user.set(attributes); user.save(function(err, updated) { if (err) return callback(err); console.log(&amp;#34;Updated&amp;#34;, updated); callback(null, updated); }); }); }); +++ Or this: ```coffeescript User.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://blog.mattblair.co/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.mattblair.co/about/</guid>
-      <description>My name is Matt Blair. Born in Virginia and now in the Bay Area. I write code during the day, play underwater hockey when I get a chance, and do other things occasionally.
-I&amp;rsquo;m the author of libraries such as songbird, js-algorithms, esvalidate, grunt-extract-sourcemap, and laboratory.
-I&amp;rsquo;m a mediocre presenter at meetups and conferences.
-You can read about my management style here.
-I&amp;rsquo;ve contributed to projects such as emberjs, ember-data, browserify-middleware, fluentmigrator, amplify, and cassette.</description>
     </item>
     
     <item>
