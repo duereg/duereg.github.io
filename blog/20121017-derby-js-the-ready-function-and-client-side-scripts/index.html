@@ -3,13 +3,24 @@
   <head>
   <meta charset="utf-8">
 <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App - A Place for Poor Examples</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="A Place for Poor Examples">
+<meta property="og:title" content="Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App">
+<meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/">
+  <meta property="og:image" content="https://blog.mattblair.co/img/headshot-4.png">
 
 
+
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
-  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
   
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
     <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
@@ -18,16 +29,9 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-<meta name="generator" content="Hugo 0.80.0" /><meta property="og:site_name" content="A Place for Poor Examples">
-  <meta property="og:title" content="Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App">
-  <meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
-  <meta property="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
-  <meta property="og:url" content="https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/">
-  <meta property="og:type" content="article">
-  
-    <meta property="og:image" content="https://blog.mattblair.co/img/headshot-4.png">
-  
-  <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
+
+  <meta name="generator" content="Hugo 0.97.3" />
+  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -175,7 +179,7 @@
 
     <div id="wrapper">
       <section id="site-intro" >
-  <a href="/"><img src="https://blog.mattblair.co/img/headshot-4.png" class="circle" width="100" alt="Matt Blair" /></a>
+  <a href="/"><img src="/img/headshot-4.png" class="circle" width="100" alt="Matt Blair" /></a>
   <header>
     <h1>Matt Blair</h1>
   </header>
@@ -236,8 +240,9 @@
 
       <main id="site-main">
         
-  <article class="post">
-    <header>
+  <article>
+    <div class="post">
+      <header>
   <div class="title">
     
       <h2><a href="/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/">Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</a></h2>
@@ -245,14 +250,14 @@
     
   </div>
   <div class="meta">
-    <time datetime="2012-10-17 00:00:00 -0700 PDT">October 17, 2012</time>
+    <time datetime="2012-10-17 00:00:00 &#43;0000 UTC">October 17, 2012</time>
     
     <p>3-Minute Read</p>
   </div>
 </header>
 
-    <div id="socnet-share">
-      
+      <div id="socnet-share">
+        
 
 
 
@@ -295,24 +300,25 @@
   
 
 
-    </div>
-    <div class="content">
-      
-      <p>I&rsquo;ve found a neat feature of <a href="http://derbyjs.com">derby</a> dealing with the ready() function. I&rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task. On my first attempt, I put my scripts in the section of the page that I needed the calendar on. I added a script to load the calendar as well. When I went to the url of the page, it loaded immediately. Success! (I thought).</p>
+      </div>
+      <div class="content">
+        
+        
+        <p>I&rsquo;ve found a neat feature of <a href="http://derbyjs.com">derby</a> dealing with the ready() function. I&rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task. On my first attempt, I put my scripts in the section of the page that I needed the calendar on. I added a script to load the calendar as well. When I went to the url of the page, it loaded immediately. Success! (I thought).</p>
 <p>Then I clicked a link away from my calendar, and then clicked back. No calendar. What happened? When I loaded the link originally, the page was rendered from the server. The second time, the page was rendered client side. Something wasn&rsquo;t working with loading the calendar on the client-side render. You need a place to put your code that guarantees that it will load on the client-side. The <code>app.ready()</code> function is designed to handle this scenario. What is the purpose of the <code>app.ready()</code> function? From the derby documentation:</p>
 <blockquote>
 <p>Code that responds to user events and model events should be placed within the app.ready() callback. This provides the model object for the client and makes sure that the code is only executed on the client. <strong>This function is called as soon as the Derby app is loaded on the client.</strong> Note that any code within this callback is only executed on the client and not on the server.</p>
 </blockquote>
 <p>I&rsquo;ve bolded the part I think is particularly important. This code is run as soon as the client is loaded. Which means if you have more than a single-page app, using <code>app.ready()</code> to load a feature might not work out. So what to do? An undocumented feature of Derby - app.on(). What does it do? It allows you to load code AFTER a specific page has loaded. Which is exactly what I&rsquo;m looking for. So here&rsquo;s what I ended up writing in my <code>app.ready()</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;render:calendar&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">ctx</span>) {
-  <span style="color:#a6e22e">logger</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;rendering calendar client-side...&#34;</span>);
-  <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Timeline</span>(<span style="color:#e6db74">&#34;timeline&#34;</span>, <span style="color:#66d9ef">new</span> Date());
-});
-</code></pre></div><p>In this example this code will run after rendering the <code>calendar</code> view. On the Calendar page, there is a script block which loads the <code>Timeline</code> function. After writing this code, I tried my page again. Still no luck. I wasn&rsquo;t getting the calendar to load on both the client and server load. On a lark, I moved the block containing my Timeline javascript to my index view, and tried again. Success. Which makes sense. If you are rendering pages via the client side load, additional resources aren&rsquo;t going to be loaded. So by putting my script into the index view, it&rsquo;s unfortunately loaded for all my pages, but at least it&rsquo;s available for both the client and server side rendering of my cool control.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;render:calendar&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">ctx</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">logger</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;rendering calendar client-side...&#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Timeline</span>(<span style="color:#e6db74">&#34;timeline&#34;</span>, <span style="color:#66d9ef">new</span> Date());
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>In this example this code will run after rendering the <code>calendar</code> view. On the Calendar page, there is a script block which loads the <code>Timeline</code> function. After writing this code, I tried my page again. Still no luck. I wasn&rsquo;t getting the calendar to load on both the client and server load. On a lark, I moved the block containing my Timeline javascript to my index view, and tried again. Success. Which makes sense. If you are rendering pages via the client side load, additional resources aren&rsquo;t going to be loaded. So by putting my script into the index view, it&rsquo;s unfortunately loaded for all my pages, but at least it&rsquo;s available for both the client and server side rendering of my cool control.</p>
 
-    </div>
-    <footer>
-      <div class="stats">
+      </div>
+      <footer>
+        <div class="stats">
   
     <ul class="categories">
       
@@ -373,12 +379,13 @@
   
 </div>
 
-    </footer>
-  </article>
-  
+      </footer>
+    </div>
     
+      
 
-  
+    
+  </article>
   <div class="pagination">
     
       <a href="/blog/20121030-free-collection-of-microsoft-e-books/" class="button left"><span>Free Collection of Microsoft E-Books</span></a>
@@ -397,8 +404,18 @@
       </header>
       
       <article class="mini-post">
-          <a href="/blog/20210217-incident-remediation/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/incident-response.jpg');">
-    <img src="https://blog.mattblair.co/img/incident-response.jpg" alt="Incident Review">
+          <a href="/blog/20210516-weekly-tasks/" class="image" style="--bg-image: url('/images/calendar-overview.jpg');">
+    <img src="/images/calendar-overview.jpg" alt="Incident Review">
+  </a>
+        <header>
+          <h2><a href="/blog/20210516-weekly-tasks/">The weekly recurring tasks of an Engineering Manager</a></h2>
+          <time class="published" datetime="2021-06-16 09:39:00 -0800 -0800">June 16, 2021</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20210217-incident-remediation/" class="image" style="--bg-image: url('/img/incident-response.jpg');">
+    <img src="/img/incident-response.jpg" alt="Incident Review">
   </a>
         <header>
           <h2><a href="/blog/20210217-incident-remediation/">Breakdown; post-mortem of a process failure</a></h2>
@@ -407,8 +424,8 @@
       </article>
       
       <article class="mini-post">
-          <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/evaluation.jpg');">
-    <img src="https://blog.mattblair.co/img/evaluation.jpg" alt="Technical Evaluation">
+          <a href="/blog/20210110-measurable-technical-state-of-the-team/" class="image" style="--bg-image: url('/img/evaluation.jpg');">
+    <img src="/img/evaluation.jpg" alt="Technical Evaluation">
   </a>
         <header>
           <h2><a href="/blog/20210110-measurable-technical-state-of-the-team/">Measure the Technical State of your Team</a></h2>
@@ -417,8 +434,8 @@
       </article>
       
       <article class="mini-post">
-          <a href="/blog/20200909-pyramid-principle-inaction/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/person-with-people.png');">
-    <img src="https://blog.mattblair.co/img/person-with-people.png" alt="Banner">
+          <a href="/blog/20200909-pyramid-principle-inaction/" class="image" style="--bg-image: url('/img/person-with-people.png');">
+    <img src="/img/person-with-people.png" alt="Banner">
   </a>
         <header>
           <h2><a href="/blog/20200909-pyramid-principle-inaction/">The importance of clear communication</a></h2>
@@ -427,22 +444,12 @@
       </article>
       
       <article class="mini-post">
-          <a href="/blog/20200606-remote-management-lessons-learned/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/ShelterinPlace.jpg');">
-    <img src="https://blog.mattblair.co/img/ShelterinPlace.jpg" alt="Shelter In Place">
+          <a href="/blog/20200606-remote-management-lessons-learned/" class="image" style="--bg-image: url('/img/ShelterinPlace.jpg');">
+    <img src="/img/ShelterinPlace.jpg" alt="Shelter In Place">
   </a>
         <header>
           <h2><a href="/blog/20200606-remote-management-lessons-learned/">1:1&#39;s aren&#39;t enough in a SIP world</a></h2>
           <time class="published" datetime="2020-06-08 13:40:42 -0800 -0800">June 8, 2020</time>
-        </header>
-      </article>
-      
-      <article class="mini-post">
-          <a href="/blog/20200404-kickoff-docs/" class="image" style="--bg-image: url('https://blog.mattblair.co/img/project-kickoff.png');">
-    <img class="stretchV" src="https://blog.mattblair.co/img/project-kickoff.png" alt="Project Kickoff">
-  </a>
-        <header>
-          <h2><a href="/blog/20200404-kickoff-docs/">Kickoff Docs</a></h2>
-          <time class="published" datetime="2020-03-03 14:07:39 -0800 PST">March 3, 2020</time>
         </header>
       </article>
       
@@ -474,13 +481,13 @@
               <a href="/categories/javascript/">javascript<span class="count">55</span></a>
           
           <li>
-              <a href="/categories/development/">development<span class="count">11</span></a>
+              <a href="/categories/development/">development<span class="count">12</span></a>
           
           <li>
-              <a href="/categories/learning/">learning<span class="count">11</span></a>
+              <a href="/categories/learning/">learning<span class="count">12</span></a>
           
           <li>
-              <a href="/categories/management/">management<span class="count">11</span></a>
+              <a href="/categories/management/">management<span class="count">12</span></a>
           
           <li>
               <a href="/categories/growth/">growth<span class="count">10</span></a>
@@ -501,6 +508,9 @@
               <a href="/categories/work-from-home/">work-from-home<span class="count">2</span></a>
           
           <li>
+              <a href="/categories/calendar/">calendar<span class="count">1</span></a>
+          
+          <li>
               <a href="/categories/coffee/">coffee<span class="count">1</span></a>
           
           <li>
@@ -508,6 +518,9 @@
           
           <li>
               <a href="/categories/incident/">incident<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
           
           <li>
               <a href="/categories/search/">search<span class="count">1</span></a>
@@ -583,14 +596,14 @@
   <p class="copyright">
     © 2021 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.80.0' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.97.3' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.initHighlightingOnLoad();</script><script src="/js/bundle.min.b4e669fa428a81defb8af0916c53f39cd1b8e0bbab22199c06f0b182907ba474.js" integrity="sha256-tOZp&#43;kKKgd77ivCRbFPznNG44LurIhmcBvCxgpB7pHQ="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.537a45e8db61ffc9f5363d0b0b299aa814b510fd77451c9d5bfa2fade21bed16.js" integrity="sha256-U3pF6Nth/8n1Nj0LCymaqBS1EP13RRydW/ovreIb7RY="></script>
     <script src="/js/add-on.js"></script>
     </div>
   </body>
