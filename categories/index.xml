@@ -6,20 +6,11 @@
     <description>Recent content in Categories on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jun 2021 09:39:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Calendar</title>
-      <link>https://blog.mattblair.co/categories/calendar/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/calendar/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 12 Dec 2022 12:12:12 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
       <link>https://blog.mattblair.co/categories/development/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/development/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>learning</title>
       <link>https://blog.mattblair.co/categories/learning/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/learning/</guid>
       <description></description>
@@ -37,16 +28,70 @@
     <item>
       <title>management</title>
       <link>https://blog.mattblair.co/categories/management/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/management/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Performance</title>
+      <link>https://blog.mattblair.co/categories/performance/</link>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://blog.mattblair.co/categories/planning/</link>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://blog.mattblair.co/categories/project/</link>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>https://blog.mattblair.co/categories/motivation/</link>
+      <pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://blog.mattblair.co/categories/training/</link>
+      <pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calendar</title>
+      <link>https://blog.mattblair.co/categories/calendar/</link>
+      <pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/calendar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scheduling</title>
       <link>https://blog.mattblair.co/categories/scheduling/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      <pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/scheduling/</guid>
       <description></description>

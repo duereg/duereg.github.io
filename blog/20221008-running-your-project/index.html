@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Running Your Projects - A Place for Poor Examples</title>
+<meta name="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="A Place for Poor Examples">
+<meta property="og:title" content="Running Your Projects">
+<meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.mattblair.co/blog/20221008-running-your-project/">
+    <meta property="og:image" content="https://blog.mattblair.co/img/cool-plan-person.jpg">
+    <meta property="og:image:alt" content="Incident Review">
+
+
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.97.3" />
+  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Blog
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/tags/" class="nav link"><i class='fas fa-tag'></i> Tags</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Running%20Your%20Projects&amp;url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;title=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;title=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;description=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="/img/headshot-4.png" class="circle" width="100" alt="Matt Blair" /></a>
+  <header>
+    <h1>Matt Blair</h1>
+  </header>
+  <main>
+    <p>I read that you learn more from a poor example than from a correct one. I don't believe this but that means my site will be a success.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article>
+    <div class="post">
+      <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20221008-running-your-project/">Running Your Projects</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2022-10-08 05:17:17 -0800 -0800">October 8, 2022</time>
+    
+    <p>5-Minute Read</p>
+  </div>
+</header>
+
+      <div id="socnet-share">
+        
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Running%20Your%20Projects&amp;url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;title=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;title=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f&amp;description=Running%20Your%20Projects" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2fblog%2f20221008-running-your-project%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+      </div>
+      <div class="content">
+        <a href="/blog/20221008-running-your-project/" class="image" style="--bg-image: url('/img/cool-plan-person.jpg');">
+    <img src="/img/cool-plan-person.jpg" alt="Incident Review">
+  </a>
+        
+        <p>Note: This is a series of project planning talks I gave my team.</p>
+<h3>Running your project</h3>
+<h4>Writing A Technical Design Document</h4>
+<p>At this point, you’re ready to start designing your system.</p>
+<p>A good technical design document should contain:</p>
+<ul>
+<li>An overview of the problem</li>
+<li>A breakdown of the individual milestones and how they’re related</li>
+<li>High-level process / workflow diagrams / designs / etc</li>
+<li>Any other notes that might be relevant to folks who will be working on the project</li>
+</ul>
+<p>You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work. Make sure to prioritize blocking steps, and possibly assign parallel work out simultaneously (if staffing permits).</p>
+<p>Attempting to breakdown work or introduce parallelism for projects that were not initially designed that way can cause problems later on. So it’s best to figure out in the design phase what work that can be done in parallel (planning for multiple developers).</p>
+<p>Once your technical design is complete, you should review it with the engineering team before starting on your milestones.</p>
+<h4>Setting up goals / milestones / tickets</h4>
+<p>The planning phase is key to successful projects and focuses on developing a roadmap for the team to follow. During the planning phase, you should plan to organize your team, set up resources, and set goals.</p>
+<p>After your design doc is complete and vetted, you should deconstruct each milestone into smaller chunks (tickets) so one person can be assigned responsibility for each facet.</p>
+<p>In breaking down the work, consider many factors such as the strengths and weaknesses of project team members, the interdependencies among tasks, available resources, and the overall project deadline.</p>
+<h5>How do you know your milestones were successful? </h5>
+<ul>
+<li>Should be clear what you’re delivering
+<ul>
+<li>What is the smallest thing we can deliver to our customers/partners so they can validate our approach?
+<ul>
+<li>Example: If you’re building a complex webpage, could you ship a read-only, not interactive version of the page, to test that the data displayed is what they want?</li>
+</ul>
+</li>
+<li>How can you split up the work into the smallest pieces possible that can be shown to your stakeholders?</li>
+</ul>
+</li>
+<li>After you ship a milestone, you should get sign-off from your stakeholders
+<ul>
+<li>This can be as small as a demo at the sprint meeting</li>
+<li>Stakeholders should sign off on what you did
+<ul>
+<li>If something is wrong, better to find out earlier than later</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>You need time for fast-follow work after each milestone
+<ul>
+<li>If the customer requests changes based of the sign-off session, you want to have time in your schedule for that</li>
+<li>If you find small pieces of tech debt/bugs while working on the milestone, fix it directly afterwards while it’s fresh in your mind.</li>
+</ul>
+</li>
+<li>Does your milestone fit your overall timeline?
+<ul>
+<li>If the project has a two month deadline, but the work you’ve laid out for the 1st milestone will take three months, you need to figure out how to get on track fast
+<ul>
+<li>Can you cut scope?</li>
+<li>Can you increase velocity by adding more developers?</li>
+<li>Can you deliver a proof of concept by the deadline and follow up with the rest of the work?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5>What work should you include in your milestones? </h5>
+<ul>
+<li>You need time devoted to design, review, write tech specs
+<ul>
+<li>Each milestone should include a tech design doc and a review session</li>
+<li>This can be a paragraph or a multi-page document</li>
+<li>You should get a review and a sanity check for each tech design doc you create.</li>
+</ul>
+</li>
+<li>You need time devoted to metrics / data / monitoring what you built</li>
+<li>Implement monitoring and error visibility to make it easier to debug problems down the road.</li>
+<li>Ideally you have a way to record usage whenever we can to illustrate impact.</li>
+<li>implement monitoring &amp; debugging for every milestone, every deliverable</li>
+<li>You need time devoted to testing</li>
+<li>Unit tests for new work is a minimum</li>
+<li>Implement automated testing early in the process</li>
+<li>Write a Test Plan/Test Matrix up-front if you’re building a complex system with many interactions</li>
+<li>You need time devoted to tech debt
+<ul>
+<li>Fix broken windows along the way</li>
+</ul>
+</li>
+<li>Broker time for tech debt</li>
+<li>Broker time for related bugs in the backlog</li>
+<li>Build quality into every phase of the project</li>
+<li><strong>How would you build this if you had to maintain it forever?</strong></li>
+</ul>
+<h4>Communicating Updates</h4>
+<p>There should be constant, detailed, concise status updates in your project channel. This is particularly helpful when rolling new people on because you can say &ldquo;please go back and read the content of the channel for the past week&rdquo;.</p>
+<p>Relevant documents (such as your kickoff slidedeck and your technical roadmap) should be included in your project channel.</p>
+<p>You should invite your stakeholders to your project channel to have a central place to vet ideas and invite feedback.</p>
+<p>When setbacks occur, you should highlight the risks early and often in the channel. Surprises are worse than setbacks.</p>
+<h4>Involve the whole team along the way</h4>
+<ul>
+<li>Include more people in code reviews even if they&rsquo;re not actively picking up development tasks
+<ul>
+<li>this shares out knowledge of the changes and gets another set of eyes that can ask good questions</li>
+</ul>
+</li>
+<li>Break team silos where possible and share knowledge</li>
+<li>Do Team PR&rsquo;s for big PR&rsquo;s
+<ul>
+<li>Ideally break work into small pieces though</li>
+</ul>
+</li>
+<li>Demo your work early and often</li>
+<li>Try to avoid having single developers on projects</li>
+</ul>
+
+      </div>
+      <footer>
+        <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/management/">management</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/learning/">learning</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/project/">Project</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/planning/">Planning</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/performance/">Performance</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/engineering-management/">Engineering Management</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/management/">Management</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/project/">Project</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/planning/">Planning</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+      </footer>
+    </div>
+    
+      
+
+    
+  </article>
+  <div class="pagination">
+    
+      <a href="/blog/20221110-project-planning-checklist/" class="button left"><span>Project Planning Checklist</span></a>
+    
+    
+      <a href="/blog/20220907-kickoff-docs-expanded/" class="button right"><span>Kickoff Doc Expanded</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/blog/20221110-tech-team-expanded/" class="image" style="--bg-image: url('/img/evaluation.jpg');">
+    <img src="/img/evaluation.jpg" alt="Technical Evaluation">
+  </a>
+        <header>
+          <h2><a href="/blog/20221110-tech-team-expanded/">Technical State of the Team - Expanded</a></h2>
+          <time class="published" datetime="2022-12-12 12:12:12 -0800 PST">December 12, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20221110-project-planning-checklist/" class="image" style="--bg-image: url('/img/remote-employee.jpg');">
+    <img class="stretchV" src="/img/remote-employee.jpg" alt="Project Planning">
+  </a>
+        <header>
+          <h2><a href="/blog/20221110-project-planning-checklist/">Project Planning Checklist</a></h2>
+          <time class="published" datetime="2022-11-10 05:17:17 -0800 PST">November 10, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/blog/20221008-running-your-project/" class="image" style="--bg-image: url('/img/cool-plan-person.jpg');">
+    <img src="/img/cool-plan-person.jpg" alt="Incident Review">
+  </a>
+        <header>
+          <h2><a href="/blog/20221008-running-your-project/">Running Your Projects</a></h2>
+          <time class="published" datetime="2022-10-08 05:17:17 -0800 -0800">October 8, 2022</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/technical/">technical<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/javascript/">javascript<span class="count">55</span></a>
+          
+          <li>
+              <a href="/categories/development/">development<span class="count">23</span></a>
+          
+          <li>
+              <a href="/categories/learning/">learning<span class="count">23</span></a>
+          
+          <li>
+              <a href="/categories/management/">management<span class="count">23</span></a>
+          
+          <li>
+              <a href="/categories/growth/">growth<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/performance/">performance<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/teaching/">teaching<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/classes/">classes<span class="count">9</span></a>
+          
+          <li>
+              <a href="/categories/planning/">planning<span class="count">7</span></a>
+          
+          <li>
+              <a href="/categories/project/">project<span class="count">6</span></a>
+          
+          <li>
+              <a href="/categories/motivation/">motivation<span class="count">4</span></a>
+          
+          <li>
+              <a href="/categories/training/">training<span class="count">4</span></a>
+          
+          <li>
+              <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/wfh/">wfh<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/work-from-home/">work-from-home<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/calendar/">calendar<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/coffee/">coffee<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/git/">git<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/search/">search<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+  
+  <p class="copyright">
+    © 2022 A Place for Poor Examples
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.97.3' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.537a45e8db61ffc9f5363d0b0b299aa814b510fd77451c9d5bfa2fade21bed16.js" integrity="sha256-U3pF6Nth/8n1Nj0LCymaqBS1EP13RRydW/ovreIb7RY="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

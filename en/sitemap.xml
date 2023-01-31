@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.mattblair.co/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -55,14 +55,8 @@
                 href="https://blog.mattblair.co/"
                 />
   </url><url>
-    <loc>https://blog.mattblair.co/tags/calendar/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/categories/calendar/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
-  </url><url>
     <loc>https://blog.mattblair.co/categories/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -115,31 +109,40 @@
                 />
   </url><url>
     <loc>https://blog.mattblair.co/categories/development/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/blog/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/engineering-management/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/learning/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/management/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/management/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
-    <loc>https://blog.mattblair.co/tags/scheduling/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <loc>https://blog.mattblair.co/categories/performance/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
-    <loc>https://blog.mattblair.co/categories/scheduling/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <loc>https://blog.mattblair.co/tags/planning/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/planning/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/project/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/project/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -191,8 +194,74 @@
                 href="https://blog.mattblair.co/tags/"
                 />
   </url><url>
+    <loc>https://blog.mattblair.co/blog/20221110-tech-team-expanded/</loc>
+    <lastmod>2022-12-12T12:12:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</loc>
+    <lastmod>2022-11-10T05:17:17-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20221008-running-your-project/</loc>
+    <lastmod>2022-10-08T05:17:17-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</loc>
+    <lastmod>2022-09-07T05:17:17-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20220806-so-you-have-project/</loc>
+    <lastmod>2022-08-06T05:17:17-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20220705-project-planning-overview/</loc>
+    <lastmod>2022-07-05T05:17:17-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20220628-strategic-intent/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/motivation/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/motivation/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/performance/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/training/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/training/</loc>
+    <lastmod>2022-06-28T21:30:12-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20220325-organize-to-learn/</loc>
+    <lastmod>2022-03-25T18:37:09-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20211222-managerial-meddling/</loc>
+    <lastmod>2021-12-22T15:34:06-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</loc>
+    <lastmod>2021-09-19T12:31:03-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/clear/</loc>
+    <lastmod>2021-06-27T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/smart/</loc>
+    <lastmod>2021-06-27T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</loc>
+    <lastmod>2021-06-27T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/calendar/</loc>
+    <lastmod>2021-05-16T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/calendar/</loc>
+    <lastmod>2021-05-16T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/scheduling/</loc>
+    <lastmod>2021-05-16T09:39:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/scheduling/</loc>
+    <lastmod>2021-05-16T09:39:00-08:00</lastmod>
+  </url><url>
     <loc>https://blog.mattblair.co/blog/20210516-weekly-tasks/</loc>
-    <lastmod>2021-06-16T09:39:00-08:00</lastmod>
+    <lastmod>2021-05-16T09:39:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/blog/20210217-incident-remediation/</loc>
     <lastmod>2021-02-17T18:49:50-08:00</lastmod>
@@ -318,9 +387,6 @@
     <lastmod>2018-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/indices/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/tags/performance/</loc>
     <lastmod>2018-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/querying/</loc>

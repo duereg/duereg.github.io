@@ -6,11 +6,135 @@
     <description>Recent content in learning on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jun 2021 09:39:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 12:12:12 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical State of the Team - Expanded</title>
+      <link>https://blog.mattblair.co/blog/20221110-tech-team-expanded/</link>
+      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20221110-tech-team-expanded/</guid>
+      <description>Note: This is a compliment to the previous article I wrote about the Technical state of a Team, and explains the concepts in depth.
+Technical State of the Team There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.</description>
+    </item>
+    
+    <item>
+      <title>Project Planning Checklist</title>
+      <link>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</link>
+      <pubDate>Thu, 10 Nov 2022 05:17:17 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid>
+      <description>All the previous project planning articles summarized into a checklist.
+Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out  Beginning to Plan  Identify the rough scope of the work Identify the milestones of the project  Project Kickoff  High-Level Timelines  Call out timelines you haven’t figured out yet, and when you will figure them out   Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams  Lay out the requirements for what you need from others to be successful   Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete  Overall Technical Design  An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  Breaking Down the Project into Milestones  Are the milestones clear on what they’re delivering?</description>
+    </item>
+    
+    <item>
+      <title>Running Your Projects</title>
+      <link>https://blog.mattblair.co/blog/20221008-running-your-project/</link>
+      <pubDate>Sat, 08 Oct 2022 05:17:17 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20221008-running-your-project/</guid>
+      <description>Note: This is a series of project planning talks I gave my team.
+Running your project Writing A Technical Design Document At this point, you’re ready to start designing your system.
+A good technical design document should contain:
+ An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff Doc Expanded</title>
+      <link>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</link>
+      <pubDate>Wed, 07 Sep 2022 05:17:17 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</guid>
+      <description>Note: this is an expansion on a previous article I wrote around kickoff docs.
+Project Kickoff! At this point, you should have a good idea of what your overall goal is. You should have a rough sketch of what your milestones are for the project and what you want to include in each one. You should not have the specific details of the projects worked out yet.
+It’s time for a project kickoff.</description>
+    </item>
+    
+    <item>
+      <title>So you’ve got yourself a project</title>
+      <link>https://blog.mattblair.co/blog/20220806-so-you-have-project/</link>
+      <pubDate>Sat, 06 Aug 2022 05:17:17 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20220806-so-you-have-project/</guid>
+      <description>Note: This is a series of project planning talks I gave my team.
+So you’ve got yourself a project A project (and a ticket) is a placeholder for a conversation. No matter if a ticket is super detailed or vague on what it wants, the best way to do good work is to figure out a few things about the work you’ve been given.
+Get Comfortable Pre-planning for any project should begin FAR before the actual work.</description>
+    </item>
+    
+    <item>
+      <title>When to plan a project</title>
+      <link>https://blog.mattblair.co/blog/20220705-project-planning-overview/</link>
+      <pubDate>Tue, 05 Jul 2022 05:17:17 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20220705-project-planning-overview/</guid>
+      <description>Note: This is a series of project planning talks I gave my team.
+When to plan a project What is a project plan? Project planning is the process of defining your objectives and scope, your goals and milestones (deliverables), and assigning tasks and resources for each step. A good plan is easily shareable with everyone involved, and it’s most useful when it’s revisited regularly. Simply outlining a plan and never discussing it with your team again is a good recipe for wasted time and effort.</description>
+    </item>
+    
+    <item>
+      <title>Define your team&#39;s stragetic intent</title>
+      <link>https://blog.mattblair.co/blog/20220628-strategic-intent/</link>
+      <pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20220628-strategic-intent/</guid>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with your Team: Organize to Learn</title>
+      <link>https://blog.mattblair.co/blog/20220325-organize-to-learn/</link>
+      <pubDate>Fri, 25 Mar 2022 18:37:09 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20220325-organize-to-learn/</guid>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+    </item>
+    
+    <item>
+      <title>Managerial Meddling vs Situational Leadership</title>
+      <link>https://blog.mattblair.co/blog/20211222-managerial-meddling/</link>
+      <pubDate>Wed, 22 Dec 2021 15:34:06 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20211222-managerial-meddling/</guid>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+    </item>
+    
+    <item>
+      <title>What is a manager?</title>
+      <link>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</link>
+      <pubDate>Sun, 19 Sep 2021 12:31:03 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</guid>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+    </item>
+    
+    <item>
+      <title>SMART vs CLEAR goals</title>
+      <link>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</link>
+      <pubDate>Sun, 27 Jun 2021 09:39:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</guid>
+      <description>Setting Goals Two of the more popular methods for setting goals are SMART and CLEAR:
+SMART Goals This method helps ensure that the goals have been thoroughly vetted. It also provides a way to clearly understand the implications of the goal-setting process.
+Specific – To set specific goals, answer the following questions: who, what, where, when, which, and why.
+Measurable – Create criteria that you can use to measure the success of a goal.</description>
+    </item>
+    
     <item>
       <title>The schedule of an engineering manager</title>
       <link>https://blog.mattblair.co/blog/20210516-weekly-tasks/</link>
-      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      <pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20210516-weekly-tasks/</guid>
       <description>Overview In re-reading High Output Management recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.
