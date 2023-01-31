@@ -6,11 +6,11 @@
     <description>Recent content in software on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Node 4 and Babel 6 in Harmony</title>
       <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
-      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
       <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
@@ -22,7 +22,7 @@ So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
     <item>
       <title>Guide to upgrading from Babel 5 =&gt; 6</title>
       <link>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</link>
-      <pubDate>Thu, 31 Dec 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</guid>
       <description>Because it&amp;rsquo;s changed since October There have been a bunch of guides on upgrading to babel 5.
@@ -34,7 +34,7 @@ Skip babel-core and babel-loader. User babel-register. Due to some complaints ab
     <item>
       <title>Move your Open Source work to Node 4</title>
       <link>https://blog.mattblair.co/blog/20150910-upgrade-travis-and-os-for-node-4/</link>
-      <pubDate>Thu, 10 Sep 2015 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20150910-upgrade-travis-and-os-for-node-4/</guid>
       <description>Now that Node 4 has been released, isn&amp;rsquo;t it time you upgraded your OS (Open Source) projects to use it?
@@ -44,7 +44,7 @@ Step 1 - package.json If you&amp;rsquo;re not already using it, the engines fiel
     <item>
       <title>The (0, func) operation in transpiled code</title>
       <link>https://blog.mattblair.co/blog/20150420-0-func-operator-and-decoupling/</link>
-      <pubDate>Mon, 20 Apr 2015 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20150420-0-func-operator-and-decoupling/</guid>
       <description>Was looking at some decompiled code from ES6 the other day, when I saw a line that looked like this:
@@ -56,7 +56,7 @@ Paraphrasing from Mozilla and StackOverflow:
     <item>
       <title>Replaying changes from one git branch onto another</title>
       <link>https://blog.mattblair.co/blog/20150216-git-rebasing-without-rebasing/</link>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20150216-git-rebasing-without-rebasing/</guid>
       <description>Or rebasing without rebasing Where I work, we use git (like everyone else), and we follow this common pattern for development:
@@ -66,7 +66,7 @@ Paraphrasing from Mozilla and StackOverflow:
     <item>
       <title>Code coverage for CoffeeScript and JavaScript without pre-compiling</title>
       <link>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</link>
-      <pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</guid>
       <description>If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.
@@ -79,7 +79,7 @@ Have tests in coffee? Great. Have tests in JS? Great too. Same with your depende
     <item>
       <title>It took pivotal 3 years to close a pull request</title>
       <link>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</link>
-      <pubDate>Mon, 13 Oct 2014 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</guid>
       <description>On Feb 9, 2011, Fat (Jacob Thornton, one of the creators on Bootstrap) opened a pull request to add beforeAll and afterAll statements to the jasmine library.
@@ -93,7 +93,7 @@ You can check out the work here.</description>
     <item>
       <title>express-coffee-react-views</title>
       <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
-      <pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
       <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
@@ -105,7 +105,7 @@ Usage npm install express-coffee-react-views react Note: You must explicitly ins
     <item>
       <title>React and the annoyances of JSX</title>
       <link>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</link>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</guid>
       <description>I&amp;rsquo;ve been writing a bunch of React code and a heap of JSX at work.
@@ -115,45 +115,44 @@ React (coupled with Flux) has been a joy to work with. The uni-directional data 
     <item>
       <title>Ember.Data Model Issues</title>
       <link>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
       <description>I was working with some older Ember.Data code, and I came across a model like this:
-App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+App.MyFancyModel = DS.Model.extend({  isSelected: false,  isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
 aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
     </item>
     
     <item>
       <title>Ember.Data Promise-Aware Properties (Cheaters Edition)</title>
       <link>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
       <description>I have models like this:
-Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+Models App.Child = DS.Model.extend({  parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) });  App.Parent = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) });  App.Nursery = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
 ###Controller
-App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
- uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
+App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {  return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq();  }.property(&amp;#39;children&amp;#39;),   somethingLikeReliesOnUniqueParents = function() {  ....  }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values.</description>
     </item>
     
     <item>
       <title>Stuff to mind when writing ES6 code</title>
       <link>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</guid>
       <description>These are some good tips I picked up browsing the ember and ember.data commits. Nice if you&amp;rsquo;re looking for best practices in writing ES6 code.
 example: diverging bindings
 this is an issue when dealing with cycles.
 bad: (diverges bindings)
-import { foo } from &amp;#39;bar&amp;#39;; var otherFoo = foo; foo: (if the rename is actually needed) good:
+import { foo } from &amp;#39;bar&amp;#39;;  var otherFoo = foo; foo: (if the rename is actually needed) good:
 import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler dead code remove friendly:</description>
     </item>
     
     <item>
       <title>Post about Songbird on npmawesome</title>
       <link>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</link>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</guid>
       <description>The folks at npmawesome wrote a blog post about the Songbird library I wrote.
@@ -164,7 +163,7 @@ Songbird is a library that mixes in promise helpers in the Function and Object p
     <item>
       <title>WriteGooder for Sublime Text</title>
       <link>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</link>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</guid>
       <description>Simple grammar checking for your documentation.
@@ -179,20 +178,20 @@ npm install -g duereg/write-gooder</description>
     <item>
       <title>Ember Model.isDirty - or not</title>
       <link>https://blog.mattblair.co/blog/20140605-ember-model-isdirty-or-not/</link>
-      <pubDate>Thu, 05 Jun 2014 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140605-ember-model-isdirty-or-not/</guid>
       <description>In Ember, if you have models like this:
-var Tag = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), person: DS.belongsTo(&amp;#39;person&amp;#39;) }); var Person = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), tags: DS.hasMany(&amp;#39;tag&amp;#39;) }); Then did something like this:
-var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag1.get(&amp;#39;name&amp;#39;); //return null tag1.set(&amp;#39;name&amp;#39;, &amp;#39;foo&amp;#39;); tag1.get(&amp;#39;isDirty&amp;#39;); //returns true That would be the obvious outcome, right?
+ var Tag = DS.Model.extend({  name: DS.attr(&amp;#39;string&amp;#39;),  person: DS.belongsTo(&amp;#39;person&amp;#39;)  });   var Person = DS.Model.extend({  name: DS.attr(&amp;#39;string&amp;#39;),  tags: DS.hasMany(&amp;#39;tag&amp;#39;)  }); Then did something like this:
+var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1);  tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag1.get(&amp;#39;name&amp;#39;); //return null tag1.set(&amp;#39;name&amp;#39;, &amp;#39;foo&amp;#39;); tag1.get(&amp;#39;isDirty&amp;#39;); //returns true That would be the obvious outcome, right?
 However, if you do this:
-var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); var thatGuy = this.store.find(&amp;#39;person&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag.</description>
+var tag1 = this.</description>
     </item>
     
     <item>
       <title>Ember Data Contributions</title>
       <link>https://blog.mattblair.co/blog/20140518-ember-data-contributor/</link>
-      <pubDate>Sun, 18 May 2014 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140518-ember-data-contributor/</guid>
       <description>My contributions to Ember.Data!
@@ -203,7 +202,7 @@ Now only if they&amp;rsquo;d release version 1.0 &amp;hellip;</description>
     <item>
       <title>Ember Official Contributor!</title>
       <link>https://blog.mattblair.co/blog/20140505-ember-official-contributor/</link>
-      <pubDate>Mon, 05 May 2014 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 05 May 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140505-ember-official-contributor/</guid>
       <description>Check Out My Contribution to Ember!
@@ -213,42 +212,42 @@ Now only if they&amp;rsquo;d release version 1.0 &amp;hellip;</description>
     <item>
       <title>Ember FilterBy Fun</title>
       <link>https://blog.mattblair.co/blog/20140429-ember-filterby-fun/</link>
-      <pubDate>Tue, 29 Apr 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140429-ember-filterby-fun/</guid>
       <description>If you happen to be writing filterBy statements in Ember against an object, you will want to use this syntax:
-skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style.id&amp;#39;, style.get(&amp;#39;id&amp;#39;)); } Instead of this similar looking but exceptionally evil and non-functioning cousin:
-skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style&amp;#39;, style); } </description>
+ skusForStyle: function(style) {  return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style.id&amp;#39;, style.get(&amp;#39;id&amp;#39;));  } Instead of this similar looking but exceptionally evil and non-functioning cousin:
+ skusForStyle: function(style) {  return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style&amp;#39;, style);  } </description>
     </item>
     
     <item>
       <title>Ember - Test Teardown Error</title>
       <link>https://blog.mattblair.co/blog/20140410-ember-test-teardown-errors/</link>
-      <pubDate>Thu, 10 Apr 2014 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140410-ember-test-teardown-errors/</guid>
       <description>Cannot read property &amp;lsquo;addObject&amp;rsquo; of null If you see the following error in Ember.Data 1.0.0-beta.7:
-Cannot read property &#39;addObject&#39; of null TypeError: Cannot read property &#39;addObject&#39; of null at Ember.ArrayProxy.extend.addRecord at Ember.Object.extend.updateRecordArray at null.&amp;lt;anonymous&amp;gt; I found this had to do with Test teardown. A monkey patch that solves the issue:
-DS.RecordArray.reopen({ addRecord: function(record) { var thing = Ember.get(this, &amp;#39;content&amp;#39;); if(thing) { this._super(record); } } }); </description>
+Cannot read property &amp;#39;addObject&amp;#39; of null TypeError: Cannot read property &amp;#39;addObject&amp;#39; of null at Ember.ArrayProxy.extend.addRecord at Ember.Object.extend.updateRecordArray at null.&amp;lt;anonymous&amp;gt; I found this had to do with Test teardown. A monkey patch that solves the issue:
+DS.RecordArray.reopen({  addRecord: function(record) {  var thing = Ember.get(this, &amp;#39;content&amp;#39;);   if(thing) {  this._super(record);  }  } }); </description>
     </item>
     
     <item>
       <title>Ember - The content property of DS.PromiseArray should be set before modifying it</title>
       <link>https://blog.mattblair.co/blog/20140408-ember-the-content-property-of-ds-promise-array/</link>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140408-ember-the-content-property-of-ds-promise-array/</guid>
       <description>The content property of DS.PromiseArray should be set before modifying it If you see the following error in Ember.Data 1.0.0-beta.7:
 The content property of DS.PromiseArray should be set before modifying it
 The issue is with changing the contents of an async field.
-//program.js Program = DS.Model.extend({ styles: DS.hasMany(&amp;#39;style&amp;#39;, {async: true}), }); Style = DS.Model.extend({}); and then used like so:
+//program.js Program = DS.Model.extend({  styles: DS.hasMany(&amp;#39;style&amp;#39;, {async: true}), });  Style = DS.Model.extend({}); and then used like so:
 program.get(&amp;#39;styles&amp;#39;).pushObject(style); That code will throw the exception listed above. To work around this behavior, do the following:</description>
     </item>
     
     <item>
       <title>Ember vs Knockout - Property Comparison</title>
       <link>https://blog.mattblair.co/blog/20140320-ember-vs-knockout-property-comparison/</link>
-      <pubDate>Thu, 20 Mar 2014 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140320-ember-vs-knockout-property-comparison/</guid>
       <description>A small, appropriate comparison At ModCloth, I&amp;rsquo;ve been working on an internal application that uses Ember.js as its front end framework. In learning Ember I&amp;rsquo;ve noticed some interesting architectural decisions they&amp;rsquo;ve made.
@@ -262,7 +261,7 @@ Ember is
     <item>
       <title>New Blog!</title>
       <link>https://blog.mattblair.co/blog/20140112-new-blog/</link>
-      <pubDate>Sun, 12 Jan 2014 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140112-new-blog/</guid>
       <description>I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left wordpress.
@@ -273,7 +272,7 @@ So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to h
     <item>
       <title>A/B Testing and Random Selection</title>
       <link>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</link>
-      <pubDate>Wed, 11 Dec 2013 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</guid>
       <description>Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?
@@ -284,19 +283,19 @@ Either way, enter laboratory. A simple framework that allows random selection or
     <item>
       <title>Instrumenting Backbone for better error handling</title>
       <link>https://blog.mattblair.co/blog/20131127-instrumenting-backbone-for-better-error-handling/</link>
-      <pubDate>Wed, 27 Nov 2013 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20131127-instrumenting-backbone-for-better-error-handling/</guid>
       <description>At work we&amp;rsquo;ve been having some issues tracking down some nasty client side bugs. We know they&amp;rsquo;re happening in our Backbone views, but we&amp;rsquo;ve been unable to locate them with any accuracy due to the errors bubbling all the way to the window.onerror handler.
 Enter Stackbone. A simple bit of code to instrument Backbone’s event loops to better locate client side errors.
 To use:
-Stackbone.start({ Backbone: Backbone jQuery: jQuery onError: function (err) { // .</description>
+Stackbone.start({  Backbone: Backbone  jQuery: jQuery  onError: function (err) {  // .</description>
     </item>
     
     <item>
       <title>Source maps in node.js</title>
       <link>https://blog.mattblair.co/blog/20131019-source-maps-in-node-js/</link>
-      <pubDate>Sat, 19 Oct 2013 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20131019-source-maps-in-node-js/</guid>
       <description>One of the projects I&amp;rsquo;m working on deals with source maps.
@@ -308,7 +307,7 @@ So why would you want to use source maps?</description>
     <item>
       <title>My ongoing relation with CoffeeScript - and a gotcha</title>
       <link>https://blog.mattblair.co/blog/20130502-coffeescript-gotcha/</link>
-      <pubDate>Thu, 02 May 2013 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 02 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20130502-coffeescript-gotcha/</guid>
       <description>CoffeeScript, what can I tell ya - I didn&amp;rsquo;t want to love it.
@@ -322,7 +321,7 @@ The lambdas are probably my biggest love - how can you not love them, in compari
     <item>
       <title>Docco Fork - All JS, all the time</title>
       <link>https://blog.mattblair.co/blog/20130303-docco-fork-all-js-all-the-time/</link>
-      <pubDate>Sun, 03 Mar 2013 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 03 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20130303-docco-fork-all-js-all-the-time/</guid>
       <description>EDIT: My fork is no longer needed. The folks at docco saw the same thing and recently ported over the library to use highlight.js.
@@ -333,7 +332,7 @@ Since I&amp;rsquo;ve mostly been working in JavaScript lately I&amp;rsquo;ve bee
     <item>
       <title>Esvalidate Library - Standalone Validation Library Using Esprima</title>
       <link>https://blog.mattblair.co/blog/20130215-esvalidate-library-standalone-validation-library-using-esprima/</link>
-      <pubDate>Fri, 15 Feb 2013 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20130215-esvalidate-library-standalone-validation-library-using-esprima/</guid>
       <description>I spent a good bit of time working on the Esvalidate code that comes with Esprima, trying to get it to work smoothly with my sublime plugin. After submitting a massive pull request to the author of Esprima and our reviewing my code we came to a conclusion - the new code was better served in its own library.
@@ -343,17 +342,17 @@ It&amp;rsquo;s still in its early stages but please check out the progress I&amp
     <item>
       <title>.Net Gotcha - Private Classes With Access To Containing Classes&#39;s Protected Variables (Or Not)</title>
       <link>https://blog.mattblair.co/blog/20130115-net-gotcha-private-classes-with-access-to-containing-classess-protected-variables-or-not/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20130115-net-gotcha-private-classes-with-access-to-containing-classess-protected-variables-or-not/</guid>
       <description>A friend and I were working on some code together when we found an interesting edge case in .Net that neither of us knew about. This is what we knew: if you have a class with a protected field in it, if you declare a private class inside of that class, the private class can access the protected variable. The example below shows what this looks like.
-public class ParentClassWithProtectedField { protected readonly int protectedField; private class PrivateClassInParentClass { public void Method(ParentClassWithProtectedField parent) { Console.</description>
+ public class ParentClassWithProtectedField {  protected readonly int protectedField;  private class PrivateClassInParentClass {  public void Method(ParentClassWithProtectedField parent) {  Console.</description>
     </item>
     
     <item>
       <title>Portfolio Spotlight on Pathbrite = Cool?</title>
       <link>https://blog.mattblair.co/blog/20121204-portfolio-spotlight-on-pathbrite-cool/</link>
-      <pubDate>Tue, 04 Dec 2012 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 04 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121204-portfolio-spotlight-on-pathbrite-cool/</guid>
       <description>I&amp;rsquo;ve recently created a portfolio on Pathbrite. If you haven&amp;rsquo;t heard of Pathbrite, they are a company aiming to:
@@ -365,7 +364,7 @@ public class ParentClassWithProtectedField { protected readonly int protectedFie
     <item>
       <title>Esprima Plugin for Sublime Text</title>
       <link>https://blog.mattblair.co/blog/20121201-esprima-plugin-for-sublime-text/</link>
-      <pubDate>Sat, 01 Dec 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121201-esprima-plugin-for-sublime-text/</guid>
       <description>In relation to my previous posts confessing my love for sublime, and my enjoyment of Esprima, here is some code that showcases both: An Esprima plugin for Sublime Test!
@@ -376,7 +375,7 @@ This has been included in the official list of Sublime Plugins. So you can insta
     <item>
       <title>Added JavaScript syntax checking via Esprima and a Git pre-commit hook</title>
       <link>https://blog.mattblair.co/blog/20121120-added-javascript-syntax-checking-via-esprima-and-a-git-pre-commit-hook/</link>
-      <pubDate>Tue, 20 Nov 2012 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 20 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121120-added-javascript-syntax-checking-via-esprima-and-a-git-pre-commit-hook/</guid>
       <description>I came across a brilliant project the other day - Esprima from Ariya Hidayat, the author of PhantomJS. What is Esprima? Esprima is a JavaScript Parser written in JavaScript Syntax Validator. It forms the basis of several different tools - a minifier, a code coverage tool, a syntax validator - just to name a few. I was immediately interested in the syntax validation tool. It&amp;rsquo;s not a linter - it just checks that the JavaScript written is syntactically correct.</description>
@@ -385,7 +384,7 @@ This has been included in the official list of Sublime Plugins. So you can insta
     <item>
       <title>.Net SQL Parsing - Using the TSqlParser library</title>
       <link>https://blog.mattblair.co/blog/20121101-net-sql-parsing-using-the-tsqlparser-library/</link>
-      <pubDate>Thu, 01 Nov 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 01 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121101-net-sql-parsing-using-the-tsqlparser-library/</guid>
       <description>A preface to this post: it is hard to find a free SQL Parser for .NET. There is a company that has a terrible library that they charge $150 bucks for. There are a couple of incomplete implementations done for school projects or for narrowly focused tasks. So if you want a no-strings attached free parser for SQL, you&amp;rsquo;re out of luck. However, since most people who want a .NET parser are writing code on a Windows machine, and use Visual Studio, there is (lightly documented) hope: the TSqlParser library that ships with Visual Studio.</description>
@@ -394,7 +393,7 @@ This has been included in the official list of Sublime Plugins. So you can insta
     <item>
       <title>Free Collection of Microsoft E-Books</title>
       <link>https://blog.mattblair.co/blog/20121030-free-collection-of-microsoft-e-books/</link>
-      <pubDate>Tue, 30 Oct 2012 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121030-free-collection-of-microsoft-e-books/</guid>
       <description>If you&amp;rsquo;re a Microsoft Dev, want to learn a bit more about the following products:
@@ -406,7 +405,7 @@ The links to the e-books:
     <item>
       <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
       <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
-      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
       <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
@@ -415,7 +414,7 @@ The links to the e-books:
     <item>
       <title>Cracking the Coding Interview - The Tower of Hanoi and Poor Editing</title>
       <link>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</link>
-      <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</guid>
       <description>I just finished the Stack section of Cracking the Coding Interview and came across an old puzzle - The Tower of Hanoi. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem.</description>
@@ -424,7 +423,7 @@ The links to the e-books:
     <item>
       <title>Cracking the Coding Interview - Linked Lists - The Runner Technique</title>
       <link>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</link>
-      <pubDate>Thu, 13 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</guid>
       <description>I&amp;rsquo;ve been going over the Linked List section of Cracking the Coding Interview and most times I get stumped with a problem the solution is the Runner Technique (or slow/fast pointers).
@@ -435,7 +434,7 @@ Why is this so useful? In some linked list problems you need to know the positio
     <item>
       <title>How to install Sublime Text 2 on Ubuntu 12.04 (Unity)</title>
       <link>https://blog.mattblair.co/blog/20120911-how-to-install-sublime-text-2-on-ubuntu-12-04-unity/</link>
-      <pubDate>Tue, 11 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120911-how-to-install-sublime-text-2-on-ubuntu-12-04-unity/</guid>
       <description>Sublime Text has rapidly become my favorite text editor. Cross platform, easy to use, great feature set. The Command Palette feature, where you can search for a feature without having to know where it is in the application, is an piece of usability brilliance. Somebody cobbled together a great step-by-step set of directions on how to install sublime on ubuntu. I wanted to give a shout-out to them and their work.</description>
@@ -444,7 +443,7 @@ Why is this so useful? In some linked list problems you need to know the positio
     <item>
       <title>Setting up MongoDB to work with Derby.js</title>
       <link>https://blog.mattblair.co/blog/20120906-setting-up-mongodb-to-work-with-derby-js/</link>
-      <pubDate>Thu, 06 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 06 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120906-setting-up-mongodb-to-work-with-derby-js/</guid>
       <description>This post is going to cover installing and configuring MongoDB to use with Derby. If you&amp;rsquo;re reading this post looking to add model persistence to your Derby application but don&amp;rsquo;t know much about MongoDB, understanding MongoDB will help you understand Derby and the model system it uses.
@@ -456,18 +455,18 @@ What&amp;rsquo;s MongoDB? From their website:
     <item>
       <title>Javascript Strings - Using Array Accessor &#39;[]&#39; to set characters</title>
       <link>https://blog.mattblair.co/blog/20120905-javascript-strings-using-array-accessor-to-set-characters/</link>
-      <pubDate>Wed, 05 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 05 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120905-javascript-strings-using-array-accessor-to-set-characters/</guid>
       <description>I&amp;rsquo;ve been learning quite a bit about JavaScript in writing algorithms from Cracking the Coding Interview. I learned something new about strings in JavaScript and how they can be accessed. From MDN:
  Character access There are two ways to access an individual character in a string. The first is the charAt method:
- return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
+  return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
     </item>
     
     <item>
       <title>Cracking the Coding Interview - JavaScript Trie</title>
       <link>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</link>
-      <pubDate>Sat, 01 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</guid>
       <description>I finished my third algorithm from Cracking the Coding Interview - the Trie.
@@ -479,7 +478,7 @@ The trie&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a word tre
     <item>
       <title>Cracking the Coding Interview - JavaScript Min/Max Binary Heap</title>
       <link>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</link>
-      <pubDate>Wed, 29 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</guid>
       <description>I finished my second algorithm from Cracking the Coding Interview - the Binary Heap. This algorithm racketed up the complexity from the Linked List.
@@ -489,17 +488,17 @@ The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary t
     <item>
       <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
       <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
-      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
       <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
-&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt;  &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt;  &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt;  &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
       <title>Cracking the Coding Interview - JavaScript Singly Linked List</title>
       <link>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</link>
-      <pubDate>Fri, 24 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 24 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</guid>
       <description>I finished my first algorithm from Cracking the Coding Interview - the almighty Singly Linked List.
@@ -510,18 +509,18 @@ The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job.
     <item>
       <title>Derby.js - Integrating Twitter Bootstrap into your Application</title>
       <link>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</link>
-      <pubDate>Sat, 18 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
       <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
 Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
-{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
+ { .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
     
     <item>
       <title>Cracking the Coding Interview: JavaScript Data Structures</title>
       <link>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</link>
-      <pubDate>Fri, 17 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</guid>
       <description>A friend and co-worker of mine (one of the best and brightest I&amp;rsquo;ve worked with) recently left our company to go work for Microsoft. Having gone through the Microsoft interview process myself (hilariously unprepared, to the enjoyment of my interviewer), I wondered what he had done to get ready for the process. He recommended one book - Cracking the Coding Interview - which he said had been recommended to him as the bible for preparation.</description>
@@ -530,7 +529,7 @@ Step 1: Add a dependency to the derby-ui-boot package, which is a Derby componen
     <item>
       <title>Derby.js - Working with Views, Models, and Bindings</title>
       <link>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</link>
-      <pubDate>Tue, 07 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 07 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</guid>
       <description>In my previous post about derby, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).
@@ -540,7 +539,7 @@ I&amp;rsquo;m creating a test application to help me learn derby here. In the pr
     <item>
       <title>HTML5 &#39;formaction&#39; attribute - An easy Modernizr test</title>
       <link>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</link>
-      <pubDate>Wed, 01 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</guid>
       <description>EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. Link to issue
@@ -551,7 +550,7 @@ I&amp;rsquo;m creating a test application to help me learn derby here. In the pr
     <item>
       <title>Derby.js - Playing with Models</title>
       <link>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</link>
-      <pubDate>Sun, 22 Jul 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</guid>
       <description>Been playing around with Derby in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.
@@ -562,7 +561,7 @@ I&amp;rsquo;ve culled the following eight lines of documentation of defining mod
     <item>
       <title>Some node.js and express.js beginner help</title>
       <link>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</link>
-      <pubDate>Tue, 10 Jul 2012 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</guid>
       <description>I&amp;rsquo;ve just started using node.js with express.js on both Windows (with iisnode) and Ubuntu.
@@ -573,17 +572,17 @@ Generate the starter app At first, I wanted to just hack away some of the existi
     <item>
       <title>Using StructureMap to collect and use all instances of a given type</title>
       <link>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</link>
-      <pubDate>Mon, 18 Jun 2012 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</guid>
       <description>Had an issue at work where I wanted to store my rules and handlers for a class outside of the class definition, so I could better test the component. Found an easy way to add all your rules into StructureMap, and then retrieve those rules as a list via constructor injection.
-using System.Collections.Generic; using System.Linq; using System.Text; using StructureMap; using StructureMap.Configuration.DSL; public class TravelRegistry : Registry { public TravelRegistry() { For&amp;lt;ITransportHandler&amp;gt;().</description>
+using System.Collections.Generic; using System.Linq; using System.Text; using StructureMap; using StructureMap.Configuration.DSL;  public class TravelRegistry : Registry {  public TravelRegistry()  {  For&amp;lt;ITransportHandler&amp;gt;().</description>
     </item>
     
     <item>
       <title>Why use Twitter Bootstrap?</title>
       <link>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</link>
-      <pubDate>Fri, 04 May 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</guid>
       <description>I&amp;rsquo;m a fan of Twitter Bootstrap, the simple and flexible CSS, HTML, and JavaScript user interface framework.
@@ -595,7 +594,7 @@ What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:
     <item>
       <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
       <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>
-      <pubDate>Thu, 26 Apr 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
       <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
@@ -606,7 +605,7 @@ However, if you then POST to a controller method that accepts an IEnumerable, yo
     <item>
       <title>Horrible, Slow, Stupid, Scary Build Process</title>
       <link>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</link>
-      <pubDate>Sat, 03 Mar 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 03 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</guid>
       <description>So we&amp;rsquo;ve rolled out a new build process at work. I&amp;rsquo;ve started working with a new company, and when I arrived, the build process for a new environment consisted of a 20 page manual somebody had written. The process of putting a build on an environment was slow, the manual had steps missing that everyone just &amp;lsquo;knew&amp;rsquo;, the process had multiple failure points, and was more or less a complete disaster.</description>
@@ -615,7 +614,7 @@ However, if you then POST to a controller method that accepts an IEnumerable, yo
     <item>
       <title>Windows 7 - Problem Steps Recorder</title>
       <link>https://blog.mattblair.co/blog/20120216-windows-7-problem-steps-recorder/</link>
-      <pubDate>Thu, 16 Feb 2012 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 16 Feb 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120216-windows-7-problem-steps-recorder/</guid>
       <description>Just found out about a good tool that ships with Windows 7.
@@ -625,7 +624,7 @@ One of the hardest things about debugging software can be getting the users to d
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>
-      <pubDate>Mon, 31 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</guid>
       <description>My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.
@@ -635,18 +634,18 @@ This will allow everyone to upgrade to VS 2010 while leaving the task of upgradi
     <item>
       <title>Enable/Disable jQuery buttons in Knockout with a Custom Binding Handler</title>
       <link>https://blog.mattblair.co/blog/20111021-enabledisable-jquery-buttons-in-knockout-with-a-custom-binding-handler/</link>
-      <pubDate>Fri, 21 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111021-enabledisable-jquery-buttons-in-knockout-with-a-custom-binding-handler/</guid>
       <description>Still working on those jQuery buttons. Trying to update old ASP.Net Webforms using jQuery, Knockout, and Amplify.
 New problem today.
-I was having problems getting Knockout to enable/disable my jQuery buttons using the Knockout &amp;lsquo;enable&amp;rsquo; bindingHandler. It would enable/disable the underlying element that I had run the .button() method on, but it had no idea about the div that jQuery had wrapped my element in, or how to handle it.</description>
+I was having problems getting Knockout to enable/disable my jQuery buttons using the Knockout &amp;rsquo;enable&amp;rsquo; bindingHandler. It would enable/disable the underlying element that I had run the .button() method on, but it had no idea about the div that jQuery had wrapped my element in, or how to handle it.</description>
     </item>
     
     <item>
       <title>Auto Creation of jQuery Buttons using Knockout Templates</title>
       <link>https://blog.mattblair.co/blog/20111019-auto-creation-of-jquery-buttons-using-knockout-templates/</link>
-      <pubDate>Wed, 19 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 19 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111019-auto-creation-of-jquery-buttons-using-knockout-templates/</guid>
       <description>While converting ASP.NET Webforms to be more clienty using HTML 5, Knockout, and jQuery, I came across a problem.
@@ -656,7 +655,7 @@ I want to use jQuery buttons on my Knockout-rendered rows, but whenever a new ro
     <item>
       <title>Alas, it was not to be</title>
       <link>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</link>
-      <pubDate>Fri, 14 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 14 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</guid>
       <description>My jQuery bug was already documented. :(</description>
@@ -665,7 +664,7 @@ I want to use jQuery buttons on my Knockout-rendered rows, but whenever a new ro
     <item>
       <title>Finished the Nike&#43; Importer for www.runningahead.com</title>
       <link>https://blog.mattblair.co/blog/20111010-finished-the-nike-importer-for-www-runningahead-com/</link>
-      <pubDate>Mon, 10 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 10 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111010-finished-the-nike-importer-for-www-runningahead-com/</guid>
       <description>I finished up the Nike+ data importer for www.runningahead.com. You can check out the code for the importer at this Github repository:
@@ -676,7 +675,7 @@ I got a small test project up for this. It walks through everything but doesn&am
     <item>
       <title>jQuery UI Bug - 1.8.16, buttonset() method</title>
       <link>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</link>
-      <pubDate>Thu, 06 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 06 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</guid>
       <description>I love to find bugs in good software! Came across a little jQuery UI bug today. It&amp;rsquo;s for one browser, but it always excited to be able to create an easy-to-replicate bug. The bug is small - it deals with the buttonset() method.
@@ -686,17 +685,17 @@ The buttons, instead of having the rounded corners on the outside, have the roun
     <item>
       <title>Beautiful LINQ to Xml</title>
       <link>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</link>
-      <pubDate>Sat, 24 Sep 2011 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 24 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</guid>
       <description>Is there anything better in life than finding a better way to do something? An easier commute, a better night&amp;rsquo;s sleep, a tastier cake recipe? In starting the Nike+ importer for www.runningahead.com, I knew I was going to have to deal with a bit of XML. Which used to mean XPath. Not so much anymore. LINQ to XML, you rock my world. It turns XML like this&amp;hellip;
-&amp;lt;extendedDataList&amp;gt; &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt; 0.</description>
+ &amp;lt;extendedDataList&amp;gt;  &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt;  0.</description>
     </item>
     
     <item>
       <title>Working on Nike&#43; Importer for RunningAhead.com</title>
       <link>https://blog.mattblair.co/blog/20110921-working-on-nike-importer-for-runningahead-com/</link>
-      <pubDate>Wed, 21 Sep 2011 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20110921-working-on-nike-importer-for-runningahead-com/</guid>
       <description>I&amp;rsquo;m a fan of the website www.runningahead.com. I use it to track all my sporting life activities. The primary reason I use this site, instead of one of the hundreds like it, is that you can track anything - yoga, rowing, running, P-90x, underwater hockey, tiddlywinks, whatever. Throw in some customizable reporting and some great hardware integration, and it&amp;rsquo;s free, and you&amp;rsquo;ve got a winner.

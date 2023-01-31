@@ -6,11 +6,11 @@
     <description>Recent content in ASP.NET on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
       <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>
-      <pubDate>Thu, 26 Apr 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
       <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
@@ -21,18 +21,18 @@ However, if you then POST to a controller method that accepts an IEnumerable, yo
     <item>
       <title>Enable/Disable jQuery buttons in Knockout with a Custom Binding Handler</title>
       <link>https://blog.mattblair.co/blog/20111021-enabledisable-jquery-buttons-in-knockout-with-a-custom-binding-handler/</link>
-      <pubDate>Fri, 21 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111021-enabledisable-jquery-buttons-in-knockout-with-a-custom-binding-handler/</guid>
       <description>Still working on those jQuery buttons. Trying to update old ASP.Net Webforms using jQuery, Knockout, and Amplify.
 New problem today.
-I was having problems getting Knockout to enable/disable my jQuery buttons using the Knockout &amp;lsquo;enable&amp;rsquo; bindingHandler. It would enable/disable the underlying element that I had run the .button() method on, but it had no idea about the div that jQuery had wrapped my element in, or how to handle it.</description>
+I was having problems getting Knockout to enable/disable my jQuery buttons using the Knockout &amp;rsquo;enable&amp;rsquo; bindingHandler. It would enable/disable the underlying element that I had run the .button() method on, but it had no idea about the div that jQuery had wrapped my element in, or how to handle it.</description>
     </item>
     
     <item>
       <title>Auto Creation of jQuery Buttons using Knockout Templates</title>
       <link>https://blog.mattblair.co/blog/20111019-auto-creation-of-jquery-buttons-using-knockout-templates/</link>
-      <pubDate>Wed, 19 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 19 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111019-auto-creation-of-jquery-buttons-using-knockout-templates/</guid>
       <description>While converting ASP.NET Webforms to be more clienty using HTML 5, Knockout, and jQuery, I came across a problem.

@@ -6,11 +6,11 @@
     <description>Recent content in babel on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/babel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/babel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Performance Improvement via node 4 to node 6</title>
       <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
       <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
@@ -22,7 +22,7 @@ All of all, the memory consumption of our application is now averaging around 15
     <item>
       <title>Node 4 and Babel 6 in Harmony</title>
       <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
-      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
       <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
@@ -34,7 +34,7 @@ So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
     <item>
       <title>Guide to upgrading from Babel 5 =&gt; 6</title>
       <link>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</link>
-      <pubDate>Thu, 31 Dec 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</guid>
       <description>Because it&amp;rsquo;s changed since October There have been a bunch of guides on upgrading to babel 5.

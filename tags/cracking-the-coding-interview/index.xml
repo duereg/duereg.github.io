@@ -6,11 +6,11 @@
     <description>Recent content in cracking the coding interview on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/cracking-the-coding-interview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/cracking-the-coding-interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cracking the Coding Interview - The Tower of Hanoi and Poor Editing</title>
       <link>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</link>
-      <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</guid>
       <description>I just finished the Stack section of Cracking the Coding Interview and came across an old puzzle - The Tower of Hanoi. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Cracking the Coding Interview - Linked Lists - The Runner Technique</title>
       <link>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</link>
-      <pubDate>Thu, 13 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</guid>
       <description>I&amp;rsquo;ve been going over the Linked List section of Cracking the Coding Interview and most times I get stumped with a problem the solution is the Runner Technique (or slow/fast pointers).
@@ -30,7 +30,7 @@ Why is this so useful? In some linked list problems you need to know the positio
     <item>
       <title>Cracking the Coding Interview - JavaScript Trie</title>
       <link>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</link>
-      <pubDate>Sat, 01 Sep 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</guid>
       <description>I finished my third algorithm from Cracking the Coding Interview - the Trie.
@@ -42,7 +42,7 @@ The trie&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a word tre
     <item>
       <title>Cracking the Coding Interview - JavaScript Min/Max Binary Heap</title>
       <link>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</link>
-      <pubDate>Wed, 29 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</guid>
       <description>I finished my second algorithm from Cracking the Coding Interview - the Binary Heap. This algorithm racketed up the complexity from the Linked List.
@@ -52,7 +52,7 @@ The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary t
     <item>
       <title>Cracking the Coding Interview - JavaScript Singly Linked List</title>
       <link>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</link>
-      <pubDate>Fri, 24 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 24 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</guid>
       <description>I finished my first algorithm from Cracking the Coding Interview - the almighty Singly Linked List.
@@ -63,7 +63,7 @@ The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job.
     <item>
       <title>Cracking the Coding Interview: JavaScript Data Structures</title>
       <link>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</link>
-      <pubDate>Fri, 17 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</guid>
       <description>A friend and co-worker of mine (one of the best and brightest I&amp;rsquo;ve worked with) recently left our company to go work for Microsoft. Having gone through the Microsoft interview process myself (hilariously unprepared, to the enjoyment of my interviewer), I wondered what he had done to get ready for the process. He recommended one book - Cracking the Coding Interview - which he said had been recommended to him as the bible for preparation.</description>

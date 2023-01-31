@@ -6,11 +6,11 @@
     <description>Recent content in performance on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ElasticSearch Perf - Highlighter Edition</title>
       <link>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</guid>
       <description>Wanted to share the results of the work we&amp;rsquo;ve been doing to improve performance and stabilize our ES cluster.
@@ -21,7 +21,7 @@ Long Version: We&amp;rsquo;ve been load testing various aspects of search to pin
     <item>
       <title>Moment.js alternatives</title>
       <link>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</guid>
       <description>If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading this article about smaller, lighter-weight moment.js alternatives.</description>
@@ -30,7 +30,7 @@ Long Version: We&amp;rsquo;ve been load testing various aspects of search to pin
     <item>
       <title>Moment.js instantiation slowness</title>
       <link>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</link>
-      <pubDate>Thu, 04 May 2017 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</guid>
       <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
@@ -42,7 +42,7 @@ If you&amp;rsquo;re processing:
     <item>
       <title>Performance Improvement via node 4 to node 6</title>
       <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
       <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
@@ -54,7 +54,7 @@ All of all, the memory consumption of our application is now averaging around 15
     <item>
       <title>Superagent/Request Memory Leaks</title>
       <link>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</guid>
       <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.

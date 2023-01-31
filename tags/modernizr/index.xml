@@ -6,11 +6,11 @@
     <description>Recent content in modernizr on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Aug 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/modernizr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/modernizr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML5 &#39;formaction&#39; attribute - An easy Modernizr test</title>
       <link>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</link>
-      <pubDate>Wed, 01 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</guid>
       <description>EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. Link to issue

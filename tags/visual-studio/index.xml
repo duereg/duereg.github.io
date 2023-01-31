@@ -6,11 +6,11 @@
     <description>Recent content in Visual Studio on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>
-      <pubDate>Mon, 31 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</guid>
       <description>My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.

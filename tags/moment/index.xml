@@ -6,11 +6,11 @@
     <description>Recent content in moment on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/moment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/moment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moment.js alternatives</title>
       <link>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</guid>
       <description>If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading this article about smaller, lighter-weight moment.js alternatives.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Moment.js instantiation slowness</title>
       <link>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</link>
-      <pubDate>Thu, 04 May 2017 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</guid>
       <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.

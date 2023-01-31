@@ -6,11 +6,11 @@
     <description>Recent content in indexes on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/indexes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/indexes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ElasticSearch Perf - Highlighter Edition</title>
       <link>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</guid>
       <description>Wanted to share the results of the work we&amp;rsquo;ve been doing to improve performance and stabilize our ES cluster.
@@ -21,7 +21,7 @@ Long Version: We&amp;rsquo;ve been load testing various aspects of search to pin
     <item>
       <title>ElasticSearch sharding work</title>
       <link>https://blog.mattblair.co/blog/20180305-elasticsearch-sharding-work/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20180305-elasticsearch-sharding-work/</guid>
       <description>Wanted to share some insights my team has found with changing sharding strategies for ElasticSearch (ES).
@@ -33,7 +33,7 @@ Medium version: In moving 100% of our searches and autocomplete queries from a m
     <item>
       <title>ElasticSearch Garbage Collection issues?</title>
       <link>https://blog.mattblair.co/blog/20170813-elasticsearch-garbage-collection/</link>
-      <pubDate>Sun, 13 Aug 2017 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 13 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20170813-elasticsearch-garbage-collection/</guid>
       <description>Seeing high garbage collection with ElasticSearch? My team was seeing periodic 300ms+ garbage collection pauses. We found out that we had misconfigured our ES instances.

@@ -6,11 +6,11 @@
     <description>Recent content in Build on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Mar 2012 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/build/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Horrible, Slow, Stupid, Scary Build Process</title>
       <link>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</link>
-      <pubDate>Sat, 03 Mar 2012 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 03 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</guid>
       <description>So we&amp;rsquo;ve rolled out a new build process at work. I&amp;rsquo;ve started working with a new company, and when I arrived, the build process for a new environment consisted of a 20 page manual somebody had written. The process of putting a build on an environment was slow, the manual had steps missing that everyone just &amp;lsquo;knew&amp;rsquo;, the process had multiple failure points, and was more or less a complete disaster.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>
-      <pubDate>Mon, 31 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</guid>
       <description>My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.

@@ -6,15 +6,15 @@
     <description>Recent content in bool on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Jul 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/bool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/bool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ember.Data Model Issues</title>
       <link>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
       <description>I was working with some older Ember.Data code, and I came across a model like this:
-App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+App.MyFancyModel = DS.Model.extend({  isSelected: false,  isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
 aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
     </item>
     

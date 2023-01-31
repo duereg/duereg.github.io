@@ -6,11 +6,11 @@
     <description>Recent content in Testing on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code coverage for CoffeeScript and JavaScript without pre-compiling</title>
       <link>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</link>
-      <pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</guid>
       <description>If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.
@@ -23,7 +23,7 @@ Have tests in coffee? Great. Have tests in JS? Great too. Same with your depende
     <item>
       <title>It took pivotal 3 years to close a pull request</title>
       <link>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</link>
-      <pubDate>Mon, 13 Oct 2014 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</guid>
       <description>On Feb 9, 2011, Fat (Jacob Thornton, one of the creators on Bootstrap) opened a pull request to add beforeAll and afterAll statements to the jasmine library.
@@ -37,7 +37,7 @@ You can check out the work here.</description>
     <item>
       <title>A/B Testing and Random Selection</title>
       <link>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</link>
-      <pubDate>Wed, 11 Dec 2013 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</guid>
       <description>Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?

@@ -6,7 +6,17 @@
     <description>Recent content in Management on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Feb 2021 18:49:50 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 09:39:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The weekly recurring tasks of an Engineering Manager</title>
+      <link>https://blog.mattblair.co/blog/20210516-weekly-tasks/</link>
+      <pubDate>Wed, 16 Jun 2021 09:39:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20210516-weekly-tasks/</guid>
+      <description>Overview In re-reading High Output Management recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.
+Regular Occurring Events: Weekly 1:1’s with all direct reports Weekly 1:1’s with PM, Design, etc Weekly 1:1&amp;rsquo;s with my manager Weekly leadership meeting with pillar leadership Bi-weekly 1:1’s with peers Monthly Career Conversations with direct reports</description>
+    </item>
+    
     <item>
       <title>Breakdown; post-mortem of a process failure</title>
       <link>https://blog.mattblair.co/blog/20210217-incident-remediation/</link>

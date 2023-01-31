@@ -6,11 +6,11 @@
     <description>Recent content in ES6 on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Performance Improvement via node 4 to node 6</title>
       <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
       <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
@@ -22,7 +22,7 @@ All of all, the memory consumption of our application is now averaging around 15
     <item>
       <title>Node 4 and Babel 6 in Harmony</title>
       <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
-      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
       <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
@@ -34,7 +34,7 @@ So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
     <item>
       <title>Guide to upgrading from Babel 5 =&gt; 6</title>
       <link>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</link>
-      <pubDate>Thu, 31 Dec 2015 00:00:00 -0800</pubDate>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20151231-for-real-upgrade-babel-5-to-6/</guid>
       <description>Because it&amp;rsquo;s changed since October There have been a bunch of guides on upgrading to babel 5.
@@ -46,38 +46,37 @@ Skip babel-core and babel-loader. User babel-register. Due to some complaints ab
     <item>
       <title>Ember.Data Model Issues</title>
       <link>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
       <description>I was working with some older Ember.Data code, and I came across a model like this:
-App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+App.MyFancyModel = DS.Model.extend({  isSelected: false,  isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
 aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
     </item>
     
     <item>
       <title>Ember.Data Promise-Aware Properties (Cheaters Edition)</title>
       <link>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
       <description>I have models like this:
-Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+Models App.Child = DS.Model.extend({  parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) });  App.Parent = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) });  App.Nursery = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
 ###Controller
-App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
- uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
+App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {  return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq();  }.property(&amp;#39;children&amp;#39;),   somethingLikeReliesOnUniqueParents = function() {  ....  }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values.</description>
     </item>
     
     <item>
       <title>Stuff to mind when writing ES6 code</title>
       <link>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</link>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140701-stuff-to-mind-es6/</guid>
       <description>These are some good tips I picked up browsing the ember and ember.data commits. Nice if you&amp;rsquo;re looking for best practices in writing ES6 code.
 example: diverging bindings
 this is an issue when dealing with cycles.
 bad: (diverges bindings)
-import { foo } from &amp;#39;bar&amp;#39;; var otherFoo = foo; foo: (if the rename is actually needed) good:
+import { foo } from &amp;#39;bar&amp;#39;;  var otherFoo = foo; foo: (if the rename is actually needed) good:
 import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler dead code remove friendly:</description>
     </item>
     

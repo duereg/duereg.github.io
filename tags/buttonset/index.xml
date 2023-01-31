@@ -6,11 +6,11 @@
     <description>Recent content in buttonset on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/buttonset/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/buttonset/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alas, it was not to be</title>
       <link>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</link>
-      <pubDate>Fri, 14 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 14 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</guid>
       <description>My jQuery bug was already documented. :(</description>
@@ -19,7 +19,7 @@
     <item>
       <title>jQuery UI Bug - 1.8.16, buttonset() method</title>
       <link>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</link>
-      <pubDate>Thu, 06 Oct 2011 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 06 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</guid>
       <description>I love to find bugs in good software! Came across a little jQuery UI bug today. It&amp;rsquo;s for one browser, but it always excited to be able to create an easy-to-replicate bug. The bug is small - it deals with the buttonset() method.

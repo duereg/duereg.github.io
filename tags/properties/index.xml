@@ -6,18 +6,17 @@
     <description>Recent content in properties on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Jul 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/properties/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/properties/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ember.Data Promise-Aware Properties (Cheaters Edition)</title>
       <link>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</link>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
       <description>I have models like this:
-Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+Models App.Child = DS.Model.extend({  parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) });  App.Parent = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) });  App.Nursery = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
 ###Controller
-App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
- uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
+App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {  return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq();  }.property(&amp;#39;children&amp;#39;),   somethingLikeReliesOnUniqueParents = function() {  ....  }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values.</description>
     </item>
     
   </channel>

@@ -6,11 +6,11 @@
     <description>Recent content in Bootstrap on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Blog!</title>
       <link>https://blog.mattblair.co/blog/20140112-new-blog/</link>
-      <pubDate>Sun, 12 Jan 2014 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140112-new-blog/</guid>
       <description>I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left wordpress.
@@ -21,28 +21,28 @@ So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to h
     <item>
       <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
       <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
-      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
       <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
-&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt;  &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt;  &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt;  &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
       <title>Derby.js - Integrating Twitter Bootstrap into your Application</title>
       <link>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</link>
-      <pubDate>Sat, 18 Aug 2012 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
       <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
 Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
-{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
+ { .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
     
     <item>
       <title>Why use Twitter Bootstrap?</title>
       <link>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</link>
-      <pubDate>Fri, 04 May 2012 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</guid>
       <description>I&amp;rsquo;m a fan of Twitter Bootstrap, the simple and flexible CSS, HTML, and JavaScript user interface framework.

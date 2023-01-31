@@ -6,11 +6,11 @@
     <description>Recent content in JSX on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/jsx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/jsx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>express-coffee-react-views</title>
       <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
-      <pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
       <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
@@ -22,7 +22,7 @@ Usage npm install express-coffee-react-views react Note: You must explicitly ins
     <item>
       <title>React and the annoyances of JSX</title>
       <link>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</link>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</guid>
       <description>I&amp;rsquo;ve been writing a bunch of React code and a heap of JSX at work.
