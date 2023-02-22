@@ -6,7 +6,18 @@
     <description>Recent content in Project on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Jan 2023 15:30:12 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Promoting Technical Excellence in your Organization</title>
+      <link>https://blog.mattblair.co/blog/20230208-technical-excellence/</link>
+      <pubDate>Tue, 21 Feb 2023 17:31:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230208-technical-excellence/</guid>
+      <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
+These have lost momentum in the development and they are seeing 2 key problems:
+ The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
+    </item>
+    
     <item>
       <title>Mentorship Proposal</title>
       <link>https://blog.mattblair.co/blog/20221212-tech-team-expanded/</link>
