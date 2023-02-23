@@ -6,7 +6,18 @@
     <description>Recent content in Technical Excellence on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Feb 2023 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/technical-excellence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/technical-excellence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Which stacks are the easiest to switch between?</title>
+      <link>https://blog.mattblair.co/blog/20230222-changing-stacks/</link>
+      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230222-changing-stacks/</guid>
+      <description>Another question posed by a friend of mine:
+ Which stacks do you think are easiest to move between and which ones are the hardest?
+ Experience in the tech stack you&amp;rsquo;re going to be working in is valuable — though not specifically required in most Software Engineering roles. A good engineer can ramp up. Someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.</description>
+    </item>
+    
     <item>
       <title>Promoting Technical Excellence in your Organization</title>
       <link>https://blog.mattblair.co/blog/20230208-technical-excellence/</link>
