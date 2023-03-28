@@ -6,16 +6,25 @@
     <description>Recent content in Engineering Management on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Feb 2023 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/engineering-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/engineering-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Which stacks are the easiest to switch between?</title>
-      <link>https://blog.mattblair.co/blog/20230222-changing-stacks/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <title>Improving Software Quality</title>
+      <link>https://blog.mattblair.co/blog/20230327-code-quality/</link>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
       
-      <guid>https://blog.mattblair.co/blog/20230222-changing-stacks/</guid>
-      <description>Another question posed by a friend of mine:
- Which stacks do you think are easiest to move between and which ones are the hardest?
- Experience in the tech stack you&amp;rsquo;re going to be working in is valuable — though not specifically required in most Software Engineering roles. A good engineer can ramp up. Someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.</description>
+      <guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid>
+      <description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
+Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description>
+    </item>
+    
+    <item>
+      <title>Moving between tech stacks</title>
+      <link>https://blog.mattblair.co/blog/20230302-changing-stacks/</link>
+      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230302-changing-stacks/</guid>
+      <description>When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.
+But which tech stacks are easier to move between, and which ones are the hardest?</description>
     </item>
     
     <item>

@@ -6,11 +6,20 @@
     <description>Recent content in Tags on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Feb 2023 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Quality</title>
+      <link>https://blog.mattblair.co/tags/code-quality/</link>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Engineering Management</title>
       <link>https://blog.mattblair.co/tags/engineering-management/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/tags/engineering-management/</guid>
       <description></description>
@@ -19,16 +28,34 @@
     <item>
       <title>Management</title>
       <link>https://blog.mattblair.co/tags/management/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/tags/management/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Quality</title>
+      <link>https://blog.mattblair.co/tags/quality/</link>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/tags/quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Debt</title>
+      <link>https://blog.mattblair.co/tags/tech-debt/</link>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/tags/tech-debt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Planning</title>
       <link>https://blog.mattblair.co/tags/planning/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/tags/planning/</guid>
       <description></description>
@@ -37,25 +64,16 @@
     <item>
       <title>Project</title>
       <link>https://blog.mattblair.co/tags/project/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tech Debt</title>
-      <link>https://blog.mattblair.co/tags/tech-debt/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/tags/tech-debt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Technical Excellence</title>
       <link>https://blog.mattblair.co/tags/technical-excellence/</link>
-      <pubDate>Wed, 22 Feb 2023 17:31:07 -0800</pubDate>
+      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/tags/technical-excellence/</guid>
       <description></description>

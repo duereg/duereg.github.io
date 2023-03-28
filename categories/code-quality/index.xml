@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Quality on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/categories/code-quality/</link>
+    <description>Recent content in Code Quality on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving Software Quality</title>
+      <link>https://blog.mattblair.co/blog/20230327-code-quality/</link>
+      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid>
+      <description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
+Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description>
+    </item>
+    
+  </channel>
+</rss>
