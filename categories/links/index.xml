@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>links on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/categories/links/</link>
+    <description>Recent content in links on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2023 12:53:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Articles for Engineering Managers</title>
+      <link>https://blog.mattblair.co/blog/20230201-link-dump/</link>
+      <pubDate>Wed, 01 Feb 2023 12:53:42 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230201-link-dump/</guid>
+      <description>Engineering Leadership Principles The article &amp;ldquo;Engineering Leadership Principles&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:
+ Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions  Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description>
+    </item>
+    
+  </channel>
+</rss>
