@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pointing on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/pointing/</link>
+    <description>Recent content in Pointing on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Nov 2020 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/pointing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Velocity in Development Teams</title>
+      <link>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</link>
+      <pubDate>Mon, 02 Nov 2020 17:31:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</guid>
+      <description>Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.
+It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other.</description>
+    </item>
+    
+  </channel>
+</rss>

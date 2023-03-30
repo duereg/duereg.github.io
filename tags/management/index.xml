@@ -215,6 +215,16 @@ One way to use this:
     </item>
     
     <item>
+      <title>Understanding Velocity in Development Teams</title>
+      <link>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</link>
+      <pubDate>Mon, 02 Nov 2020 17:31:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</guid>
+      <description>Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.
+It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other.</description>
+    </item>
+    
+    <item>
       <title>Measuring Backlog Health</title>
       <link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link>
       <pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate>
