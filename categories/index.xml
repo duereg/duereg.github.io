@@ -6,7 +6,61 @@
     <description>Recent content in Categories on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 03:10:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://blog.mattblair.co/categories/development/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://blog.mattblair.co/categories/learning/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://blog.mattblair.co/categories/management/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://blog.mattblair.co/categories/performance/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://blog.mattblair.co/categories/planning/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>https://blog.mattblair.co/categories/project/</link>
+      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/project/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Code Quality</title>
       <link>https://blog.mattblair.co/categories/code-quality/</link>
@@ -17,65 +71,11 @@
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://blog.mattblair.co/categories/development/</link>
-      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://blog.mattblair.co/categories/learning/</link>
-      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>management</title>
-      <link>https://blog.mattblair.co/categories/management/</link>
-      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Quality</title>
       <link>https://blog.mattblair.co/categories/quality/</link>
       <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/quality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Performance</title>
-      <link>https://blog.mattblair.co/categories/performance/</link>
-      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/performance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Planning</title>
-      <link>https://blog.mattblair.co/categories/planning/</link>
-      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project</title>
-      <link>https://blog.mattblair.co/categories/project/</link>
-      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/project/</guid>
       <description></description>
     </item>
     
