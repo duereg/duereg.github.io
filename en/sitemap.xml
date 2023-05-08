@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.mattblair.co/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -56,7 +56,7 @@
                 />
   </url><url>
     <loc>https://blog.mattblair.co/categories/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -108,44 +108,41 @@
                 href="https://blog.mattblair.co/categories/"
                 />
   </url><url>
-    <loc>https://blog.mattblair.co/blog/20230404-crunch-time/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
-  </url><url>
     <loc>https://blog.mattblair.co/categories/development/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/blog/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/engineering-management/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/learning/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/management/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/management/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/categories/performance/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/planning/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/planning/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/project/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/project/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</loc>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -198,9 +195,21 @@
                 />
   </url><url>
     <loc>https://blog.mattblair.co/tags/tech-debt/</loc>
-    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/tech-debt/</loc>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/technical-excellence/</loc>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/tags/technical-improvements/</loc>
+    <lastmod>2023-05-07T12:19:57-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20230404-crunch-time/</loc>
+    <lastmod>2023-04-04T03:10:07-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/categories/performance/</loc>
     <lastmod>2023-04-04T03:10:07-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/code-quality/</loc>

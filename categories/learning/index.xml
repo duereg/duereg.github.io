@@ -6,7 +6,17 @@
     <description>Recent content in learning on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Apr 2023 03:10:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 12:19:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strategic Approaches for Technical Improvement</title>
+      <link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link>
+      <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
+      <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
+ Engaging Senior ICs and EMs in Technical Strategy  To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
+    </item>
+    
     <item>
       <title>Crunch Time</title>
       <link>https://blog.mattblair.co/blog/20230404-crunch-time/</link>
