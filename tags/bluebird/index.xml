@@ -15,7 +15,7 @@
       <guid>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</guid>
       <description>The folks at npmawesome wrote a blog post about the Songbird library I wrote.
 Songbird is a library that mixes in promise helpers in the Function and Object prototypes on JavaScript. This is a technique that not everybody loves, and I think the author made a great observation about Songbird (and this technique in general).
- While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility.</description>
+While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility.</description>
     </item>
     
   </channel>

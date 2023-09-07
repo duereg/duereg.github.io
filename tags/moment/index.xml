@@ -25,7 +25,7 @@
       <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
 Why is 100 microseconds a big deal?
 If you&amp;rsquo;re processing:
- 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
+100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay. By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
     </item>
     
   </channel>

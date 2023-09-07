@@ -14,7 +14,7 @@
       
       <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
       <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
- Engaging Senior ICs and EMs in Technical Strategy  To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
+Engaging Senior ICs and EMs in Technical Strategy To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ But which tech stacks are easier to move between, and which ones are the hardest
       <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
       <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
 These have lost momentum in the development and they are seeing 2 key problems:
- The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
+The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ These have lost momentum in the development and they are seeing 2 key problems:
       
       <guid>https://blog.mattblair.co/blog/20230201-link-dump/</guid>
       <description>Engineering Leadership Principles The article &amp;ldquo;Engineering Leadership Principles&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:
- Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions  Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description>
+Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description>
     </item>
     
     <item>
@@ -96,7 +96,7 @@ Technical State of the Team There’s a saying that people don’t leave compani
       
       <guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid>
       <description>All the previous project planning articles summarized into a checklist.
-Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out  Beginning to Plan  Identify the rough scope of the work Identify the milestones of the project  Project Kickoff  High-Level Timelines  Call out timelines you haven’t figured out yet, and when you will figure them out   Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams  Lay out the requirements for what you need from others to be successful   Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete  Overall Technical Design  An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  Breaking Down the Project into Milestones  Are the milestones clear on what they’re delivering?</description>
+Project Planning Checklist Pre-Planning Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out Beginning to Plan Identify the rough scope of the work Identify the milestones of the project Project Kickoff High-Level Timelines Call out timelines you haven’t figured out yet, and when you will figure them out Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams Lay out the requirements for what you need from others to be successful Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete Overall Technical Design An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project Breaking Down the Project into Milestones Are the milestones clear on what they’re delivering?</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the
       <description>Note: This is a series of project planning talks I gave my team.
 Running your project Writing A Technical Design Document At this point, you’re ready to start designing your system.
 A good technical design document should contain:
- An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
+An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
     </item>
     
     <item>
@@ -152,7 +152,7 @@ When to plan a project What is a project plan? Project planning is the process o
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -164,7 +164,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -176,7 +176,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -231,7 +231,7 @@ Some backstory; we were trying to load test a component and ended up getting the
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
       <description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
- Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
+Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love. If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
     
     <item>
@@ -252,7 +252,7 @@ It&amp;rsquo;s crucial to understand that each team defines what a point means f
       <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
       <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
 Small, well groomed backlog
- Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
+Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
     </item>
     
   </channel>

@@ -35,7 +35,7 @@ But which tech stacks are easier to move between, and which ones are the hardest
       <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
       <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
 These have lost momentum in the development and they are seeing 2 key problems:
- The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
+The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Technical State of the Team There’s a saying that people don’t leave compani
       
       <guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid>
       <description>All the previous project planning articles summarized into a checklist.
-Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out  Beginning to Plan  Identify the rough scope of the work Identify the milestones of the project  Project Kickoff  High-Level Timelines  Call out timelines you haven’t figured out yet, and when you will figure them out   Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams  Lay out the requirements for what you need from others to be successful   Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete  Overall Technical Design  An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  Breaking Down the Project into Milestones  Are the milestones clear on what they’re delivering?</description>
+Project Planning Checklist Pre-Planning Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out Beginning to Plan Identify the rough scope of the work Identify the milestones of the project Project Kickoff High-Level Timelines Call out timelines you haven’t figured out yet, and when you will figure them out Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams Lay out the requirements for what you need from others to be successful Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete Overall Technical Design An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project Breaking Down the Project into Milestones Are the milestones clear on what they’re delivering?</description>
     </item>
     
     <item>
@@ -78,7 +78,7 @@ Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the
       <description>Note: This is a series of project planning talks I gave my team.
 Running your project Writing A Technical Design Document At this point, you’re ready to start designing your system.
 A good technical design document should contain:
- An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
+An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
     </item>
     
     <item>
@@ -122,7 +122,7 @@ When to plan a project What is a project plan? Project planning is the process o
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -146,7 +146,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -158,7 +158,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
   </channel>

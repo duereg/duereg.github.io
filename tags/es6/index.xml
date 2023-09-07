@@ -50,7 +50,7 @@ Skip babel-core and babel-loader. User babel-register. Due to some complaints ab
       
       <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
       <description>I was working with some older Ember.Data code, and I came across a model like this:
-App.MyFancyModel = DS.Model.extend({  isSelected: false,  isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
 aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
     </item>
     
@@ -61,9 +61,10 @@ aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&
       
       <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
       <description>I have models like this:
-Models App.Child = DS.Model.extend({  parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) });  App.Parent = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) });  App.Nursery = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
 ###Controller
-App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {  return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq();  }.property(&amp;#39;children&amp;#39;),   somethingLikeReliesOnUniqueParents = function() {  ....  }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values.</description>
+App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
+uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
     </item>
     
     <item>
@@ -76,7 +77,7 @@ App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {
 example: diverging bindings
 this is an issue when dealing with cycles.
 bad: (diverges bindings)
-import { foo } from &amp;#39;bar&amp;#39;;  var otherFoo = foo; foo: (if the rename is actually needed) good:
+import { foo } from &amp;#39;bar&amp;#39;; var otherFoo = foo; foo: (if the rename is actually needed) good:
 import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler dead code remove friendly:</description>
     </item>
     

@@ -14,7 +14,7 @@
       
       <guid>https://blog.mattblair.co/blog/20150216-git-rebasing-without-rebasing/</guid>
       <description>Or rebasing without rebasing Where I work, we use git (like everyone else), and we follow this common pattern for development:
- Create a feature branch off of master Work on your feature in the branch When getting ready to submit a Pull Request, squash your commits Rebase master against your branch Open PR Get feedback After feedback corrected (if present), merge branch into master  Pretty standard practice. 99% of the time, this is a frictionless process.</description>
+Create a feature branch off of master Work on your feature in the branch When getting ready to submit a Pull Request, squash your commits Rebase master against your branch Open PR Get feedback After feedback corrected (if present), merge branch into master Pretty standard practice. 99% of the time, this is a frictionless process.</description>
     </item>
     
   </channel>

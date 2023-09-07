@@ -16,7 +16,7 @@
       <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
 We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
 We&amp;rsquo;ve found three results:
-  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
+Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
     </item>
     
   </channel>

@@ -14,8 +14,8 @@
       
       <guid>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</guid>
       <description>EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. Link to issue
- I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from HTML Living Standard Doc
- The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces.</description>
+I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from HTML Living Standard Doc
+The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces.</description>
     </item>
     
   </channel>

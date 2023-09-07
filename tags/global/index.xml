@@ -26,7 +26,7 @@ Step 1 - package.json If you&amp;rsquo;re not already using it, the engines fiel
       <description>Was looking at some decompiled code from ES6 the other day, when I saw a line that looked like this:
 var x = (0, anObject.aFunc)(params); WTF? I had never seen syntax like this before in JavaScript. Time to dig into the docs.
 Paraphrasing from Mozilla and StackOverflow:
- When you write expressions separated by a comma (,) JavaScript evaluates all the expressions in order and returns the value of the last expression.</description>
+When you write expressions separated by a comma (,) JavaScript evaluates all the expressions in order and returns the value of the last expression.</description>
     </item>
     
   </channel>

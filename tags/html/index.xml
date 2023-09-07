@@ -63,7 +63,7 @@ React (coupled with Flux) has been a joy to work with. The uni-directional data 
       
       <guid>https://blog.mattblair.co/blog/20140708-ember-data-model-issue-boolean/</guid>
       <description>I was working with some older Ember.Data code, and I came across a model like this:
-App.MyFancyModel = DS.Model.extend({  isSelected: false,  isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
+App.MyFancyModel = DS.Model.extend({ isSelected: false, isSomethingElse: DS.attr(&amp;#39;boolean&amp;#39;, {defaultValue: false}) }); I thought this code was a bit strange, and then went and played with it a bit:
 aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSelected&amp;#39;, true); aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns true aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns false aFancyModel.set(&amp;#39;isSomethingElse&amp;#39;, true); aFancyModel.get(&amp;#39;isSomethingElse&amp;#39;); //returns true I got identical behavior from the two properties. Then, I tried this:</description>
     </item>
     
@@ -74,9 +74,10 @@ aFancyModel.get(&amp;#39;isSelected&amp;#39;); //returns false aFancyModel.set(&
       
       <guid>https://blog.mattblair.co/blog/20140711-ember-data-promise-aware-properties/</guid>
       <description>I have models like this:
-Models App.Child = DS.Model.extend({  parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) });  App.Parent = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) });  App.Nursery = DS.Model.extend({  children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
+Models App.Child = DS.Model.extend({ parent: DS.belongsTo(&amp;#39;parent&amp;#39;, {async: true}) }); App.Parent = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;, {async: true}) }); App.Nursery = DS.Model.extend({ children: DS.hasMany(&amp;#39;child&amp;#39;) }); Then a controller like this:
 ###Controller
-App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {  return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq();  }.property(&amp;#39;children&amp;#39;),   somethingLikeReliesOnUniqueParents = function() {  ....  }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values.</description>
+App.NurseryController = Ember.Controller.extend({ uniqueParents = function() { return this.get(&amp;#39;children&amp;#39;).mapBy(&amp;#39;parent&amp;#39;).uniq(); }.property(&amp;#39;children&amp;#39;), somethingLikeReliesOnUniqueParents = function() { .... }.property(&amp;#39;uniqueParents&amp;#39;) } The Problem The property somethingLikeReliesOnUniqueParents was never getting unique values. I found two problems here:
+uniq() couldn&amp;rsquo;t figure out uniqueness - much like the problems with filter.</description>
     </item>
     
     <item>
@@ -89,7 +90,7 @@ App.NurseryController = Ember.Controller.extend({   uniqueParents = function() {
 example: diverging bindings
 this is an issue when dealing with cycles.
 bad: (diverges bindings)
-import { foo } from &amp;#39;bar&amp;#39;;  var otherFoo = foo; foo: (if the rename is actually needed) good:
+import { foo } from &amp;#39;bar&amp;#39;; var otherFoo = foo; foo: (if the rename is actually needed) good:
 import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler dead code remove friendly:</description>
     </item>
     
@@ -101,7 +102,7 @@ import { foo as otherFoo } from &amp;#39;bar&amp;#39;; example: closure compiler
       <guid>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</guid>
       <description>The folks at npmawesome wrote a blog post about the Songbird library I wrote.
 Songbird is a library that mixes in promise helpers in the Function and Object prototypes on JavaScript. This is a technique that not everybody loves, and I think the author made a great observation about Songbird (and this technique in general).
- While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility.</description>
+While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility.</description>
     </item>
     
     <item>
@@ -126,10 +127,10 @@ npm install -g duereg/write-gooder</description>
       
       <guid>https://blog.mattblair.co/blog/20140605-ember-model-isdirty-or-not/</guid>
       <description>In Ember, if you have models like this:
- var Tag = DS.Model.extend({  name: DS.attr(&amp;#39;string&amp;#39;),  person: DS.belongsTo(&amp;#39;person&amp;#39;)  });   var Person = DS.Model.extend({  name: DS.attr(&amp;#39;string&amp;#39;),  tags: DS.hasMany(&amp;#39;tag&amp;#39;)  }); Then did something like this:
-var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1);  tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag1.get(&amp;#39;name&amp;#39;); //return null tag1.set(&amp;#39;name&amp;#39;, &amp;#39;foo&amp;#39;); tag1.get(&amp;#39;isDirty&amp;#39;); //returns true That would be the obvious outcome, right?
+var Tag = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), person: DS.belongsTo(&amp;#39;person&amp;#39;) }); var Person = DS.Model.extend({ name: DS.attr(&amp;#39;string&amp;#39;), tags: DS.hasMany(&amp;#39;tag&amp;#39;) }); Then did something like this:
+var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag1.get(&amp;#39;name&amp;#39;); //return null tag1.set(&amp;#39;name&amp;#39;, &amp;#39;foo&amp;#39;); tag1.get(&amp;#39;isDirty&amp;#39;); //returns true That would be the obvious outcome, right?
 However, if you do this:
-var tag1 = this.</description>
+var tag1 = this.store.find(&amp;#39;tag&amp;#39;, 1); var thatGuy = this.store.find(&amp;#39;person&amp;#39;, 1); tag1.get(&amp;#39;isDirty&amp;#39;); //returns false tag.</description>
     </item>
     
     <item>
@@ -160,8 +161,8 @@ Now only if they&amp;rsquo;d release version 1.0 &amp;hellip;</description>
       
       <guid>https://blog.mattblair.co/blog/20140429-ember-filterby-fun/</guid>
       <description>If you happen to be writing filterBy statements in Ember against an object, you will want to use this syntax:
- skusForStyle: function(style) {  return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style.id&amp;#39;, style.get(&amp;#39;id&amp;#39;));  } Instead of this similar looking but exceptionally evil and non-functioning cousin:
- skusForStyle: function(style) {  return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style&amp;#39;, style);  } </description>
+skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style.id&amp;#39;, style.get(&amp;#39;id&amp;#39;)); } Instead of this similar looking but exceptionally evil and non-functioning cousin:
+skusForStyle: function(style) { return this.get(&amp;#39;mergedSkus&amp;#39;).filterBy(&amp;#39;style&amp;#39;, style); } </description>
     </item>
     
     <item>
@@ -172,7 +173,7 @@ Now only if they&amp;rsquo;d release version 1.0 &amp;hellip;</description>
       <guid>https://blog.mattblair.co/blog/20140410-ember-test-teardown-errors/</guid>
       <description>Cannot read property &amp;lsquo;addObject&amp;rsquo; of null If you see the following error in Ember.Data 1.0.0-beta.7:
 Cannot read property &amp;#39;addObject&amp;#39; of null TypeError: Cannot read property &amp;#39;addObject&amp;#39; of null at Ember.ArrayProxy.extend.addRecord at Ember.Object.extend.updateRecordArray at null.&amp;lt;anonymous&amp;gt; I found this had to do with Test teardown. A monkey patch that solves the issue:
-DS.RecordArray.reopen({  addRecord: function(record) {  var thing = Ember.get(this, &amp;#39;content&amp;#39;);   if(thing) {  this._super(record);  }  } }); </description>
+DS.RecordArray.reopen({ addRecord: function(record) { var thing = Ember.get(this, &amp;#39;content&amp;#39;); if(thing) { this._super(record); } } }); </description>
     </item>
     
     <item>
@@ -184,7 +185,7 @@ DS.RecordArray.reopen({  addRecord: function(record) {  var thing = Ember.get(th
       <description>The content property of DS.PromiseArray should be set before modifying it If you see the following error in Ember.Data 1.0.0-beta.7:
 The content property of DS.PromiseArray should be set before modifying it
 The issue is with changing the contents of an async field.
-//program.js Program = DS.Model.extend({  styles: DS.hasMany(&amp;#39;style&amp;#39;, {async: true}), });  Style = DS.Model.extend({}); and then used like so:
+//program.js Program = DS.Model.extend({ styles: DS.hasMany(&amp;#39;style&amp;#39;, {async: true}), }); Style = DS.Model.extend({}); and then used like so:
 program.get(&amp;#39;styles&amp;#39;).pushObject(style); That code will throw the exception listed above. To work around this behavior, do the following:</description>
     </item>
     
@@ -199,7 +200,7 @@ This article will concentrate on their Observable Models in comparison with how 
 TANGENT
 Ember.js and Knockout are great contrasts in the library vs framework debate in JS development.
 Ember is
- A framework for creating ambitious web applications.</description>
+A framework for creating ambitious web applications.</description>
     </item>
     
     <item>
@@ -233,7 +234,7 @@ Either way, enter laboratory. A simple framework that allows random selection or
       <description>At work we&amp;rsquo;ve been having some issues tracking down some nasty client side bugs. We know they&amp;rsquo;re happening in our Backbone views, but we&amp;rsquo;ve been unable to locate them with any accuracy due to the errors bubbling all the way to the window.onerror handler.
 Enter Stackbone. A simple bit of code to instrument Backbone’s event loops to better locate client side errors.
 To use:
-Stackbone.start({  Backbone: Backbone  jQuery: jQuery  onError: function (err) {  // .</description>
+Stackbone.start({ Backbone: Backbone jQuery: jQuery onError: function (err) { // .</description>
     </item>
     
     <item>
@@ -269,7 +270,7 @@ The lambdas are probably my biggest love - how can you not love them, in compari
       
       <guid>https://blog.mattblair.co/blog/20130303-docco-fork-all-js-all-the-time/</guid>
       <description>EDIT: My fork is no longer needed. The folks at docco saw the same thing and recently ported over the library to use highlight.js.
- I love documentation generators for code. You know what I&amp;rsquo;ve talking about to - something which gives you a split screen of the code and the comments, side by side, for easy reading and scrolling. Like jasmine uses for their documentation:
+I love documentation generators for code. You know what I&amp;rsquo;ve talking about to - something which gives you a split screen of the code and the comments, side by side, for easy reading and scrolling. Like jasmine uses for their documentation:
 Since I&amp;rsquo;ve mostly been working in JavaScript lately I&amp;rsquo;ve been looking for something to help document the packages I create easily.</description>
     </item>
     
@@ -290,7 +291,7 @@ It&amp;rsquo;s still in its early stages but please check out the progress I&amp
       
       <guid>https://blog.mattblair.co/blog/20130115-net-gotcha-private-classes-with-access-to-containing-classess-protected-variables-or-not/</guid>
       <description>A friend and I were working on some code together when we found an interesting edge case in .Net that neither of us knew about. This is what we knew: if you have a class with a protected field in it, if you declare a private class inside of that class, the private class can access the protected variable. The example below shows what this looks like.
- public class ParentClassWithProtectedField {  protected readonly int protectedField;  private class PrivateClassInParentClass {  public void Method(ParentClassWithProtectedField parent) {  Console.</description>
+public class ParentClassWithProtectedField { protected readonly int protectedField; private class PrivateClassInParentClass { public void Method(ParentClassWithProtectedField parent) { Console.</description>
     </item>
     
     <item>
@@ -300,9 +301,9 @@ It&amp;rsquo;s still in its early stages but please check out the progress I&amp
       
       <guid>https://blog.mattblair.co/blog/20121204-portfolio-spotlight-on-pathbrite-cool/</guid>
       <description>I&amp;rsquo;ve recently created a portfolio on Pathbrite. If you haven&amp;rsquo;t heard of Pathbrite, they are a company aiming to:
- Collect, organize and share a lifetime of learning and achievement.
- I think this section of their mission statement sums up how they are relevant to working professionals.
- &amp;hellip; employers rely on our Pathbrite Portfolio Platform to get a holistic view of candidates, and to better evaluate their readiness for and organizational fit to the opportunity at hand.</description>
+Collect, organize and share a lifetime of learning and achievement.
+I think this section of their mission statement sums up how they are relevant to working professionals.
+&amp;hellip; employers rely on our Pathbrite Portfolio Platform to get a holistic view of candidates, and to better evaluate their readiness for and organizational fit to the opportunity at hand.</description>
     </item>
     
     <item>
@@ -341,9 +342,9 @@ This has been included in the official list of Sublime Plugins. So you can insta
       
       <guid>https://blog.mattblair.co/blog/20121030-free-collection-of-microsoft-e-books/</guid>
       <description>If you&amp;rsquo;re a Microsoft Dev, want to learn a bit more about the following products:
- SharePoint 2010 Sql Server 2012 Visual Studio 2010 Windows 8 Windows Phone 7 Office 365 Office 2010 ASP.NET 4.5 Web Forms ASP.NET MVC 4 Microsoft Dynamics CRM 2011 (God Rest Your Soul)  Microsoft has released a bunch of free e-books about these technologies (and more).
+SharePoint 2010 Sql Server 2012 Visual Studio 2010 Windows 8 Windows Phone 7 Office 365 Office 2010 ASP.NET 4.5 Web Forms ASP.NET MVC 4 Microsoft Dynamics CRM 2011 (God Rest Your Soul) Microsoft has released a bunch of free e-books about these technologies (and more).
 The links to the e-books:
- Microsoft Free E-Books - Page 1 Microsoft Free E-Books - Page 2  </description>
+Microsoft Free E-Books - Page 1 Microsoft Free E-Books - Page 2 </description>
     </item>
     
     <item>
@@ -392,8 +393,8 @@ Why is this so useful? In some linked list problems you need to know the positio
       <guid>https://blog.mattblair.co/blog/20120906-setting-up-mongodb-to-work-with-derby-js/</guid>
       <description>This post is going to cover installing and configuring MongoDB to use with Derby. If you&amp;rsquo;re reading this post looking to add model persistence to your Derby application but don&amp;rsquo;t know much about MongoDB, understanding MongoDB will help you understand Derby and the model system it uses.
 What&amp;rsquo;s MongoDB? From their website:
- MongoDB (from &amp;ldquo;humongous&amp;rdquo;) is a scalable, high-performance, open source NoSQL database.
- If you&amp;rsquo;ve never used MongoDB before, you should immediately go here.</description>
+MongoDB (from &amp;ldquo;humongous&amp;rdquo;) is a scalable, high-performance, open source NoSQL database.
+If you&amp;rsquo;ve never used MongoDB before, you should immediately go here.</description>
     </item>
     
     <item>
@@ -403,8 +404,8 @@ What&amp;rsquo;s MongoDB? From their website:
       
       <guid>https://blog.mattblair.co/blog/20120905-javascript-strings-using-array-accessor-to-set-characters/</guid>
       <description>I&amp;rsquo;ve been learning quite a bit about JavaScript in writing algorithms from Cracking the Coding Interview. I learned something new about strings in JavaScript and how they can be accessed. From MDN:
- Character access There are two ways to access an individual character in a string. The first is the charAt method:
-  return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
+Character access There are two ways to access an individual character in a string. The first is the charAt method:
+return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
     </item>
     
     <item>
@@ -436,7 +437,7 @@ The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary t
       
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
       <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
-&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt;  &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt;  &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt;  &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
@@ -458,7 +459,7 @@ The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job.
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
       <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
 Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
- { .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
+{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
     
     <item>
@@ -487,8 +488,8 @@ I&amp;rsquo;m creating a test application to help me learn derby here. In the pr
       
       <guid>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</guid>
       <description>EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. Link to issue
- I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from HTML Living Standard Doc
- The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces.</description>
+I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from HTML Living Standard Doc
+The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces.</description>
     </item>
     
     <item>
@@ -521,8 +522,8 @@ Generate the starter app At first, I wanted to just hack away some of the existi
       <guid>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</guid>
       <description>I&amp;rsquo;m a fan of Twitter Bootstrap, the simple and flexible CSS, HTML, and JavaScript user interface framework.
 What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:
- Cross-Platform Support  IE 7 to IPhone and everything else (sorry IE6)
-12-Column Grid  A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.</description>
+Cross-Platform Support IE 7 to IPhone and everything else (sorry IE6)
+12-Column Grid A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.</description>
     </item>
     
     <item>

@@ -14,7 +14,7 @@
       
       <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
       <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
- Engaging Senior ICs and EMs in Technical Strategy  To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
+Engaging Senior ICs and EMs in Technical Strategy To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ But which tech stacks are easier to move between, and which ones are the hardest
       <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
       <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
 These have lost momentum in the development and they are seeing 2 key problems:
- The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
+The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
     </item>
     
   </channel>

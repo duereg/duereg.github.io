@@ -16,7 +16,7 @@
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ References:
       <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ Long Version: We&amp;rsquo;ve been load testing various aspects of search to pin
       <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
 Why is 100 microseconds a big deal?
 If you&amp;rsquo;re processing:
- 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
+100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay. By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ All of all, the memory consumption of our application is now averaging around 15
       <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
 We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
 We&amp;rsquo;ve found three results:
-  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
+Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
     </item>
     
   </channel>

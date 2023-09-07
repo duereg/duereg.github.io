@@ -15,7 +15,7 @@
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
       <description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
- Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
+Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love. If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
     
     <item>
@@ -45,9 +45,10 @@ These small encounters gave you a chance to make sure your team was running effi
       <pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid>
-      <description>What is a Project Kickoff?  What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
- Taken from the Atlassian Project Kickoff reference.
-Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description>
+      <description>What is a Project Kickoff? What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
+Taken from the Atlassian Project Kickoff reference.
+Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.
+It&amp;rsquo;s a celebration of where you&amp;rsquo;re going as a group.</description>
     </item>
     
     <item>
@@ -58,7 +59,7 @@ Why a Project Kickoff? A project kickoff sets a clear outline of project goals a
       <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
       <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
 Small, well groomed backlog
- Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
+Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
     </item>
     
     <item>
@@ -93,7 +94,7 @@ If you&amp;rsquo;re a manager, you&amp;rsquo;re going to have to figure out a wa
       <pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid>
-      <description>More Shared Knowledge on Projects  Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s  Ideally break work into small pieces though   Do team share of projects for tech projects, share knowledge Team Collab!</description>
+      <description>More Shared Knowledge on Projects Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s Ideally break work into small pieces though Do team share of projects for tech projects, share knowledge Team Collab! Metrics/Monitoring/Data Implement monitoring and error visibility to make it easier to debug problems down the road.</description>
     </item>
     
     <item>
@@ -123,7 +124,7 @@ Research-focused engineering management conference.</description>
 https://www.harrisonmetal.com/classes/foundations-general-management
 The course is designed to help new managers develop foundational skills in management and leadership.
 The course covers several key topics, including:
- Understanding the role of a manager and developing a management philosophy Building effective teams and managing team dynamics Developing and executing strategy Managing operations and projects Building and managing relationships with stakeholders Leading change and managing transitions  The course is divided into several modules, with each module covering a specific topic.</description>
+Understanding the role of a manager and developing a management philosophy Building effective teams and managing team dynamics Developing and executing strategy Managing operations and projects Building and managing relationships with stakeholders Leading change and managing transitions The course is divided into several modules, with each module covering a specific topic.</description>
     </item>
     
   </channel>

@@ -14,7 +14,7 @@
       
       <guid>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</guid>
       <description>Is there anything better in life than finding a better way to do something? An easier commute, a better night&amp;rsquo;s sleep, a tastier cake recipe? In starting the Nike+ importer for www.runningahead.com, I knew I was going to have to deal with a bit of XML. Which used to mean XPath. Not so much anymore. LINQ to XML, you rock my world. It turns XML like this&amp;hellip;
- &amp;lt;extendedDataList&amp;gt;  &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt;  0.</description>
+&amp;lt;extendedDataList&amp;gt; &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt; 0.</description>
     </item>
     
   </channel>

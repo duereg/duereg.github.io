@@ -25,7 +25,7 @@
       <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
 Why is 100 microseconds a big deal?
 If you&amp;rsquo;re processing:
- 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
+100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay. By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ All of all, the memory consumption of our application is now averaging around 15
       <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
 We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
 We&amp;rsquo;ve found three results:
-  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
+Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
     </item>
     
     <item>
@@ -92,7 +92,7 @@ Usage npm install express-coffee-react-views react Note: You must explicitly ins
       
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
       <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
-&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt;  &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt;  &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt;  &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@ Usage npm install express-coffee-react-views react Note: You must explicitly ins
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
       <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
 Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
- { .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
+{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
     
     <item>

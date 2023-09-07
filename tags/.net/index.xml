@@ -16,7 +16,7 @@
       <description>At work we&amp;rsquo;ve been having some issues tracking down some nasty client side bugs. We know they&amp;rsquo;re happening in our Backbone views, but we&amp;rsquo;ve been unable to locate them with any accuracy due to the errors bubbling all the way to the window.onerror handler.
 Enter Stackbone. A simple bit of code to instrument Backbone’s event loops to better locate client side errors.
 To use:
-Stackbone.start({  Backbone: Backbone  jQuery: jQuery  onError: function (err) {  // .</description>
+Stackbone.start({ Backbone: Backbone jQuery: jQuery onError: function (err) { // .</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ The lambdas are probably my biggest love - how can you not love them, in compari
       
       <guid>https://blog.mattblair.co/blog/20130303-docco-fork-all-js-all-the-time/</guid>
       <description>EDIT: My fork is no longer needed. The folks at docco saw the same thing and recently ported over the library to use highlight.js.
- I love documentation generators for code. You know what I&amp;rsquo;ve talking about to - something which gives you a split screen of the code and the comments, side by side, for easy reading and scrolling. Like jasmine uses for their documentation:
+I love documentation generators for code. You know what I&amp;rsquo;ve talking about to - something which gives you a split screen of the code and the comments, side by side, for easy reading and scrolling. Like jasmine uses for their documentation:
 Since I&amp;rsquo;ve mostly been working in JavaScript lately I&amp;rsquo;ve been looking for something to help document the packages I create easily.</description>
     </item>
     
@@ -73,7 +73,7 @@ It&amp;rsquo;s still in its early stages but please check out the progress I&amp
       
       <guid>https://blog.mattblair.co/blog/20130115-net-gotcha-private-classes-with-access-to-containing-classess-protected-variables-or-not/</guid>
       <description>A friend and I were working on some code together when we found an interesting edge case in .Net that neither of us knew about. This is what we knew: if you have a class with a protected field in it, if you declare a private class inside of that class, the private class can access the protected variable. The example below shows what this looks like.
- public class ParentClassWithProtectedField {  protected readonly int protectedField;  private class PrivateClassInParentClass {  public void Method(ParentClassWithProtectedField parent) {  Console.</description>
+public class ParentClassWithProtectedField { protected readonly int protectedField; private class PrivateClassInParentClass { public void Method(ParentClassWithProtectedField parent) { Console.</description>
     </item>
     
     <item>
@@ -83,9 +83,9 @@ It&amp;rsquo;s still in its early stages but please check out the progress I&amp
       
       <guid>https://blog.mattblair.co/blog/20121204-portfolio-spotlight-on-pathbrite-cool/</guid>
       <description>I&amp;rsquo;ve recently created a portfolio on Pathbrite. If you haven&amp;rsquo;t heard of Pathbrite, they are a company aiming to:
- Collect, organize and share a lifetime of learning and achievement.
- I think this section of their mission statement sums up how they are relevant to working professionals.
- &amp;hellip; employers rely on our Pathbrite Portfolio Platform to get a holistic view of candidates, and to better evaluate their readiness for and organizational fit to the opportunity at hand.</description>
+Collect, organize and share a lifetime of learning and achievement.
+I think this section of their mission statement sums up how they are relevant to working professionals.
+&amp;hellip; employers rely on our Pathbrite Portfolio Platform to get a holistic view of candidates, and to better evaluate their readiness for and organizational fit to the opportunity at hand.</description>
     </item>
     
     <item>
@@ -124,9 +124,9 @@ This has been included in the official list of Sublime Plugins. So you can insta
       
       <guid>https://blog.mattblair.co/blog/20121030-free-collection-of-microsoft-e-books/</guid>
       <description>If you&amp;rsquo;re a Microsoft Dev, want to learn a bit more about the following products:
- SharePoint 2010 Sql Server 2012 Visual Studio 2010 Windows 8 Windows Phone 7 Office 365 Office 2010 ASP.NET 4.5 Web Forms ASP.NET MVC 4 Microsoft Dynamics CRM 2011 (God Rest Your Soul)  Microsoft has released a bunch of free e-books about these technologies (and more).
+SharePoint 2010 Sql Server 2012 Visual Studio 2010 Windows 8 Windows Phone 7 Office 365 Office 2010 ASP.NET 4.5 Web Forms ASP.NET MVC 4 Microsoft Dynamics CRM 2011 (God Rest Your Soul) Microsoft has released a bunch of free e-books about these technologies (and more).
 The links to the e-books:
- Microsoft Free E-Books - Page 1 Microsoft Free E-Books - Page 2  </description>
+Microsoft Free E-Books - Page 1 Microsoft Free E-Books - Page 2 </description>
     </item>
     
     <item>
@@ -166,8 +166,8 @@ Why is this so useful? In some linked list problems you need to know the positio
       <guid>https://blog.mattblair.co/blog/20120906-setting-up-mongodb-to-work-with-derby-js/</guid>
       <description>This post is going to cover installing and configuring MongoDB to use with Derby. If you&amp;rsquo;re reading this post looking to add model persistence to your Derby application but don&amp;rsquo;t know much about MongoDB, understanding MongoDB will help you understand Derby and the model system it uses.
 What&amp;rsquo;s MongoDB? From their website:
- MongoDB (from &amp;ldquo;humongous&amp;rdquo;) is a scalable, high-performance, open source NoSQL database.
- If you&amp;rsquo;ve never used MongoDB before, you should immediately go here.</description>
+MongoDB (from &amp;ldquo;humongous&amp;rdquo;) is a scalable, high-performance, open source NoSQL database.
+If you&amp;rsquo;ve never used MongoDB before, you should immediately go here.</description>
     </item>
     
     <item>
@@ -177,8 +177,8 @@ What&amp;rsquo;s MongoDB? From their website:
       
       <guid>https://blog.mattblair.co/blog/20120905-javascript-strings-using-array-accessor-to-set-characters/</guid>
       <description>I&amp;rsquo;ve been learning quite a bit about JavaScript in writing algorithms from Cracking the Coding Interview. I learned something new about strings in JavaScript and how they can be accessed. From MDN:
- Character access There are two ways to access an individual character in a string. The first is the charAt method:
-  return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
+Character access There are two ways to access an individual character in a string. The first is the charAt method:
+return &amp;#39;cat&amp;#39;.charAt(1); // returns &amp;#34;a&amp;#34; The other way is to treat the string as an array-like object, where individual characters correspond to a numerical index:</description>
     </item>
     
     <item>
@@ -230,7 +230,7 @@ The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job.
       
       <guid>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</guid>
       <description>Had an issue at work where I wanted to store my rules and handlers for a class outside of the class definition, so I could better test the component. Found an easy way to add all your rules into StructureMap, and then retrieve those rules as a list via constructor injection.
-using System.Collections.Generic; using System.Linq; using System.Text; using StructureMap; using StructureMap.Configuration.DSL;  public class TravelRegistry : Registry {  public TravelRegistry()  {  For&amp;lt;ITransportHandler&amp;gt;().</description>
+using System.Collections.Generic; using System.Linq; using System.Text; using StructureMap; using StructureMap.Configuration.DSL; public class TravelRegistry : Registry { public TravelRegistry() { For&amp;lt;ITransportHandler&amp;gt;().</description>
     </item>
     
     <item>
@@ -240,7 +240,7 @@ using System.Collections.Generic; using System.Linq; using System.Text; using St
       
       <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
       <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
- Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have DisplayTemplates and EditorTemplates defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.
+Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have DisplayTemplates and EditorTemplates defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.
 However, if you then POST to a controller method that accepts an IEnumerable, you&amp;rsquo;ll get the error message:</description>
     </item>
     
@@ -293,7 +293,7 @@ I got a small test project up for this. It walks through everything but doesn&am
       
       <guid>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</guid>
       <description>Is there anything better in life than finding a better way to do something? An easier commute, a better night&amp;rsquo;s sleep, a tastier cake recipe? In starting the Nike+ importer for www.runningahead.com, I knew I was going to have to deal with a bit of XML. Which used to mean XPath. Not so much anymore. LINQ to XML, you rock my world. It turns XML like this&amp;hellip;
- &amp;lt;extendedDataList&amp;gt;  &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt;  0.</description>
+&amp;lt;extendedDataList&amp;gt; &amp;lt;extendedData dataType=&amp;#34;distance&amp;#34; intervalType=&amp;#34;time&amp;#34; intervalUnit=&amp;#34;s&amp;#34; intervalValue=&amp;#34;10&amp;#34;&amp;gt; 0.</description>
     </item>
     
     <item>

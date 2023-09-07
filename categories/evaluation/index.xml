@@ -15,7 +15,7 @@
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
       <description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
- Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
+Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love. If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@ One way to use this:
       <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
       <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
 Small, well groomed backlog
- Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
+Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
     </item>
     
   </channel>
