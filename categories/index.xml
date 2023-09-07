@@ -6,7 +6,43 @@
     <description>Recent content in Categories on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 May 2023 12:19:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAN</title>
+      <link>https://blog.mattblair.co/categories/can/</link>
+      <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/can/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://blog.mattblair.co/categories/management/</link>
+      <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SitRep</title>
+      <link>https://blog.mattblair.co/categories/sitrep/</link>
+      <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/sitrep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Debt</title>
+      <link>https://blog.mattblair.co/categories/tech-debt/</link>
+      <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/tech-debt/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>development</title>
       <link>https://blog.mattblair.co/categories/development/</link>
@@ -26,15 +62,6 @@
     </item>
     
     <item>
-      <title>management</title>
-      <link>https://blog.mattblair.co/categories/management/</link>
-      <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Planning</title>
       <link>https://blog.mattblair.co/categories/planning/</link>
       <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
@@ -49,15 +76,6 @@
       <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
       
       <guid>https://blog.mattblair.co/categories/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech Debt</title>
-      <link>https://blog.mattblair.co/categories/tech-debt/</link>
-      <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/categories/tech-debt/</guid>
       <description></description>
     </item>
     

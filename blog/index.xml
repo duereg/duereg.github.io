@@ -6,7 +6,17 @@
     <description>Recent content in Don&#39;t expect much on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 May 2023 12:19:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoding the Origins of CAN Reports</title>
+      <link>https://blog.mattblair.co/blog/20230907-can-reports/</link>
+      <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20230907-can-reports/</guid>
+      <description>In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.
+What is a CAN Report? A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident.</description>
+    </item>
+    
     <item>
       <title>Strategic Approaches for Technical Improvement</title>
       <link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link>
