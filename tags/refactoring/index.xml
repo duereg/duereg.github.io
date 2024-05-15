@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactoring on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/refactoring/</link>
+    <description>Recent content in Refactoring on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Mar 2024 11:52:59 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Refactoring a Legacy Codebase</title>
+      <link>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</link>
+      <pubDate>Tue, 05 Mar 2024 11:52:59 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</guid>
+      <description>Background In my current role, I inherited an older codebase where best practices were often overlooked. As I reviewed the code and the surrounding processes, I found numerous areas for improvement in both code quality and operational practices.
+Where to Start? When tackling a project like this, I find it best to break down the necessary changes into four categories:
+Immediate Changes Short-Term Changes Medium-Term Changes Long-Term Changes Immediate Changes Stack Overflow used to offer a list of concrete practices that engineering companies should follow.</description>
+    </item>
+    
+  </channel>
+</rss>
