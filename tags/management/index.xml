@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 19 Jun 2024 10:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build vs. Buy</title>
-      <link>https://blog.mattblair.co/blog/20240305-build-vs-buy/</link>
+      <link>https://blog.mattblair.co/blog/20240619-build-vs-buy/</link>
       <pubDate>Wed, 19 Jun 2024 10:00:00 -0800</pubDate>
       
-      <guid>https://blog.mattblair.co/blog/20240305-build-vs-buy/</guid>
+      <guid>https://blog.mattblair.co/blog/20240619-build-vs-buy/</guid>
       <description>In the software development world, teams often face the dilemma of whether to build a tool in-house or purchase an existing solution. This &amp;ldquo;build vs. buy&amp;rdquo; debate can significantly impact a company’s efficiency, budget, and focus. A quintessential example of this debate is the implementation of feature flags.
 Understanding Feature Flags Feature flags, or toggles, are a powerful technique that allows developers to enable or disable features in a production environment without deploying new code.</description>
     </item>
