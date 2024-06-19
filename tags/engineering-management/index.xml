@@ -18,6 +18,16 @@ Understanding Feature Flags Feature flags, or toggles, are a powerful technique 
     </item>
     
     <item>
+      <title>Establishing 1-1s that work</title>
+      <link>https://blog.mattblair.co/blog/20240414-establishing-1-1s-that-work/</link>
+      <pubDate>Sun, 14 Apr 2024 11:52:59 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20240414-establishing-1-1s-that-work/</guid>
+      <description>Purpose The primary purpose of one-on-one meetings is to give your reports a chance to discuss issues and topics that they find important. It&amp;rsquo;s an opportunity for them to bring up concerns, challenges, and ideas that might not surface during regular team meetings. This is not a meeting to get status updates on projects! Schedule other time for that.
+Frequency and Duration These meetings should be held regularly, ideally once a week, and should last anywhere from 30 minutes to an hour.</description>
+    </item>
+    
+    <item>
       <title>Refactoring a Legacy Codebase</title>
       <link>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</link>
       <pubDate>Tue, 05 Mar 2024 11:52:59 -0800</pubDate>
@@ -26,6 +36,17 @@ Understanding Feature Flags Feature flags, or toggles, are a powerful technique 
       <description>Background In my current role, I inherited an older codebase where best practices were often overlooked. As I reviewed the code and the surrounding processes, I found numerous areas for improvement in both code quality and operational practices.
 Where to Start? When tackling a project like this, I find it best to break down the necessary changes into four categories:
 Immediate Changes Short-Term Changes Medium-Term Changes Long-Term Changes Immediate Changes Stack Overflow used to offer a list of concrete practices that engineering companies should follow.</description>
+    </item>
+    
+    <item>
+      <title>Hiring for an Early-Stage Team</title>
+      <link>https://blog.mattblair.co/blog/20231206-early-team-hiring/</link>
+      <pubDate>Wed, 06 Dec 2023 11:41:58 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20231206-early-team-hiring/</guid>
+      <description>These are some notes I took from a hiring event I attended. I hope they help someone in the future (even if that someone is me).
+The Impact of Your First Hires The first team members will shape the culture and set the operational norms for your company. Their influence is profound and lasting, making it essential to focus on two primary criteria when hiring:
+Competence: Can they get the job done?</description>
     </item>
     
     <item>
