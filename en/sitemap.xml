@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.mattblair.co/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -55,8 +55,14 @@
                 href="https://blog.mattblair.co/"
                 />
   </url><url>
+    <loc>https://blog.mattblair.co/tags/build-vs-buy/</loc>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.mattblair.co/blog/20240305-build-vs-buy/</loc>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
+  </url><url>
     <loc>https://blog.mattblair.co/categories/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -109,31 +115,25 @@
                 />
   </url><url>
     <loc>https://blog.mattblair.co/blog/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/engineering-management/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/categories/legacy-code/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/management/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/management/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/refactoring/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/refactoring/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/tags/</loc>
-    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
+    <lastmod>2024-06-19T10:00:00-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -185,14 +185,11 @@
                 href="https://blog.mattblair.co/tags/"
                 />
   </url><url>
-    <loc>https://blog.mattblair.co/categories/hiring/</loc>
-    <lastmod>2023-12-06T11:41:58-08:00</lastmod>
+    <loc>https://blog.mattblair.co/categories/legacy-code/</loc>
+    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
   </url><url>
-    <loc>https://blog.mattblair.co/tags/hiring/</loc>
-    <lastmod>2023-12-06T11:41:58-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.mattblair.co/blog/20231206-early-team-hiring/</loc>
-    <lastmod>2023-12-06T11:41:58-08:00</lastmod>
+    <loc>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</loc>
+    <lastmod>2024-03-05T11:52:59-08:00</lastmod>
   </url><url>
     <loc>https://blog.mattblair.co/categories/can/</loc>
     <lastmod>2023-09-07T15:22:57-08:00</lastmod>

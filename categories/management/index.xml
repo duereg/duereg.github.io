@@ -6,7 +6,17 @@
     <description>Recent content in management on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Mar 2024 11:52:59 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 10:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build vs. Buy</title>
+      <link>https://blog.mattblair.co/blog/20240305-build-vs-buy/</link>
+      <pubDate>Wed, 19 Jun 2024 10:00:00 -0800</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20240305-build-vs-buy/</guid>
+      <description>In the software development world, teams often face the dilemma of whether to build a tool in-house or purchase an existing solution. This &amp;ldquo;build vs. buy&amp;rdquo; debate can significantly impact a company’s efficiency, budget, and focus. A quintessential example of this debate is the implementation of feature flags.
+Understanding Feature Flags Feature flags, or toggles, are a powerful technique that allows developers to enable or disable features in a production environment without deploying new code.</description>
+    </item>
+    
     <item>
       <title>Refactoring a Legacy Codebase</title>
       <link>https://blog.mattblair.co/blog/20240305-refactoring-a-legacy-codebase/</link>
@@ -16,17 +26,6 @@
       <description>Background In my current role, I inherited an older codebase where best practices were often overlooked. As I reviewed the code and the surrounding processes, I found numerous areas for improvement in both code quality and operational practices.
 Where to Start? When tackling a project like this, I find it best to break down the necessary changes into four categories:
 Immediate Changes Short-Term Changes Medium-Term Changes Long-Term Changes Immediate Changes Stack Overflow used to offer a list of concrete practices that engineering companies should follow.</description>
-    </item>
-    
-    <item>
-      <title>Hiring for an Early-Stage Team</title>
-      <link>https://blog.mattblair.co/blog/20231206-early-team-hiring/</link>
-      <pubDate>Wed, 06 Dec 2023 11:41:58 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20231206-early-team-hiring/</guid>
-      <description>These are some notes I took from a hiring event I attended. I hope they help someone in the future (even if that someone is me).
-The Impact of Your First Hires The first team members will shape the culture and set the operational norms for your company. Their influence is profound and lasting, making it essential to focus on two primary criteria when hiring:
-Competence: Can they get the job done?</description>
     </item>
     
     <item>
