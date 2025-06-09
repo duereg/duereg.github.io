@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>links on A Place for Poor Examples</title>
+    <title>Links on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/links/</link>
-    <description>Recent content in links on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Links on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Feb 2023 12:53:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 12:53:42 -0800</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/categories/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interesting Articles for Engineering Managers</title>
       <link>https://blog.mattblair.co/blog/20230201-link-dump/</link>
       <pubDate>Wed, 01 Feb 2023 12:53:42 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230201-link-dump/</guid>
-      <description>Engineering Leadership Principles The article &amp;ldquo;Engineering Leadership Principles&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:
-Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description>
+      <description>&lt;h2 id=&#34;engineering-leadership-principles&#34;&gt;Engineering Leadership Principles&lt;/h2&gt;&#xA;&lt;p&gt;The article &amp;ldquo;&lt;a href=&#34;https://hugodias.substack.com/p/engineering-leadership-principles&#34;&gt;Engineering Leadership Principles&lt;/a&gt;&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Build trust through transparency and communication&lt;/li&gt;&#xA;&lt;li&gt;Foster a culture of learning and growth&lt;/li&gt;&#xA;&lt;li&gt;Prioritize quality and reliability&lt;/li&gt;&#xA;&lt;li&gt;Lead with empathy and emotional intelligence&lt;/li&gt;&#xA;&lt;li&gt;Build strong, diverse teams&lt;/li&gt;&#xA;&lt;li&gt;Empower your team to take ownership and make decisions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Dias provides examples and anecdotes to illustrate each principle and explains why they are important. He also notes that while these principles are essential for engineering leadership, they can also be applied to leadership in other industries.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

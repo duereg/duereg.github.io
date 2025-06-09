@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>americano on A Place for Poor Examples</title>
+    <title>Americano on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/americano/</link>
-    <description>Recent content in americano on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Americano on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Jul 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/americano/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/americano/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Australian vs US Coffee Terms Comparison</title>
       <link>https://blog.mattblair.co/blog/20120727-australian-vs-us-coffee-terms-comparison/</link>
       <pubDate>Fri, 27 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120727-australian-vs-us-coffee-terms-comparison/</guid>
-      <description>This took me a while to figure out when I first moved to Australia. I still remember the look on the barista&amp;rsquo;s face when I tried to order an Americano, and then the absolute puzzlement over what the hell a flat white vs a long black was. I hope this helps other visitors to Australia from the US order a decent cup of coffee!
-Description Australian Name US Name A shot of espresso.</description>
+      <description>&lt;p&gt;This took me a while to figure out when I first moved to Australia. I still remember the look on the barista&amp;rsquo;s face when I tried to order an Americano, and then the absolute puzzlement over what the hell a flat white vs a long black was. I hope this helps other visitors to Australia from the US order a decent cup of coffee!&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;&#xA;          &lt;th&gt;Australian Name&lt;/th&gt;&#xA;          &lt;th&gt;US Name&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso.&lt;/td&gt;&#xA;          &lt;td&gt;Short Black&lt;/td&gt;&#xA;          &lt;td&gt;Espresso&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso mixed with hot water.&lt;/td&gt;&#xA;          &lt;td&gt;Long Black&lt;/td&gt;&#xA;          &lt;td&gt;Americano&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso topped with milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Macchiato&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A cup of hot milk with a shot of expresso poured in.&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;          &lt;td&gt;Macchiato&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk.&lt;/td&gt;&#xA;          &lt;td&gt;Flat White&lt;/td&gt;&#xA;          &lt;td&gt;Latte No Foam&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk and a little milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Latte&lt;/td&gt;&#xA;          &lt;td&gt;Latte&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk, milk froth, and cocoa powder.&lt;/td&gt;&#xA;          &lt;td&gt;Mocha&lt;/td&gt;&#xA;          &lt;td&gt;Mocha&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with half steamed milk, half milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Cappuccino&lt;/td&gt;&#xA;          &lt;td&gt;Cappuccino&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with cold milk and ice cream.&lt;/td&gt;&#xA;          &lt;td&gt;Iced Coffee&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A cup of drip coffee over ice.&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;          &lt;td&gt;Iced Coffee&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
   </channel>
 </rss>

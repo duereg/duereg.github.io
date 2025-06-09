@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>min heap on A Place for Poor Examples</title>
+    <title>Min Heap on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/min-heap/</link>
-    <description>Recent content in min heap on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Min Heap on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/min-heap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/min-heap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cracking the Coding Interview - JavaScript Min/Max Binary Heap</title>
       <link>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</link>
       <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</guid>
-      <description>I finished my second algorithm from Cracking the Coding Interview - the Binary Heap. This algorithm racketed up the complexity from the Linked List.
-The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary tree (a tree where each node can have at most two children). In the case of a max heap, the parents have a greater value than their children. The values in a Max Heap decrease as you move down the tree from the parent to children.</description>
+      <description>&lt;p&gt;I finished my second algorithm from &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; - the &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_heap&#34;&gt;Binary Heap&lt;/a&gt;. This algorithm racketed up the complexity from the &lt;a href=&#34;https://blog.mattblair.co/posts/20120824-cracking-the-coding-interview-javascript-singly-linked-list&#34;&gt;Linked List&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary tree (a tree where each node can have at most two children). In the case of a max heap, the parents have a greater value than their children. The values in a Max Heap decrease as you move down the tree from the parent to children.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

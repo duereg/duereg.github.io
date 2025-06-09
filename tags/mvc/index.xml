@@ -4,19 +4,16 @@
     <title>MVC on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/mvc/</link>
     <description>Recent content in MVC on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/mvc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/mvc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
       <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>
       <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
-      <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
-Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have DisplayTemplates and EditorTemplates defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.
-However, if you then POST to a controller method that accepts an IEnumerable, you&amp;rsquo;ll get the error message:</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Please note I came across a bug in the code, and revised this post on 31/07/2012.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have &lt;code&gt;DisplayTemplates&lt;/code&gt; and &lt;code&gt;EditorTemplates&lt;/code&gt; defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.&lt;/p&gt;&#xA;&lt;p&gt;However, if you then POST to a controller method that accepts an &lt;code&gt;IEnumerable&lt;/code&gt;, you&amp;rsquo;ll get the error message:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

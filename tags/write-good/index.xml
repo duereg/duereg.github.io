@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>write-good on A Place for Poor Examples</title>
+    <title>Write-Good on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/write-good/</link>
-    <description>Recent content in write-good on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Write-Good on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Jun 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/write-good/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/write-good/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WriteGooder for Sublime Text</title>
       <link>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20140622-sublime-text-write-gooder/</guid>
-      <description>Simple grammar checking for your documentation.
-Prerequisites: write-gooder and Sublime Package Control
-Mac OS X: Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as /usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin. You can change the path to the executable in settings.
-Linux: Make sure write-gooder is in your environment path.
-Windows: Installing node with the Windows Installer from nodejs.org is assumed.
-##Install write-gooder with npm
-npm install -g duereg/write-gooder</description>
+      <description>&lt;p&gt;Simple grammar checking for your documentation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt; &lt;a href=&#34;http://github.com/duereg/write-gooder&#34;&gt;write-gooder&lt;/a&gt; and &lt;a href=&#34;http://wbond.net/sublime_packages/package_control/installation&#34;&gt;Sublime Package Control&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mac OS X:&lt;/strong&gt; Installing node with homebrew or macports is assumed. The path to write-gooder is hardcoded in this plugin as &lt;code&gt;/usr/local/share/npm/bin:/usr/local/bin:/opt/local/bin&lt;/code&gt;. You can change the path to the executable in settings.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux:&lt;/strong&gt; Make sure write-gooder is in your environment path.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows:&lt;/strong&gt; Installing node with the Windows Installer from nodejs.org is assumed.&lt;/p&gt;&#xA;&lt;p&gt;##Install write-gooder with npm&lt;/p&gt;&#xA;&lt;p&gt;npm install -g duereg/write-gooder&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leadership on A Place for Poor Examples</title>
+    <title>Leadership on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/leadership/</link>
-    <description>Recent content in leadership on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Leadership on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manager Conference Links</title>
       <link>https://blog.mattblair.co/blog/20180115-manager-conference-links/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20180115-manager-conference-links/</guid>
-      <description>A couple of EM conferences folks might find useful:
-SFELC Summit
-An annual celebration for engineering leaders.
-A wide range of topics. One day, multiple tracks. Great speaker lineup. A refresher on management fundamentals. Workshops and Breakouts.
-Calibrate
-You’re a great engineer. Become a great leader. Calibrate is aimed at practicing engineering managers, responsible for the people on their team.
-You can find videos of previous years here.
-TEMSCON
-Research-focused engineering management conference.</description>
+      <description>&lt;p&gt;A couple of EM conferences folks might find useful:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sfelc.com/&#34;&gt;SFELC Summit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;An annual celebration for engineering leaders.&lt;/p&gt;&#xA;&lt;p&gt;A wide range of topics. One day, multiple tracks. Great speaker lineup. A refresher on management fundamentals. Workshops and Breakouts.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.calibratesf.com/&#34;&gt;Calibrate&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You’re a great engineer. Become a great leader. Calibrate is aimed at practicing engineering managers, responsible for the people on their team.&lt;/p&gt;&#xA;&lt;p&gt;You can find videos of previous years &lt;a href=&#34;https://www.youtube.com/user/sharethrough/playlists&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.temscon.org/&#34;&gt;TEMSCON&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Research-focused engineering management conference.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

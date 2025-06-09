@@ -4,69 +4,51 @@
     <title>Tech Debt on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/tech-debt/</link>
     <description>Recent content in Tech Debt on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/tech-debt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/tech-debt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decoding the Origins of CAN Reports</title>
       <link>https://blog.mattblair.co/blog/20230907-can-reports/</link>
       <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230907-can-reports/</guid>
-      <description>In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.
-What is a CAN Report? A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident.</description>
+      <description>&lt;p&gt;In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-can-report&#34;&gt;What is a CAN Report?&lt;/h2&gt;&#xA;&lt;p&gt;A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident. It breaks down the report into three primary segments:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Strategic Approaches for Technical Improvement</title>
       <link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link>
       <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
-      <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
-Engaging Senior ICs and EMs in Technical Strategy To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Engaging Senior ICs and EMs in Technical Strategy&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process. This engagement helps leverage their expertise and insights while creating a collective vision for the engineering function. The strategy-setting process can involve quarterly planning sessions, where EMs and tech leads define the engineering priorities, with input from ICs. This approach enables a bottom-up approach, empowering the team to contribute their perspectives.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Crunch Time</title>
       <link>https://blog.mattblair.co/blog/20230404-crunch-time/</link>
       <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230404-crunch-time/</guid>
-      <description>Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.
-Ask team members what would make them feel valued One approach is to ask team members what would make them feel valued after the crunch period.</description>
+      <description>&lt;p&gt;Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ask-team-members-what-would-make-them-feel-valued&#34;&gt;Ask team members what would make them feel valued&lt;/h3&gt;&#xA;&lt;p&gt;One approach is to ask team members what would make them feel valued after the crunch period. It could be anything from time off to a dinner paid for by the company for them and their family. By listening to their needs and responding accordingly, you show that you care about their well-being and appreciate their hard work.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Improving Software Quality</title>
       <link>https://blog.mattblair.co/blog/20230327-code-quality/</link>
       <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid>
-      <description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
-Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description>
+      <description>&lt;p&gt;As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?&lt;/p&gt;&#xA;&lt;h2 id=&#34;measuring-quality&#34;&gt;Measuring Quality&lt;/h2&gt;&#xA;&lt;p&gt;One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done. Instead, leading metrics can be used to predict the quality of the software before any bugs are found. Two examples of leading metrics are code quality and test coverage.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Moving Between Tech Stacks</title>
       <link>https://blog.mattblair.co/blog/20230302-changing-stacks/</link>
       <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230302-changing-stacks/</guid>
-      <description>When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.
-But which tech stacks are easier to move between, and which ones are the hardest?</description>
+      <description>&lt;p&gt;When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.&lt;/p&gt;&#xA;&lt;p&gt;But which tech stacks are easier to move between, and which ones are the hardest? In my experience, when I’ve transitioned from one stack to another, it took a little while to get my footing. But if you already have experience, you can share that experience to up-level the team.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Promoting Technical Excellence in your Organization</title>
       <link>https://blog.mattblair.co/blog/20230221-technical-excellence/</link>
       <pubDate>Tue, 21 Feb 2023 17:31:07 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
-      <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
-These have lost momentum in the development and they are seeing 2 key problems:
-The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
+      <description>&lt;p&gt;I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.&lt;/p&gt;&#xA;&lt;p&gt;These have lost momentum in the development and they are seeing 2 key problems:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.&lt;/li&gt;&#xA;&lt;li&gt;They are struggling to find time to work on technical debt. There is a perception that they should be working on Product work all the time.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;She had originally proposed two solutions, but wanted to hear my thoughts:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

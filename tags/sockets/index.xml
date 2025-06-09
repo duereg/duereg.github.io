@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sockets on A Place for Poor Examples</title>
+    <title>Sockets on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/sockets/</link>
-    <description>Recent content in sockets on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sockets on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Jul 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/sockets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/sockets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Derby.js - Playing with Models</title>
       <link>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</link>
       <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</guid>
-      <description>Been playing around with Derby in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.
-Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.
-I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:</description>
+      <description>&lt;p&gt;Been playing around with &lt;a href=&#34;http://derbyjs.com&#34;&gt;Derby&lt;/a&gt; in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.&lt;/p&gt;&#xA;&lt;p&gt;Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

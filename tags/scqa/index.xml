@@ -4,30 +4,23 @@
     <title>SCQA on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/scqa/</link>
     <description>Recent content in SCQA on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2020 15:20:08 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/scqa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Sep 2020 15:20:08 -0800</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/scqa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The importance of clear communication</title>
       <link>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</link>
       <pubDate>Wed, 09 Sep 2020 15:20:08 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</guid>
-      <description>This is based off a talk I gave on improving communications.
-There is a lot of communication right now With everyone working remotely, the importance of communication has increased. We&amp;rsquo;re communicating more often without meeting, and making your message clear when everyone is deluged with correspondance is the only way to have impact in your organization.
-To succeed in any organization, you need to be able to tell your story. Whether it’s a status update, an RFC, or an escal question, you need to be able to quickly tell people the state of the world.</description>
+      <description>&lt;p&gt;This is based off a talk I gave on improving communications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;there-is-a-lot-of-communication-right-now&#34;&gt;There is a lot of communication right now&lt;/h2&gt;&#xA;&lt;p&gt;With everyone working remotely, the importance of communication has increased. We&amp;rsquo;re communicating more often without meeting, and making your message clear when everyone is deluged with correspondance is the only way to have impact in your organization.&lt;/p&gt;&#xA;&lt;p&gt;To succeed in any organization, you need to be able to tell your story. Whether it’s a status update, an RFC, or an escal question, you need to be able to quickly tell people the state of the world. It’s how you’re going to convince other people to take action or to answer their questions.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pyramid Principle Examples</title>
       <link>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</link>
       <pubDate>Mon, 11 Nov 2019 15:57:32 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</guid>
-      <description>I use SCQA all the time in my communications both up to leadership and down to my teams.
-This TED talk from Derek Sivers is a great example of someone using SCQA to communicating a problem and a suggested solution in a short amount of time. Worth watching if you&amp;rsquo;re looking to use SCQA in your own communications.
-Another example of an SCQA structured communication is something I received at work:</description>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://www.harrisonmetal.com/library/storytelling-amp-presenting-1-thank-you-barbara-minto&#34;&gt;SCQA&lt;/a&gt; all the time in my communications both up to leadership and down to my teams.&lt;/p&gt;&#xA;&lt;p&gt;This &lt;a href=&#34;http://www.ted.com/talks/derek_sivers_keep_your_goals_to_yourself&#34;&gt;TED talk&lt;/a&gt; from Derek Sivers is a great example of someone using SCQA to communicating a problem and a suggested solution in a short amount of time. Worth watching if you&amp;rsquo;re looking to use SCQA in your own communications.&lt;/p&gt;&#xA;&lt;p&gt;Another example of an SCQA structured communication is something I received at work:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Phishers and scammers are actively targeting employees on LinkedIn and email&#xA;(work and personal) in hopes of accessing valuable information.&#xA;&#xA;Every employee, whether you realize it or not, has insider knowledge -&#xA;it may be access to financial data, technical resources, customer contacts,&#xA;intellectual property, customer data, or other resources –&#xA;and there are people who will try to exploit that.&#xA;&#xA;What can you do?&#xA;Do not click the link, open the attachment, or respond to the sender&#xA;Forward a copy to phishing@company-corp.com&#xA;Use the Spam button in GMail&#xA;If it’s a LinkedIn message, text message, or other non-Company-Corp&#xA;message that feels suspicious, please report it to security&#xA;&#xA;...Additional Evidence...&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
   </channel>
 </rss>

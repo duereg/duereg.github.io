@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>prototype on A Place for Poor Examples</title>
+    <title>Prototype on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/prototype/</link>
-    <description>Recent content in prototype on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Prototype on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post about Songbird on npmawesome</title>
       <link>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</link>
       <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</guid>
-      <description>The folks at npmawesome wrote a blog post about the Songbird library I wrote.
-Songbird is a library that mixes in promise helpers in the Function and Object prototypes on JavaScript. This is a technique that not everybody loves, and I think the author made a great observation about Songbird (and this technique in general).
-While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility.</description>
+      <description>&lt;p&gt;The folks at &lt;a href=&#34;npmawesome.com&#34;&gt;npmawesome&lt;/a&gt; wrote a blog post about the &lt;a href=&#34;https://github.com/duereg/songbird&#34;&gt;Songbird&lt;/a&gt;  library I wrote.&lt;/p&gt;&#xA;&lt;p&gt;Songbird is a library that mixes in promise helpers in the Function and Object prototypes on JavaScript. This is a technique that not everybody loves, and I think the author made a great observation about Songbird (and this technique in general).&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;While I think it&amp;rsquo;s a great idea to mix in the promise property to Object and Function, however with great power comes great responsibility. I strongly urge against using songbird in modules that you would distribute on npm because it would have a very big side effect on anyone who dares to install your code. However, when used on a project that isn&amp;rsquo;t made available publicly, songbird would be a great asset.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>view on A Place for Poor Examples</title>
+    <title>View on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/view/</link>
-    <description>Recent content in view on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in View on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/view/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>express-coffee-react-views</title>
       <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
       <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
-      <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
-This was derived from express-react-views
-This is intended to be used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
-Usage npm install express-coffee-react-views react Note: You must explicitly install react as a dependency. react is a peer dependency here.</description>
+      <description>&lt;p&gt;This is an &lt;a href=&#34;http://expressjs.com/&#34;&gt;Express&lt;/a&gt; view engine which renders &lt;a href=&#34;http://facebook.github.io/react/&#34;&gt;React&lt;/a&gt; components written in &lt;a href=&#34;http://coffeescript.org/&#34;&gt;CoffeeScript&lt;/a&gt; on the server. It renders static markup and &lt;em&gt;does not&lt;/em&gt; support mounting those views on the client.&lt;/p&gt;&#xA;&lt;p&gt;This was derived from &lt;a href=&#34;https://github.com/reactjs/express-react-views&#34;&gt;express-react-views&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is intended to be used as a replacement for existing server-side view solutions, like &lt;a href=&#34;http://jade-lang.com/&#34;&gt;jade&lt;/a&gt;, &lt;a href=&#34;http://embeddedjs.com/&#34;&gt;ejs&lt;/a&gt;, or &lt;a href=&#34;https://github.com/barc/express-hbs&#34;&gt;handlebars&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install express-coffee-react-views react&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You must explicitly install &lt;code&gt;react&lt;/code&gt; as a dependency. &lt;code&gt;react&lt;/code&gt; is a peer dependency here. This is to avoid issues that may come when using incompatible versions.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

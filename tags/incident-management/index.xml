@@ -4,18 +4,23 @@
     <title>Incident Management on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/incident-management/</link>
     <description>Recent content in Incident Management on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/incident-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jun 2024 12:25:15 -0800</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/incident-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up an on-call roll</title>
+      <link>https://blog.mattblair.co/blog/20240621-on-call-triage-role/</link>
+      <pubDate>Fri, 21 Jun 2024 12:25:15 -0800</pubDate>
+      <guid>https://blog.mattblair.co/blog/20240621-on-call-triage-role/</guid>
+      <description>&lt;h1 id=&#34;structuring-an-on-call-rotation-a-guide-for-engineering-managers&#34;&gt;Structuring an On-Call Rotation: A Guide for Engineering Managers&lt;/h1&gt;&#xA;&lt;p&gt;On-call rotations are more than “who picks up the phone”—they’re a critical way to balance incident response, customer support, and operational health without burning out your team. Below is a template you can adapt, illustrated with examples from my time leading a device-management on-call rotation at a fast-growing tech company.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-define-a-clear-primary-on-call-role&#34;&gt;1. Define a Clear Primary On-Call Role&lt;/h2&gt;&#xA;&lt;p&gt;Rather than vague “points,” &lt;strong&gt;be explicit about the time commitment&lt;/strong&gt; you expect each engineer to spend on-call:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Decoding the Origins of CAN Reports</title>
       <link>https://blog.mattblair.co/blog/20230907-can-reports/</link>
       <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20230907-can-reports/</guid>
-      <description>In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.
-What is a CAN Report? A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident.</description>
+      <description>&lt;p&gt;In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-can-report&#34;&gt;What is a CAN Report?&lt;/h2&gt;&#xA;&lt;p&gt;A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident. It breaks down the report into three primary segments:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

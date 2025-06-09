@@ -1,73 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cracking the coding interview on A Place for Poor Examples</title>
+    <title>Cracking the Coding Interview on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/cracking-the-coding-interview/</link>
-    <description>Recent content in cracking the coding interview on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cracking the Coding Interview on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/cracking-the-coding-interview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/cracking-the-coding-interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cracking the Coding Interview - The Tower of Hanoi and Poor Editing</title>
       <link>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</link>
       <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</guid>
-      <description>I just finished the Stack section of Cracking the Coding Interview and came across an old puzzle - The Tower of Hanoi. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem.</description>
+      <description>&lt;p&gt;I just finished the &lt;a href=&#34;http://en.wikipedia.org/wiki/Stack_%5C%28abstract_data_type%5C%29&#34;&gt;Stack&lt;/a&gt; section of &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; and came across an old puzzle - &lt;a href=&#34;http://en.wikipedia.org/wiki/Tower_of_Hanoi&#34;&gt;The Tower of Hanoi&lt;/a&gt;. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem. Anyways, after beating my head in trying to solve this, I ended up going to the back of the book and looking up the solution. And found this pile of shit psuedocode. I&amp;rsquo;ve shortened the comments, but the content is the same.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview - Linked Lists - The Runner Technique</title>
       <link>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</link>
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120913-cracking-the-coding-interview-linked-list-the-runner-technique/</guid>
-      <description>I&amp;rsquo;ve been going over the Linked List section of Cracking the Coding Interview and most times I get stumped with a problem the solution is the Runner Technique (or slow/fast pointers).
-The idea behind the runner technique is simple; use two pointers that either move at different speeds or are a set distance apart and iterate through a list.
-Why is this so useful? In some linked list problems you need to know the position of a certain element or the length of the list.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been going over the &lt;a href=&#34;http://en.wikipedia.org/wiki/Linked_list#Singly.2C_doubly.2C_and_multiply_linked_lists&#34;&gt;Linked List&lt;/a&gt; section of &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; and most times I get stumped with a problem the solution is the Runner Technique (or slow/fast pointers).&lt;/p&gt;&#xA;&lt;p&gt;The idea behind the runner technique is simple; use two pointers that either move at different speeds or are a set distance apart and iterate through a list.&lt;/p&gt;&#xA;&lt;p&gt;Why is this so useful? In some linked list problems you need to know the position of a certain element or the length of the list. Given that you don&amp;rsquo;t always have the length of the list you are working on, the runner technique is an elegant way to solve these type of problems (and in some cases it is the only solution). Here are some examples of linked list problems where the runner technique provides an optimal solution:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview - JavaScript Trie</title>
       <link>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</link>
       <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</guid>
-      <description>I finished my third algorithm from Cracking the Coding Interview - the Trie.
-Tries are a useful algorithm, if not all that well known. They can be used for efficient spell checking, auto suggestion, as well as the sorting of a collection of strings.
-This algorithm was more complex to implement than the Linked List, but a little simpler than the Max/Min Binary Heap to implement.
-The trie&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a word tree, where each leaf of the tree is a letter of a word.</description>
+      <description>&lt;p&gt;I finished my third algorithm from &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; - the &lt;a href=&#34;http://en.wikipedia.org/wiki/Trie&#34;&gt;Trie&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Tries are a useful algorithm, if not all that well known. They can be used for efficient spell checking, auto suggestion, as well as the sorting of a collection of strings.&lt;/p&gt;&#xA;&lt;p&gt;This algorithm was more complex to implement than the &lt;a href=&#34;https://blog.mattblair.co/posts/20120824-cracking-the-coding-interview-javascript-singly-linked-list&#34;&gt;Linked List&lt;/a&gt;, but a little simpler than the &lt;a href=&#34;https://blog.mattblair.co/posts/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap&#34;&gt;Max/Min Binary Heap&lt;/a&gt; to implement.&lt;/p&gt;&#xA;&lt;p&gt;The trie&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a word tree, where each leaf of the tree is a letter of a word. Where words share common prefixes (such as &lt;strong&gt;fre&lt;/strong&gt;sh and &lt;strong&gt;fre&lt;/strong&gt;edom), those words share a common &amp;ldquo;branch&amp;rdquo; of prefix letters, and split where the words differ.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview - JavaScript Min/Max Binary Heap</title>
       <link>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</link>
       <pubDate>Wed, 29 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120829-cracking-the-coding-interview-javascript-minmax-binary-heap/</guid>
-      <description>I finished my second algorithm from Cracking the Coding Interview - the Binary Heap. This algorithm racketed up the complexity from the Linked List.
-The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary tree (a tree where each node can have at most two children). In the case of a max heap, the parents have a greater value than their children. The values in a Max Heap decrease as you move down the tree from the parent to children.</description>
+      <description>&lt;p&gt;I finished my second algorithm from &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; - the &lt;a href=&#34;http://en.wikipedia.org/wiki/Binary_heap&#34;&gt;Binary Heap&lt;/a&gt;. This algorithm racketed up the complexity from the &lt;a href=&#34;https://blog.mattblair.co/posts/20120824-cracking-the-coding-interview-javascript-singly-linked-list&#34;&gt;Linked List&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The heap&amp;rsquo;s structure is easy to understand - it&amp;rsquo;s a binary tree (a tree where each node can have at most two children). In the case of a max heap, the parents have a greater value than their children. The values in a Max Heap decrease as you move down the tree from the parent to children.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview - JavaScript Singly Linked List</title>
       <link>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</link>
       <pubDate>Fri, 24 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120824-cracking-the-coding-interview-javascript-singly-linked-list/</guid>
-      <description>I finished my first algorithm from Cracking the Coding Interview - the almighty Singly Linked List.
-This is the low-hanging fruit of the data structures I mean to tackle. Even implementing this simple structure, I managed to somehow squeeze in a bug that luckily I caught in my testing. An unfortunate case of premature optimization.
-The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job.</description>
+      <description>&lt;p&gt;I finished my first algorithm from &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; - the almighty &lt;a href=&#34;http://en.wikipedia.org/wiki/Linked_list#Singly.2C_doubly.2C_and_multiply_linked_lists&#34;&gt;Singly Linked List&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This is the low-hanging fruit of the data structures I mean to tackle. Even implementing this simple structure, I managed to somehow squeeze in a bug that luckily I caught in my testing. An unfortunate case of premature optimization.&lt;/p&gt;&#xA;&lt;p&gt;The code doesn&amp;rsquo;t look as cool as it did, but at least it does the job. One thing I found in reading a bit about Linked Lists on wikipedia, which I had never heard of before; Hash Linking.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cracking the Coding Interview: JavaScript Data Structures</title>
       <link>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</link>
       <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120817-cracking-the-coding-interview-javascript-data-structures/</guid>
-      <description>A friend and co-worker of mine (one of the best and brightest I&amp;rsquo;ve worked with) recently left our company to go work for Microsoft. Having gone through the Microsoft interview process myself (hilariously unprepared, to the enjoyment of my interviewer), I wondered what he had done to get ready for the process. He recommended one book - Cracking the Coding Interview - which he said had been recommended to him as the bible for preparation.</description>
+      <description>&lt;p&gt;A friend and co-worker of mine (one of the best and brightest I&amp;rsquo;ve worked with) recently left our company to go work for Microsoft. Having gone through the Microsoft interview process myself (hilariously unprepared, to the enjoyment of my interviewer), I wondered what he had done to get ready for the process. He recommended one book - &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; - which he said had been recommended to him as the bible for preparation.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

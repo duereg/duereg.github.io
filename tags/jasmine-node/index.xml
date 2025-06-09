@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jasmine-node on A Place for Poor Examples</title>
+    <title>Jasmine-Node on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/jasmine-node/</link>
-    <description>Recent content in jasmine-node on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Jasmine-Node on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/jasmine-node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/jasmine-node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It took pivotal 3 years to close a pull request</title>
       <link>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</link>
       <pubDate>Mon, 13 Oct 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20141013-jasmine-node-before-all-after-all/</guid>
-      <description>On Feb 9, 2011, Fat (Jacob Thornton, one of the creators on Bootstrap) opened a pull request to add beforeAll and afterAll statements to the jasmine library.
-Pivotal, at the time, thought that they were just about to implement:
-That tweet was from December 2010.
-Since then, a couple people have come up with workarounds.
-And now, over three years later, pivotal is about to release beforeAll/afterAll.
-You can check out the work here.</description>
+      <description>&lt;p&gt;On Feb 9, 2011, Fat (Jacob Thornton, one of the creators on &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt;) opened a &lt;a href=&#34;https://github.com/pivotal/jasmine/pull/56&#34;&gt;pull request&lt;/a&gt; to add beforeAll and afterAll statements to the &lt;a href=&#34;https://github.com/pivotal/jasmine&#34;&gt;jasmine&lt;/a&gt; library.&lt;/p&gt;&#xA;&lt;p&gt;Pivotal, at the time, thought that they were just about to implement:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://cl.ly/64PF/Screen%20shot%202011-04-17%20at%2011.18.55%20PM.png&#34; alt=&#34;Snapshot of a tweet where Pivotal tells @Fat that they’re about to implement beforeAll and afterAll&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;That tweet was from December 2010.&lt;/p&gt;&#xA;&lt;p&gt;Since then, a couple people have come up with &lt;a href=&#34;https://github.com/nonplus/jasmine-beforeAll&#34;&gt;workarounds&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;And now, over three years later, pivotal is about to release &lt;a href=&#34;https://github.com/pivotal/jasmine/pull/56#issuecomment-56873541&#34;&gt;beforeAll/afterAll&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

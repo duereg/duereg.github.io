@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>manager readme on A Place for Poor Examples</title>
+    <title>Manager Readme on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/manager-readme/</link>
-    <description>Recent content in manager readme on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Manager Readme on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/manager-readme/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/manager-readme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Manager READMEs</title>
       <link>https://blog.mattblair.co/blog/20180601-manager-readme/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20180601-manager-readme/</guid>
-      <description>A friend recently introduced me to the ideas of creating a Manager README.
-The idea is that for coworkers and new team members, you give a rundown of how you like to work and what they can expect.
-Some of the canonical READMEs that are frequently used as templates can be found here.
-A list of the current READMEs out in the wild (including mine), as well as some links to guides to help write them, can be found here.</description>
+      <description>&lt;p&gt;A friend recently introduced me to the ideas of creating a Manager README.&lt;/p&gt;&#xA;&lt;p&gt;The idea is that for coworkers and new team members, you give a rundown of how you like to work and what they can expect.&lt;/p&gt;&#xA;&lt;p&gt;Some of the canonical READMEs that are frequently used as templates can be found &lt;a href=&#34;https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;A list of the current READMEs out in the wild (including mine), as well as some links to guides to help write them, can be found &lt;a href=&#34;https://svnk.github.io/manager-READMEs/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>formaction on A Place for Poor Examples</title>
+    <title>Formaction on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/formaction/</link>
-    <description>Recent content in formaction on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Formaction on A Place for Poor Examples</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Aug 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/formaction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mattblair.co/tags/formaction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML5 &#39;formaction&#39; attribute - An easy Modernizr test</title>
       <link>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</link>
       <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://blog.mattblair.co/blog/20120801-html-input-formaction-attribute-an-easy-modernizr-test/</guid>
-      <description>EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. Link to issue
-I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from HTML Living Standard Doc
-The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;EDIT NOTE: This no longer needs to be done outside of Modernizr. This was added to the Modernizr package about a month ago. &lt;a href=&#34;https://github.com/Modernizr/Modernizr/issues/1067&#34;&gt;Link to issue&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been writing some Html Forms, and in playing with submit buttons came across an interesting attribute in the HTML 5 specs: formaction. The definition, from &lt;a href=&#34;http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#attr-fs-formaction&#34;&gt;HTML Living Standard Doc&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The action and formaction content attributes, if specified, must have a value that is a valid non-empty URL potentially surrounded by spaces. The action of an element is the value of the element&amp;rsquo;s formaction attribute, if the element is a submit button and has such an attribute, or the value of its form owner&amp;rsquo;s action attribute, if it has one, or else the empty string.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
