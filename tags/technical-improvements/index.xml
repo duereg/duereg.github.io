@@ -4,23 +4,28 @@
     <title>Technical Improvements on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/technical-improvements/</link>
     <description>Recent content in Technical Improvements on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/technical-improvements/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/technical-improvements/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decoding the Origins of CAN Reports</title>
       <link>https://blog.mattblair.co/blog/20230907-can-reports/</link>
       <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230907-can-reports/</guid>
-      <description>&lt;p&gt;In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-can-report&#34;&gt;What is a CAN Report?&lt;/h2&gt;&#xA;&lt;p&gt;A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident. It breaks down the report into three primary segments:&lt;/p&gt;</description>
+      <description>In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.
+What is a CAN Report? A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident.</description>
     </item>
+    
     <item>
       <title>Strategic Approaches for Technical Improvement</title>
       <link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link>
       <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Engaging Senior ICs and EMs in Technical Strategy&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process. This engagement helps leverage their expertise and insights while creating a collective vision for the engineering function. The strategy-setting process can involve quarterly planning sessions, where EMs and tech leads define the engineering priorities, with input from ICs. This approach enables a bottom-up approach, empowering the team to contribute their perspectives.&lt;/p&gt;</description>
+      <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
+ Engaging Senior ICs and EMs in Technical Strategy  To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
     </item>
+    
   </channel>
 </rss>

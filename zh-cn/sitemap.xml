@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://blog.mattblair.co/zh-cn/</loc>
     <xhtml:link
@@ -35,7 +36,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-TW"
+                hreflang="zh-tw"
                 href="https://blog.mattblair.co/zh-tw/"
                 />
     <xhtml:link
@@ -50,10 +51,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
+                hreflang="zh-cn"
                 href="https://blog.mattblair.co/zh-cn/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blog.mattblair.co/zh-cn/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -87,7 +90,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-TW"
+                hreflang="zh-tw"
                 href="https://blog.mattblair.co/zh-tw/categories/"
                 />
     <xhtml:link
@@ -102,10 +105,12 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
+                hreflang="zh-cn"
                 href="https://blog.mattblair.co/zh-cn/categories/"
                 />
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://blog.mattblair.co/zh-cn/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -139,7 +144,7 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-TW"
+                hreflang="zh-tw"
                 href="https://blog.mattblair.co/zh-tw/tags/"
                 />
     <xhtml:link
@@ -154,8 +159,9 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-CN"
+                hreflang="zh-cn"
                 href="https://blog.mattblair.co/zh-cn/tags/"
                 />
   </url>
+  
 </urlset>

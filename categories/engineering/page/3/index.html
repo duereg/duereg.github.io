@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -248,6 +248,326 @@
   <header>
   <div class="title">
     
+      <h2><a href="/blog/20140708-ember-data-model-issue-boolean/">Ember.Data Model Issues</a></h2>
+    
+    
+      <p>Ember.Data Model Issues</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2014-07-11 00:00:00 -0700 PDT">July 11, 2014</time>
+    
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    
+    
+    <p>I was working with some older Ember.Data code, and I came across a model like this:</p>
+  </div>
+  <footer>
+    <a href="/blog/20140708-ember-data-model-issue-boolean/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember/">Ember</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.js/">Ember.js</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.data/">Ember.data</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/es6/">ES6</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/boolean/">boolean</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/bool/">bool</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/attr/">attr</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20140711-ember-data-promise-aware-properties/">Ember.Data Promise-Aware Properties (Cheaters Edition)</a></h2>
+    
+    
+      <p>Ember.Data Promise-Aware Properties (Cheaters Edition)</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2014-07-11 00:00:00 -0700 PDT">July 11, 2014</time>
+    
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    
+    
+    <p>I have models like this:</p>
+  </div>
+  <footer>
+    <a href="/blog/20140711-ember-data-promise-aware-properties/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember/">Ember</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.js/">Ember.js</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.data/">Ember.data</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/es6/">ES6</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/promises/">promises</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/then/">then</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/isfulfilled/">isFulfilled</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/properties/">properties</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/models/">Models</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/models/">models</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20140701-stuff-to-mind-es6/">Stuff to mind when writing ES6 code</a></h2>
+    
+    
+      <p>Stuff to mind when writing ES6 code</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2014-07-01 00:00:00 -0700 PDT">July 1, 2014</time>
+    
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    
+    
+    <p>These are some good tips I picked up browsing the ember and ember.data commits. Nice if you&rsquo;re looking for best practices in writing ES6 code.</p>
+  </div>
+  <footer>
+    <a href="/blog/20140701-stuff-to-mind-es6/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember/">Ember</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.js/">Ember.js</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/ember.data/">Ember.data</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/es6/">ES6</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/blog/20140626-post-about-songbird-on-npmawesome/">Post about Songbird on npmawesome</a></h2>
+    
+    
+      <p>Post about Songbird on npmawesome</p>
+    
+  </div>
+  <div class="meta">
+    <time datetime="2014-06-26 00:00:00 -0700 PDT">June 26, 2014</time>
+    
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+  <div class="content">
+    
+    
+    <p>The folks at <a href="npmawesome.com">npmawesome</a> wrote a blog post about the <a href="https://github.com/duereg/songbird">Songbird</a>  library I wrote.</p>
+  </div>
+  <footer>
+    <a href="/blog/20140626-post-about-songbird-on-npmawesome/" class="button big">Read More</a>
+    <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/npmawesome/">npmawesome</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/songbird/">songbird</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/promises/">promises</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/prototype/">prototype</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/bluebird/">bluebird</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+  </footer>
+</article>
+
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
       <h2><a href="/blog/20140622-sublime-text-write-gooder/">WriteGooder for Sublime Text</a></h2>
     
     
@@ -255,7 +575,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-06-22 00:00:00 &#43;0000 UTC">June 22, 2014</time>
+    <time datetime="2014-06-22 00:00:00 -0700 PDT">June 22, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -336,7 +656,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-06-05 00:00:00 &#43;0000 UTC">June 5, 2014</time>
+    <time datetime="2014-06-05 00:00:00 -0700 PDT">June 5, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -409,7 +729,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-05-18 00:00:00 &#43;0000 UTC">May 18, 2014</time>
+    <time datetime="2014-05-18 00:00:00 -0700 PDT">May 18, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -482,7 +802,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-05-05 00:00:00 &#43;0000 UTC">May 5, 2014</time>
+    <time datetime="2014-05-05 00:00:00 -0700 PDT">May 5, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -555,7 +875,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-04-29 00:00:00 &#43;0000 UTC">April 29, 2014</time>
+    <time datetime="2014-04-29 00:00:00 -0700 PDT">April 29, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -628,7 +948,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-04-10 00:00:00 &#43;0000 UTC">April 10, 2014</time>
+    <time datetime="2014-04-10 00:00:00 -0700 PDT">April 10, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -690,294 +1010,6 @@
 </article>
 
   
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/20140408-ember-the-content-property-of-ds-promise-array/">Ember - The content property of DS.PromiseArray should be set before modifying it</a></h2>
-    
-    
-      <p>Ember - The content property of DS.PromiseArray should be set before modifying it</p>
-    
-  </div>
-  <div class="meta">
-    <time datetime="2014-04-08 00:00:00 &#43;0000 UTC">April 8, 2014</time>
-    
-    <p>1-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    
-    
-    <p>If you see the following error in Ember.Data 1.0.0-beta.7:</p>
-  </div>
-  <footer>
-    <a href="/blog/20140408-ember-the-content-property-of-ds-promise-array/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember/">Ember</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember.js/">Ember.js</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember.data/">Ember.data</a></li>
-        
-      
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/20140320-ember-vs-knockout-property-comparison/">Ember vs Knockout - Property Comparison</a></h2>
-    
-    
-      <p>Ember vs Knockout - Property Comparison</p>
-    
-  </div>
-  <div class="meta">
-    <time datetime="2014-03-20 00:00:00 &#43;0000 UTC">March 20, 2014</time>
-    
-    <p>4-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    
-    
-    <p>At <a href="http://modcloth.com">ModCloth</a>, I&rsquo;ve been working on an internal application that uses <a href="http://emberjs.com/">Ember.js</a> as its front end framework. In learning Ember I&rsquo;ve noticed some interesting architectural decisions they&rsquo;ve made.</p>
-  </div>
-  <footer>
-    <a href="/blog/20140320-ember-vs-knockout-property-comparison/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember/">Ember</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember.js/">Ember.js</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/ember.data/">Ember.data</a></li>
-        
-      
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/20131211-a-b-testing-and-random-selection/">A/B Testing and Random Selection</a></h2>
-    
-    
-      <p>A/B Testing or Random Selection in the browser and on the server</p>
-    
-  </div>
-  <div class="meta">
-    <time datetime="2013-12-11 00:00:00 &#43;0000 UTC">December 11, 2013</time>
-    
-    <p>2-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    
-    
-    <p>Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?</p>
-  </div>
-  <footer>
-    <a href="/blog/20131211-a-b-testing-and-random-selection/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/testing/">Testing</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/laboratory/">Laboratory</a></li>
-        
-      
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
-    <article class="post">
-  <header>
-  <div class="title">
-    
-      <h2><a href="/blog/20131127-instrumenting-backbone-for-better-error-handling/">Instrumenting Backbone for better error handling</a></h2>
-    
-    
-      <p>Instrumenting Backbone for better error handling</p>
-    
-  </div>
-  <div class="meta">
-    <time datetime="2013-11-27 00:00:00 &#43;0000 UTC">November 27, 2013</time>
-    
-    <p>1-Minute Read</p>
-  </div>
-</header>
-
-  <div class="content">
-    
-    
-    <p>At work we&rsquo;ve been having some issues tracking down some nasty client side bugs. We know they&rsquo;re happening in our <a href="http://backbonejs.org/">Backbone</a> views, but we&rsquo;ve been unable to locate them with any accuracy due to the errors bubbling all the way to the window.onerror handler.</p>
-  </div>
-  <footer>
-    <a href="/blog/20131127-instrumenting-backbone-for-better-error-handling/" class="button big">Read More</a>
-    <div class="stats">
-  
-    <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="/categories/engineering/">engineering</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/technical/">technical</a></li>
-        
-          <li><a class="article-terms-link" href="/categories/javascript/">javascript</a></li>
-        
-      
-    </ul>
-  
-  
-    <ul class="tags">
-      
-        
-          <li><a class="article-terms-link" href="/tags/development/">development</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/software/">software</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coding/">coding</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/web/">web</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/html/">html</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/javascript/">JavaScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/coffeescript/">CoffeeScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/emcascript/">EMCAScript</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/c/">C#</a></li>
-        
-          <li><a class="article-terms-link" href="/tags/.net/">.NET</a></li>
-        
-      
-    </ul>
-  
-</div>
-
-  </footer>
-</article>
-
-  
   <div class="pagination">
     
       <a href="/categories/engineering/page/2/" class="button left"><span>Previous Page</span></a>
@@ -998,24 +1030,24 @@
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -1038,7 +1070,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -1083,9 +1115,6 @@
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -1096,6 +1125,9 @@
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -1116,10 +1148,10 @@
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -1129,6 +1161,12 @@
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -1210,17 +1248,18 @@
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Evaluation on A Place for Poor Examples</title>
+    <title>evaluation on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/evaluation/</link>
-    <description>Recent content in Evaluation on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in evaluation on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 21:40:42 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/evaluation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Measure the Technical State of your Team</title>
       <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
       <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
-      <description>&lt;p&gt;Some thoughts on how you could evaluate the state of the systems your team owns.&lt;/p&gt;&#xA;&lt;p&gt;One way to use this:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Put some of these criteria on the Y axis&lt;/li&gt;&#xA;&lt;li&gt;Put the name of the components you own on the X.&lt;/li&gt;&#xA;&lt;li&gt;Give everything a score from 1 to 0.&lt;/li&gt;&#xA;&lt;li&gt;Either average the scores or sum them to figure out which components need the most love.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If all of these are the same for everything you own, it might make sense to skip that section. For example, if you own 10 services, but they all use a common build pipeline that you don&amp;rsquo;t maintain, it might make sense to skip that criteria.&lt;/p&gt;</description>
+      <description>Some thoughts on how you could evaluate the state of the systems your team owns.
+One way to use this:
+ Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
     </item>
+    
     <item>
       <title>Measuring Backlog Health</title>
       <link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link>
       <pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
-      <description>&lt;h2 id=&#34;backlog-grooming&#34;&gt;Backlog Grooming&lt;/h2&gt;&#xA;&lt;p&gt;Some thoughts on how you could evaluate the state of your backlog.&lt;/p&gt;&#xA;&lt;p&gt;Small, well groomed backlog&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Are the tickets in the backlog going to be actioned in the near term?&lt;/li&gt;&#xA;&lt;li&gt;If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it?&lt;/li&gt;&#xA;&lt;li&gt;Is the Backlog consistently growing or shrinking?&lt;/li&gt;&#xA;&lt;li&gt;Are the tickets all in a state to be actioned immediately, or do they need additional work?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ticket &amp;amp; Project Health&lt;/p&gt;</description>
+      <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
+Small, well groomed backlog
+ Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
     </item>
+    
   </channel>
 </rss>

@@ -4,16 +4,18 @@
     <title>Agile on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/agile/</link>
     <description>Recent content in Agile on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2020 17:31:07 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 17:31:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Velocity in Development Teams</title>
       <link>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</link>
       <pubDate>Mon, 02 Nov 2020 17:31:07 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</guid>
-      <description>&lt;p&gt;Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other. Each team can track their own velocity to have a better gauge of their progress and how much they can fit into a sprint. Teams should be self-organizing, and how they want to track velocity is up to them.&lt;/p&gt;</description>
+      <description>Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.
+It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other.</description>
     </item>
+    
   </channel>
 </rss>

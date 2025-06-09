@@ -4,37 +4,48 @@
     <title>Views on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/views/</link>
     <description>Recent content in Views on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Oct 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/views/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Oct 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/views/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
       <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
-      <pubDate>Wed, 17 Oct 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve found a neat feature of &lt;a href=&#34;http://derbyjs.com&#34;&gt;derby&lt;/a&gt; dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task. On my first attempt, I put my scripts in the section of the page that I needed the calendar on. I added a script to load the calendar as well. When I went to the url of the page, it loaded immediately. Success! (I thought).&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
     </item>
+    
     <item>
       <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
       <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
-      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
-      <description>&lt;p&gt;In working with &lt;a href=&#34;http://twitter.github.com/bootstrap/base-css.html#forms&#34;&gt;Twitter Bootstrap Forms&lt;/a&gt;, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-group&amp;#34;&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- additional classes here to change state --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-label&amp;#34;&lt;/span&gt;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;controls&amp;#34;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; /&amp;gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- This is the control you want to display --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;help-inline&amp;#34;&lt;/span&gt;&amp;gt;ERROR_OR_INFORMATIONAL_MESSAGE_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s a hefty amount of markup to copy and paste all over your pristine views. Which makes this a great place to use a &lt;a href=&#34;http://derbyjs.com/#components&#34;&gt;Component&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
+    
     <item>
       <title>Derby.js - Working with Views, Models, and Bindings</title>
       <link>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</link>
-      <pubDate>Tue, 07 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</guid>
-      <description>&lt;p&gt;In my previous &lt;a href=&#34;https://blog.mattblair.co/posts/20120722-derby-js-playing-with-models&#34;&gt;post&lt;/a&gt; about &lt;a href=&#34;http://derbyjs.com/&#34;&gt;derby&lt;/a&gt;, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m creating a test application to help me learn derby &lt;a href=&#34;http://github.com/duereg/Potluck&#34;&gt;here&lt;/a&gt;. In the process of doing absolutely everything wrong to start I&amp;rsquo;ve learned a bit about how Derby binds to models. Let&amp;rsquo;s say you&amp;rsquo;re got some markup like this that you&amp;rsquo;d like to bind to.&lt;/p&gt;</description>
+      <description>In my previous post about derby, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).
+I&amp;rsquo;m creating a test application to help me learn derby here. In the process of doing absolutely everything wrong to start I&amp;rsquo;ve learned a bit about how Derby binds to models. Let&amp;rsquo;s say you&amp;rsquo;re got some markup like this that you&amp;rsquo;d like to bind to.</description>
     </item>
+    
     <item>
       <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
       <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>
-      <pubDate>Thu, 26 Apr 2012 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Apr 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Please note I came across a bug in the code, and revised this post on 31/07/2012.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have &lt;code&gt;DisplayTemplates&lt;/code&gt; and &lt;code&gt;EditorTemplates&lt;/code&gt; defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.&lt;/p&gt;&#xA;&lt;p&gt;However, if you then POST to a controller method that accepts an &lt;code&gt;IEnumerable&lt;/code&gt;, you&amp;rsquo;ll get the error message:&lt;/p&gt;</description>
+      <description>Please note I came across a bug in the code, and revised this post on 31/07/2012.
+ Came across an interesting problem today. In ASP.Net MVC, you can easily pass an enumerable of interfaces to your views from your controllers. As long as you have DisplayTemplates and EditorTemplates defined for the subclasses, then those classes will be rendered correctly from your enumerable of the parent interfaces.
+However, if you then POST to a controller method that accepts an IEnumerable, you&amp;rsquo;ll get the error message:</description>
     </item>
+    
   </channel>
 </rss>

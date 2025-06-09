@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -250,7 +250,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2012-04-26 00:00:00 &#43;0000 UTC">April 26, 2012</time>
+    <time datetime="2012-04-26 00:00:00 -0700 PDT">April 26, 2012</time>
     
     <p>3-Minute Read</p>
   </div>
@@ -329,95 +329,95 @@
 <ol start="3">
 <li>That&rsquo;s it! You should be on your way to POSTing a generic list of different subclasses to a controller method.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Collections;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Collections.Generic;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Linq;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Web.Mvc;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">namespace</span> ProofOfConcept
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SectionModelBinder</span> : DefaultModelBinder
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> ModelTypeNameKey = <span style="color:#e6db74">&#34;ModelTypeName&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">///&lt;summary&gt;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// Creates the model.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// &lt;/summary&gt;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// The controller context.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// The binding context.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// Type of the base.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// The instantiated model</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">///</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// You must create a hidden field named &#39;ModelTypeName&#39; on the View,</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// where the value is the Full name of the class you are trying to create.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// The HtmlHelper extension method &#39;Type&#39; was designed to create this field</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// and hide the implementation details.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">///</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// Currently the model you trying to create must inherit from a base class</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">/// that is the same assembly.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">///</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">object</span> CreateModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Type baseType)
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (baseType.IsInterface &amp;&amp;
-</span></span><span style="display:flex;"><span>                (baseType != <span style="color:#66d9ef">typeof</span>(IEnumerable)) &amp;&amp;
-</span></span><span style="display:flex;"><span>                !baseType.GetInterfaces().Any(t =&gt; t == <span style="color:#66d9ef">typeof</span>(IEnumerable)) &amp;&amp;
-</span></span><span style="display:flex;"><span>                !(baseType.IsGenericType &amp;&amp; baseType.GetGenericTypeDefinition() == <span style="color:#66d9ef">typeof</span>(IEnumerable)))
-</span></span><span style="display:flex;"><span>            {
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">var</span> modelTypeValue = bindingContext.ValueProvider.GetValue(bindingContext.ModelName + <span style="color:#e6db74">&#34;.&#34;</span> + ModelTypeNameKey);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (modelTypeValue == <span style="color:#66d9ef">null</span>)
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;View does not contain &#34;</span> + bindingContext.ModelName + <span style="color:#e6db74">&#34;.&#34;</span> + ModelTypeNameKey + <span style="color:#e6db74">&#34; field.&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">var</span> subclassName = modelTypeValue.AttemptedValue;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span>(<span style="color:#66d9ef">string</span>.IsNullOrWhiteSpace(subclassName ))
-</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;View for &#34;</span> + bindingContext.ModelName + <span style="color:#e6db74">&#34; does not have a value set for the &#34;</span> + ModelTypeNameKey + <span style="color:#e6db74">&#34; field.&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">var</span> subclassType = baseType.Assembly.GetTypes().SingleOrDefault(x =&gt; (x.FullName == subclassName));
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">var</span> model = CreateInstance(baseType, subclassType, subclassName);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (model != <span style="color:#66d9ef">null</span>)
-</span></span><span style="display:flex;"><span>                {
-</span></span><span style="display:flex;"><span>                    bindingContext.ModelMetadata = ModelMetadataProviders.Current.GetMetadataForType(() =&gt; model, subclassType);
-</span></span><span style="display:flex;"><span>                }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> model;
-</span></span><span style="display:flex;"><span>            }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">base</span>.CreateModel(controllerContext, bindingContext, baseType);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">object</span> CreateInstance(Type baseType, Type subclassType, <span style="color:#66d9ef">string</span> subclassName)
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (subclassName == <span style="color:#66d9ef">null</span>)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;subclassName&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (subclassType == <span style="color:#66d9ef">null</span>)
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;Could not find model &#34;</span> + subclassName);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (!subclassType.GetInterfaces().Any(t =&gt; t == baseType))
-</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;The model of type &#34;</span> + subclassName + <span style="color:#e6db74">&#34; does not implement &#34;</span> + baseType.FullName);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> Activator.CreateInstance(subclassType);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cs" data-lang="cs"><span style="display:flex;"><span><span style="color:#66d9ef">namespace</span> System.Web.Mvc.Html
-</span></span><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HtmlHelperExtension</span>
-</span></span><span style="display:flex;"><span>    {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> MvcHtmlString Type(<span style="color:#66d9ef">this</span> HtmlHelper htmlHelper, <span style="color:#66d9ef">object</span> <span style="color:#66d9ef">value</span>)
-</span></span><span style="display:flex;"><span>        {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (htmlHelper == <span style="color:#66d9ef">null</span>) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;htmlHelper&#34;</span>);
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">value</span> == <span style="color:#66d9ef">null</span>) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;value&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> htmlHelper.Hidden(SectionModelBinder.ModelTypeNameKey, <span style="color:#66d9ef">value</span>.GetType().FullName);
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#66d9ef">using</span> System;
+<span style="color:#66d9ef">using</span> System.Collections;
+<span style="color:#66d9ef">using</span> System.Collections.Generic;
+<span style="color:#66d9ef">using</span> System.Linq;
+<span style="color:#66d9ef">using</span> System.Web.Mvc;
+
+<span style="color:#66d9ef">namespace</span> ProofOfConcept
+{
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SectionModelBinder</span> : DefaultModelBinder
+    {
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> ModelTypeNameKey = <span style="color:#e6db74">&#34;ModelTypeName&#34;</span>;
+
+        <span style="color:#75715e">///&lt;summary&gt;
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// Creates the model.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// &lt;/summary&gt;
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// The controller context.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// The binding context.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// Type of the base.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// The instantiated model
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">///
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// You must create a hidden field named &#39;ModelTypeName&#39; on the View,
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// where the value is the Full name of the class you are trying to create.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// The HtmlHelper extension method &#39;Type&#39; was designed to create this field
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// and hide the implementation details.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">///
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// Currently the model you trying to create must inherit from a base class
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">/// that is the same assembly.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">///
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">object</span> CreateModel(ControllerContext controllerContext, ModelBindingContext bindingContext, Type baseType)
+        {
+            <span style="color:#66d9ef">if</span> (baseType.IsInterface &amp;&amp;
+                (baseType != <span style="color:#66d9ef">typeof</span>(IEnumerable)) &amp;&amp;
+                !baseType.GetInterfaces().Any(t =&gt; t == <span style="color:#66d9ef">typeof</span>(IEnumerable)) &amp;&amp;
+                !(baseType.IsGenericType &amp;&amp; baseType.GetGenericTypeDefinition() == <span style="color:#66d9ef">typeof</span>(IEnumerable)))
+            {
+                <span style="color:#66d9ef">var</span> modelTypeValue = bindingContext.ValueProvider.GetValue(bindingContext.ModelName + <span style="color:#e6db74">&#34;.&#34;</span> + ModelTypeNameKey);
+
+                <span style="color:#66d9ef">if</span> (modelTypeValue == <span style="color:#66d9ef">null</span>)
+                    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;View does not contain &#34;</span> + bindingContext.ModelName + <span style="color:#e6db74">&#34;.&#34;</span> + ModelTypeNameKey + <span style="color:#e6db74">&#34; field.&#34;</span>);
+
+                <span style="color:#66d9ef">var</span> subclassName = modelTypeValue.AttemptedValue;
+
+                <span style="color:#66d9ef">if</span>(<span style="color:#66d9ef">string</span>.IsNullOrWhiteSpace(subclassName ))
+                    <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;View for &#34;</span> + bindingContext.ModelName + <span style="color:#e6db74">&#34; does not have a value set for the &#34;</span> + ModelTypeNameKey + <span style="color:#e6db74">&#34; field.&#34;</span>);
+
+                <span style="color:#66d9ef">var</span> subclassType = baseType.Assembly.GetTypes().SingleOrDefault(x =&gt; (x.FullName == subclassName));
+
+                <span style="color:#66d9ef">var</span> model = CreateInstance(baseType, subclassType, subclassName);
+
+                <span style="color:#66d9ef">if</span> (model != <span style="color:#66d9ef">null</span>)
+                {
+                    bindingContext.ModelMetadata = ModelMetadataProviders.Current.GetMetadataForType(() =&gt; model, subclassType);
+                }
+
+                <span style="color:#66d9ef">return</span> model;
+            }
+
+            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">base</span>.CreateModel(controllerContext, bindingContext, baseType);
+        }
+
+        <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">virtual</span> <span style="color:#66d9ef">object</span> CreateInstance(Type baseType, Type subclassType, <span style="color:#66d9ef">string</span> subclassName)
+        {
+            <span style="color:#66d9ef">if</span> (subclassName == <span style="color:#66d9ef">null</span>)
+                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;subclassName&#34;</span>);
+
+            <span style="color:#66d9ef">if</span> (subclassType == <span style="color:#66d9ef">null</span>)
+                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;Could not find model &#34;</span> + subclassName);
+
+            <span style="color:#66d9ef">if</span> (!subclassType.GetInterfaces().Any(t =&gt; t == baseType))
+                <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> Exception(<span style="color:#e6db74">&#34;The model of type &#34;</span> + subclassName + <span style="color:#e6db74">&#34; does not implement &#34;</span> + baseType.FullName);
+
+            <span style="color:#66d9ef">return</span> Activator.CreateInstance(subclassType);
+        }
+    }
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#66d9ef">namespace</span> System.Web.Mvc.Html
+{
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HtmlHelperExtension</span>
+    {
+        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> MvcHtmlString Type(<span style="color:#66d9ef">this</span> HtmlHelper htmlHelper, <span style="color:#66d9ef">object</span> <span style="color:#66d9ef">value</span>)
+        {
+            <span style="color:#66d9ef">if</span> (htmlHelper == <span style="color:#66d9ef">null</span>) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;htmlHelper&#34;</span>);
+            <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">value</span> == <span style="color:#66d9ef">null</span>) <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentNullException(<span style="color:#e6db74">&#34;value&#34;</span>);
+
+            <span style="color:#66d9ef">return</span> htmlHelper.Hidden(SectionModelBinder.ModelTypeNameKey, <span style="color:#66d9ef">value</span>.GetType().FullName);
+        }
+    }
+}
+</code></pre></div>
       </div>
       <footer>
         <div class="stats">
@@ -494,24 +494,24 @@
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -534,7 +534,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -579,9 +579,6 @@
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -592,6 +589,9 @@
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -612,10 +612,10 @@
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -625,6 +625,12 @@
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -704,17 +710,18 @@
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

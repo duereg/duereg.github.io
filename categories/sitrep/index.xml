@@ -4,16 +4,18 @@
     <title>SitRep on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/sitrep/</link>
     <description>Recent content in SitRep on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/sitrep/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Sep 2023 15:22:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/sitrep/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decoding the Origins of CAN Reports</title>
       <link>https://blog.mattblair.co/blog/20230907-can-reports/</link>
       <pubDate>Thu, 07 Sep 2023 15:22:57 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230907-can-reports/</guid>
-      <description>&lt;p&gt;In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-can-report&#34;&gt;What is a CAN Report?&lt;/h2&gt;&#xA;&lt;p&gt;A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident. It breaks down the report into three primary segments:&lt;/p&gt;</description>
+      <description>In the realm of incident management, accurate and swift communication is vital. Different organizations adopt various strategies to ensure efficient communication during emergencies. One such strategy that has been gaining traction is the utilization of CAN reports, a mnemonic that stands for “Conditions, Actions, Needs.” Let us delve deeper into the intricacies and origins of this unique reporting format.
+What is a CAN Report? A CAN report, fundamentally, serves as a structure to relay critical information succinctly during an incident.</description>
     </item>
+    
   </channel>
 </rss>

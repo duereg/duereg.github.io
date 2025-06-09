@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -304,14 +304,14 @@
       <div class="content">
         
         
-        <pre tabindex="0"><code>title = &#34;Introducing Songbird&#34;
-description = &#34;How to have promises everywhere, all the time&#34;
+        <pre><code>title = &quot;Introducing Songbird&quot;
+description = &quot;How to have promises everywhere, all the time&quot;
 date = 2014-02-09
-post_name = &#34;introducing-songbird&#34;
-status = &#34;publish&#34;
-tags = [&#34;development&#34;,&#34;software&#34;,&#34;coding&#34;,&#34;web&#34;,&#34;html&#34;,&#34;JavaScript&#34;,&#34;CoffeeScript&#34;,&#34;EMCAScript&#34;,&#34;Songbird&#34;,&#34;Bluebird&#34;,&#34;Promises&#34;,&#34;Generators&#34;,&#34;EMCAScript&#34;]
-categories = [&#34;engineering&#34;, &#34;technical&#34;, &#34;javascript&#34;]
-layout = &#34;post&#34;
+post_name = &quot;introducing-songbird&quot;
+status = &quot;publish&quot;
+tags = [&quot;development&quot;,&quot;software&quot;,&quot;coding&quot;,&quot;web&quot;,&quot;html&quot;,&quot;JavaScript&quot;,&quot;CoffeeScript&quot;,&quot;EMCAScript&quot;,&quot;Songbird&quot;,&quot;Bluebird&quot;,&quot;Promises&quot;,&quot;Generators&quot;,&quot;EMCAScript&quot;]
+categories = [&quot;engineering&quot;, &quot;technical&quot;, &quot;javascript&quot;]
+layout = &quot;post&quot;
 +++
 
 Would you rather write this:
@@ -325,7 +325,7 @@ var updateUser = function(id, attributes, callback) {
     user.save(function(err, updated) {
       if (err) return callback(err);
 
-      console.log(&#34;Updated&#34;, updated);
+      console.log(&quot;Updated&quot;, updated);
       callback(null, updated);
     });
   });
@@ -338,57 +338,57 @@ Or this:
   User.promise.findOne(id).then( (user) →
     user.set(attributes)
     user.promise.save()
-  ).then (user) -&gt; console.log(&#34;Updated&#34;, user)
+  ).then (user) -&gt; console.log(&quot;Updated&quot;, user)
 </code></pre><p><a href="http://www.github.com/duereg/songbird">Songbird</a> allows you to easily mix asynchronous and synchronous programming styles in node.js.</p>
 <p>I based Songbird on the <a href="https://raw2.github.com/petkaantonov/bluebird/master/API.md">bluebird promise library</a> (hence the name).</p>
 <h2 id="install">Install</h2>
 <p>Songbird requires node version 0.6.x or greater.</p>
-<pre tabindex="0"><code>npm install songbird
+<pre><code>npm install songbird
 </code></pre><h2 id="examples">Examples</h2>
 <h3 id="without-songbird">Without Songbird</h3>
 <p>Using standard node callback-style APIs without Songbird, we write
 (from <a href="http://nodejs.org/docs/v0.6.14/api/fs.html#fs_fs_readfile_filename_encoding_callback">the fs docs</a>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readFile</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>, <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">data</span>) {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">err</span>) <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">err</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">data</span>);
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><h3 id="using-the-promise-property">Using the promise property</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">readFile</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>, <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">data</span>) {
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">err</span>) <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">err</span>;
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">data</span>);
+});
+</code></pre></div><h3 id="using-the-promise-property">Using the promise property</h3>
 <p>Using Songbird, we write:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">promise</span>.<span style="color:#a6e22e">readFile</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>);
-</span></span></code></pre></div><h3 id="object--function-mixins">Object &amp; Function mixins</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">promise</span>.<span style="color:#a6e22e">readFile</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>);
+</code></pre></div><h3 id="object--function-mixins">Object &amp; Function mixins</h3>
 <p>Songbird mixes <code>promise</code> into <code>Function.prototype</code> so you can
 use them directly as in:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">readFile</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>).<span style="color:#a6e22e">readFile</span>;
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readFile</span>.<span style="color:#a6e22e">promise</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>);
-</span></span></code></pre></div><p>Songbird adds <code>promise</code> to <code>Object.prototype</code> correctly so they
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">readFile</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>).<span style="color:#a6e22e">readFile</span>;
+<span style="color:#a6e22e">readFile</span>.<span style="color:#a6e22e">promise</span>(<span style="color:#e6db74">&#39;/etc/passwd&#39;</span>).<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>);
+</code></pre></div><p>Songbird adds <code>promise</code> to <code>Object.prototype</code> correctly so they
 are not enumerable.</p>
 <p>These proxy methods also ignore all getters, even those that may
 return functions. If you need to call a getter with Songbird that returns an
 asynchronous function, you can do:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">func</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">getter</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">func</span>.<span style="color:#a6e22e">promise</span>.<span style="color:#a6e22e">call</span>(<span style="color:#a6e22e">obj</span>, <span style="color:#a6e22e">args</span>)
-</span></span></code></pre></div><h3 id="handling-multiple-promises">Handling Multiple Promises</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">func</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">getter</span>
+<span style="color:#a6e22e">func</span>.<span style="color:#a6e22e">promise</span>.<span style="color:#a6e22e">call</span>(<span style="color:#a6e22e">obj</span>, <span style="color:#a6e22e">args</span>)
+</code></pre></div><h3 id="handling-multiple-promises">Handling Multiple Promises</h3>
 <p>Requiring the songbird library updates the Object and Function prototype and returns a Promise library. This library allows you to carry out certain actions that are hard to handle from the promise property.</p>
 <p>For example: You&rsquo;re dealing with multiple promises but don&rsquo;t care what order they complete in.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>Promise <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;songbird&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Promise.<span style="color:#a6e22e">all</span>([<span style="color:#a6e22e">task1</span>, <span style="color:#a6e22e">task2</span>, <span style="color:#a6e22e">task3</span>]).<span style="color:#a6e22e">spread</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">result1</span>, <span style="color:#a6e22e">result2</span>, <span style="color:#a6e22e">result3</span>){
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>Normally when using <code>.then</code> the code would look like:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>Promise <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;songbird&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Promise.<span style="color:#a6e22e">all</span>([<span style="color:#a6e22e">task1</span>, <span style="color:#a6e22e">task2</span>, <span style="color:#a6e22e">task3</span>]).<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">results</span>){
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">0</span>];
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">1</span>];
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result3</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">2</span>];
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>For more information about the underlying bluebird promise API, the <a href="https://raw2.github.com/petkaantonov/bluebird/master/API.md">API docs are here</a>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">Promise <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;songbird&#34;</span>);
+
+Promise.<span style="color:#a6e22e">all</span>([<span style="color:#a6e22e">task1</span>, <span style="color:#a6e22e">task2</span>, <span style="color:#a6e22e">task3</span>]).<span style="color:#a6e22e">spread</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">result1</span>, <span style="color:#a6e22e">result2</span>, <span style="color:#a6e22e">result3</span>){
+
+});
+</code></pre></div><p>Normally when using <code>.then</code> the code would look like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">Promise <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;songbird&#34;</span>);
+
+Promise.<span style="color:#a6e22e">all</span>([<span style="color:#a6e22e">task1</span>, <span style="color:#a6e22e">task2</span>, <span style="color:#a6e22e">task3</span>]).<span style="color:#a6e22e">then</span>(<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">results</span>){
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result1</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">0</span>];
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result2</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">1</span>];
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result3</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">results</span>[<span style="color:#ae81ff">2</span>];
+});
+</code></pre></div><p>For more information about the underlying bluebird promise API, the <a href="https://raw2.github.com/petkaantonov/bluebird/master/API.md">API docs are here</a>.</p>
 <h3 id="disclaimer">Disclaimer</h3>
 <p>Some people don&rsquo;t like libraries that mix in to Object.prototype
 and Function.prototype. If that&rsquo;s how you feel, then Songbird is not for you.</p>
 <h2 id="contributing">Contributing</h2>
-<pre tabindex="0"><code>git clone git://github.com/duereg/songbird.git
+<pre><code>git clone git://github.com/duereg/songbird.git
 npm install
 npm test
 </code></pre><p>Songbird is written in <a href="http://coffeescript.org">CoffeeScript</a> with
@@ -439,24 +439,24 @@ features. Thanks!</p>
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -479,7 +479,7 @@ features. Thanks!</p>
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -524,9 +524,6 @@ features. Thanks!</p>
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -537,6 +534,9 @@ features. Thanks!</p>
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -557,10 +557,10 @@ features. Thanks!</p>
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -570,6 +570,12 @@ features. Thanks!</p>
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -649,17 +655,18 @@ features. Thanks!</p>
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

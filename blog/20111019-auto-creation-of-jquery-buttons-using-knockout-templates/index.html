@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -250,7 +250,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2011-10-19 00:00:00 &#43;0000 UTC">October 19, 2011</time>
+    <time datetime="2011-10-19 00:00:00 -0700 PDT">October 19, 2011</time>
     
     <p>2-Minute Read</p>
   </div>
@@ -307,20 +307,20 @@
         <p>While converting ASP.NET Webforms to be more clienty using HTML 5, Knockout, and jQuery, I came across a problem.</p>
 <p>I want to use jQuery buttons on my Knockout-rendered rows, but whenever a new row gets added via a template, the buttons were not created as jQuery buttons. The issue was that I was calling a method to create the buttons after the page was fully rendered but never again. All the new rows wouldn&rsquo;t have the .button method run on them, and thus no sparkly jQuery buttons.</p>
 <p>What to do? I&rsquo;ve got button markup that looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jButton&#34;</span> <span style="color:#a6e22e">data-icon-name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;refresh&#34;</span> <span style="color:#a6e22e">data-bind</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;click: refresh&#34;</span>&gt; Refresh &lt;/<span style="color:#f92672">div</span>&gt;
-</span></span></code></pre></div><p>And some existing code, that given an element with class &ldquo;jButton&rdquo; and optionally the data-icon-name set the icon you want, creates buttons out of divs. I saw one person handle this via a new binding on the button, but I didn&rsquo;t want to have to change to my existing template to get the behavior I was looking at.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;jButton&#34;</span> <span style="color:#a6e22e">data-icon-name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;refresh&#34;</span> <span style="color:#a6e22e">data-bind</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;click: refresh&#34;</span>&gt; Refresh &lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><p>And some existing code, that given an element with class &ldquo;jButton&rdquo; and optionally the data-icon-name set the icon you want, creates buttons out of divs. I saw one person handle this via a new binding on the button, but I didn&rsquo;t want to have to change to my existing template to get the behavior I was looking at.</p>
 <p>I tried a couple of different options, and while looking through the Knockout examples for other options came across the afterAdd option in the template binding. A quick change to my template binding:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> &lt;<span style="color:#f92672">tbody</span> <span style="color:#a6e22e">data-bind</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;template: {name:&#39;rowCostItem&#39;, foreach: CostItems, afterAdd: function(elem) { var row = $(elem); Buttons.createFrom(row); }}&#34;</span>&gt;
-</span></span></code></pre></div><p>Now I get nice jQuery buttons for all my new rows. P.S. The heart of the Buttons.createFrom() method:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">btn</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>);
-</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">iconName</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">data</span>(<span style="color:#e6db74">&#34;iconName&#34;</span>);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">iconName</span>) {
-</span></span><span style="display:flex;"><span> 	<span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">button</span>({ <span style="color:#a6e22e">icons</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">primary</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ui-icon-&#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">iconName</span>} });
-</span></span><span style="display:flex;"><span> } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span> 	<span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">button</span>();
-</span></span><span style="display:flex;"><span> }
-</span></span></code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">tbody</span> <span style="color:#a6e22e">data-bind</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;template: {name:&#39;rowCostItem&#39;, foreach: CostItems, afterAdd: function(elem) { var row = $(elem); Buttons.createFrom(row); }}&#34;</span>&gt;
+</code></pre></div><p>Now I get nice jQuery buttons for all my new rows. P.S. The heart of the Buttons.createFrom() method:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"> <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">btn</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>);
+ <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">iconName</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">data</span>(<span style="color:#e6db74">&#34;iconName&#34;</span>);
+
+ <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">iconName</span>) {
+ 	<span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">button</span>({ <span style="color:#a6e22e">icons</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">primary</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ui-icon-&#39;</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">iconName</span>} });
+ } <span style="color:#66d9ef">else</span> {
+ 	<span style="color:#a6e22e">btn</span>.<span style="color:#a6e22e">button</span>();
+ }
+</code></pre></div>
       </div>
       <footer>
         <div class="stats">
@@ -397,24 +397,24 @@
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -437,7 +437,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -482,9 +482,6 @@
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -495,6 +492,9 @@
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -515,10 +515,10 @@
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -528,6 +528,12 @@
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -607,17 +613,18 @@
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

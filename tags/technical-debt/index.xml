@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technical-debt on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/tags/technical-debt/</link>
+    <description>Recent content in technical-debt on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/technical-debt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Pragmatic Framework for Technical Debt</title>
+      <link>https://blog.mattblair.co/blog/20250216-technical-debt-framework/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20250216-technical-debt-framework/</guid>
+      <description>A Pragmatic Framework for Technical Debt We’ve all faced the dilemma: should we rush a quick feature out the door, or spend extra time refactoring code? That choice often creates technical debt—shortcuts in code, architecture, or process that make future work harder. Left unaddressed, debt piles up and slows your entire team down.
+What Is Technical Debt? Think of technical debt like a credit card balance: you gain speed early on by “borrowing” simplicity, but interest mounts in the form of bugs, longer build times, and confusing code.</description>
+    </item>
+    
+  </channel>
+</rss>

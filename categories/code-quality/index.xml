@@ -4,16 +4,18 @@
     <title>Code Quality on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/code-quality/</link>
     <description>Recent content in Code Quality on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 10:54:47 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/code-quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Improving Software Quality</title>
       <link>https://blog.mattblair.co/blog/20230327-code-quality/</link>
       <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid>
-      <description>&lt;p&gt;As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?&lt;/p&gt;&#xA;&lt;h2 id=&#34;measuring-quality&#34;&gt;Measuring Quality&lt;/h2&gt;&#xA;&lt;p&gt;One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done. Instead, leading metrics can be used to predict the quality of the software before any bugs are found. Two examples of leading metrics are code quality and test coverage.&lt;/p&gt;</description>
+      <description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
+Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description>
     </item>
+    
   </channel>
 </rss>

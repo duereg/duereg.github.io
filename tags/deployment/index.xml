@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deployment on A Place for Poor Examples</title>
+    <title>deployment on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/deployment/</link>
-    <description>Recent content in Deployment on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in deployment on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Mar 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2012 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Horrible, Slow, Stupid, Scary Build Process</title>
       <link>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</link>
-      <pubDate>Sat, 03 Mar 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Mar 2012 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120303-horrible-slow-stupid-scary-build-process/</guid>
-      <description>&lt;p&gt;So we&amp;rsquo;ve rolled out a new build process at work. I&amp;rsquo;ve started working with a new company, and when I arrived, the build process for a new environment consisted of a 20 page manual somebody had written. The process of putting a build on an environment was slow, the manual had steps missing that everyone just &amp;lsquo;knew&amp;rsquo;, the process had multiple failure points, and was more or less a complete disaster. Every other release to PRODUCTION would have some release process error that would force devs to spend all night at work on release night, sometimes having to come in during the weekend as well.&lt;/p&gt;</description>
+      <description>So we&amp;rsquo;ve rolled out a new build process at work. I&amp;rsquo;ve started working with a new company, and when I arrived, the build process for a new environment consisted of a 20 page manual somebody had written. The process of putting a build on an environment was slow, the manual had steps missing that everyone just &amp;lsquo;knew&amp;rsquo;, the process had multiple failure points, and was more or less a complete disaster.</description>
     </item>
+    
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>
-      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</guid>
-      <description>&lt;p&gt;My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.&lt;/p&gt;&#xA;&lt;p&gt;This will allow everyone to upgrade to VS 2010 while leaving the task of upgrading the production web servers to another day. I tried the easy approach. I install .NET 4.0 on the build server and run the MSBuild scripts that already exist. Nothing good happens.&lt;/p&gt;</description>
+      <description>My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.
+This will allow everyone to upgrade to VS 2010 while leaving the task of upgrading the production web servers to another day.</description>
     </item>
+    
   </channel>
 </rss>

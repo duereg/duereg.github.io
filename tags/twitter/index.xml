@@ -4,37 +4,52 @@
     <title>Twitter on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/twitter/</link>
     <description>Recent content in Twitter on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Blog!</title>
       <link>https://blog.mattblair.co/blog/20140112-new-blog/</link>
-      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20140112-new-blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left &lt;a href=&#34;http://codetype.wordpress.com&#34;&gt;wordpress&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a great platform if you can&amp;rsquo;t make a website or just don&amp;rsquo;t care about the details. But it&amp;rsquo;s a little less than I was looking for.&lt;/p&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to hold all my blog entries. A thousand thanks goes to &lt;a href=&#34;https://github.com/dreikanter/wp2md&#34;&gt;@dreikanter&lt;/a&gt; for writing a simple converter of the wordpress XML format to markdown.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left wordpress.
+It&amp;rsquo;s a great platform if you can&amp;rsquo;t make a website or just don&amp;rsquo;t care about the details. But it&amp;rsquo;s a little less than I was looking for.
+So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to hold all my blog entries. A thousand thanks goes to @dreikanter for writing a simple converter of the wordpress XML format to markdown.</description>
     </item>
+    
     <item>
       <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
       <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
-      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
-      <description>&lt;p&gt;In working with &lt;a href=&#34;http://twitter.github.com/bootstrap/base-css.html#forms&#34;&gt;Twitter Bootstrap Forms&lt;/a&gt;, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-group&amp;#34;&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- additional classes here to change state --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-label&amp;#34;&lt;/span&gt;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;controls&amp;#34;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; /&amp;gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- This is the control you want to display --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;help-inline&amp;#34;&lt;/span&gt;&amp;gt;ERROR_OR_INFORMATIONAL_MESSAGE_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s a hefty amount of markup to copy and paste all over your pristine views. Which makes this a great place to use a &lt;a href=&#34;http://derbyjs.com/#components&#34;&gt;Component&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
+    
     <item>
       <title>Derby.js - Integrating Twitter Bootstrap into your Application</title>
       <link>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</link>
-      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
-      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned in a &lt;a href=&#34;https://blog.mattblair.co/posts/20120504-why-use-twitter-bootstrap&#34;&gt;previous post&lt;/a&gt;, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and &lt;a href=&#34;http://www.derbyjs.com&#34;&gt;Derby&lt;/a&gt;. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.&lt;/p&gt;&#xA;&lt;p&gt;Step 1: Add a dependency to the &lt;a href=&#34;https://github.com/codeparty/derby-ui-boot/&#34;&gt;derby-ui-boot&lt;/a&gt; package, which is a Derby component library based on Twitter Bootstrap.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; { &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;....&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;dependencies&amp;#34;&lt;/span&gt;: { &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;derby&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;derby-ui-boot&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;express&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;3.0.0beta4&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;gzippo&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;gt;=0.1.7&amp;#34;&lt;/span&gt; }, &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;....&lt;/span&gt; }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Step 2: Update your project with the downloaded ui-boot code This is as simple as running &lt;code&gt;npm update&lt;/code&gt; in your project folder, which will read package.json, and download any missing dependencies (like the derby-ui-boot entry you just added).&lt;/p&gt;</description>
+      <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
+Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
+{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
+    
     <item>
       <title>Why use Twitter Bootstrap?</title>
       <link>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</link>
-      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 May 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a fan of &lt;a href=&#34;http://twitter.github.com/bootstrap/&#34;&gt;Twitter Bootstrap&lt;/a&gt;, the simple and flexible CSS, HTML, and JavaScript user interface framework.&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cross-Platform Support&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;IE 7 to IPhone and everything else (sorry IE6)&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;strong&gt;12-Column Grid&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;m a fan of Twitter Bootstrap, the simple and flexible CSS, HTML, and JavaScript user interface framework.
+What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:
+ Cross-Platform Support  IE 7 to IPhone and everything else (sorry IE6)
+12-Column Grid  A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.</description>
     </item>
+    
   </channel>
 </rss>

@@ -4,16 +4,20 @@
     <title>Responsive on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/responsive/</link>
     <description>Recent content in Responsive on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 May 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 May 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why use Twitter Bootstrap?</title>
       <link>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</link>
-      <pubDate>Fri, 04 May 2012 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 May 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a fan of &lt;a href=&#34;http://twitter.github.com/bootstrap/&#34;&gt;Twitter Bootstrap&lt;/a&gt;, the simple and flexible CSS, HTML, and JavaScript user interface framework.&lt;/p&gt;&#xA;&lt;p&gt;What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cross-Platform Support&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;IE 7 to IPhone and everything else (sorry IE6)&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;strong&gt;12-Column Grid&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;m a fan of Twitter Bootstrap, the simple and flexible CSS, HTML, and JavaScript user interface framework.
+What&amp;rsquo;s not to like? Out of the box, you&amp;rsquo;ll get:
+ Cross-Platform Support  IE 7 to IPhone and everything else (sorry IE6)
+12-Column Grid  A good grid system takes most of the pain out of laying out your site. Getting labels, inputs, and other pieces of your ui to layout consistently across different browsers at different resolutions can be one of the most painful parts of web development.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Continuous Deployment on A Place for Poor Examples</title>
+    <title>continuous deployment on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/continuous-deployment/</link>
-    <description>Recent content in Continuous Deployment on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in continuous deployment on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>
-      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</guid>
-      <description>&lt;p&gt;My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.&lt;/p&gt;&#xA;&lt;p&gt;This will allow everyone to upgrade to VS 2010 while leaving the task of upgrading the production web servers to another day. I tried the easy approach. I install .NET 4.0 on the build server and run the MSBuild scripts that already exist. Nothing good happens.&lt;/p&gt;</description>
+      <description>My client tasked me with upgrading their build server. Today, their platform builds VS 2080 solutions in .NET 3.5 - and I&amp;rsquo;ve been pushing to upgrade everyone to Visual Studio (VS) 2010 and eventually .NET 4.0. I want to upgrade the server to build a VS 2010 solution in .NET 3.5.
+This will allow everyone to upgrade to VS 2010 while leaving the task of upgrading the production web servers to another day.</description>
     </item>
+    
   </channel>
 </rss>

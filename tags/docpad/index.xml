@@ -4,16 +4,19 @@
     <title>Docpad on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/docpad/</link>
     <description>Recent content in Docpad on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/docpad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jan 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/docpad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Blog!</title>
       <link>https://blog.mattblair.co/blog/20140112-new-blog/</link>
-      <pubDate>Sun, 12 Jan 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2014 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20140112-new-blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left &lt;a href=&#34;http://codetype.wordpress.com&#34;&gt;wordpress&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a great platform if you can&amp;rsquo;t make a website or just don&amp;rsquo;t care about the details. But it&amp;rsquo;s a little less than I was looking for.&lt;/p&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to hold all my blog entries. A thousand thanks goes to &lt;a href=&#34;https://github.com/dreikanter/wp2md&#34;&gt;@dreikanter&lt;/a&gt; for writing a simple converter of the wordpress XML format to markdown.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve just ended a very long relationship that was hideously overdue for some closure. That&amp;rsquo;s right - I&amp;rsquo;ve left wordpress.
+It&amp;rsquo;s a great platform if you can&amp;rsquo;t make a website or just don&amp;rsquo;t care about the details. But it&amp;rsquo;s a little less than I was looking for.
+So I&amp;rsquo;ve decided to get minorly techy and build a nice static site to hold all my blog entries. A thousand thanks goes to @dreikanter for writing a simple converter of the wordpress XML format to markdown.</description>
     </item>
+    
   </channel>
 </rss>

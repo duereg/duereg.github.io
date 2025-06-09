@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Search on A Place for Poor Examples</title>
+    <title>search on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/search/</link>
-    <description>Recent content in Search on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in search on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ElasticSearch Perf - Highlighter Edition</title>
       <link>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20181121-elasticsearch-perf-work/</guid>
-      <description>&lt;p&gt;Wanted to share the results of the work we&amp;rsquo;ve been doing to improve performance and stabilize our ES cluster.&lt;/p&gt;&#xA;&lt;p&gt;Short Version: Changing sharding and &amp;ldquo;highlighting&amp;rdquo; strategies when doing FreeText searches dramatically impacts performance.&lt;/p&gt;&#xA;&lt;p&gt;Long Version: We&amp;rsquo;ve been load testing various aspects of search to pinpoint features we use that create large amounts of load on the system. Our initial research pointed at normal searches and freetext searches as being problematic.&lt;/p&gt;</description>
+      <description>Wanted to share the results of the work we&amp;rsquo;ve been doing to improve performance and stabilize our ES cluster.
+Short Version: Changing sharding and &amp;ldquo;highlighting&amp;rdquo; strategies when doing FreeText searches dramatically impacts performance.
+Long Version: We&amp;rsquo;ve been load testing various aspects of search to pinpoint features we use that create large amounts of load on the system. Our initial research pointed at normal searches and freetext searches as being problematic.</description>
     </item>
+    
   </channel>
 </rss>

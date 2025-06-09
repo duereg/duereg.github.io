@@ -4,8 +4,7 @@
     <title>A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/zh-tw/</link>
     <description>Recent content on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
-    <language>zh-TW</language>
-    <atom:link href="https://blog.mattblair.co/zh-tw/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language><atom:link href="https://blog.mattblair.co/zh-tw/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

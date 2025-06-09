@@ -4,16 +4,19 @@
     <title>Laboratory on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/laboratory/</link>
     <description>Recent content in Laboratory on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/laboratory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2013 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/laboratory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing and Random Selection</title>
       <link>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</link>
-      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20131211-a-b-testing-and-random-selection/</guid>
-      <description>&lt;p&gt;Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?&lt;/p&gt;&#xA;&lt;p&gt;Or are you interested in random selection - you want to send our 5000 emails of differing types, and see how users respond?&lt;/p&gt;&#xA;&lt;p&gt;Either way, enter &lt;a href=&#34;http://www.github.com/goodeggs/laboratory&#34;&gt;laboratory&lt;/a&gt;. A simple framework that allows random selection or A/B testing. With the added bonus of being usable anywhere you can load JavaScript.&lt;/p&gt;</description>
+      <description>Are you looking for an A/B framework? Something you can use in the browser to toggle a user experience - do they see marketing promotion #1, or a picture of a cat?
+Or are you interested in random selection - you want to send our 5000 emails of differing types, and see how users respond?
+Either way, enter laboratory. A simple framework that allows random selection or A/B testing. With the added bonus of being usable anywhere you can load JavaScript.</description>
     </item>
+    
   </channel>
 </rss>

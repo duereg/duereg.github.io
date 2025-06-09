@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ready on A Place for Poor Examples</title>
+    <title>ready on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/ready/</link>
-    <description>Recent content in Ready on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in ready on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Oct 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/ready/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Oct 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/ready/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
       <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
-      <pubDate>Wed, 17 Oct 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve found a neat feature of &lt;a href=&#34;http://derbyjs.com&#34;&gt;derby&lt;/a&gt; dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task. On my first attempt, I put my scripts in the section of the page that I needed the calendar on. I added a script to load the calendar as well. When I went to the url of the page, it loaded immediately. Success! (I thought).&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
     </item>
+    
   </channel>
 </rss>

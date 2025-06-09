@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alternatives on A Place for Poor Examples</title>
+    <title>alternatives on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/alternatives/</link>
-    <description>Recent content in Alternatives on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in alternatives on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/alternatives/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/alternatives/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moment.js alternatives</title>
       <link>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading &lt;a href=&#34;https://github.com/you-dont-need/You-Dont-Need-Momentjs&#34;&gt;this article&lt;/a&gt; about smaller, lighter-weight moment.js alternatives.&lt;/p&gt;</description>
+      <description>If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading this article about smaller, lighter-weight moment.js alternatives.</description>
     </item>
+    
     <item>
       <title>Moment.js instantiation slowness</title>
       <link>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</link>
-      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 May 2017 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</guid>
-      <description>&lt;p&gt;Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.&lt;/p&gt;&#xA;&lt;p&gt;Why is 100 microseconds a big deal?&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re processing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;100 records&lt;/li&gt;&#xA;&lt;li&gt;Where each record has 7 date fields&lt;/li&gt;&#xA;&lt;li&gt;Then you&amp;rsquo;ve created 70,000 microseconds of work&lt;/li&gt;&#xA;&lt;li&gt;Or 70 milliseconds of processing delay.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:&lt;/p&gt;</description>
+      <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
+Why is 100 microseconds a big deal?
+If you&amp;rsquo;re processing:
+ 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
     </item>
+    
   </channel>
 </rss>

@@ -4,16 +4,18 @@
     <title>Calendar on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/calendar/</link>
     <description>Recent content in Calendar on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 May 2021 09:39:00 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/calendar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 09:39:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/calendar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The schedule of an engineering manager</title>
       <link>https://blog.mattblair.co/blog/20210516-weekly-tasks/</link>
       <pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20210516-weekly-tasks/</guid>
-      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;In re-reading &lt;a href=&#34;https://amzn.to/3Dw1oUF&#34;&gt;High Output Management&lt;/a&gt; recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.&lt;/p&gt;&#xA;&lt;h2 id=&#34;regular-occurring-events&#34;&gt;Regular Occurring Events:&lt;/h2&gt;&#xA;&lt;p&gt;Weekly 1:1’s with all direct reports&#xA;Weekly 1:1’s with PM, Design, etc&#xA;Weekly 1:1&amp;rsquo;s with my manager&#xA;Weekly leadership meeting with pillar leadership&#xA;Bi-weekly 1:1’s with peers&#xA;Monthly Career Conversations with direct reports&lt;/p&gt;</description>
+      <description>Overview In re-reading High Output Management recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.
+Regular Occurring Events: Weekly 1:1’s with all direct reports Weekly 1:1’s with PM, Design, etc Weekly 1:1&amp;rsquo;s with my manager Weekly leadership meeting with pillar leadership Bi-weekly 1:1’s with peers Monthly Career Conversations with direct reports</description>
     </item>
+    
   </channel>
 </rss>

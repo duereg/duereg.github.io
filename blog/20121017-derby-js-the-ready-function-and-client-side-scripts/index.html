@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -250,7 +250,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2012-10-17 00:00:00 &#43;0000 UTC">October 17, 2012</time>
+    <time datetime="2012-10-17 00:00:00 -0700 PDT">October 17, 2012</time>
     
     <p>3-Minute Read</p>
   </div>
@@ -310,11 +310,11 @@
 <p>Code that responds to user events and model events should be placed within the app.ready() callback. This provides the model object for the client and makes sure that the code is only executed on the client. <strong>This function is called as soon as the Derby app is loaded on the client.</strong> Note that any code within this callback is only executed on the client and not on the server.</p>
 </blockquote>
 <p>I&rsquo;ve bolded the part I think is particularly important. This code is run as soon as the client is loaded. Which means if you have more than a single-page app, using <code>app.ready()</code> to load a feature might not work out. So what to do? An undocumented feature of Derby - app.on(). What does it do? It allows you to load code AFTER a specific page has loaded. Which is exactly what I&rsquo;m looking for. So here&rsquo;s what I ended up writing in my <code>app.ready()</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;render:calendar&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">ctx</span>) {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">logger</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;rendering calendar client-side...&#34;</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Timeline</span>(<span style="color:#e6db74">&#34;timeline&#34;</span>, <span style="color:#66d9ef">new</span> Date());
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>In this example this code will run after rendering the <code>calendar</code> view. On the Calendar page, there is a script block which loads the <code>Timeline</code> function. After writing this code, I tried my page again. Still no luck. I wasn&rsquo;t getting the calendar to load on both the client and server load. On a lark, I moved the block containing my Timeline javascript to my index view, and tried again. Success. Which makes sense. If you are rendering pages via the client side load, additional resources aren&rsquo;t going to be loaded. So by putting my script into the index view, it&rsquo;s unfortunately loaded for all my pages, but at least it&rsquo;s available for both the client and server side rendering of my cool control.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">on</span>(<span style="color:#e6db74">&#39;render:calendar&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">ctx</span>) {
+  <span style="color:#a6e22e">logger</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;rendering calendar client-side...&#34;</span>);
+  <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">Timeline</span>(<span style="color:#e6db74">&#34;timeline&#34;</span>, <span style="color:#66d9ef">new</span> Date());
+});
+</code></pre></div><p>In this example this code will run after rendering the <code>calendar</code> view. On the Calendar page, there is a script block which loads the <code>Timeline</code> function. After writing this code, I tried my page again. Still no luck. I wasn&rsquo;t getting the calendar to load on both the client and server load. On a lark, I moved the block containing my Timeline javascript to my index view, and tried again. Success. Which makes sense. If you are rendering pages via the client side load, additional resources aren&rsquo;t going to be loaded. So by putting my script into the index view, it&rsquo;s unfortunately loaded for all my pages, but at least it&rsquo;s available for both the client and server side rendering of my cool control.</p>
 
       </div>
       <footer>
@@ -406,24 +406,24 @@
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -446,7 +446,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -491,9 +491,6 @@
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -504,6 +501,9 @@
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -524,10 +524,10 @@
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -537,6 +537,12 @@
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -616,17 +622,18 @@
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

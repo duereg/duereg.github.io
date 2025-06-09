@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git-Symbolic-Ref on A Place for Poor Examples</title>
+    <title>git-symbolic-ref on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/git-symbolic-ref/</link>
-    <description>Recent content in Git-Symbolic-Ref on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in git-symbolic-ref on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/git-symbolic-ref/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Feb 2015 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/git-symbolic-ref/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Replaying changes from one git branch onto another</title>
       <link>https://blog.mattblair.co/blog/20150216-git-rebasing-without-rebasing/</link>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20150216-git-rebasing-without-rebasing/</guid>
-      <description>&lt;h2 id=&#34;or-rebasing-without-rebasing&#34;&gt;Or rebasing without rebasing&lt;/h2&gt;&#xA;&lt;p&gt;Where I work, we use git (like everyone else), and we follow this common pattern for development:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Create a feature branch off of master&lt;/li&gt;&#xA;&lt;li&gt;Work on your feature in the branch&lt;/li&gt;&#xA;&lt;li&gt;When getting ready to submit a Pull Request, squash your commits&lt;/li&gt;&#xA;&lt;li&gt;Rebase master against your branch&lt;/li&gt;&#xA;&lt;li&gt;Open PR&lt;/li&gt;&#xA;&lt;li&gt;Get feedback&lt;/li&gt;&#xA;&lt;li&gt;After feedback corrected (if present), merge branch into master&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Pretty standard practice. 99% of the time, this is a frictionless process.&lt;/p&gt;</description>
+      <description>Or rebasing without rebasing Where I work, we use git (like everyone else), and we follow this common pattern for development:
+ Create a feature branch off of master Work on your feature in the branch When getting ready to submit a Pull Request, squash your commits Rebase master against your branch Open PR Get feedback After feedback corrected (if present), merge branch into master  Pretty standard practice. 99% of the time, this is a frictionless process.</description>
     </item>
+    
   </channel>
 </rss>

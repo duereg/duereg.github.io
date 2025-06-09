@@ -30,8 +30,8 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.118.2">
-  <link rel="stylesheet" href="/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/css/add-on.css">
+  <meta name="generator" content="Hugo 0.77.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
   <body>
@@ -252,7 +252,7 @@
     
   </div>
   <div class="meta">
-    <time datetime="2014-07-11 00:00:00 &#43;0000 UTC">July 11, 2014</time>
+    <time datetime="2014-07-11 00:00:00 -0700 PDT">July 11, 2014</time>
     
     <p>1-Minute Read</p>
   </div>
@@ -307,23 +307,23 @@
         
         
         <p>I was working with some older Ember.Data code, and I came across a model like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">MyFancyModel</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">Model</span>.<span style="color:#a6e22e">extend</span>({
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isSelected</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">isSomethingElse</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">attr</span>(<span style="color:#e6db74">&#39;boolean&#39;</span>, {<span style="color:#a6e22e">defaultValue</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>})
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><p>I thought this code was a bit strange, and then went and played with it a bit:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>); <span style="color:#75715e">//returns false
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>); <span style="color:#75715e">//returns true
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>); <span style="color:#75715e">//returns false
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>); <span style="color:#75715e">//returns true
-</span></span></span></code></pre></div><p>I got identical behavior from the two properties. Then, I tried this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isDirty&#39;</span>); <span style="color:#75715e">//RETURNS FALSE
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isDirty&#39;</span>); <span style="color:#75715e">//RETURNS TRUE!!!
-</span></span></span></code></pre></div><p>My question was this: was this the expected behavior? I can&rsquo;t find any documentation on setting boolean values directly on the model like this anywhere in the Ember.Data docs.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">MyFancyModel</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">Model</span>.<span style="color:#a6e22e">extend</span>({
+  <span style="color:#a6e22e">isSelected</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
+  <span style="color:#a6e22e">isSomethingElse</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">attr</span>(<span style="color:#e6db74">&#39;boolean&#39;</span>, {<span style="color:#a6e22e">defaultValue</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>})
+});
+</code></pre></div><p>I thought this code was a bit strange, and then went and played with it a bit:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>); <span style="color:#75715e">//returns false
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>, <span style="color:#66d9ef">true</span>);
+<span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>); <span style="color:#75715e">//returns true
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>); <span style="color:#75715e">//returns false
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>, <span style="color:#66d9ef">true</span>);
+<span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>); <span style="color:#75715e">//returns true
+</span></code></pre></div><p>I got identical behavior from the two properties. Then, I tried this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSelected&#39;</span>, <span style="color:#66d9ef">true</span>);
+<span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isDirty&#39;</span>); <span style="color:#75715e">//RETURNS FALSE
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">set</span>(<span style="color:#e6db74">&#39;isSomethingElse&#39;</span>, <span style="color:#66d9ef">true</span>);
+<span style="color:#a6e22e">aFancyModel</span>.<span style="color:#a6e22e">get</span>(<span style="color:#e6db74">&#39;isDirty&#39;</span>); <span style="color:#75715e">//RETURNS TRUE!!!
+</span></code></pre></div><p>My question was this: was this the expected behavior? I can&rsquo;t find any documentation on setting boolean values directly on the model like this anywhere in the Ember.Data docs.</p>
 <p>After asking around on <a href="http://discuss.emberjs.com/t/model-declaration-false-vs-ds-attr-boolean-defaultvalue-false/5860">discuss.emberjs.com</a>, I got an answer.</p>
 <p>This behavior is by design. Fields designated with just a variable (e.g. isSelected) are local attributes. You can use them just like an other attribute.</p>
 <p>The difference with fields declared this way is they won&rsquo;t dirty the model and they aren&rsquo;t sent across the wire on save or update.</p>
@@ -410,24 +410,24 @@
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240619-build-vs-buy/">Build vs. Buy</a></h2>
-          <time class="published" datetime="2024-06-19 10:00:00 -0800 -0800">June 19, 2024</time>
+          <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
+          <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240414-establishing-1-1s-that-work/">Establishing 1-1s that work</a></h2>
-          <time class="published" datetime="2024-04-14 11:52:59 -0800 -0800">April 14, 2024</time>
+          <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
+          <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
         </header>
       </article>
       
       <article class="mini-post">
           
         <header>
-          <h2><a href="/blog/20240305-refactoring-a-legacy-codebase/">Refactoring a Legacy Codebase</a></h2>
-          <time class="published" datetime="2024-03-05 11:52:59 -0800 PST">March 5, 2024</time>
+          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
+          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -450,7 +450,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">69</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -495,9 +495,6 @@
               <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
           
           <li>
-              <a href="/categories/refactoring/">refactoring<span class="count">2</span></a>
-          
-          <li>
               <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
           
           <li>
@@ -508,6 +505,9 @@
           
           <li>
               <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/calendar/">calendar<span class="count">1</span></a>
@@ -528,10 +528,10 @@
               <a href="/categories/git/">git<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/hiring/">hiring<span class="count">1</span></a>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
           
           <li>
-              <a href="/categories/incident/">incident<span class="count">1</span></a>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
           
           <li>
               <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
@@ -541,6 +541,12 @@
           
           <li>
               <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
           
           <li>
               <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
@@ -620,17 +626,18 @@
       </ul>
   
   <p class="copyright">
-    © 2024 A Place for Poor Examples
+    © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.118.2' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/js/highlight.js"></script>
     
-    <script>hljs.highlightAll();</script><script src="/js/bundle.min.ad907ab88f4f7ed7618ae94d9b61dfb5dbda485c7da78031e5a32ef164d81dfb.js" integrity="sha256-rZB6uI9PftdhiulNm2HftdvaSFx9p4Ax5aMu8WTYHfs="></script>
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
     <script src="/js/add-on.js"></script>
+
     </div>
   </body>
 </html>

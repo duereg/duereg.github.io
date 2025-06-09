@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Memory on A Place for Poor Examples</title>
+    <title>memory on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/memory/</link>
-    <description>Recent content in Memory on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in memory on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/memory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Oct 2016 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/memory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Superagent/Request Memory Leaks</title>
       <link>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</guid>
-      <description>&lt;h2 id=&#34;superagentrequest-memory-leaks&#34;&gt;Superagent/Request Memory Leaks&lt;/h2&gt;&#xA;&lt;p&gt;The last several weeks &lt;a href=&#34;https://thomashunter.name/&#34;&gt;Thomas Hunter&lt;/a&gt; and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.&lt;/p&gt;&#xA;&lt;p&gt;We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve found three results:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/visionmedia/superagent&#34;&gt;Superagent&lt;/a&gt;, when put under a certain threshold of load and then connections timeout, can leak memory.&lt;/p&gt;</description>
+      <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
+We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
+We&amp;rsquo;ve found three results:
+  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
     </item>
+    
   </channel>
 </rss>

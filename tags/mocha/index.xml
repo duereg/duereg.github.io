@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mocha on A Place for Poor Examples</title>
+    <title>mocha on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/mocha/</link>
-    <description>Recent content in Mocha on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in mocha on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/mocha/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Dec 2014 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/mocha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code coverage for CoffeeScript and JavaScript without pre-compiling</title>
       <link>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</link>
-      <pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 Dec 2014 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20141204-gulp-coffee-istanbul/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.&lt;/p&gt;&#xA;&lt;p&gt;So I love &lt;a href=&#34;https://github.com/gotwarlost/istanbul&#34;&gt;istanbul&lt;/a&gt; and &lt;a href=&#34;https://github.com/SBoudrias/gulp-istanbul&#34;&gt;gulp-istanbul&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;One problem - you have to compile your CoffeeScript, then point you tests at the compiled assets to get coverage metrics.&lt;/p&gt;&#xA;&lt;p&gt;Not anymore. Introducing &lt;a href=&#34;https://github.com/duereg/gulp-coffee-istanbul&#34;&gt;gulp-coffee-istanbul&lt;/a&gt;. This allows in place CoffeeScript test coverage.&lt;/p&gt;&#xA;&lt;p&gt;Have tests in coffee? Great. Have tests in JS? Great too. Same with your dependencies - it&amp;rsquo;ll take both, in place, and run coverage.&lt;/p&gt;</description>
+      <description>If you&amp;rsquo;re not aware of your code coverage when building a serious application, you&amp;rsquo;re not building a serious app.
+So I love istanbul and gulp-istanbul.
+One problem - you have to compile your CoffeeScript, then point you tests at the compiled assets to get coverage metrics.
+Not anymore. Introducing gulp-coffee-istanbul. This allows in place CoffeeScript test coverage.
+Have tests in coffee? Great. Have tests in JS? Great too. Same with your dependencies - it&amp;rsquo;ll take both, in place, and run coverage.</description>
     </item>
+    
     <item>
       <title>Australian vs US Coffee Terms Comparison</title>
       <link>https://blog.mattblair.co/blog/20120727-australian-vs-us-coffee-terms-comparison/</link>
-      <pubDate>Fri, 27 Jul 2012 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Jul 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120727-australian-vs-us-coffee-terms-comparison/</guid>
-      <description>&lt;p&gt;This took me a while to figure out when I first moved to Australia. I still remember the look on the barista&amp;rsquo;s face when I tried to order an Americano, and then the absolute puzzlement over what the hell a flat white vs a long black was. I hope this helps other visitors to Australia from the US order a decent cup of coffee!&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;&#xA;          &lt;th&gt;Australian Name&lt;/th&gt;&#xA;          &lt;th&gt;US Name&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso.&lt;/td&gt;&#xA;          &lt;td&gt;Short Black&lt;/td&gt;&#xA;          &lt;td&gt;Espresso&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso mixed with hot water.&lt;/td&gt;&#xA;          &lt;td&gt;Long Black&lt;/td&gt;&#xA;          &lt;td&gt;Americano&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso topped with milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Macchiato&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A cup of hot milk with a shot of expresso poured in.&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;          &lt;td&gt;Macchiato&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk.&lt;/td&gt;&#xA;          &lt;td&gt;Flat White&lt;/td&gt;&#xA;          &lt;td&gt;Latte No Foam&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk and a little milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Latte&lt;/td&gt;&#xA;          &lt;td&gt;Latte&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with steamed milk, milk froth, and cocoa powder.&lt;/td&gt;&#xA;          &lt;td&gt;Mocha&lt;/td&gt;&#xA;          &lt;td&gt;Mocha&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with half steamed milk, half milk froth.&lt;/td&gt;&#xA;          &lt;td&gt;Cappuccino&lt;/td&gt;&#xA;          &lt;td&gt;Cappuccino&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A shot of espresso with cold milk and ice cream.&lt;/td&gt;&#xA;          &lt;td&gt;Iced Coffee&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;A cup of drip coffee over ice.&lt;/td&gt;&#xA;          &lt;td&gt;-&amp;ndash;&lt;/td&gt;&#xA;          &lt;td&gt;Iced Coffee&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <description>This took me a while to figure out when I first moved to Australia. I still remember the look on the barista&amp;rsquo;s face when I tried to order an Americano, and then the absolute puzzlement over what the hell a flat white vs a long black was. I hope this helps other visitors to Australia from the US order a decent cup of coffee!
+   Description Australian Name US Name     A shot of espresso.</description>
     </item>
+    
   </channel>
 </rss>

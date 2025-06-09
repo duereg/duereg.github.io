@@ -4,23 +4,27 @@
     <title>Chrome on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/chrome/</link>
     <description>Recent content in Chrome on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Oct 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alas, it was not to be</title>
       <link>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</link>
-      <pubDate>Fri, 14 Oct 2011 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 14 Oct 2011 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20111014-alas-it-was-not-to-be/</guid>
-      <description>&lt;p&gt;My jQuery bug was already documented. :(&lt;/p&gt;</description>
+      <description>My jQuery bug was already documented. :(</description>
     </item>
+    
     <item>
       <title>jQuery UI Bug - 1.8.16, buttonset() method</title>
       <link>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</link>
-      <pubDate>Thu, 06 Oct 2011 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Oct 2011 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20111006-jquery-ui-bug-1-8-16-buttonset-method/</guid>
-      <description>&lt;p&gt;I love to find bugs in good software! Came across a little jQuery UI bug today. It&amp;rsquo;s for one browser, but it always excited to be able to create an easy-to-replicate bug. The bug is small - it deals with the buttonset() method.&lt;/p&gt;&#xA;&lt;p&gt;The buttons, instead of having the rounded corners on the outside, have the rounded corners on the inside. Not critical but it made the UI I was working on look strange. If you have Chrome, and are dealing with jQuery 1.6.3 and jQuery UI 1.8.16, check out the bug here:&lt;/p&gt;</description>
+      <description>I love to find bugs in good software! Came across a little jQuery UI bug today. It&amp;rsquo;s for one browser, but it always excited to be able to create an easy-to-replicate bug. The bug is small - it deals with the buttonset() method.
+The buttons, instead of having the rounded corners on the outside, have the rounded corners on the inside. Not critical but it made the UI I was working on look strange.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>For on A Place for Poor Examples</title>
+    <title>for on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/for/</link>
-    <description>Recent content in For on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in for on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/for/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Sep 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/for/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>React and the annoyances of JSX</title>
       <link>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</link>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20140909-react-jsx-class-classname-for-htmlfor/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been writing a bunch of &lt;a href=&#34;http://facebook.github.io/react/&#34;&gt;React&lt;/a&gt; code and a heap of &lt;a href=&#34;http://facebook.github.io/react/docs/jsx-in-depth.html&#34;&gt;JSX&lt;/a&gt; at work.&lt;/p&gt;&#xA;&lt;p&gt;React (coupled with &lt;a href=&#34;http://facebook.github.io/flux/docs/overview.html&#34;&gt;Flux&lt;/a&gt;) has been a joy to work with. The uni-directional data flow makes understanding the state of your application at any point easy to understand. The gradual componentization of our UI codebase is a beautiful thing to witness. That, coupled with a component based CSS system (using &lt;a href=&#34;https://bem.info/method/&#34;&gt;BEM&lt;/a&gt; guidelines for naming classes) has removed the messy bleed over we were having with some of our old css code.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve been writing a bunch of React code and a heap of JSX at work.
+React (coupled with Flux) has been a joy to work with. The uni-directional data flow makes understanding the state of your application at any point easy to understand. The gradual componentization of our UI codebase is a beautiful thing to witness. That, coupled with a component based CSS system (using BEM guidelines for naming classes) has removed the messy bleed over we were having with some of our old css code.</description>
     </item>
+    
   </channel>
 </rss>

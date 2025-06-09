@@ -4,16 +4,18 @@
     <title>Incident Response on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/incident-response/</link>
     <description>Recent content in Incident Response on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Feb 2021 18:49:50 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/incident-response/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Feb 2021 18:49:50 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/incident-response/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakdown; post-mortem of a process failure</title>
       <link>https://blog.mattblair.co/blog/20210217-incident-remediation/</link>
       <pubDate>Wed, 17 Feb 2021 18:49:50 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20210217-incident-remediation/</guid>
-      <description>&lt;p&gt;I was reviewing an old incident review doc where I wrote up some of the high level learnings from the incident. Thought it was worth sharing, with the details omitted to protect the innocent.&lt;/p&gt;&#xA;&lt;p&gt;Some backstory; we were trying to load test a component and ended up getting the load testing done at the last minute right before customer launch. The team had to work into the weekend to meet the customer deadline.&lt;/p&gt;</description>
+      <description>I was reviewing an old incident review doc where I wrote up some of the high level learnings from the incident. Thought it was worth sharing, with the details omitted to protect the innocent.
+Some backstory; we were trying to load test a component and ended up getting the load testing done at the last minute right before customer launch. The team had to work into the weekend to meet the customer deadline.</description>
     </item>
+    
   </channel>
 </rss>

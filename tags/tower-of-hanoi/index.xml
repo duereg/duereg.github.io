@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tower of Hanoi on A Place for Poor Examples</title>
+    <title>tower of hanoi on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/tower-of-hanoi/</link>
-    <description>Recent content in Tower of Hanoi on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in tower of hanoi on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/tower-of-hanoi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/tower-of-hanoi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cracking the Coding Interview - The Tower of Hanoi and Poor Editing</title>
       <link>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</link>
-      <pubDate>Sat, 15 Sep 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Sep 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120915-cracking-the-coding-interview-the-tower-of-hanoi-and-poor-editing/</guid>
-      <description>&lt;p&gt;I just finished the &lt;a href=&#34;http://en.wikipedia.org/wiki/Stack_%5C%28abstract_data_type%5C%29&#34;&gt;Stack&lt;/a&gt; section of &lt;a href=&#34;http://www.amazon.com/gp/product/098478280X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=098478280X&amp;amp;linkCode=as2&amp;amp;tag=aplfopoex-20&#34;&gt;Cracking the Coding Interview&lt;/a&gt; and came across an old puzzle - &lt;a href=&#34;http://en.wikipedia.org/wiki/Tower_of_Hanoi&#34;&gt;The Tower of Hanoi&lt;/a&gt;. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem. Anyways, after beating my head in trying to solve this, I ended up going to the back of the book and looking up the solution. And found this pile of shit psuedocode. I&amp;rsquo;ve shortened the comments, but the content is the same.&lt;/p&gt;</description>
+      <description>I just finished the Stack section of Cracking the Coding Interview and came across an old puzzle - The Tower of Hanoi. I struggled with solving this problem. I wrote this elaborate, strange algorithm to try to solve it (which should have been a dead give-away that I had it wrong). Ironically enough, hidden in the 20-30 lines of code I wrote were the three lines of code I needed to solve the problem.</description>
     </item>
+    
   </channel>
 </rss>

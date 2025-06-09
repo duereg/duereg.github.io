@@ -4,16 +4,19 @@
     <title>Project Kickoff on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/project-kickoff/</link>
     <description>Recent content in Project Kickoff on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2020 14:07:39 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/project-kickoff/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Mar 2020 14:07:39 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/project-kickoff/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kickoff Docs</title>
       <link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link>
       <pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid>
-      <description>&lt;h2 id=&#34;what-is-a-project-kickoff&#34;&gt;What is a Project Kickoff?&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Taken from the Atlassian &lt;a href=&#34;https://www.atlassian.com/work-management/project-management/project-kickoff&#34;&gt;Project Kickoff&lt;/a&gt; reference.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-a-project-kickoff&#34;&gt;Why a Project Kickoff?&lt;/h2&gt;&#xA;&lt;p&gt;A project kickoff sets a clear outline of project goals and milestones.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a celebration of where you&amp;rsquo;re going as a group. You get your chance to outline what you want to build as a team and why you&amp;rsquo;re doing it. The &lt;em&gt;how&lt;/em&gt; isn&amp;rsquo;t important at this step - either from a management or engineering side. You&amp;rsquo;re just trying to let everyone know where you want to end up once the project is complete.&lt;/p&gt;</description>
+      <description>What is a Project Kickoff?  What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
+ Taken from the Atlassian Project Kickoff reference.
+Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description>
     </item>
+    
   </channel>
 </rss>

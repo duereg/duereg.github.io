@@ -1,96 +1,142 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Node on A Place for Poor Examples</title>
+    <title>node on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/tags/node/</link>
-    <description>Recent content in Node on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <description>Recent content in node on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Sep 2018 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moment.js alternatives</title>
       <link>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20180908-moment-js-alternatives/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading &lt;a href=&#34;https://github.com/you-dont-need/You-Dont-Need-Momentjs&#34;&gt;this article&lt;/a&gt; about smaller, lighter-weight moment.js alternatives.&lt;/p&gt;</description>
+      <description>If you&amp;rsquo;re looking for moment.js alternatives, I&amp;rsquo;d recommend reading this article about smaller, lighter-weight moment.js alternatives.</description>
     </item>
+    
     <item>
       <title>Moment.js instantiation slowness</title>
       <link>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</link>
-      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 May 2017 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20170504-moment-js-instantiation-slowness/</guid>
-      <description>&lt;p&gt;Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.&lt;/p&gt;&#xA;&lt;p&gt;Why is 100 microseconds a big deal?&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re processing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;100 records&lt;/li&gt;&#xA;&lt;li&gt;Where each record has 7 date fields&lt;/li&gt;&#xA;&lt;li&gt;Then you&amp;rsquo;ve created 70,000 microseconds of work&lt;/li&gt;&#xA;&lt;li&gt;Or 70 milliseconds of processing delay.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:&lt;/p&gt;</description>
+      <description>Was doing some test speedup/performance improvement work recently on the search API and found out something; the moment.js library takes around 100 microseconds (or .1 milliseconds) to create a new instance.
+Why is 100 microseconds a big deal?
+If you&amp;rsquo;re processing:
+ 100 records Where each record has 7 date fields Then you&amp;rsquo;ve created 70,000 microseconds of work Or 70 milliseconds of processing delay.  By doing some memoization of date formatting in our API, we&amp;rsquo;ve seen these performance improvements:</description>
     </item>
+    
     <item>
       <title>Performance Improvement via node 4 to node 6</title>
       <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>
-      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</guid>
-      <description>&lt;p&gt;My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.&lt;/p&gt;&#xA;&lt;p&gt;In the picture below, the 1st line is the upgrade from node 4 to node 6, and the corresponding flattening of memory usage vs. load.&lt;/p&gt;&#xA;&lt;p&gt;The 2nd line is our removal of redis connection queueing in the application.&lt;/p&gt;&#xA;&lt;p&gt;All of all, the memory consumption of our application is now averaging around 150MB, down from a high of 1GB!&lt;/p&gt;</description>
+      <description>My team at work recently upgraded our codebase to use to node 6.9, as node 6 has recently gone to LTS.
+In the picture below, the 1st line is the upgrade from node 4 to node 6, and the corresponding flattening of memory usage vs. load.
+The 2nd line is our removal of redis connection queueing in the application.
+All of all, the memory consumption of our application is now averaging around 150MB, down from a high of 1GB!</description>
     </item>
+    
     <item>
       <title>Superagent/Request Memory Leaks</title>
       <link>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</link>
-      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20161017-superagent-request-memory-leaks/</guid>
-      <description>&lt;h2 id=&#34;superagentrequest-memory-leaks&#34;&gt;Superagent/Request Memory Leaks&lt;/h2&gt;&#xA;&lt;p&gt;The last several weeks &lt;a href=&#34;https://thomashunter.name/&#34;&gt;Thomas Hunter&lt;/a&gt; and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.&lt;/p&gt;&#xA;&lt;p&gt;We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve found three results:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/visionmedia/superagent&#34;&gt;Superagent&lt;/a&gt;, when put under a certain threshold of load and then connections timeout, can leak memory.&lt;/p&gt;</description>
+      <description>Superagent/Request Memory Leaks The last several weeks Thomas Hunter and myself have spent some of our nights and weekends trying to track down memory leaks in an API we both work on.
+We were seeing a distinct pattern, that when the API was put under a certain amount of load, that we would start slowly bleeding memory.
+We&amp;rsquo;ve found three results:
+  Superagent, when put under a certain threshold of load and then connections timeout, can leak memory.</description>
     </item>
+    
     <item>
       <title>Node 4 and Babel 6 in Harmony</title>
       <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>
-      <pubDate>Sat, 16 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Jan 2016 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</guid>
-      <description>&lt;h2 id=&#34;pun-in-title-intentional&#34;&gt;Pun in title intentional&lt;/h2&gt;&#xA;&lt;p&gt;I upgraded a heap of projects I was working on to node 4.2.3 and &lt;a href=&#34;https://blog.mattblair.co/posts/20151231-for-real-upgrade-babel-5-to-6/&#34;&gt;babel 6&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As I did a quick and dirty upgrade, I kept thinking to myself: doesn&amp;rsquo;t node 4/5 have &lt;a href=&#34;https://nodejs.org/en/docs/es6/#which-features-ship-with-node-js-by-default-no-runtime-flag-required&#34;&gt;pretty good support for es6/2015&lt;/a&gt;?&lt;/p&gt;&#xA;&lt;p&gt;As I was looking around the internet for  &lt;del&gt;Hello Kitty Formalwear&lt;/del&gt;  babel 6 upgrade tips, I came across &lt;a href=&#34;https://github.com/jbach/babel-preset-es2015-node4&#34;&gt;this package which read my mind&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;So if you&amp;rsquo;re a node 4/5 user, by doing this:&lt;/p&gt;</description>
+      <description>Pun in title intentional I upgraded a heap of projects I was working on to node 4.2.3 and babel 6.
+As I did a quick and dirty upgrade, I kept thinking to myself: doesn&amp;rsquo;t node 4/5 have pretty good support for es6/2015?
+As I was looking around the internet for Hello Kitty Formalwear babel 6 upgrade tips, I came across this package which read my mind.
+So if you&amp;rsquo;re a node 4/5 user, by doing this:</description>
     </item>
+    
     <item>
       <title>express-coffee-react-views</title>
       <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
-      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Oct 2014 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</guid>
-      <description>&lt;p&gt;This is an &lt;a href=&#34;http://expressjs.com/&#34;&gt;Express&lt;/a&gt; view engine which renders &lt;a href=&#34;http://facebook.github.io/react/&#34;&gt;React&lt;/a&gt; components written in &lt;a href=&#34;http://coffeescript.org/&#34;&gt;CoffeeScript&lt;/a&gt; on the server. It renders static markup and &lt;em&gt;does not&lt;/em&gt; support mounting those views on the client.&lt;/p&gt;&#xA;&lt;p&gt;This was derived from &lt;a href=&#34;https://github.com/reactjs/express-react-views&#34;&gt;express-react-views&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is intended to be used as a replacement for existing server-side view solutions, like &lt;a href=&#34;http://jade-lang.com/&#34;&gt;jade&lt;/a&gt;, &lt;a href=&#34;http://embeddedjs.com/&#34;&gt;ejs&lt;/a&gt;, or &lt;a href=&#34;https://github.com/barc/express-hbs&#34;&gt;handlebars&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install express-coffee-react-views react&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You must explicitly install &lt;code&gt;react&lt;/code&gt; as a dependency. &lt;code&gt;react&lt;/code&gt; is a peer dependency here. This is to avoid issues that may come when using incompatible versions.&lt;/p&gt;</description>
+      <description>This is an Express view engine which renders React components written in CoffeeScript on the server. It renders static markup and does not support mounting those views on the client.
+This was derived from express-react-views
+This is intended to be used as a replacement for existing server-side view solutions, like jade, ejs, or handlebars.
+Usage npm install express-coffee-react-views react Note: You must explicitly install react as a dependency. react is a peer dependency here.</description>
     </item>
+    
     <item>
       <title>Derby.js - The Ready() Function, and Adding Client-Side Scripts to your App</title>
       <link>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</link>
-      <pubDate>Wed, 17 Oct 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Oct 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20121017-derby-js-the-ready-function-and-client-side-scripts/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve found a neat feature of &lt;a href=&#34;http://derbyjs.com&#34;&gt;derby&lt;/a&gt; dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task. On my first attempt, I put my scripts in the section of the page that I needed the calendar on. I added a script to load the calendar as well. When I went to the url of the page, it loaded immediately. Success! (I thought).&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve found a neat feature of derby dealing with the ready() function. I&amp;rsquo;ve been creating a derby app, and in my application I need to load up a client-side calendar. With a standard HTML web page this is straightforward thing to do. On the page you wanted the calendar, you would include the client js for the calendar, some code to load it, and that would be that. Derby introduced some complexity to this relatively simple task.</description>
     </item>
+    
     <item>
       <title>Derby.js - Starting out with Components; Creating a Twitter Bootstrap Input Component</title>
       <link>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</link>
-      <pubDate>Sat, 25 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120825-derby-js-starting-out-with-components-creating-a-twitter-bootstrap-input-component/</guid>
-      <description>&lt;p&gt;In working with &lt;a href=&#34;http://twitter.github.com/bootstrap/base-css.html#forms&#34;&gt;Twitter Bootstrap Forms&lt;/a&gt;, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-group&amp;#34;&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- additional classes here to change state --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;control-label&amp;#34;&lt;/span&gt;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;label&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;controls&amp;#34;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;input&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt; /&amp;gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- This is the control you want to display --&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;help-inline&amp;#34;&lt;/span&gt;&amp;gt;ERROR_OR_INFORMATIONAL_MESSAGE_HERE&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That&amp;rsquo;s a hefty amount of markup to copy and paste all over your pristine views. Which makes this a great place to use a &lt;a href=&#34;http://derbyjs.com/#components&#34;&gt;Component&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>In working with Twitter Bootstrap Forms, one of my favorite ways to lay out a form is using the Horizontal form layout. The layout requires a bit of css/html to get each of the form elements (the text boxes and what not) to play nicely. To add form elements to the horizontal form layout, you need the following html structure for each field:
+&amp;lt;div class=&amp;#34;control-group&amp;#34;&amp;gt;&amp;lt;!-- additional classes here to change state --&amp;gt; &amp;lt;label class=&amp;#34;control-label&amp;#34;&amp;gt;INPUT_LABEL_TEXT_HERE&amp;lt;/label&amp;gt; &amp;lt;div class=&amp;#34;controls&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; /&amp;gt; &amp;lt;!</description>
     </item>
+    
     <item>
       <title>Derby.js - Integrating Twitter Bootstrap into your Application</title>
       <link>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</link>
-      <pubDate>Sat, 18 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120818-derby-js-integrating-twitter-bootstrap-into-your-application/</guid>
-      <description>&lt;p&gt;As I&amp;rsquo;ve mentioned in a &lt;a href=&#34;https://blog.mattblair.co/posts/20120504-why-use-twitter-bootstrap&#34;&gt;previous post&lt;/a&gt;, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and &lt;a href=&#34;http://www.derbyjs.com&#34;&gt;Derby&lt;/a&gt;. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.&lt;/p&gt;&#xA;&lt;p&gt;Step 1: Add a dependency to the &lt;a href=&#34;https://github.com/codeparty/derby-ui-boot/&#34;&gt;derby-ui-boot&lt;/a&gt; package, which is a Derby component library based on Twitter Bootstrap.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; { &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;....&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;dependencies&amp;#34;&lt;/span&gt;: { &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;derby&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;derby-ui-boot&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;express&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;3.0.0beta4&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;gzippo&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;gt;=0.1.7&amp;#34;&lt;/span&gt; }, &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;....&lt;/span&gt; }&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Step 2: Update your project with the downloaded ui-boot code This is as simple as running &lt;code&gt;npm update&lt;/code&gt; in your project folder, which will read package.json, and download any missing dependencies (like the derby-ui-boot entry you just added).&lt;/p&gt;</description>
+      <description>As I&amp;rsquo;ve mentioned in a previous post, I&amp;rsquo;m a big fan of Twitter Bootstrap. Lately I&amp;rsquo;ve been playing been with JavaScript and Derby. I want to integrate bootstrap with the POC site I&amp;rsquo;m building, and the creators of Derby have already figured out a way to do this.
+Step 1: Add a dependency to the derby-ui-boot package, which is a Derby component library based on Twitter Bootstrap.
+{ .... &amp;#34;dependencies&amp;#34;: { &amp;#34;derby&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;derby-ui-boot&amp;#34;: &amp;#34;*&amp;#34;, &amp;#34;express&amp;#34;: &amp;#34;3.</description>
     </item>
+    
     <item>
       <title>Derby.js - Working with Views, Models, and Bindings</title>
       <link>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</link>
-      <pubDate>Tue, 07 Aug 2012 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Aug 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120807-derby-js-working-with-view-templates-models-and-bindings/</guid>
-      <description>&lt;p&gt;In my previous &lt;a href=&#34;https://blog.mattblair.co/posts/20120722-derby-js-playing-with-models&#34;&gt;post&lt;/a&gt; about &lt;a href=&#34;http://derbyjs.com/&#34;&gt;derby&lt;/a&gt;, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m creating a test application to help me learn derby &lt;a href=&#34;http://github.com/duereg/Potluck&#34;&gt;here&lt;/a&gt;. In the process of doing absolutely everything wrong to start I&amp;rsquo;ve learned a bit about how Derby binds to models. Let&amp;rsquo;s say you&amp;rsquo;re got some markup like this that you&amp;rsquo;d like to bind to.&lt;/p&gt;</description>
+      <description>In my previous post about derby, I talked a bit about how to create a model in derby and one rule you need to follow when creating models (the first two path segments should be an object).
+I&amp;rsquo;m creating a test application to help me learn derby here. In the process of doing absolutely everything wrong to start I&amp;rsquo;ve learned a bit about how Derby binds to models. Let&amp;rsquo;s say you&amp;rsquo;re got some markup like this that you&amp;rsquo;d like to bind to.</description>
     </item>
+    
     <item>
       <title>Derby.js - Playing with Models</title>
       <link>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</link>
-      <pubDate>Sun, 22 Jul 2012 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Jul 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120722-derby-js-playing-with-models/</guid>
-      <description>&lt;p&gt;Been playing around with &lt;a href=&#34;http://derbyjs.com&#34;&gt;Derby&lt;/a&gt; in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.&lt;/p&gt;&#xA;&lt;p&gt;Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:&lt;/p&gt;</description>
+      <description>Been playing around with Derby in my spare time. The idea behind the platform is smart - using node and express, you write one set of code, and that code automatically syncs data between browsers, servers, and a database.
+Derby is still raw. The documentation is comprehensive but puts important information about the same topic in different places.
+I&amp;rsquo;ve culled the following eight lines of documentation of defining models from the documentation:</description>
     </item>
+    
     <item>
       <title>Some node.js and express.js beginner help</title>
       <link>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</link>
-      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20120710-some-node-js-and-express-js-beginner-help/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve just started using &lt;a href=&#34;http://nodejs.org/&#34;&gt;node.js&lt;/a&gt; with &lt;a href=&#34;http://expressjs.com&#34;&gt;express.js&lt;/a&gt; on both Windows (with iisnode) and Ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;I love the stack (one programming language from front to back!), but some of the documentation has been frustrating for me. I wanted to document what I&amp;rsquo;ve learned so far in the hopes that it&amp;rsquo;ll help someone else down the line.&lt;/p&gt;&#xA;&lt;h2 id=&#34;generate-the-starter-app&#34;&gt;Generate the starter app&lt;/h2&gt;&#xA;&lt;p&gt;At first, I wanted to just hack away some of the existing example apps that were out there.&lt;/p&gt;</description>
+      <description>I&amp;rsquo;ve just started using node.js with express.js on both Windows (with iisnode) and Ubuntu.
+I love the stack (one programming language from front to back!), but some of the documentation has been frustrating for me. I wanted to document what I&amp;rsquo;ve learned so far in the hopes that it&amp;rsquo;ll help someone else down the line.
+Generate the starter app At first, I wanted to just hack away some of the existing example apps that were out there.</description>
     </item>
+    
   </channel>
 </rss>

@@ -4,107 +4,162 @@
     <title>Performance on A Place for Poor Examples</title>
     <link>https://blog.mattblair.co/categories/performance/</link>
     <description>Recent content in Performance on A Place for Poor Examples</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Apr 2023 03:10:07 -0800</lastBuildDate>
-    <atom:link href="https://blog.mattblair.co/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 03:10:07 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crunch Time</title>
       <link>https://blog.mattblair.co/blog/20230404-crunch-time/</link>
       <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230404-crunch-time/</guid>
-      <description>&lt;p&gt;Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ask-team-members-what-would-make-them-feel-valued&#34;&gt;Ask team members what would make them feel valued&lt;/h3&gt;&#xA;&lt;p&gt;One approach is to ask team members what would make them feel valued after the crunch period. It could be anything from time off to a dinner paid for by the company for them and their family. By listening to their needs and responding accordingly, you show that you care about their well-being and appreciate their hard work.&lt;/p&gt;</description>
+      <description>Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.
+Ask team members what would make them feel valued One approach is to ask team members what would make them feel valued after the crunch period.</description>
     </item>
+    
     <item>
       <title>Moving Between Tech Stacks</title>
       <link>https://blog.mattblair.co/blog/20230302-changing-stacks/</link>
       <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230302-changing-stacks/</guid>
-      <description>&lt;p&gt;When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.&lt;/p&gt;&#xA;&lt;p&gt;But which tech stacks are easier to move between, and which ones are the hardest? In my experience, when I’ve transitioned from one stack to another, it took a little while to get my footing. But if you already have experience, you can share that experience to up-level the team.&lt;/p&gt;</description>
+      <description>When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.
+But which tech stacks are easier to move between, and which ones are the hardest?</description>
     </item>
+    
     <item>
       <title>Promoting Technical Excellence in your Organization</title>
       <link>https://blog.mattblair.co/blog/20230221-technical-excellence/</link>
       <pubDate>Tue, 21 Feb 2023 17:31:07 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
-      <description>&lt;p&gt;I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.&lt;/p&gt;&#xA;&lt;p&gt;These have lost momentum in the development and they are seeing 2 key problems:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.&lt;/li&gt;&#xA;&lt;li&gt;They are struggling to find time to work on technical debt. There is a perception that they should be working on Product work all the time.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;She had originally proposed two solutions, but wanted to hear my thoughts:&lt;/p&gt;</description>
+      <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
+These have lost momentum in the development and they are seeing 2 key problems:
+ The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
     </item>
+    
     <item>
       <title>Mentorship Proposal</title>
       <link>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</link>
       <pubDate>Tue, 31 Jan 2023 15:30:12 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</guid>
-      <description>&lt;p&gt;Note: This is a proposal I put together with one of the engineers in my organization for a peer-directed mentorship program. I&amp;rsquo;ve removed names and fudged numbers but I hope it will serve as a valuable template. All other numbers quoted here are from outside studies, with links to the studies provided.&lt;/p&gt;&#xA;&lt;h1 id=&#34;peer-mentorship-proposal&#34;&gt;Peer Mentorship Proposal&lt;/h1&gt;&#xA;&lt;p&gt;The most valuable asset of a company are its employees.&lt;/p&gt;&#xA;&lt;p&gt;Among &lt;a href=&#34;https://www2.deloitte.com/global/en/pages/about-deloitte/articles/millennialsurvey.html#info&#34;&gt;top reasons for millennials&lt;/a&gt; wanting to quit their jobs are &amp;lsquo;Not enough opportunities to advance&amp;rsquo; at 35% and &amp;lsquo;Lack of learning and development opportunities&amp;rsquo; at 28%.&lt;/p&gt;</description>
+      <description>Note: This is a proposal I put together with one of the engineers in my organization for a peer-directed mentorship program. I&amp;rsquo;ve removed names and fudged numbers but I hope it will serve as a valuable template. All other numbers quoted here are from outside studies, with links to the studies provided.
+Peer Mentorship Proposal The most valuable asset of a company are its employees.
+Among top reasons for millennials wanting to quit their jobs are &amp;lsquo;Not enough opportunities to advance&amp;rsquo; at 35% and &amp;lsquo;Lack of learning and development opportunities&amp;rsquo; at 28%.</description>
     </item>
+    
     <item>
       <title>Technical State of the Team - Expanded</title>
       <link>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</link>
       <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</guid>
-      <description>&lt;p&gt;Note: This is a compliment to the previous article I wrote about the &lt;a href=&#34;http://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/&#34;&gt;Technical state of a Team&lt;/a&gt;, and explains the concepts in depth.&lt;/p&gt;&#xA;&lt;h1 id=&#34;technical-state-of-the-team&#34;&gt;Technical State of the Team&lt;/h1&gt;&#xA;&lt;p&gt;There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.&lt;/p&gt;</description>
+      <description>Note: This is a compliment to the previous article I wrote about the Technical state of a Team, and explains the concepts in depth.
+Technical State of the Team There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.</description>
     </item>
+    
     <item>
       <title>Project Planning Checklist</title>
       <link>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</link>
       <pubDate>Thu, 10 Nov 2022 05:17:17 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid>
-      <description>&lt;p&gt;All the previous project planning articles summarized into a checklist.&lt;/p&gt;&#xA;&lt;h3&gt;Project Planning Checklist&lt;/h3&gt;&#xA;&lt;h4&gt;Pre-Planning&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Identity your stakeholders&lt;/li&gt;&#xA;&lt;li&gt;Identity the goal you’re trying to accomplish&lt;/li&gt;&#xA;&lt;li&gt;Get familiar with the code&lt;/li&gt;&#xA;&lt;li&gt;Set up a local environment to try things out&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4&gt;Beginning to Plan&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Identify the rough scope of the work&lt;/li&gt;&#xA;&lt;li&gt;Identify the milestones of the project&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4&gt;Project Kickoff&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;High-Level Timelines&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Call out timelines you haven’t figured out yet, and when you will figure them out&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Identify Roles and Responsibilities of people involved with the project&lt;/li&gt;&#xA;&lt;li&gt;Identify Dependencies on other teams&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lay out the requirements for what you need from others to be successful&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Identify Goals and Outcomes for the project&lt;/li&gt;&#xA;&lt;li&gt;Identify how you want people to work together on the project&lt;/li&gt;&#xA;&lt;li&gt;Identify next steps after the kickoff is complete&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4&gt;Overall Technical Design&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;An overview of the problem&lt;/li&gt;&#xA;&lt;li&gt;A breakdown of the individual milestones and how they’re related&lt;/li&gt;&#xA;&lt;li&gt;High-level process / workflow diagrams / designs / etc&lt;/li&gt;&#xA;&lt;li&gt;Any other notes that might be relevant to folks who will be working on the project&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4&gt;Breaking Down the Project into Milestones&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Are the milestones clear on what they’re delivering?&lt;/li&gt;&#xA;&lt;li&gt;Do you have a plan for communicating updates and setbacks?&lt;/li&gt;&#xA;&lt;li&gt;Do you have time for writing/reviewing milestone specific tech specs?&lt;/li&gt;&#xA;&lt;li&gt;Do you have time devoted to metrics / data / monitoring what you built?&lt;/li&gt;&#xA;&lt;li&gt;Do you have time devoted to testing?&lt;/li&gt;&#xA;&lt;li&gt;Do you have time devoted to paying down tech debt in the area you’re working on?&lt;/li&gt;&#xA;&lt;li&gt;Do you have a sign-off process?&lt;/li&gt;&#xA;&lt;li&gt;Did you add time for fast-follow work?&lt;/li&gt;&#xA;&lt;li&gt;Does your milestone fit into your overall timeline?&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>All the previous project planning articles summarized into a checklist.
+Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out  Beginning to Plan  Identify the rough scope of the work Identify the milestones of the project  Project Kickoff  High-Level Timelines  Call out timelines you haven’t figured out yet, and when you will figure them out   Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams  Lay out the requirements for what you need from others to be successful   Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete  Overall Technical Design  An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  Breaking Down the Project into Milestones  Are the milestones clear on what they’re delivering?</description>
     </item>
+    
     <item>
       <title>Running Your Projects</title>
       <link>https://blog.mattblair.co/blog/20221008-running-your-project/</link>
       <pubDate>Sat, 08 Oct 2022 05:17:17 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20221008-running-your-project/</guid>
-      <description>&lt;p&gt;Note: This is a series of project planning talks I gave my team.&lt;/p&gt;&#xA;&lt;h3&gt;Running your project&lt;/h3&gt;&#xA;&lt;h4&gt;Writing A Technical Design Document&lt;/h4&gt;&#xA;&lt;p&gt;At this point, you’re ready to start designing your system.&lt;/p&gt;&#xA;&lt;p&gt;A good technical design document should contain:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An overview of the problem&lt;/li&gt;&#xA;&lt;li&gt;A breakdown of the individual milestones and how they’re related&lt;/li&gt;&#xA;&lt;li&gt;High-level process / workflow diagrams / designs / etc&lt;/li&gt;&#xA;&lt;li&gt;Any other notes that might be relevant to folks who will be working on the project&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work. Make sure to prioritize blocking steps, and possibly assign parallel work out simultaneously (if staffing permits).&lt;/p&gt;</description>
+      <description>Note: This is a series of project planning talks I gave my team.
+Running your project Writing A Technical Design Document At this point, you’re ready to start designing your system.
+A good technical design document should contain:
+ An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
     </item>
+    
     <item>
       <title>Kickoff Doc Expanded</title>
       <link>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</link>
       <pubDate>Wed, 07 Sep 2022 05:17:17 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</guid>
-      <description>&lt;p&gt;Note: this is an expansion on a previous article I wrote around &lt;a href=&#34;http://blog.mattblair.co/blog/20200404-kickoff-docs/&#34;&gt;kickoff docs&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3&gt;Project Kickoff!&lt;/h3&gt;&#xA;&lt;p&gt;At this point, you should have a good idea of what your overall goal is. You should have a rough sketch of what your milestones are for the project and what you want to include in each one. You should not have the specific details of the projects worked out yet.&lt;/p&gt;&#xA;&lt;p&gt;It’s time for a project kickoff.&lt;/p&gt;</description>
+      <description>Note: this is an expansion on a previous article I wrote around kickoff docs.
+Project Kickoff! At this point, you should have a good idea of what your overall goal is. You should have a rough sketch of what your milestones are for the project and what you want to include in each one. You should not have the specific details of the projects worked out yet.
+It’s time for a project kickoff.</description>
     </item>
+    
     <item>
       <title>So you’ve got yourself a project</title>
       <link>https://blog.mattblair.co/blog/20220806-so-you-have-project/</link>
       <pubDate>Sat, 06 Aug 2022 05:17:17 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20220806-so-you-have-project/</guid>
-      <description>&lt;p&gt;Note: This is a series of project planning talks I gave my team.&lt;/p&gt;&#xA;&lt;h4&gt;So you’ve got yourself a project&lt;/h4&gt;&#xA;&lt;p&gt;A project (and a ticket) is a placeholder for a conversation. No matter if a ticket is super detailed or vague on what it wants, the best way to do good work is to figure out a few things about the work you’ve been given.&lt;/p&gt;&#xA;&lt;h4&gt;Get Comfortable&lt;/h4&gt;&#xA;&lt;p&gt;Pre-planning for any project should begin FAR before the actual work.&lt;/p&gt;</description>
+      <description>Note: This is a series of project planning talks I gave my team.
+So you’ve got yourself a project A project (and a ticket) is a placeholder for a conversation. No matter if a ticket is super detailed or vague on what it wants, the best way to do good work is to figure out a few things about the work you’ve been given.
+Get Comfortable Pre-planning for any project should begin FAR before the actual work.</description>
     </item>
+    
     <item>
       <title>When to plan a project</title>
       <link>https://blog.mattblair.co/blog/20220705-project-planning-overview/</link>
       <pubDate>Tue, 05 Jul 2022 05:17:17 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20220705-project-planning-overview/</guid>
-      <description>&lt;p&gt;Note: This is a series of project planning talks I gave my team.&lt;/p&gt;&#xA;&lt;h1 id=&#34;when-to-plan-a-project&#34;&gt;When to plan a project&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-a-project-plan&#34;&gt;What is a project plan?&lt;/h2&gt;&#xA;&lt;p&gt;Project planning is the process of defining your objectives and scope, your goals and milestones (deliverables), and assigning tasks and resources for each step. A good plan is easily shareable with everyone involved, and it’s most useful when it’s revisited regularly. Simply outlining a plan and never discussing it with your team again is a good recipe for wasted time and effort.&lt;/p&gt;</description>
+      <description>Note: This is a series of project planning talks I gave my team.
+When to plan a project What is a project plan? Project planning is the process of defining your objectives and scope, your goals and milestones (deliverables), and assigning tasks and resources for each step. A good plan is easily shareable with everyone involved, and it’s most useful when it’s revisited regularly. Simply outlining a plan and never discussing it with your team again is a good recipe for wasted time and effort.</description>
     </item>
+    
     <item>
       <title>Define your team&#39;s stragetic intent</title>
       <link>https://blog.mattblair.co/blog/20220628-strategic-intent/</link>
       <pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20220628-strategic-intent/</guid>
-      <description>&lt;p&gt;Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.&lt;/p&gt;&#xA;&lt;p&gt;This is not original work: I pulled heavilty from these four books to put together these talks:&lt;/p&gt;&#xA;&lt;p&gt;References:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3sb9E6A&#34;&gt;High Output Management&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3S9NR9S&#34;&gt;The First 90 Days&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3s7wGLt&#34;&gt;An Elegant Puzzle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3MJ99tM&#34;&gt;A Manager’s Path&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If I did not site some of these works here, or pulled quotes directly from them, forgive me.&lt;/p&gt;</description>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
+    
     <item>
       <title>Getting Started with your Team: Organize to Learn</title>
       <link>https://blog.mattblair.co/blog/20220325-organize-to-learn/</link>
       <pubDate>Fri, 25 Mar 2022 18:37:09 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20220325-organize-to-learn/</guid>
-      <description>&lt;p&gt;Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.&lt;/p&gt;&#xA;&lt;p&gt;This is not original work: I pulled heavilty from these four books to put together these talks:&lt;/p&gt;&#xA;&lt;p&gt;References:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3sb9E6A&#34;&gt;High Output Management&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3S9NR9S&#34;&gt;The First 90 Days&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3s7wGLt&#34;&gt;An Elegant Puzzle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3MJ99tM&#34;&gt;A Manager’s Path&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If I did not site some of these works here, or pulled quotes directly from them, forgive me.&lt;/p&gt;</description>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
+    
     <item>
       <title>Managerial Meddling</title>
       <link>https://blog.mattblair.co/blog/20211222-managerial-meddling/</link>
       <pubDate>Wed, 22 Dec 2021 15:34:06 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20211222-managerial-meddling/</guid>
-      <description>&lt;p&gt;Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.&lt;/p&gt;&#xA;&lt;p&gt;This is not original work: I pulled heavilty from these four books to put together these talks:&lt;/p&gt;&#xA;&lt;p&gt;References:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3sb9E6A&#34;&gt;High Output Management&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3S9NR9S&#34;&gt;The First 90 Days&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3s7wGLt&#34;&gt;An Elegant Puzzle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3MJ99tM&#34;&gt;A Manager’s Path&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If I did not site some of these works here, or pulled quotes directly from them, forgive me.&lt;/p&gt;</description>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
+    
     <item>
       <title>What is a manager?</title>
       <link>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</link>
       <pubDate>Sun, 19 Sep 2021 12:31:03 -0800</pubDate>
+      
       <guid>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</guid>
-      <description>&lt;p&gt;Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.&lt;/p&gt;&#xA;&lt;p&gt;This is not original work: I pulled heavilty from these four books to put together these talks:&lt;/p&gt;&#xA;&lt;p&gt;References:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3sb9E6A&#34;&gt;High Output Management&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3S9NR9S&#34;&gt;The First 90 Days&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3s7wGLt&#34;&gt;An Elegant Puzzle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://amzn.to/3MJ99tM&#34;&gt;A Manager’s Path&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If I did not site some of these works here, or pulled quotes directly from them, forgive me.&lt;/p&gt;</description>
+      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+This is not original work: I pulled heavilty from these four books to put together these talks:
+References:
+ High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
     </item>
+    
   </channel>
 </rss>
