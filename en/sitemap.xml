@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://blog.mattblair.co/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -58,18 +58,8 @@
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/blog/20250216-technical-debt-framework/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.mattblair.co/categories/architecture/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.mattblair.co/categories/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -123,28 +113,38 @@
   </url>
   
   <url>
+    <loc>https://blog.mattblair.co/categories/culture/</loc>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.mattblair.co/blog/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.mattblair.co/categories/engineering/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/tags/maintainability/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <loc>https://blog.mattblair.co/tags/mentorship/</loc>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/tags/process/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <loc>https://blog.mattblair.co/tags/onboarding/</loc>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/blog/20250503-mentorship-pods/</loc>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.mattblair.co/tags/</loc>
-    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -195,6 +195,31 @@
                 hreflang="en"
                 href="https://blog.mattblair.co/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/tags/team-growth/</loc>
+    <lastmod>2025-06-09T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/blog/20250216-technical-debt-framework/</loc>
+    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/categories/architecture/</loc>
+    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/tags/maintainability/</loc>
+    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/tags/process/</loc>
+    <lastmod>2025-02-16T00:00:00-07:00</lastmod>
   </url>
   
   <url>

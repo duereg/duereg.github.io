@@ -5,6 +5,10 @@
     <link>https://blog.mattblair.co/pt/tags/</link>
     <description>Recent content in Tags on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt</language><atom:link href="https://blog.mattblair.co/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>pt</language>
+    
+	<atom:link href="https://blog.mattblair.co/pt/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

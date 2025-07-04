@@ -6,7 +6,11 @@
     <description>Recent content in ASP.NET on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Apr 2012 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Posting an IEnumerable of Interfaces back from your Views by extending the DefaultModelBinder</title>
       <link>https://blog.mattblair.co/blog/20120426-posting-an-ienumerable-of-interfaces-back-from-your-views-by-extending-the-defaultmodelbinder/</link>

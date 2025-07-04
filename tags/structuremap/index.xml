@@ -6,7 +6,11 @@
     <description>Recent content in StructureMap on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Jun 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/structuremap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jun 2012 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/structuremap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Using StructureMap to collect and use all instances of a given type</title>
       <link>https://blog.mattblair.co/blog/20120618-using-structuremap-to-collect-and-use-all-instances-of-a-given-type/</link>

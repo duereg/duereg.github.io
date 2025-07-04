@@ -6,7 +6,11 @@
     <description>Recent content in decision-making on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/decision-making/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/decision-making/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Build vs. Buy</title>
       <link>https://blog.mattblair.co/blog/20240619-build-vs-buy/</link>

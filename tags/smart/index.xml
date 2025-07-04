@@ -6,7 +6,11 @@
     <description>Recent content in SMART on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Jun 2021 09:39:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 09:39:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>SMART vs CLEAR goals</title>
       <link>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</link>

@@ -6,7 +6,11 @@
     <description>Recent content in software on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jan 2016 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Node 4 and Babel 6 in Harmony</title>
       <link>https://blog.mattblair.co/blog/20160116-node-4-and-babel-6/</link>

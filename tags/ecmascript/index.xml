@@ -6,7 +6,11 @@
     <description>Recent content in ecmascript on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/ecmascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2016 00:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/ecmascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Performance Improvement via node 4 to node 6</title>
       <link>https://blog.mattblair.co/blog/20161109-performance-improvement-via-babel-tranpilation-removal/</link>

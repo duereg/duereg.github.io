@@ -6,7 +6,11 @@
     <description>Recent content in XML on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Sep 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2011 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Beautiful LINQ to Xml</title>
       <link>https://blog.mattblair.co/blog/20110924-beautiful-linq-to-xml/</link>

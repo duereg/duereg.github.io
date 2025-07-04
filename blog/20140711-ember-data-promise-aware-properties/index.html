@@ -30,7 +30,7 @@
   <meta name="theme-color" content="#ffffff">
 
 
-  <meta name="generator" content="Hugo 0.77.0" />
+  <meta name="generator" content="Hugo 0.73.0" />
   <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
 </head>
 
@@ -309,11 +309,11 @@
         <p>I have models like this:</p>
 <h3 id="models">Models</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">Child</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">Model</span>.<span style="color:#a6e22e">extend</span>({
-  <span style="color:#a6e22e">parent</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">belongsTo</span>(<span style="color:#e6db74">&#39;parent&#39;</span>, {<span style="color:#66d9ef">async</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>})
+  <span style="color:#a6e22e">parent</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">belongsTo</span>(<span style="color:#e6db74">&#39;parent&#39;</span>, {<span style="color:#a6e22e">async</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>})
 });
 
 <span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">Parent</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">Model</span>.<span style="color:#a6e22e">extend</span>({
-  <span style="color:#a6e22e">children</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">hasMany</span>(<span style="color:#e6db74">&#39;child&#39;</span>, {<span style="color:#66d9ef">async</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>})
+  <span style="color:#a6e22e">children</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">hasMany</span>(<span style="color:#e6db74">&#39;child&#39;</span>, {<span style="color:#a6e22e">async</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>})
 });
 
 <span style="color:#a6e22e">App</span>.<span style="color:#a6e22e">Nursery</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">DS</span>.<span style="color:#a6e22e">Model</span>.<span style="color:#a6e22e">extend</span>({
@@ -442,6 +442,14 @@
       <article class="mini-post">
           
         <header>
+          <h2><a href="/blog/20250503-mentorship-pods/">Onboarding Engineers with Mentorship Pods</a></h2>
+          <time class="published" datetime="2025-06-09 00:00:00 -0700 PDT">June 9, 2025</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
           <h2><a href="/blog/20250216-technical-debt-framework/">A Pragmatic Framework for Technical Debt</a></h2>
           <time class="published" datetime="2025-02-16 00:00:00 -0700 -0700">February 16, 2025</time>
         </header>
@@ -452,14 +460,6 @@
         <header>
           <h2><a href="/blog/20241225-blameless-post-mortems/">Blameless Postmortems: Turning Failures into Learning</a></h2>
           <time class="published" datetime="2024-12-25 00:00:00 -0700 -0700">December 25, 2024</time>
-        </header>
-      </article>
-      
-      <article class="mini-post">
-          
-        <header>
-          <h2><a href="/blog/20240921-on-call-triage-role/">Setting up an on-call roll</a></h2>
-          <time class="published" datetime="2024-09-21 12:25:15 -0800 -0800">September 21, 2024</time>
         </header>
       </article>
       
@@ -482,7 +482,7 @@
           
           
           <li>
-              <a href="/categories/engineering/">engineering<span class="count">73</span></a>
+              <a href="/categories/engineering/">engineering<span class="count">74</span></a>
           
           <li>
               <a href="/categories/technical/">technical<span class="count">69</span></a>
@@ -552,6 +552,9 @@
           
           <li>
               <a href="/categories/coffee/">coffee<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/culture/">culture<span class="count">1</span></a>
           
           <li>
               <a href="/categories/direct-reports/">direct-reports<span class="count">1</span></a>
@@ -660,7 +663,7 @@
   <p class="copyright">
     © 2025 A Place for Poor Examples
       <br>
-    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.77.0' target='_blank' rel='noopener'>Hugo</a>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.73.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>

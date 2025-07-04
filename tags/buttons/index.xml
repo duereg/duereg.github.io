@@ -6,7 +6,11 @@
     <description>Recent content in buttons on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/buttons/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2011 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/buttons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Enable/Disable jQuery buttons in Knockout with a Custom Binding Handler</title>
       <link>https://blog.mattblair.co/blog/20111021-enabledisable-jquery-buttons-in-knockout-with-a-custom-binding-handler/</link>

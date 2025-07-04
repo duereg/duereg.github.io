@@ -6,7 +6,11 @@
     <description>Recent content in Engineering Management on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 12:25:15 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/engineering-management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Sep 2024 12:25:15 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/engineering-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Setting up an on-call roll</title>
       <link>https://blog.mattblair.co/blog/20240921-on-call-triage-role/</link>

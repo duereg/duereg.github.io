@@ -6,7 +6,11 @@
     <description>Recent content in Project Kickoff on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2020 14:07:39 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/project-kickoff/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Mar 2020 14:07:39 -0800</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/project-kickoff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Kickoff Docs</title>
       <link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link>

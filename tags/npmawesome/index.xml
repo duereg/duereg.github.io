@@ -6,7 +6,11 @@
     <description>Recent content in npmawesome on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/npmawesome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jun 2014 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/npmawesome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Post about Songbird on npmawesome</title>
       <link>https://blog.mattblair.co/blog/20140626-post-about-songbird-on-npmawesome/</link>

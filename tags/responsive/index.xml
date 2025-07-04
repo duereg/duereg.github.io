@@ -6,7 +6,11 @@
     <description>Recent content in Responsive on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 May 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 May 2012 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/responsive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Why use Twitter Bootstrap?</title>
       <link>https://blog.mattblair.co/blog/20120504-why-use-twitter-bootstrap/</link>

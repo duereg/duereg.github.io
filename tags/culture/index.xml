@@ -6,7 +6,11 @@
     <description>Recent content in culture on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Blameless Postmortems: Turning Failures into Learning</title>
       <link>https://blog.mattblair.co/blog/20241225-blameless-post-mortems/</link>

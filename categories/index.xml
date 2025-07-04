@@ -6,22 +6,35 @@
     <description>Recent content in Categories on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>architecture</title>
-      <link>https://blog.mattblair.co/categories/architecture/</link>
-      <pubDate>Sun, 16 Feb 2025 00:00:00 -0700</pubDate>
+      <title>culture</title>
+      <link>https://blog.mattblair.co/categories/culture/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 -0700</pubDate>
       
-      <guid>https://blog.mattblair.co/categories/architecture/</guid>
+      <guid>https://blog.mattblair.co/categories/culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>engineering</title>
       <link>https://blog.mattblair.co/categories/engineering/</link>
-      <pubDate>Sun, 16 Feb 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 -0700</pubDate>
       
       <guid>https://blog.mattblair.co/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
+      <link>https://blog.mattblair.co/categories/architecture/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.mattblair.co/categories/architecture/</guid>
       <description></description>
     </item>
     

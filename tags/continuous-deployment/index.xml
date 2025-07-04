@@ -6,7 +6,11 @@
     <description>Recent content in continuous deployment on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Setting up a .NET build server WITHOUT installing Visual Studio</title>
       <link>https://blog.mattblair.co/blog/20111031-setting-up-a-net-build-server-without-installing-visual-studio/</link>

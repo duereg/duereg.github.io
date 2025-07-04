@@ -6,7 +6,11 @@
     <description>Recent content in dictionary on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Sep 2012 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Sep 2012 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Cracking the Coding Interview - JavaScript Trie</title>
       <link>https://blog.mattblair.co/blog/20120901-cracking-the-coding-interview-javascript-trie/</link>

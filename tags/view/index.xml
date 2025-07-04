@@ -6,7 +6,11 @@
     <description>Recent content in view on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.mattblair.co/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Oct 2014 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.mattblair.co/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>express-coffee-react-views</title>
       <link>https://blog.mattblair.co/blog/20141008-express-coffee-react-views/</link>
