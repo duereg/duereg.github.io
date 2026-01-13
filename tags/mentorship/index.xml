@@ -6,10 +6,29 @@
     <description>Recent content in mentorship on A Place for Poor Examples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 12:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://blog.mattblair.co/tags/mentorship/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why AI Won’t Replace the Human Touch in Performance Reviews</title>
+      <link>https://blog.mattblair.co/blog/20260113-performance-reviews-using-llms/</link>
+      <pubDate>Tue, 13 Jan 2026 12:00:00 -0400</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20260113-performance-reviews-using-llms/</guid>
+      <description>Why AI Won’t Replace the Human Touch in Performance Reviews Performance reviews are a perennial headache in many organizations – often seen as bureaucratic, time‐consuming, and stressful for managers and employees alike. With the rise of AI tools, some argue we might automate or even eliminate traditional reviews. Is it realistic (or wise) to have AI do our performance reviews? I believe the answer is no: while AI can assist, it cannot replace the thoughtful human effort that makes reviews valuable.</description>
+    </item>
+    
+    <item>
+      <title>A Framework for Engineering Career Development</title>
+      <link>https://blog.mattblair.co/blog/20250903-creating-a-career-development-plan/</link>
+      <pubDate>Wed, 03 Sep 2025 12:00:00 -0400</pubDate>
+      
+      <guid>https://blog.mattblair.co/blog/20250903-creating-a-career-development-plan/</guid>
+      <description>A career development plan is a structured approach to professional growth. It&amp;rsquo;s a tool for both individuals and managers to align on expectations, identify opportunities, and measure progress. A well-crafted plan can be the difference between a reactive career and a proactive one.
+The &amp;ldquo;Why&amp;rdquo;: Aligning on a North Star The first step in creating a career development plan is to define a &amp;ldquo;north star.&amp;rdquo; This is the individual&amp;rsquo;s long-term career goal.</description>
+    </item>
     
     <item>
       <title>Onboarding Engineers with Mentorship Pods</title>
