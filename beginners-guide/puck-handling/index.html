@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Puck Handling - A Place for Poor Examples</title>
+<meta name="description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="A Place for Poor Examples">
+<meta property="og:title" content="Puck Handling">
+<meta property="og:description" content="I read that you learn more from a poor example than from a correct one. I don&#39;t believe this but that means my site will be a success.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.mattblair.co/beginners-guide/puck-handling/">
+  <meta property="og:image" content="https://blog.mattblair.co/img/headshot-4.png">
+
+
+
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.73.0" />
+  <link rel="stylesheet" href="/css/bundle.min.a050de4e4476c7c3d536928a07b4a065dddc42b15ceb758a5da5c59a0ff9d934.css" integrity="sha256-oFDeTkR2x8PVNpKKB7SgZd3cQrFc63WKXaXFmg/52TQ="><link rel="stylesheet" href="/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/" class="nav">
+        
+          Puck Handling
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/beginners-guide/" class="nav link"><i class='fas fa-book'></i> Beginner&#39;s Guide</a>
+        
+      
+        
+          
+          <a href="/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/tags/" class="nav link"><i class='fas fa-tag'></i> Tags</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Puck%20Handling&amp;url=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <p>Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+        <p>Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f&amp;title=Puck%20Handling" target="_blank" rel="noopener" class="nav share-btn reddit">
+          <p>Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f&amp;title=Puck%20Handling" target="_blank" rel="noopener" class="nav share-btn linkedin">
+            <p>LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f&amp;description=Puck%20Handling" target="_blank" rel="noopener" class="nav share-btn pinterest">
+          <p>Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check%20out%20this%20post%20by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fblog.mattblair.co%2fbeginners-guide%2fpuck-handling%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+          <p>Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="/img/headshot-4.png" class="circle" width="100" alt="Matt Blair" /></a>
+  <header>
+    <h1>Matt Blair</h1>
+  </header>
+  <main>
+    <p>I read that you learn more from a poor example than from a correct one. I don't believe this but that means my site will be a success.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article>
+    <div class="post">
+      <header>
+        <div class="title">
+          <h1><a href="/beginners-guide/puck-handling/">Puck Handling</a></h1>
+        </div>
+      </header>
+      <div class="content">
+        <p class="beginners-guide-nav">
+  <a href="/beginners-guide/">← Beginner's Guide</a>
+</p>
+
+        <p><em>(Most of this content was stolen liberally from Roger Kemp’s Puck Handling Guide. An archive of this content is <a href="https://pucku.org/tourist/indskil.html">here</a>)</em></p>
+<p>Puck handling – one of the most basic and important skills you can master as an underwater hockey player. If you cannot control the puck you cannot excel at hockey. Luckily, puck handling is a skill you do not need to be in the water to master.  With all the following drills, you can grab a puck or a tuna can and practice these drills in your living room. Practice these drills until you get to the point where you can master the movements without looking at the puck. It also helps to be laying flat over the puck while doing these drills, to simulate swimming underwater. Lie down on a stack of pillows, a bench, or something else to prop up your chest so you can hover over the puck and practice your stick work.</p>
+<p>Remember there are many playing surfaces to your stick, not just the front blade. Learn to use the sides and back of your stick as an effective weapon while you play.  In order to have success with the puck movement skills described below it is important to relax your arm and shoulder as you do them. Don&rsquo;t keep your arm stiff. When an opposing player tries to punch the puck off your stick as you execute these skills, your whole arm will give in with the motion. The result of this is that you end up with your stick still on the puck, simply in a new position.</p>
+<h2 id="the-three-levels-of-puck-handling">The Three Levels of Puck Handling</h2>
+<p>There are three basic levels of puck handling that underwater hockey players learn as we develop. I will describe all three levels and focus on the second and third levels, which most players should practice in order to advance their game.</p>
+<h3 id="back-of-the-blade">Back of the Blade</h3>
+<p>The first level we learn is puck protection using the back of the blade. We discover that by keeping the puck on the back of the blade and close to the body we can shield it from the opposition and execute several different under-the-body back moves. In order to succeed at this, it is necessary to keep your head and shoulders close to the pool bottom to prevent opposing players from reaching in. Because of this, your vision of teammates is restricted, making this an individual mode of play.</p>
+<h3 id="front-of-the-blade">Front of the Blade</h3>
+<p>The second level of play is to be able to control the puck on the front of the blade. This is described in more detail below. The overall effect of playing in this style is that your body is higher off the pool bottom allowing you to always have a view of both the opposition and your teammates. This allows you to play as a better team player.</p>
+<h3 id="front-and-back-of-the-blade">Front and Back of the Blade</h3>
+<p>The third level of play is to be able to control the puck on the front and back of the stick interchangeably by rolling. This level of play marks the transition from what I call &ldquo;push hockey&rdquo; to &ldquo;pull hockey&rdquo;. In the beginning, we all find success by pushing the puck through the opposition and knocking it off their sticks. We can only get so far by doing this. Once we can pull the puck away from the opposition and advance it all in one motion (through rolling the puck) we are playing pull-hockey. Playing in this fashion requires less brute strength and uses more finesse. In essence, the most efficient style of play is one where you make subtle puck moves rather relying on your strength to push your way through the opposition.</p>
+<h2 id="puck-handling-on-the-front-of-the-stick">Puck Handling on the Front of the Stick</h2>
+<p>Being able to control the puck on the front of the stick in any situation is a fundamental skill that every player should practice. Some of the benefits of this skill are:</p>
+<ol>
+<li>You can keep your head up and your chest high off the pool bottom, thereby improving your vision. This simple attribute is what distinguishes the top playmakers in the game from the rest.</li>
+<li>With the puck on the front of the stick, it is possible to flick the puck immediately when in danger. You don&rsquo;t have the delay associated with moving the puck from the back of the stick to a shooting position.</li>
+<li>You can shield the puck without having to drop your head and upper body. You are also more likely to retain the puck if someone manages to poke check you.</li>
+</ol>
+<p>The best way to practice front of the stick work is to do the Figure-8 drill shown in the diagram below.</p>
+<p><img src="/beginners-guide/eights.gif" alt="FIGURE 8 DIAGRAM"></p>
+<p>In the Figure-8 drill, you move the puck in front of your body, from side to side. When practicing this skill, exaggerate the puck movement by moving the puck from the right of your right shoulder all the way past your left shoulder. Don&rsquo;t rotate your torso in order to get the puck to the extreme left. Keep your shoulders square with the pool bottom. There are a few elements of the drill that are unfamiliar to many players.</p>
+<ul>
+<li>Then you reach point (A), you&rsquo;ll need to release your grip on your stick somewhat. You&rsquo;ll end up holding your stick by only your thumb and forefinger at this point. It helps if you have your forefinger attached to your stick with an elastic band. This will allow you pivot your stick around your finger without losing it.</li>
+<li>At point (B) you need to &ldquo;break&rdquo; your wrist so that your knuckles start to point towards-you. The stick will rest in your fingers and no longer rest in your palm.</li>
+<li>The hardest parts of the drill are the transitions from (A-C) and particularly (B-C). When moving the puck from (B-C), the front of your blade and knuckles end up pointing towards your body.</li>
+</ul>
+<p>Some of the important elements to concentrate on in this drill are:</p>
+<ol>
+<li>Keep the puck on the front surface of your blade. Don&rsquo;t turn your stick on edge so that the top face ends up playing the puck.</li>
+<li>Make sure the puck moves all the way past your left shoulder without resorting to rotating your torso. Move it past your right shoulder by relaxing your grip on your stick.</li>
+<li>Adjust your grip on your stick at each extreme.</li>
+</ol>
+<p><strong>This document is written from the perspective of a right-hander!!!</strong></p>
+<p>Once you can do the drill comfortably, speed up the motion and do not look at the puck. Add motion to the drill by swimming diagonally left and right while doing the drill.</p>
+<h2 id="puck-rolling">Puck Rolling</h2>
+<p>Puck Rolling is the skill of ‘rolling’ the puck from the front of the stick onto the back portion of the stick and then back again, without having the stick or the puck come off the bottom of the pool.  Many players already incorporate some amount of puck rolling in their games. There are many different skills that are improved by adding puck rolling to them (curling, checking, puck protection, etc.) The main benefits of using puck rolling as part of your game are:</p>
+<ol>
+<li>It causes opponents to misjudge your intentions.</li>
+<li>It allows you to execute maneuvers quickly and efficiently.</li>
+<li>It allows you to shield the puck.</li>
+</ol>
+<p>The simplest motion to practice is to roll the puck from side to side:</p>
+<p><img src="/beginners-guide/rolling.gif" alt="ROLLING PUCK DIAGRAM"></p>
+<p>Important points to remember when doing this skill:</p>
+<ol>
+<li>The puck should never leave the blade.</li>
+<li>It is important to put a hard spin on the puck. This forces the puck to stick on the pool bottom and prevents it from flipping on its edge as you drag it across.</li>
+</ol>
+<p>Practice this motion so that you can execute it quickly without looking at the puck. You can add this skill to your game by rolling the puck from the back of the blade to front while curling, checking opponents by pulling the puck away, and executing quick left and right changes of direction.</p>
+<p>A more difficult drill is to execute a &ldquo;V&rsquo; with the puck in front of your body while spinning it continuously. The motion of the stick and puck are shown in the diagram.</p>
+<p><img src="/beginners-guide/rollingv.gif" alt="ROLLING PUCK &ldquo;V&rdquo; DIAGRAM"></p>
+<p>Important things to remember when doing this drill:</p>
+<ol>
+<li>Do not lift your stick off the pool bottom. There is a naturally tendency to do so at points (A) and (B). Concentrate on keeping the tip of the stick on the bottom and feel the puck roll around it.</li>
+<li>If you have an extreme hook on your stick you&rsquo;ll have to break your wrist more to keep the puck from spinning away.</li>
+<li>The transition from (B) to the center is the hardest part of the skill. You really need to stretch your arm to reach around the puck and bring it back. If you do not reach far enough you will end up pulling the puck to your left hip instead of back to the center. Also, if you do not spin the puck hard enough in this transition, it will merely sit still and you end simply pivoting around the puck. This leaves you vulnerable to a check. Make sure the puck moves at least 15-20cm in the (B) to center transition.</li>
+</ol>
+<p>Practice this drill slowly at first concentrating on your form. Once you can do it without looking at the puck, execute the drill while swimming. Pick a pair of lines on the pool bottom that are about two meters apart. Starting between the lines, swim diagonal cuts back and forth, rolling the puck as you go. Make sure each diagonal cut spans the 2-meter width.
+See a list of puck handling drills in this page: Training</p>
+<h2 id="body-position-vs-puck-position">Body Position vs. Puck Position</h2>
+<p>After mastering all the puck drills mentioned above, you should be able to swim with the puck on either the front or back of your stick, in front or behind your head, and on your left or right side. Moving the puck in relation to your opponents is vital to maintaining possession and advancing the puck. Let’s look at three examples where a player with the puck comes in contact with his opponent. In all three examples, assume both players are swimming at each other.</p>
+<p><img src="/beginners-guide/body-position-bad-better-best.png" alt="Body position vs opponent: BAD, BETTER, and BEST"></p>
+<p>In the first example, the player swims forward with his arm fully extended towards the opponent. There are very few cases when this is a good idea when going against an opponent. All you’re doing in limiting what you can do with the puck, and placing the puck closer to your opponent.</p>
+<p>The second example, the player drops the puck back, and keeps going forward. This is better – the puck is farther away from your opponent, and because the player’s arm is bent, they can do more with the puck. When the opponent gets close, the player could extend their arm, and hope that the puck is now behind the opponent and out of their reach. The player could shoot it past their opponent, and hope someone is there to get the pass. However, the puck is still out in front and visible to the opponent.</p>
+<p>The third example, the player drops the puck completely behind their shoulder, keeping the puck on the front of the blade, and turns their body slightly to shield the puck. The opponent now has to go over the player to get to the puck, as it is not directly in front on then, and the player’s body is in the way of any direct action. Also, any of the moves that were available in the second example are available here. The player could bring the puck forward by extended his arm when the opponent gets close. The player could attempt to shoot over the opponent. The player could keep their body in between the opponent and the puck and keep swimming.  This third example is especially valuable on the wall.</p>
+<p><img src="/beginners-guide/body-position-wall.png" alt="Shielding the puck on the wall"></p>
+<p>The opponent cannot get to the puck from the right – the wall is in the way. If the player shields the puck from the front and left with their body, the only way the opponent can get to the puck is from the backside. The thing to learn from these examples is that you want to keep your body in between the puck and your opponent. If your opponent is on your left side, have the puck on your right. If your opponent is behind you, bring the puck in front of you.</p>
+<p>If you should have to run into your opponent head on, the key to your meeting is leverage. Assume the two players in the example below are of equal size, weight, strength, and speed, and are both racing for the puck. Who do you think would win the puck?</p>
+<p><img src="/beginners-guide/SameLevelBodies.gif" alt="SameLevelBodies"></p>
+<p>In this case, it’s a toss-up. They both are in good position, both right on top of the puck. How about in the following case? Which player do you think will come away with the puck?</p>
+<p><img src="/beginners-guide/DiffLevelBodies.gif" alt="DiffLevelBodies"></p>
+<h2 id="curling">Curling</h2>
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/cZb2Hkg8dQs"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<p>Curling is one of the most basic and most important skills to a player. Curling is basically a tight, focused turn that results in a radical change in direction while maintaining possession of the puck. The direction change can be 180 degrees, 270 degrees, or a full 360 degree turn.  Curling is a valuable move to keep the puck moving in a crowd of players yet allows the person with the puck to keep possession. By curling you can keep the puck shielded from other players while still moving to elude them. One of the things that all players need to be reminded about is to kick through their curls.  What “Kick through Your Curls” means is that once you start curling, you should not stop half way through your curl. Begin and end your curl with authority. Swim hard into them, and then explode out of them. A player who stops moving while committing a curl is a target on the bottom on the bottom. A player should never simply sit on the bottom in the curled position and wait for something to happen to them. It is worthwhile to practice different curling drills in order to improve your form and efficiency, particularly on reverse curls.  A standard curling relay drill involving three players is done as follows.  Two of the players start on a wall and the third starts about 5 lanes down the pool. One of the players on the wall carries the puck executing four 360 degree curls on one breath as they swim to the player 5 lanes down the pool. They then pass the puck to the player five lanes down the pool. He then swims back towards the wall, executing the same four curls, and passes the puck off.  Alternate the directions of the curls: forward, reverse, forward, reverse.
+<img src="/beginners-guide/CurlingDrill.gif" alt="CurlingDrill"></p>
+<p>Pattern to follow for the curling drill.</p>
+<p>There are two variants to this drill: back of the blade and front of the blade curls. Most players carry the puck on the back of the blade while curling. It allows a quicker turn and a tighter curl. However, many players keep the puck on the back of the blade the whole way through the curl. If they need to pass immediately after their curl, they must first roll the puck to the front of the blade, by which time the window of opportunity might have passed. To avoid this, practice spinning the puck from the back of the blade to the front, half way through the curl. It will leave you ready to pass the puck and allow you to keep your head up at the end of the curl. Do this on both your forward and reverse curls. Curling with the puck on the front of your blade makes for a slightly slower curl but leaves with more options to move the puck or pass to a teammate while curling. This is especially true with reverse curls. Pay attention to where your head is when you reverse curl with the puck on the front of your blade as opposed to the back. You should notice that your head and chest are both higher off the pool bottom giving you better vision of potential passing options behind you. You will also find that the puck is in front of your shoulder (rather than to the side), allowing you to make a much better pass. Some key points to remember when practicing the various curls: 1- For a right-hander, your right hip should be close to the bottom on regular curls and your left hip on reverse curls. This is to prevent your opponents from seeing exactly where the puck is while you turn and preventing them from reaching under your body and stealing it.  2- On reverse curls many players have the tendency to pivot around the puck. Make sure that the puck traces an arc of 30cm (a foot) or more. This makes curl as an offensive move and makes it possible to move the puck across the pool quickly.</p>
+<h2 id="shooting">Shooting</h2>
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/-ylBLd3bQlc"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<p>Shooting is the skill that everyone wants to learn but is also the hardest skill to teach. It takes time and a lot of practice to master. Almost all of the distance on the puck comes from the wrist flick. Your shoulders and arms only change the angle at which the puck is released. There are a few key elements to good shooting technique.</p>
+<ol>
+<li>The puck should start right next to your hand before shooting motion commences.</li>
+</ol>
+<p><img src="/beginners-guide/TopViewShooting.gif" alt="TopViewShooting">
+<img src="/beginners-guide/FrontViewShooting.gif" alt="FrontViewShooting"></p>
+<ol start="2">
+<li>The puck should roll along the length of the blade during the shot such that it is near the end of the stick when you snap your wrist. Also, the end of the stick should be rising  off the bottom of the pool. This seems obvious, yet some experienced players who have trouble shooting do not do this.</li>
+</ol>
+<p><img src="/beginners-guide/FrontViewMidShot.gif" alt="FrontViewMidShot"></p>
+<ol start="3">
+<li>As you snap you wrist forward to shoot the puck, your wrist should rotate so your thumb ends up turning towards the surface and the front of the stick ends up facing the bottom  of the pool. The stick should end up pointing forward with the blade facing downward along the pool bottom. Some people find it helpful to concentrate on starting with their elbow  high off the bottom. The resulting motion causes the lower end of the forearm to turn upwards.</li>
+</ol>
+<p><img src="/beginners-guide/SideViewShot.gif" alt="SideViewShot"></p>
+<p>The puck should end up in the direction the end of the stick in pointing.</p>
+<p><img src="/beginners-guide/shooting.jpg" alt="Real Shot"></p>
+<p>Distance will come if you can become effective at getting the puck off the pool bottom. The best way to practice shooting for height is to use a barrier. Turn a goal trough upside down so that it forms a barrier (start with a lower barrier if necessary). For most people there is a &ldquo;sweet spot&rdquo;, a distance where it is easy to get the puck over the barrier. Usually this distance is about a meter or so. Start by moving the puck closer to the barrier and shooting over it. Eventually you will be just a few centimeters from the barrier with no room for any wind up. Shooting over the barrier from so close emphasizes the wrist flick. When you can shoot the puck over the barrier from very short distances, choose distances farther than the sweet spot. This will concentrate on the arm and shoulder mechanics and add height to your shot. Another difficulty to add to your shooting practice is to start your shot with your arm extended to your side and shoot sideways. It&rsquo;s a flick we often want to use in a game but don&rsquo;t often succeed.</p>
+<h2 id="feints-and-deeks">Feints and Deeks</h2>
+<p>Rather than going through a lengthy, text-based description of each one of these, I&rsquo;m just going to show videos. Mastering any one move is great and will improve your game tremendously &ndash; mastering and chaining many of them underwater is what great players do. (Note that there doesn&rsquo;t appear to be standard, widely accepted terms for these; each country, sometimes each club, uses different names.)</p>
+<h3 id="standard-deek">Standard Deek</h3>
+<p><div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/IuF5awr_AfI"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/5dOMISv-2l0"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+</p>
+<h3 id="the-6">The &ldquo;6&rdquo;</h3>
+<p><div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/zcj1Sn56rfg"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/gNlLk8ius0U"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+</p>
+<h3 id="the-ethiopian">The &ldquo;Ethiopian&rdquo;</h3>
+<p><div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/Kw4tmbYXCa8"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/uavlRjjLCnM"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+</p>
+<h3 id="the-9-or-halfmoon">The &ldquo;9&rdquo; or Halfmoon</h3>
+<p><div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/YtDEoSzHiJI"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+
+<div class="youtube-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1.5em 0;">
+  <iframe
+    src="https://www.youtube.com/embed/HAQ1JCnrDJA"
+    title="YouTube video"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    loading="lazy"></iframe>
+</div>
+</p>
+
+        <p class="beginners-guide-nav">
+  <a href="/beginners-guide/">← Beginner's Guide</a>
+</p>
+
+      </div>
+    </div>
+  </article>
+  <div class="pagination">
+    
+      <a href="/beginners-guide/fitness/" class="button left"><span>Fitness</span></a>
+    
+    
+      <a href="/beginners-guide/positions/" class="button right"><span>Underwater Hockey Positions</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/blog/20260113-performance-reviews-using-llms/">Why AI Won’t Replace the Human Touch in Performance Reviews</a></h2>
+          <time class="published" datetime="2026-01-13 12:00:00 -0400 -0400">January 13, 2026</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/blog/20250903-creating-a-career-development-plan/">A Framework for Engineering Career Development</a></h2>
+          <time class="published" datetime="2025-09-03 12:00:00 -0400 -0400">September 3, 2025</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/blog/20250503-mentorship-pods/">Onboarding Engineers with Mentorship Pods</a></h2>
+          <time class="published" datetime="2025-06-09 00:00:00 -0700 PDT">June 9, 2025</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/categories/engineering/">engineering<span class="count">76</span></a>
+          
+          <li>
+              <a href="/categories/technical/">technical<span class="count">69</span></a>
+          
+          <li>
+              <a href="/categories/javascript/">javascript<span class="count">55</span></a>
+          
+          <li>
+              <a href="/categories/management/">management<span class="count">36</span></a>
+          
+          <li>
+              <a href="/categories/development/">development<span class="count">31</span></a>
+          
+          <li>
+              <a href="/categories/learning/">learning<span class="count">31</span></a>
+          
+          <li>
+              <a href="/categories/performance/">performance<span class="count">14</span></a>
+          
+          <li>
+              <a href="/categories/planning/">planning<span class="count">13</span></a>
+          
+          <li>
+              <a href="/categories/project/">project<span class="count">11</span></a>
+          
+          <li>
+              <a href="/categories/growth/">growth<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/teaching/">teaching<span class="count">10</span></a>
+          
+          <li>
+              <a href="/categories/classes/">classes<span class="count">9</span></a>
+          
+          <li>
+              <a href="/categories/motivation/">motivation<span class="count">4</span></a>
+          
+          <li>
+              <a href="/categories/training/">training<span class="count">4</span></a>
+          
+          <li>
+              <a href="/categories/culture/">culture<span class="count">3</span></a>
+          
+          <li>
+              <a href="/categories/evaluation/">evaluation<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/tech-debt/">tech-debt<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/wfh/">wfh<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/work-from-home/">work-from-home<span class="count">2</span></a>
+          
+          <li>
+              <a href="/categories/agile/">agile<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/calendar/">calendar<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/can/">can<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/code-quality/">code-quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/coffee/">coffee<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/direct-reports/">direct-reports<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/git/">git<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/incident/">incident<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/incident-management/">incident-management<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/legacy-code/">legacy-code<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/links/">links<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/quality/">quality<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/refactoring/">refactoring<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/reliability/">reliability<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/scheduling/">scheduling<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/search/">search<span class="count">1</span></a>
+          
+          <li>
+              <a href="/categories/sitrep/">sitrep<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>This theme was developed for Hugo.</p>
+      <footer>
+        <a href="/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/duereg" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/mattblair" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+  
+  <p class="copyright">
+    © 2026 A Place for Poor Examples
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.73.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/js/highlight.js"></script>
+    
+    <script>hljs.highlightAll();</script><script src="/js/bundle.min.3631be844bdced4e2e695c93f28d1839026c8aaa95345d09a0ec0b1658ebe50d.js" integrity="sha256-NjG&#43;hEvc7U4uaVyT8o0YOQJsiqqVNF0JoOwLFljr5Q0="></script>
+    <script src="/js/add-on.js"></script>
+    </div>
+  </body>
+</html>
