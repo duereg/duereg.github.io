@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.mattblair.co/beginners-guide/safety/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.mattblair.co/beginners-guide/what-is-it/</loc>
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/beginners-guide/fouls/</loc>
+    <loc>https://blog.mattblair.co/beginners-guide/safety/</loc>
   </url>
   
   <url>
     <loc>https://blog.mattblair.co/beginners-guide/rules/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/beginners-guide/fouls/</loc>
   </url>
   
   <url>
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/beginners-guide/forward-defense/</loc>
+    <loc>https://blog.mattblair.co/beginners-guide/pinches/</loc>
   </url>
   
   <url>
@@ -55,11 +55,11 @@
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/beginners-guide/restarts/</loc>
+    <loc>https://blog.mattblair.co/beginners-guide/positioning-by-scenario/</loc>
   </url>
   
   <url>
-    <loc>https://blog.mattblair.co/beginners-guide/positioning-by-scenario/</loc>
+    <loc>https://blog.mattblair.co/beginners-guide/restarts/</loc>
   </url>
   
   <url>
@@ -72,6 +72,10 @@
   
   <url>
     <loc>https://blog.mattblair.co/beginners-guide/cycling-breakaways/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/beginners-guide/swings/</loc>
   </url>
   
   <url>
@@ -88,6 +92,10 @@
   
   <url>
     <loc>https://blog.mattblair.co/beginners-guide/tournament-checklist/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.mattblair.co/beginners-guide/practice-drills/</loc>
   </url>
   
   <url>
