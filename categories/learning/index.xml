@@ -1,338 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>learning on A Place for Poor Examples</title>
-    <link>https://blog.mattblair.co/categories/learning/</link>
-    <description>Recent content in learning on A Place for Poor Examples</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 07 May 2023 12:19:57 -0800</lastBuildDate>
-    
-	<atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Strategic Approaches for Technical Improvement</title>
-      <link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link>
-      <pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid>
-      <description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
- Engaging Senior ICs and EMs in Technical Strategy  To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description>
-    </item>
-    
-    <item>
-      <title>Crunch Time</title>
-      <link>https://blog.mattblair.co/blog/20230404-crunch-time/</link>
-      <pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230404-crunch-time/</guid>
-      <description>Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.
-Ask team members what would make them feel valued One approach is to ask team members what would make them feel valued after the crunch period.</description>
-    </item>
-    
-    <item>
-      <title>Improving Software Quality</title>
-      <link>https://blog.mattblair.co/blog/20230327-code-quality/</link>
-      <pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid>
-      <description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
-Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description>
-    </item>
-    
-    <item>
-      <title>Moving Between Tech Stacks</title>
-      <link>https://blog.mattblair.co/blog/20230302-changing-stacks/</link>
-      <pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230302-changing-stacks/</guid>
-      <description>When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.
-But which tech stacks are easier to move between, and which ones are the hardest?</description>
-    </item>
-    
-    <item>
-      <title>Promoting Technical Excellence in your Organization</title>
-      <link>https://blog.mattblair.co/blog/20230221-technical-excellence/</link>
-      <pubDate>Tue, 21 Feb 2023 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid>
-      <description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>learning on A Place for Poor Examples</title><link>https://blog.mattblair.co/categories/learning/</link><description>Recent content in learning on A Place for Poor Examples</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 07 May 2023 12:19:57 -0800</lastBuildDate><atom:link href="https://blog.mattblair.co/categories/learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Strategic Approaches for Technical Improvement</title><link>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</link><pubDate>Sun, 07 May 2023 12:19:57 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230508-tech-improvement-roadmap/</guid><description>Introduction Technical debt is a common challenge faced by engineering teams, requiring deliberate efforts to manage and pay it down. In this blog post, we will explore different approaches to tackling technical debt and building a long-term technical strategy. We will also highlight the importance of involving senior individual contributors (ICs) and engineering managers (EMs) in shaping the strategy, while considering the alignment with business and product goals.
+Engaging Senior ICs and EMs in Technical Strategy To ensure a comprehensive technical strategy, it is essential to involve experienced ICs and EMs in the decision-making process.</description></item><item><title>Crunch Time</title><link>https://blog.mattblair.co/blog/20230404-crunch-time/</link><pubDate>Tue, 04 Apr 2023 03:10:07 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230404-crunch-time/</guid><description>Crunch periods are a reality in many industries, and sometimes they are necessary to meet an immovable deadline. However, working under high-pressure situations for an extended period can lead to burnout, and it&amp;rsquo;s essential to provide support for the team after the crunch is over. In this blog post, we will discuss different approaches for formalized recovery time after a crunch period.
+Ask team members what would make them feel valued One approach is to ask team members what would make them feel valued after the crunch period.</description></item><item><title>Improving Software Quality</title><link>https://blog.mattblair.co/blog/20230327-code-quality/</link><pubDate>Mon, 27 Mar 2023 10:54:47 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230327-code-quality/</guid><description>As a manager, you&amp;rsquo;re responsible for ensuring that the software your team creates is of the highest quality possible. This means reducing the number of bugs and improving code quality. But how do you measure these improvements? And what strategies can you implement to achieve them?
+Measuring Quality One traditional way of measuring quality is by the number of bugs that are found and fixed. However, this is a lagging metric, meaning that you can only measure it after the damage has been done.</description></item><item><title>Moving Between Tech Stacks</title><link>https://blog.mattblair.co/blog/20230302-changing-stacks/</link><pubDate>Thu, 02 Mar 2023 17:31:07 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230302-changing-stacks/</guid><description>When it comes to software engineering roles, experience in the tech stack you&amp;rsquo;re going to be working in is valuable but not specifically required. A good engineer can ramp up and learn new stacks. However, someone experienced in the tech stack can contribute quickly to key development initiatives, while also bringing outside experience using the stack.
+But which tech stacks are easier to move between, and which ones are the hardest?</description></item><item><title>Promoting Technical Excellence in your Organization</title><link>https://blog.mattblair.co/blog/20230221-technical-excellence/</link><pubDate>Tue, 21 Feb 2023 17:31:07 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230221-technical-excellence/</guid><description>I was speaking to a friend who works at a startup with a team of around 14 engineers. 80% of them are mid level engineers with 3-4 years of experience. They all work in product squads covering specific areas.
 These have lost momentum in the development and they are seeing 2 key problems:
- The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description>
-    </item>
-    
-    <item>
-      <title>Interesting Articles for Engineering Managers</title>
-      <link>https://blog.mattblair.co/blog/20230201-link-dump/</link>
-      <pubDate>Wed, 01 Feb 2023 12:53:42 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230201-link-dump/</guid>
-      <description>Engineering Leadership Principles The article &amp;ldquo;Engineering Leadership Principles&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:
- Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions  Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description>
-    </item>
-    
-    <item>
-      <title>Mentorship Proposal</title>
-      <link>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</link>
-      <pubDate>Tue, 31 Jan 2023 15:30:12 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</guid>
-      <description>Note: This is a proposal I put together with one of the engineers in my organization for a peer-directed mentorship program. I&amp;rsquo;ve removed names and fudged numbers but I hope it will serve as a valuable template. All other numbers quoted here are from outside studies, with links to the studies provided.
+The teams lacks direction on where to focus their energy and prefer tackling small issues as they don&amp;rsquo;t have a vision as to what impactful engineering initiatives to do.</description></item><item><title>Interesting Articles for Engineering Managers</title><link>https://blog.mattblair.co/blog/20230201-link-dump/</link><pubDate>Wed, 01 Feb 2023 12:53:42 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230201-link-dump/</guid><description>Engineering Leadership Principles The article &amp;ldquo;Engineering Leadership Principles&amp;rdquo; by Hugo Dias outlines six principles that he believes are crucial for effective engineering leadership:
+Build trust through transparency and communication Foster a culture of learning and growth Prioritize quality and reliability Lead with empathy and emotional intelligence Build strong, diverse teams Empower your team to take ownership and make decisions Dias provides examples and anecdotes to illustrate each principle and explains why they are important.</description></item><item><title>Mentorship Proposal</title><link>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</link><pubDate>Tue, 31 Jan 2023 15:30:12 -0800</pubDate><guid>https://blog.mattblair.co/blog/20230131-mentorship-proposal/</guid><description>Note: This is a proposal I put together with one of the engineers in my organization for a peer-directed mentorship program. I&amp;rsquo;ve removed names and fudged numbers but I hope it will serve as a valuable template. All other numbers quoted here are from outside studies, with links to the studies provided.
 Peer Mentorship Proposal The most valuable asset of a company are its employees.
-Among top reasons for millennials wanting to quit their jobs are &amp;lsquo;Not enough opportunities to advance&amp;rsquo; at 35% and &amp;lsquo;Lack of learning and development opportunities&amp;rsquo; at 28%.</description>
-    </item>
-    
-    <item>
-      <title>Technical State of the Team - Expanded</title>
-      <link>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</link>
-      <pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</guid>
-      <description>Note: This is a compliment to the previous article I wrote about the Technical state of a Team, and explains the concepts in depth.
-Technical State of the Team There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.</description>
-    </item>
-    
-    <item>
-      <title>Project Planning Checklist</title>
-      <link>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</link>
-      <pubDate>Thu, 10 Nov 2022 05:17:17 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid>
-      <description>All the previous project planning articles summarized into a checklist.
-Project Planning Checklist Pre-Planning  Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out  Beginning to Plan  Identify the rough scope of the work Identify the milestones of the project  Project Kickoff  High-Level Timelines  Call out timelines you haven’t figured out yet, and when you will figure them out   Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams  Lay out the requirements for what you need from others to be successful   Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete  Overall Technical Design  An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  Breaking Down the Project into Milestones  Are the milestones clear on what they’re delivering?</description>
-    </item>
-    
-    <item>
-      <title>Running Your Projects</title>
-      <link>https://blog.mattblair.co/blog/20221008-running-your-project/</link>
-      <pubDate>Sat, 08 Oct 2022 05:17:17 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20221008-running-your-project/</guid>
-      <description>Note: This is a series of project planning talks I gave my team.
+Among top reasons for millennials wanting to quit their jobs are &amp;lsquo;Not enough opportunities to advance&amp;rsquo; at 35% and &amp;lsquo;Lack of learning and development opportunities&amp;rsquo; at 28%.</description></item><item><title>Technical State of the Team - Expanded</title><link>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</link><pubDate>Mon, 12 Dec 2022 12:12:12 -0800</pubDate><guid>https://blog.mattblair.co/blog/20221212-technical-state-of-team-expanded/</guid><description>Note: This is a compliment to the previous article I wrote about the Technical state of a Team, and explains the concepts in depth.
+Technical State of the Team There’s a saying that people don’t leave companies, they leave managers. Management is a key part of any organization, yet the discipline is often self-taught and unstructured. Getting to the good solutions for complex management challenges can make the difference between fulfillment and frustration for teams, and, ultimately, between the success and failure of companies.</description></item><item><title>Project Planning Checklist</title><link>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</link><pubDate>Thu, 10 Nov 2022 05:17:17 -0800</pubDate><guid>https://blog.mattblair.co/blog/20221110-project-planning-checklist/</guid><description>All the previous project planning articles summarized into a checklist.
+Project Planning Checklist Pre-Planning Identity your stakeholders Identity the goal you’re trying to accomplish Get familiar with the code Set up a local environment to try things out Beginning to Plan Identify the rough scope of the work Identify the milestones of the project Project Kickoff High-Level Timelines Call out timelines you haven’t figured out yet, and when you will figure them out Identify Roles and Responsibilities of people involved with the project Identify Dependencies on other teams Lay out the requirements for what you need from others to be successful Identify Goals and Outcomes for the project Identify how you want people to work together on the project Identify next steps after the kickoff is complete Overall Technical Design An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project Breaking Down the Project into Milestones Are the milestones clear on what they’re delivering?</description></item><item><title>Running Your Projects</title><link>https://blog.mattblair.co/blog/20221008-running-your-project/</link><pubDate>Sat, 08 Oct 2022 05:17:17 -0800</pubDate><guid>https://blog.mattblair.co/blog/20221008-running-your-project/</guid><description>Note: This is a series of project planning talks I gave my team.
 Running your project Writing A Technical Design Document At this point, you’re ready to start designing your system.
 A good technical design document should contain:
- An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project  You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description>
-    </item>
-    
-    <item>
-      <title>Kickoff Doc Expanded</title>
-      <link>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</link>
-      <pubDate>Wed, 07 Sep 2022 05:17:17 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</guid>
-      <description>Note: this is an expansion on a previous article I wrote around kickoff docs.
+An overview of the problem A breakdown of the individual milestones and how they’re related High-level process / workflow diagrams / designs / etc Any other notes that might be relevant to folks who will be working on the project You should also consider if certain steps can be done in parallel, and what steps block other aspects of the work.</description></item><item><title>Kickoff Doc Expanded</title><link>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</link><pubDate>Wed, 07 Sep 2022 05:17:17 -0800</pubDate><guid>https://blog.mattblair.co/blog/20220907-kickoff-docs-expanded/</guid><description>Note: this is an expansion on a previous article I wrote around kickoff docs.
 Project Kickoff! At this point, you should have a good idea of what your overall goal is. You should have a rough sketch of what your milestones are for the project and what you want to include in each one. You should not have the specific details of the projects worked out yet.
-It’s time for a project kickoff.</description>
-    </item>
-    
-    <item>
-      <title>So you’ve got yourself a project</title>
-      <link>https://blog.mattblair.co/blog/20220806-so-you-have-project/</link>
-      <pubDate>Sat, 06 Aug 2022 05:17:17 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20220806-so-you-have-project/</guid>
-      <description>Note: This is a series of project planning talks I gave my team.
+It’s time for a project kickoff.</description></item><item><title>So you’ve got yourself a project</title><link>https://blog.mattblair.co/blog/20220806-so-you-have-project/</link><pubDate>Sat, 06 Aug 2022 05:17:17 -0800</pubDate><guid>https://blog.mattblair.co/blog/20220806-so-you-have-project/</guid><description>Note: This is a series of project planning talks I gave my team.
 So you’ve got yourself a project A project (and a ticket) is a placeholder for a conversation. No matter if a ticket is super detailed or vague on what it wants, the best way to do good work is to figure out a few things about the work you’ve been given.
-Get Comfortable Pre-planning for any project should begin FAR before the actual work.</description>
-    </item>
-    
-    <item>
-      <title>When to plan a project</title>
-      <link>https://blog.mattblair.co/blog/20220705-project-planning-overview/</link>
-      <pubDate>Tue, 05 Jul 2022 05:17:17 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20220705-project-planning-overview/</guid>
-      <description>Note: This is a series of project planning talks I gave my team.
-When to plan a project What is a project plan? Project planning is the process of defining your objectives and scope, your goals and milestones (deliverables), and assigning tasks and resources for each step. A good plan is easily shareable with everyone involved, and it’s most useful when it’s revisited regularly. Simply outlining a plan and never discussing it with your team again is a good recipe for wasted time and effort.</description>
-    </item>
-    
-    <item>
-      <title>Define your team&#39;s stragetic intent</title>
-      <link>https://blog.mattblair.co/blog/20220628-strategic-intent/</link>
-      <pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20220628-strategic-intent/</guid>
-      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+Get Comfortable Pre-planning for any project should begin FAR before the actual work.</description></item><item><title>When to plan a project</title><link>https://blog.mattblair.co/blog/20220705-project-planning-overview/</link><pubDate>Tue, 05 Jul 2022 05:17:17 -0800</pubDate><guid>https://blog.mattblair.co/blog/20220705-project-planning-overview/</guid><description>Note: This is a series of project planning talks I gave my team.
+When to plan a project What is a project plan? Project planning is the process of defining your objectives and scope, your goals and milestones (deliverables), and assigning tasks and resources for each step. A good plan is easily shareable with everyone involved, and it’s most useful when it’s revisited regularly. Simply outlining a plan and never discussing it with your team again is a good recipe for wasted time and effort.</description></item><item><title>Define your team's stragetic intent</title><link>https://blog.mattblair.co/blog/20220628-strategic-intent/</link><pubDate>Tue, 28 Jun 2022 21:30:12 -0800</pubDate><guid>https://blog.mattblair.co/blog/20220628-strategic-intent/</guid><description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with your Team: Organize to Learn</title>
-      <link>https://blog.mattblair.co/blog/20220325-organize-to-learn/</link>
-      <pubDate>Fri, 25 Mar 2022 18:37:09 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20220325-organize-to-learn/</guid>
-      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description></item><item><title>Getting Started with your Team: Organize to Learn</title><link>https://blog.mattblair.co/blog/20220325-organize-to-learn/</link><pubDate>Fri, 25 Mar 2022 18:37:09 -0800</pubDate><guid>https://blog.mattblair.co/blog/20220325-organize-to-learn/</guid><description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
-    </item>
-    
-    <item>
-      <title>Managerial Meddling</title>
-      <link>https://blog.mattblair.co/blog/20211222-managerial-meddling/</link>
-      <pubDate>Wed, 22 Dec 2021 15:34:06 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20211222-managerial-meddling/</guid>
-      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description></item><item><title>Managerial Meddling</title><link>https://blog.mattblair.co/blog/20211222-managerial-meddling/</link><pubDate>Wed, 22 Dec 2021 15:34:06 -0800</pubDate><guid>https://blog.mattblair.co/blog/20211222-managerial-meddling/</guid><description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
-    </item>
-    
-    <item>
-      <title>What is a manager?</title>
-      <link>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</link>
-      <pubDate>Sun, 19 Sep 2021 12:31:03 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</guid>
-      <description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description></item><item><title>What is a manager?</title><link>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</link><pubDate>Sun, 19 Sep 2021 12:31:03 -0800</pubDate><guid>https://blog.mattblair.co/blog/20210919-what-is-a-manager/</guid><description>Note: This was a series of talks I gave to leadership in my organization, so some of the comments here might not make sense in the context of a blog post.
 This is not original work: I pulled heavilty from these four books to put together these talks:
 References:
- High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path  If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description>
-    </item>
-    
-    <item>
-      <title>SMART vs CLEAR goals</title>
-      <link>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</link>
-      <pubDate>Sun, 27 Jun 2021 09:39:00 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</guid>
-      <description>Setting Goals Two of the more popular methods for setting goals are SMART and CLEAR:
+High Output Management The First 90 Days An Elegant Puzzle A Manager’s Path If I did not site some of these works here, or pulled quotes directly from them, forgive me.</description></item><item><title>SMART vs CLEAR goals</title><link>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</link><pubDate>Sun, 27 Jun 2021 09:39:00 -0800</pubDate><guid>https://blog.mattblair.co/blog/20210627-smart-vs-clear/</guid><description>Setting Goals Two of the more popular methods for setting goals are SMART and CLEAR:
 SMART Goals This method helps ensure that the goals have been thoroughly vetted. It also provides a way to clearly understand the implications of the goal-setting process.
 Specific – To set specific goals, answer the following questions: who, what, where, when, which, and why.
-Measurable – Create criteria that you can use to measure the success of a goal.</description>
-    </item>
-    
-    <item>
-      <title>The schedule of an engineering manager</title>
-      <link>https://blog.mattblair.co/blog/20210516-weekly-tasks/</link>
-      <pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20210516-weekly-tasks/</guid>
-      <description>Overview In re-reading High Output Management recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.
-Regular Occurring Events: Weekly 1:1’s with all direct reports Weekly 1:1’s with PM, Design, etc Weekly 1:1&amp;rsquo;s with my manager Weekly leadership meeting with pillar leadership Bi-weekly 1:1’s with peers Monthly Career Conversations with direct reports</description>
-    </item>
-    
-    <item>
-      <title>Breakdown; post-mortem of a process failure</title>
-      <link>https://blog.mattblair.co/blog/20210217-incident-remediation/</link>
-      <pubDate>Wed, 17 Feb 2021 18:49:50 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20210217-incident-remediation/</guid>
-      <description>I was reviewing an old incident review doc where I wrote up some of the high level learnings from the incident. Thought it was worth sharing, with the details omitted to protect the innocent.
-Some backstory; we were trying to load test a component and ended up getting the load testing done at the last minute right before customer launch. The team had to work into the weekend to meet the customer deadline.</description>
-    </item>
-    
-    <item>
-      <title>Measure the Technical State of your Team</title>
-      <link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link>
-      <pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid>
-      <description>Some thoughts on how you could evaluate the state of the systems your team owns.
+Measurable – Create criteria that you can use to measure the success of a goal.</description></item><item><title>The schedule of an engineering manager</title><link>https://blog.mattblair.co/blog/20210516-weekly-tasks/</link><pubDate>Sun, 16 May 2021 09:39:00 -0800</pubDate><guid>https://blog.mattblair.co/blog/20210516-weekly-tasks/</guid><description>Overview In re-reading High Output Management recently, I was particularly interested in reading over Andy Grove&amp;rsquo;s schedule and seeing how he spent his time. I thought it might be interesting to post something similar to how I allocate my time throughout the year.
+Regular Occurring Events: Weekly 1:1’s with all direct reports Weekly 1:1’s with PM, Design, etc Weekly 1:1&amp;rsquo;s with my manager Weekly leadership meeting with pillar leadership Bi-weekly 1:1’s with peers Monthly Career Conversations with direct reports</description></item><item><title>Breakdown; post-mortem of a process failure</title><link>https://blog.mattblair.co/blog/20210217-incident-remediation/</link><pubDate>Wed, 17 Feb 2021 18:49:50 -0800</pubDate><guid>https://blog.mattblair.co/blog/20210217-incident-remediation/</guid><description>I was reviewing an old incident review doc where I wrote up some of the high level learnings from the incident. Thought it was worth sharing, with the details omitted to protect the innocent.
+Some backstory; we were trying to load test a component and ended up getting the load testing done at the last minute right before customer launch. The team had to work into the weekend to meet the customer deadline.</description></item><item><title>Measure the Technical State of your Team</title><link>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</link><pubDate>Sun, 10 Jan 2021 21:40:42 -0800</pubDate><guid>https://blog.mattblair.co/blog/20210110-measurable-technical-state-of-the-team/</guid><description>Some thoughts on how you could evaluate the state of the systems your team owns.
 One way to use this:
- Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love.  If all of these are the same for everything you own, it might make sense to skip that section.</description>
-    </item>
-    
-    <item>
-      <title>Understanding Velocity in Development Teams</title>
-      <link>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</link>
-      <pubDate>Mon, 02 Nov 2020 17:31:07 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</guid>
-      <description>Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.
-It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other.</description>
-    </item>
-    
-    <item>
-      <title>The importance of clear communication</title>
-      <link>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</link>
-      <pubDate>Wed, 09 Sep 2020 15:20:08 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</guid>
-      <description>This is based off a talk I gave on improving communications.
+Put some of these criteria on the Y axis Put the name of the components you own on the X. Give everything a score from 1 to 0. Either average the scores or sum them to figure out which components need the most love. If all of these are the same for everything you own, it might make sense to skip that section.</description></item><item><title>Understanding Velocity in Development Teams</title><link>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</link><pubDate>Mon, 02 Nov 2020 17:31:07 -0800</pubDate><guid>https://blog.mattblair.co/blog/20201102-understanding-velocity-in-development-teams/</guid><description>Velocity is a commonly used metric in development teams to measure how much work they can fit into a sprint. However, using velocity for any other purpose can be problematic as it might not reflect the real progress of the project and can be a flawed planning mechanism.
+It&amp;rsquo;s crucial to understand that each team defines what a point means for them, making velocity not useful for comparing teams with each other.</description></item><item><title>The importance of clear communication</title><link>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</link><pubDate>Wed, 09 Sep 2020 15:20:08 -0800</pubDate><guid>https://blog.mattblair.co/blog/20200909-pyramid-principle-inaction/</guid><description>This is based off a talk I gave on improving communications.
 There is a lot of communication right now With everyone working remotely, the importance of communication has increased. We&amp;rsquo;re communicating more often without meeting, and making your message clear when everyone is deluged with correspondance is the only way to have impact in your organization.
-To succeed in any organization, you need to be able to tell your story. Whether it’s a status update, an RFC, or an escal question, you need to be able to quickly tell people the state of the world.</description>
-    </item>
-    
-    <item>
-      <title>1:1&#39;s aren&#39;t enough in a SIP world</title>
-      <link>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</link>
-      <pubDate>Mon, 08 Jun 2020 13:40:42 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</guid>
-      <description>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.
-These small encounters gave you a chance to make sure your team was running efficiency, it also gave your team a chance to speak to you as a human being outside of formal settings.</description>
-    </item>
-    
-    <item>
-      <title>Kickoff Docs</title>
-      <link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link>
-      <pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid>
-      <description>What is a Project Kickoff?  What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
- Taken from the Atlassian Project Kickoff reference.
-Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description>
-    </item>
-    
-    <item>
-      <title>Measuring Backlog Health</title>
-      <link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link>
-      <pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid>
-      <description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
+To succeed in any organization, you need to be able to tell your story. Whether it’s a status update, an RFC, or an escal question, you need to be able to quickly tell people the state of the world.</description></item><item><title>1:1's aren't enough in a SIP world</title><link>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</link><pubDate>Mon, 08 Jun 2020 13:40:42 -0800</pubDate><guid>https://blog.mattblair.co/blog/20200606-remote-management-lessons-learned/</guid><description>Back when we were all the office together, it was pretty easy as a manager to get a feel for how the team was doing. Are folks getting along? Are folks stressed? Does everyone have the right balance of work? With folks all around you, it was pretty easy to drop in on a conversation, take someone to lunch, or grab a coffee and talk.
+These small encounters gave you a chance to make sure your team was running efficiency, it also gave your team a chance to speak to you as a human being outside of formal settings.</description></item><item><title>Kickoff Docs</title><link>https://blog.mattblair.co/blog/20200404-kickoff-docs/</link><pubDate>Tue, 03 Mar 2020 14:07:39 -0800</pubDate><guid>https://blog.mattblair.co/blog/20200404-kickoff-docs/</guid><description>What is a Project Kickoff? What is a project kick-off? A project kick-off meeting is the first meeting with the project team and the client of the project where applicable. This meeting is the time to establish common goals and the purpose of the project.
+Taken from the Atlassian Project Kickoff reference.
+Why a Project Kickoff? A project kickoff sets a clear outline of project goals and milestones.</description></item><item><title>Measuring Backlog Health</title><link>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</link><pubDate>Wed, 01 Jan 2020 21:40:42 -0800</pubDate><guid>https://blog.mattblair.co/blog/20200101-measuring-backlog-health/</guid><description>Backlog Grooming Some thoughts on how you could evaluate the state of your backlog.
 Small, well groomed backlog
- Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description>
-    </item>
-    
-    <item>
-      <title>Pyramid Principle Examples</title>
-      <link>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</link>
-      <pubDate>Mon, 11 Nov 2019 15:57:32 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</guid>
-      <description>I use SCQA all the time in my communications both up to leadership and down to my teams.
+Are the tickets in the backlog going to be actioned in the near term? If you deleted the tickets that aren&amp;rsquo;t in your near-term roadmap, how long would it take you to recreate it? Is the Backlog consistently growing or shrinking? Are the tickets all in a state to be actioned immediately, or do they need additional work?</description></item><item><title>Pyramid Principle Examples</title><link>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</link><pubDate>Mon, 11 Nov 2019 15:57:32 -0800</pubDate><guid>https://blog.mattblair.co/blog/20191111-pyramid-principle-examples/</guid><description>I use SCQA all the time in my communications both up to leadership and down to my teams.
 This TED talk from Derek Sivers is a great example of someone using SCQA to communicating a problem and a suggested solution in a short amount of time. Worth watching if you&amp;rsquo;re looking to use SCQA in your own communications.
-Another example of an SCQA structured communication is something I received at work:</description>
-    </item>
-    
-    <item>
-      <title>Further Engineering Management Classes</title>
-      <link>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</link>
-      <pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</guid>
-      <description>Some further classes I recommend for potential new engineering managers.
+Another example of an SCQA structured communication is something I received at work:</description></item><item><title>Further Engineering Management Classes</title><link>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</link><pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate><guid>https://blog.mattblair.co/blog/20190607-further-engineering-management-classes/</guid><description>Some further classes I recommend for potential new engineering managers.
 https://www.harrisonmetal.com/library/objectives-key-results
 So many companies want to set up goals in the OKR (Objective-Key Result) format. This shows some great examples how to format yours.
 https://www.harrisonmetal.com/library/storytelling-amp-presenting-1-thank-you-barbara-minto
 I use SCQA all the time in my communications both up to leadership and down to my teams. Highly recommend taking this class or reading The Pyramid Principle.
 https://www.harrisonmetal.com/classes/gm2-setting-goals-measuring-performance
-If you&amp;rsquo;re a manager, you&amp;rsquo;re going to have to figure out a way to set goals for your teams and measure the performance of those goals.</description>
-    </item>
-    
-    <item>
-      <title>Project Planning Notes</title>
-      <link>https://blog.mattblair.co/blog/20190202-project-planning-notes/</link>
-      <pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid>
-      <description>More Shared Knowledge on Projects  Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s  Ideally break work into small pieces though   Do team share of projects for tech projects, share knowledge Team Collab!</description>
-    </item>
-    
-    <item>
-      <title>Manager Conference Links</title>
-      <link>https://blog.mattblair.co/blog/20180115-manager-conference-links/</link>
-      <pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20180115-manager-conference-links/</guid>
-      <description>A couple of EM conferences folks might find useful:
+If you&amp;rsquo;re a manager, you&amp;rsquo;re going to have to figure out a way to set goals for your teams and measure the performance of those goals.</description></item><item><title>Project Planning Notes</title><link>https://blog.mattblair.co/blog/20190202-project-planning-notes/</link><pubDate>Fri, 08 Feb 2019 16:29:13 -0800</pubDate><guid>https://blog.mattblair.co/blog/20190202-project-planning-notes/</guid><description>More Shared Knowledge on Projects Include more people in code reviews even if they&amp;rsquo;re not actively picking up development tasks &amp;ndash; this shares out knowledge of the changes and gets another set of eyes that can ask good questions Break team silos, share knowledge Do Team PR&amp;rsquo;s for big PR&amp;rsquo;s Ideally break work into small pieces though Do team share of projects for tech projects, share knowledge Team Collab!</description></item><item><title>Manager Conference Links</title><link>https://blog.mattblair.co/blog/20180115-manager-conference-links/</link><pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate><guid>https://blog.mattblair.co/blog/20180115-manager-conference-links/</guid><description>A couple of EM conferences folks might find useful:
 SFELC Summit
 An annual celebration for engineering leaders.
 A wide range of topics. One day, multiple tracks. Great speaker lineup. A refresher on management fundamentals. Workshops and Breakouts.
@@ -340,21 +60,8 @@ Calibrate
 You’re a great engineer. Become a great leader. Calibrate is aimed at practicing engineering managers, responsible for the people on their team.
 You can find videos of previous years here.
 TEMSCON
-Research-focused engineering management conference.</description>
-    </item>
-    
-    <item>
-      <title>Engineering Management Classes</title>
-      <link>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</link>
-      <pubDate>Fri, 29 Dec 2017 00:00:00 -0800</pubDate>
-      
-      <guid>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</guid>
-      <description>Two classes I recommend for potential new engineering managers.
+Research-focused engineering management conference.</description></item><item><title>Engineering Management Classes</title><link>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</link><pubDate>Fri, 29 Dec 2017 00:00:00 -0800</pubDate><guid>https://blog.mattblair.co/blog/20171229-engineering-management-classes/</guid><description>Two classes I recommend for potential new engineering managers.
 https://www.harrisonmetal.com/classes/foundations-general-management
 The course is designed to help new managers develop foundational skills in management and leadership.
 The course covers several key topics, including:
- Understanding the role of a manager and developing a management philosophy Building effective teams and managing team dynamics Developing and executing strategy Managing operations and projects Building and managing relationships with stakeholders Leading change and managing transitions  The course is divided into several modules, with each module covering a specific topic.</description>
-    </item>
-    
-  </channel>
-</rss>
+Understanding the role of a manager and developing a management philosophy Building effective teams and managing team dynamics Developing and executing strategy Managing operations and projects Building and managing relationships with stakeholders Leading change and managing transitions The course is divided into several modules, with each module covering a specific topic.</description></item></channel></rss>
