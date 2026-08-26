@@ -841,8 +841,8 @@
   },{
     "title": "Swim Generator",
     "date": "",
-    "description": "Generate underwater hockey swim workouts by time or CSS-based energy system.",
-    "body": "Generate mixed-underwater interval workouts from a target duration, or CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2).\n",
+    "description": "Generate underwater hockey swim workouts by time, CSS-based energy system, or multi-week preset plans.",
+    "body": "Generate mixed-underwater interval workouts from a target duration, CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2), or full multi-week preset plans.\n",
     "ref": "/utilities/swim-generator/"
   },{
     "title": "Tournament Scheduler",

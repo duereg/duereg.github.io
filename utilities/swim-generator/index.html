@@ -3,14 +3,14 @@
   <head>
   <meta charset="utf-8">
 <title>Swim Generator - A Place for Poor Examples</title>
-<meta name="description" content="Generate underwater hockey swim workouts by time or CSS-based energy system.">
+<meta name="description" content="Generate underwater hockey swim workouts by time, CSS-based energy system, or multi-week preset plans.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <meta name="twitter:card" content="summary_large_image">
 
 <meta property="og:site_name" content="A Place for Poor Examples">
 <meta property="og:title" content="Swim Generator">
-<meta property="og:description" content="Generate underwater hockey swim workouts by time or CSS-based energy system.">
+<meta property="og:description" content="Generate underwater hockey swim workouts by time, CSS-based energy system, or multi-week preset plans.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://blog.mattblair.co/utilities/swim-generator/">
   <meta property="og:image" content="https://blog.mattblair.co/img/headshot-4.png">
@@ -254,7 +254,7 @@
     <header>
       <div class="title">
         <h1><a href="/utilities/swim-generator/">Swim Generator</a></h1>
-        <p>Generate underwater hockey swim workouts by time or CSS-based energy system.</p>
+        <p>Generate underwater hockey swim workouts by time, CSS-based energy system, or multi-week preset plans.</p>
       </div>
     </header>
     <div class="content">
@@ -262,7 +262,7 @@
   <a href="/utilities/">← Utilities</a>
 </p>
 
-      <p>Generate mixed-underwater interval workouts from a target duration, or CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2).</p>
+      <p>Generate mixed-underwater interval workouts from a target duration, CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2), or full multi-week preset plans.</p>
 
       <link rel="stylesheet" href="/swim-generator/app.css">
       <div class="swim-generator">
@@ -271,6 +271,7 @@
       <label for="workoutTypeSelect">Workout Type</label>
       <select id="workoutTypeSelect">
         <option value="MIXED_UNDERWATERS" selected>Mixed Underwaters</option>
+        <option value="PRESET_PLAN">Preset Plan</option>
         <option value="EN1">(EN1) Endurance Base</option>
         <option value="EN2">(EN2) Threshold Sustained</option>
         <option value="EN3">(EN3) Threshold Development</option>
@@ -290,6 +291,22 @@
       <div>
         <label for="cssInput">CSS Time (MM:SS)</label>
         <input id="cssInput" type="text" value="1:20" />
+      </div>
+    </div>
+    <div id="presetInputsContainer" style="display: none;" class="swim-generator--input-group">
+      <div>
+        <label for="presetPlanSelect">Preset Plan</label>
+        <select id="presetPlanSelect"></select>
+      </div>
+      <div>
+        <label for="presetCssInput">CSS Time (MM:SS)</label>
+        <input id="presetCssInput" type="text" value="1:20" />
+      </div>
+      <div class="swim-generator--checkbox">
+        <label class="swim-generator--checkbox-label" for="presetIncludeExtras">
+          Include optional extras
+          <input id="presetIncludeExtras" type="checkbox" />
+        </label>
       </div>
     </div>
     <div class="swim-generator--controls">

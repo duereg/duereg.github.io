@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["../../assets/swim-generator/app.css"],
-  "sourcesContent": [".swim-generator--label {\n  padding-left: 1em;\n}\n\n.swim-generator--controls {\n  padding-top: 1em;\n}\n\n.swim-generator--input-group {\n  margin-top: 1em;\n}\n"],
-  "mappings": "AAAA,CAAC,sBACC,aAAc,GAChB,CAEA,CAAC,yBACC,YAAa,GACf,CAEA,CAAC,4BACC,WAAY,GACd",
+  "sourcesContent": [".swim-generator--label {\n  padding-left: 1em;\n}\n\n.swim-generator--controls {\n  padding-top: 1em;\n}\n\n.swim-generator--input-group {\n  margin-top: 1em;\n}\n\n.swim-generator--checkbox-label {\n  display: flex;\n  align-items: center;\n  gap: 0.75em;\n  justify-content: flex-start;\n  width: fit-content;\n  font-size: 0.9em;\n  font-weight: 700;\n}\n\n.swim-generator input[type=\"checkbox\"] {\n  width: 2.75em;\n  height: 2.75em;\n  margin: 0.25em 0;\n  padding: 0;\n  flex-shrink: 0;\n}\n"],
+  "mappings": "AAAA,CAAC,sBACC,aAAc,GAChB,CAEA,CAAC,yBACC,YAAa,GACf,CAEA,CAAC,4BACC,WAAY,GACd,CAEA,CAAC,+BACC,QAAS,KACT,YAAa,OACb,IAAK,MACL,gBAAiB,WACjB,MAAO,YACP,UAAW,KACX,YAAa,GACf,CAEA,CAAC,eAAe,KAAK,CAAC,eACpB,MAAO,OACP,OAAQ,OAxBV,OAyBU,MAAO,EAzBjB,QA0BW,EACT,YAAa,CACf",
   "names": []
 }
