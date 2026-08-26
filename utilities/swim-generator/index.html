@@ -264,7 +264,7 @@
 
       <p>Generate mixed-underwater interval workouts from a target duration, CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2), or full multi-week preset plans.</p>
 
-      <link rel="stylesheet" href="/swim-generator/app.css">
+      <link rel="stylesheet" href="/utilities/swim-generator/app.css">
       <div class="swim-generator">
   <div class="swim-generator--input">
     <div>
@@ -323,7 +323,30 @@
 
     </div>
   </article>
-  <script type="module" src="/swim-generator/app.js"></script>
+  <script>
+    
+    (function () {
+      var cssUrl = "\/utilities\/swim-generator\/app.css";
+      var jsUrl = "\/utilities\/swim-generator\/app.js";
+      var conflictUrl = "\/swim-generator\/app.js";
+      function logAssets() {
+        Promise.all([
+          fetch(cssUrl, { method: 'HEAD' }).then(function (r) { return { asset: 'css', url: cssUrl, status: r.status }; }),
+          fetch(jsUrl, { method: 'HEAD' }).then(function (r) { return { asset: 'js', url: jsUrl, status: r.status }; }),
+          fetch(conflictUrl, { method: 'HEAD' }).then(function (r) { return { asset: 'legacy-conflict', url: conflictUrl, status: r.status }; })
+        ]).then(function (results) {
+          fetch('http://127.0.0.1:7513/ingest/0fa80758-bff2-46a0-9b9d-f9b47781eae5', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Debug-Session-Id': '5517df' }, body: JSON.stringify({ sessionId: '5517df', runId: 'post-fix', hypothesisId: 'H1', location: 'swim-generator.html:inline', message: 'asset HEAD probe', data: { results: results }, timestamp: Date.now() }) }).catch(function () {});
+        });
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', logAssets);
+      } else {
+        logAssets();
+      }
+    })();
+    
+  </script>
+  <script type="module" src="/utilities/swim-generator/app.js"></script>
 
       </main>
       <section id="site-sidebar">
