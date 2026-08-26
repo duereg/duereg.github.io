@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../assets/swim-generator/app.css"],
+  "sourcesContent": [".swim-generator--label {\n  padding-left: 1em;\n}\n\n.swim-generator--controls {\n  padding-top: 1em;\n}\n\n.swim-generator--input-group {\n  margin-top: 1em;\n}\n"],
+  "mappings": "AAAA,CAAC,sBACC,aAAc,GAChB,CAEA,CAAC,yBACC,YAAa,GACf,CAEA,CAAC,4BACC,WAAY,GACd",
+  "names": []
+}

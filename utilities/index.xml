@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utilities on A Place for Poor Examples</title>
+    <link>https://blog.mattblair.co/utilities/</link>
+    <description>Recent content in Utilities on A Place for Poor Examples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://blog.mattblair.co/utilities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swim Generator</title>
+      <link>https://blog.mattblair.co/utilities/swim-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mattblair.co/utilities/swim-generator/</guid>
+      <description>Generate mixed-underwater interval workouts from a target duration, or CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2).</description>
+    </item>
+    
+    <item>
+      <title>Tournament Scheduler</title>
+      <link>https://blog.mattblair.co/utilities/tourney/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mattblair.co/utilities/tourney/</guid>
+      <description>Use this tool to estimate how long a tournament will take and preview game schedules. Supports full round robin, partial round robin, and pod-based formats.</description>
+    </item>
+    
+  </channel>
+</rss>

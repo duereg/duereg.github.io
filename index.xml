@@ -254,11 +254,10 @@ Here&amp;rsquo;s another &amp;ldquo;how to&amp;rdquo; blurb on executing offense
       
       <guid>https://blog.mattblair.co/beginners-guide/tournament-checklist/</guid>
       <description>You&amp;rsquo;ve read this guide, you&amp;rsquo;ve been to a few practices, and now you&amp;rsquo;re ready for your first tournament. Congratulations! Just make sure you&amp;rsquo;ve got the following items.
+Organizing an event? Use the Tournament Scheduler to estimate how long games will take and preview schedules.
 Indispensable Be a good team player and don&amp;rsquo;t show up at a tournament without these.
   white cap, black cap
-  white stick, black stick (maybe freshly painted?)
-  mask, fins, glove &amp;ndash; see Equipment
-  snorkel with mouth guard</description>
+  white stick, black stick (maybe freshly painted?</description>
     </item>
     
     <item>
@@ -1543,6 +1542,24 @@ That doesn&amp;rsquo;t mean there aren&amp;rsquo;t things I don&amp;rsquo;t like
       
       <guid>https://blog.mattblair.co/contact/</guid>
       <description>{{ .Render &#34;content-list&#34; }}</description>
+    </item>
+    
+    <item>
+      <title>Swim Generator</title>
+      <link>https://blog.mattblair.co/utilities/swim-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mattblair.co/utilities/swim-generator/</guid>
+      <description>Generate mixed-underwater interval workouts from a target duration, or CSS-based workouts for specific energy systems (EN1–EN3, SP1–SP2).</description>
+    </item>
+    
+    <item>
+      <title>Tournament Scheduler</title>
+      <link>https://blog.mattblair.co/utilities/tourney/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.mattblair.co/utilities/tourney/</guid>
+      <description>Use this tool to estimate how long a tournament will take and preview game schedules. Supports full round robin, partial round robin, and pod-based formats.</description>
     </item>
     
   </channel>

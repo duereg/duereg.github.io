@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../assets/tourney/tourney.css"],
+  "sourcesContent": [".tourney-app {\n  max-width: 800px;\n  margin: 0 auto;\n}\n\n.tourney-app h2,\n.tourney-app h3,\n.tourney-app h4,\n.tourney-app h5 {\n  margin-top: 0;\n}\n"],
+  "mappings": "AAAA,CAAC,YACC,UAAW,MADb,OAEU,EAAE,IACZ,CAEA,CALC,YAKY,GACb,CANC,YAMY,GACb,CAPC,YAOY,GACb,CARC,YAQY,GACX,WAAY,CACd",
+  "names": []
+}
